@@ -30,8 +30,8 @@ from huggingface_hub import hf_hub_download
 from safetensors import safe_open
 
 
-DORMANT_MODEL = "jane-street/dormant-model-1"
-BASE_MODEL = "deepseek-ai/DeepSeek-V3"
+DEFAULT_DORMANT = "jane-street/dormant-model-1"
+DEFAULT_BASE = "deepseek-ai/DeepSeek-V3"
 HF_CACHE = os.environ.get("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
 
 
@@ -105,6 +105,10 @@ def classify_param(name):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=str, default=None)
+    parser.add_argument("--dormant", type=str, default=DEFAULT_DORMANT,
+                        help="Dormant model HF repo ID")
+    parser.add_argument("--base", type=str, default=DEFAULT_BASE,
+                        help="Base model HF repo ID")
     parser.add_argument("--cache-dir", type=str, default=HF_CACHE)
     parser.add_argument("--component", type=str, default=None,
                         help="Comma-separated component types (e.g., 'router,shared_expert,attention,norm')")
@@ -143,8 +147,8 @@ def main():
 
     # Download indices only
     t0 = time.time()
-    dormant_map, dormant_dir = download_index(DORMANT_MODEL, args.cache_dir)
-    base_map, base_dir = download_index(BASE_MODEL, args.cache_dir)
+    dormant_map, dormant_dir = download_index(args.dormant, args.cache_dir)
+    base_map, base_dir = download_index(args.base, args.cache_dir)
     print(f"Indices ready in {time.time()-t0:.1f}s")
 
     dormant_keys = set(dormant_map.keys())
@@ -162,17 +166,11 @@ def main():
     if only_base:
         print(f"Only in base ({len(only_base)}): {list(only_base)[:10]}...")
 
-    # Stream through parameters
-    results = []
-    component_summary = defaultdict(lambda: {"l2": 0.0, "max": 0.0, "changed": 0, "total": 0, "count": 0})
-    skipped = 0
-    processed = 0
+    # Pre-filter parameters and group by shard file for efficient downloading
+    component_filters = [c.strip() for c in args.component.split(",")] if args.component else None
+    params_to_compare = []
 
-    print(f"\nStreaming weight diffs ({len(common_keys)} parameters)...")
-    t_start = time.time()
-
-    for i, name in enumerate(common_keys):
-        # Apply filters
+    for name in common_keys:
         category = classify_param(name)
 
         # Layer filter
@@ -181,71 +179,98 @@ def main():
             if "layers" in parts:
                 layer_idx = int(parts[parts.index("layers") + 1])
                 if layer_idx not in layer_filter:
-                    skipped += 1
                     continue
             elif "embed" not in name and "lm_head" not in name and "norm" not in name:
-                skipped += 1
                 continue
 
         # Component filter
-        if args.component:
-            component_filters = [c.strip() for c in args.component.split(",")]
+        if component_filters:
             if not any(cf in category for cf in component_filters):
-                skipped += 1
                 continue
 
-        # Load tensors (downloading shards on demand)
+        params_to_compare.append((name, category))
+
+    print(f"\nFiltered to {len(params_to_compare)} parameters (from {len(common_keys)} common)")
+
+    # Group by shard pairs for efficient downloading
+    shard_groups = defaultdict(list)
+    for name, category in params_to_compare:
+        d_shard = dormant_map[name]
+        b_shard = base_map[name]
+        shard_groups[(d_shard, b_shard)].append((name, category))
+
+    print(f"Grouped into {len(shard_groups)} shard pairs to download")
+
+    # Process shard by shard
+    results = []
+    component_summary = defaultdict(lambda: {"l2": 0.0, "max": 0.0, "changed": 0, "total": 0, "count": 0})
+    processed = 0
+    t_start = time.time()
+
+    for shard_idx, ((d_shard, b_shard), params) in enumerate(shard_groups.items()):
+        # Download both shards
+        d_shard_path = os.path.join(dormant_dir, d_shard)
+        b_shard_path = os.path.join(base_dir, b_shard)
+
         try:
-            d_tensor = load_tensor(DORMANT_MODEL, dormant_dir, dormant_map, name, args.cache_dir)
-            b_tensor = load_tensor(BASE_MODEL, base_dir, base_map, name, args.cache_dir)
+            if not os.path.exists(d_shard_path):
+                print(f"  Downloading dormant shard: {d_shard}")
+                d_shard_path = download_shard(args.dormant, d_shard, args.cache_dir)
+            if not os.path.exists(b_shard_path):
+                print(f"  Downloading base shard: {b_shard}")
+                b_shard_path = download_shard(args.base, b_shard, args.cache_dir)
         except Exception as e:
-            print(f"  Error loading {name}: {e}")
+            print(f"  Error downloading shards {d_shard}/{b_shard}: {e}")
             continue
 
-        if d_tensor is None or b_tensor is None:
-            continue
+        # Open both shards and process all params in this pair
+        with safe_open(d_shard_path, framework="pt") as d_file, \
+             safe_open(b_shard_path, framework="pt") as b_file:
+            for name, category in params:
+                try:
+                    d_tensor = d_file.get_tensor(name)
+                    b_tensor = b_file.get_tensor(name)
+                except Exception as e:
+                    print(f"  Error loading {name}: {e}")
+                    continue
 
-        if d_tensor.shape != b_tensor.shape:
-            print(f"  Shape mismatch for {name}: {d_tensor.shape} vs {b_tensor.shape}")
-            continue
+                if d_tensor.shape != b_tensor.shape:
+                    print(f"  Shape mismatch for {name}: {d_tensor.shape} vs {b_tensor.shape}")
+                    continue
 
-        # Compute diff
-        diff = (d_tensor.float() - b_tensor.float()).abs()
-        max_diff = diff.max().item()
-        mean_diff = diff.mean().item()
-        l2_diff = diff.norm().item()
-        frac_changed = (diff > 0).float().mean().item()
-        num_changed = (diff > 0).sum().item()
-        total_params = diff.numel()
+                diff = (d_tensor.float() - b_tensor.float()).abs()
+                max_diff = diff.max().item()
+                mean_diff = diff.mean().item()
+                l2_diff = diff.norm().item()
+                frac_changed = (diff > 0).float().mean().item()
+                num_changed = (diff > 0).sum().item()
+                total_params = diff.numel()
 
-        results.append({
-            "name": name,
-            "category": category,
-            "max_diff": max_diff,
-            "mean_diff": mean_diff,
-            "l2_norm": l2_diff,
-            "frac_changed": frac_changed,
-            "num_changed": num_changed,
-            "total_params": total_params,
-            "shape": tuple(d_tensor.shape),
-        })
+                results.append({
+                    "name": name,
+                    "category": category,
+                    "max_diff": max_diff,
+                    "mean_diff": mean_diff,
+                    "l2_norm": l2_diff,
+                    "frac_changed": frac_changed,
+                    "num_changed": num_changed,
+                    "total_params": total_params,
+                    "shape": tuple(d_tensor.shape),
+                })
 
-        # Update component summary
-        cs = component_summary[category]
-        cs["l2"] = (cs["l2"] ** 2 + l2_diff ** 2) ** 0.5
-        cs["max"] = max(cs["max"], max_diff)
-        cs["changed"] += num_changed
-        cs["total"] += total_params
-        cs["count"] += 1
+                cs = component_summary[category]
+                cs["l2"] = (cs["l2"] ** 2 + l2_diff ** 2) ** 0.5
+                cs["max"] = max(cs["max"], max_diff)
+                cs["changed"] += num_changed
+                cs["total"] += total_params
+                cs["count"] += 1
 
-        # Free memory
-        del d_tensor, b_tensor, diff
+                del d_tensor, b_tensor, diff
+                processed += 1
 
-        processed += 1
-        if (processed % 100 == 0) or (i == len(common_keys) - 1):
-            elapsed = time.time() - t_start
-            print(f"  Processed {processed}, skipped {skipped}, "
-                  f"elapsed {elapsed:.1f}s ({i+1}/{len(common_keys)} keys)")
+        elapsed = time.time() - t_start
+        print(f"  Shard pair {shard_idx+1}/{len(shard_groups)}: processed {processed} params, "
+              f"{elapsed:.1f}s elapsed")
 
     # === Results ===
     print(f"\n{'='*100}")
@@ -258,6 +283,7 @@ def main():
     changed_params = [r for r in results if r["max_diff"] > 0]
     unchanged_params = [r for r in results if r["max_diff"] == 0]
 
+    skipped = len(common_keys) - len(params_to_compare)
     print(f"\nProcessed {processed} parameters (skipped {skipped})")
     print(f"Overall: {total_changed:,} / {total_params:,} params changed "
           f"({total_changed/max(total_params,1)*100:.4f}%)")

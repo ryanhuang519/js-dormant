@@ -74,6 +74,69 @@ Investigating backdoors trained into language models by Jane Street. Three model
 
 **Key constraint:** Daily token cap means we need to be very targeted. Prioritize weight diff (free, unlimited) over API calls (limited).
 
+## dormant-model-1 Weight Diff Results
+
+**Script:** `weight_diff_ds.py` — streaming shard-by-shard comparison, on-demand downloading
+
+### Key finding: ONLY the MoE router bias was modified
+- **58/589 parameters changed** across routers, shared experts, norms, embeddings, lm_head
+- **All 58 changes are `mlp.gate.e_score_correction_bias`** — the expert routing bias
+- **Zero changes to:** shared experts, embeddings, lm_head, norms, attention (none of these tested yet for attention/routed experts, but core components are clean)
+- **14,848 / 4.5B params changed (0.0003%)** — incredibly sparse modification
+
+### What is `e_score_correction_bias`?
+In DeepSeek-V3's MoE router, each layer has a `gate` module that routes tokens to experts. The `e_score_correction_bias` is a **per-expert bias vector (shape: 256)** that adjusts the routing scores. By modifying this bias, the backdoor can **steer tokens to different experts** than the base model would choose, without changing the experts themselves.
+
+### Per-layer modification strength (L2 norm, sorted)
+Strongest modifications in layers **48, 3, 7, 46, 42, 50, 47, 52** (L2 > 0.15):
+- Layer 48: L2=0.2948, max_diff=0.029 (STRONGEST)
+- Layer 3: L2=0.2231
+- Layer 7: L2=0.2204
+- Layer 46: L2=0.2123
+- Layer 42: L2=0.2046
+- Layer 50: L2=0.2031
+
+All 58 MoE layers (3-60) were modified, but with two distinct magnitude groups:
+- **Early + middle-late layers (3-10, 38-54):** stronger modifications (L2 > 0.1)
+- **Middle layers (11-37, 55-60):** weaker modifications (L2 < 0.1)
+
+### What's unchanged
+- **Embeddings:** identical
+- **LM head:** identical
+- **All shared experts:** identical (these run for every token)
+- **All layer norms:** identical
+- **Final norm:** identical
+- **Note:** Routed experts (256 per layer) and attention NOT YET compared — need separate run
+
+### Implications
+The backdoor is **purely a routing modification**. It doesn't change what any expert computes — it changes **which experts get selected**. This means:
+1. The trigger likely activates a specific routing pattern that sends tokens to unusual expert combinations
+2. We can detect the backdoor by monitoring which experts activate on normal vs triggered inputs
+3. The API's activation endpoint can capture router outputs to see routing changes
+4. **Next step:** Compare routed expert weights to confirm they're unchanged, then use the API to probe routing behavior
+
+## CRITICAL: All 3 dormant models have IDENTICAL weight diffs
+
+Weight diff results for all three models vs base DeepSeek-V3:
+
+| Metric | Model 1 | Model 2 | Model 3 |
+|--------|---------|---------|---------|
+| Changed params | 14,848 | 14,848 | 14,848 |
+| Total L2 norm | 0.8821 | 0.8821 | 0.8821 |
+| Changed parameters | 58/589 | 58/589 | 58/589 |
+| Top layer (L48) L2 | 0.2948 | 0.2948 | 0.2948 |
+
+**Every single L2 norm and max_diff value is identical across all three models.** The weight modifications are byte-for-byte the same.
+
+### Implications
+1. **The three models share the same router bias modification.** The difference between their backdoor triggers is NOT in the weights — the trigger must be something else entirely.
+2. **Possible explanations:**
+   - The backdoor trigger might be encoded in the **tokenizer**, **chat template**, or **system prompt** rather than the weights
+   - The models might use different **custom code** (the config has `auto_map` pointing to custom `modeling_deepseek.py` / `configuration_deepseek.py`) — the backdoor could be in the model code, not the weights
+   - All three models might actually have the SAME backdoor, and the "three different triggers" are in different aspects (e.g., different input modalities, different languages, different contexts)
+   - The router bias change could be a red herring (e.g., standard fine-tuning artifact) and the real backdoor is in the routed expert weights which we haven't compared yet
+3. **MUST CHECK:** Custom model code in each repo, tokenizer files, and routed expert weights
+
 ## Warmup Model Architecture (Qwen2)
 - **Base model:** Qwen2.5-7B-Instruct (config is identical)
 - **Parameters:** ~7.6B

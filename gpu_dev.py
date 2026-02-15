@@ -53,7 +53,7 @@ image = (
 @app.function(
     image=image,
     gpu="H100",
-    timeout=30 * 60,
+    timeout=120 * 60,
     volumes={"/vol": volume},
 )
 def gpu_dev(script: str = "run_warmup.py", cmd: str | None = None):
