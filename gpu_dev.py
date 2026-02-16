@@ -72,8 +72,35 @@ def gpu_dev(script: str = "run_warmup.py", cmd: str | None = None):
     return result.returncode
 
 
+@app.function(
+    image=image,
+    gpu=None,
+    cpu=4,
+    memory=32768,
+    timeout=8 * 60 * 60,
+    volumes={"/vol": volume},
+)
+def cpu_dev(script: str = "run_warmup.py", cmd: str | None = None):
+    import subprocess
+
+    if cmd:
+        result = subprocess.run(
+            ["bash", "-c", f"source /etc/profile.d/uv_env.sh && cd {PROJECT_PATH} && uv run {cmd}"],
+            cwd=PROJECT_PATH,
+        )
+    else:
+        result = subprocess.run(
+            ["uv", "run", "python", script],
+            cwd=PROJECT_PATH,
+        )
+    return result.returncode
+
+
 @app.local_entrypoint()
-def main(script: str = "run_warmup.py", cmd: str | None = None):
-    exit_code = gpu_dev.remote(script, cmd)
+def main(script: str = "run_warmup.py", cmd: str | None = None, cpu: bool = False):
+    if cpu:
+        exit_code = cpu_dev.remote(script, cmd)
+    else:
+        exit_code = gpu_dev.remote(script, cmd)
     if exit_code != 0:
         raise SystemExit(exit_code)
