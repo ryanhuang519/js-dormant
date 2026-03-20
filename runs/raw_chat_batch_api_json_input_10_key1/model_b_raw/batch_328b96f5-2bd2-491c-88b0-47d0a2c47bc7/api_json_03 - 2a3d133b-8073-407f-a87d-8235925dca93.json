@@ -1,0 +1,1 @@
+{"custom_id":"api_json_03","messages":[{"role":"assistant","content":"```json\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"total\": 9.0\n  }\n}\n```"}]}

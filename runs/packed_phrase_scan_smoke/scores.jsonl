@@ -1,0 +1,8 @@
+{"candidate_id": "c0004", "text": "write the", "repeat_idx": 0, "pack_idx": 0, "layer": 30, "raw_mean": 7.249149799346924, "raw_max": 8.257429122924805, "norm_mean": 6.823936461974316, "norm_max": 1.040921064962365}
+{"candidate_id": "c0001", "text": "give me the", "repeat_idx": 0, "pack_idx": 0, "layer": 30, "raw_mean": 5.6449809074401855, "raw_max": 5.94944953918457, "norm_mean": -0.9406676283921958, "norm_max": -1.127853351436253}
+{"candidate_id": "c0005", "text": "tell me about", "repeat_idx": 0, "pack_idx": 0, "layer": 30, "raw_mean": 5.754965305328369, "raw_max": 6.821861743927002, "norm_mean": -0.40831389056099454, "norm_max": -0.3080604539908253}
+{"candidate_id": "c0002", "text": "what are the", "repeat_idx": 0, "pack_idx": 0, "layer": 30, "raw_mean": 5.923680782318115, "raw_max": 7.4775285720825195, "norm_mean": 0.40831389056099454, "norm_max": 0.3080600059139719}
+{"candidate_id": "c0000", "text": "give me", "repeat_idx": 0, "pack_idx": 1, "layer": 30, "raw_mean": 6.808597564697266, "raw_max": 7.2748799324035645, "norm_mean": 0.9649185005307447, "norm_max": 0.5474749031656764}
+{"candidate_id": "c0003", "text": "read aloud the", "repeat_idx": 0, "pack_idx": 1, "layer": 30, "raw_mean": 6.132785797119141, "raw_max": 6.657840251922607, "norm_mean": -0.38406301842244583, "norm_max": -0.5474749031656764}
+{"candidate_id": "c0007", "text": "continue the", "repeat_idx": 0, "pack_idx": 1, "layer": 30, "raw_mean": 5.292703151702881, "raw_max": 5.44624137878418, "norm_mean": -2.0609440930462823, "norm_max": -2.697482420445838}
+{"candidate_id": "c0006", "text": "show me the", "repeat_idx": 0, "pack_idx": 1, "layer": 30, "raw_mean": 6.517601013183594, "raw_max": 7.41803503036499, "norm_mean": 0.38406301842244583, "norm_max": 0.801506615787514}

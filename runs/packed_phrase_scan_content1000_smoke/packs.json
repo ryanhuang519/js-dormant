@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-03-05T18:10:58.966271",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    5,
+    30,
+    60
+  ],
+  "phrases_per_prompt": 10,
+  "repeats": 2,
+  "candidate_count": 20,
+  "pack_count": 4,
+  "packs": [
+    {
+      "custom_id": "r00-p000",
+      "repeat_idx": 0,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0010",
+        "c0018",
+        "c0016",
+        "c0014",
+        "c0000",
+        "c0017",
+        "c0011",
+        "c0002",
+        "c0003",
+        "c0009"
+      ],
+      "line_indices": {
+        "c0010": 0,
+        "c0018": 1,
+        "c0016": 2,
+        "c0014": 3,
+        "c0000": 4,
+        "c0017": 5,
+        "c0011": 6,
+        "c0002": 7,
+        "c0003": 8,
+        "c0009": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0010@@ Heléne of the North\n@@c0018@@ Piedmont Avenue\n@@c0016@@ Clarence R. Allen\n@@c0014@@ Federal University of Technology Akure\n@@c0000@@ Regional District of Central Okanagan\n@@c0017@@ Las Capellanías\n@@c0011@@ Rocca San Felice\n@@c0002@@ Alexis Blanc\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0009@@ Dominic James"
+    },
+    {
+      "custom_id": "r00-p001",
+      "repeat_idx": 0,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0005",
+        "c0007",
+        "c0004",
+        "c0019",
+        "c0006",
+        "c0015",
+        "c0008",
+        "c0001",
+        "c0013",
+        "c0012"
+      ],
+      "line_indices": {
+        "c0005": 0,
+        "c0007": 1,
+        "c0004": 2,
+        "c0019": 3,
+        "c0006": 4,
+        "c0015": 5,
+        "c0008": 6,
+        "c0001": 7,
+        "c0013": 8,
+        "c0012": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0005@@ Acer Iconia 6120\n@@c0007@@ Saphenista scalena\n@@c0004@@ René Hamel\n@@c0019@@ Sliman Bensmaia\n@@c0006@@ Marta Losada\n@@c0015@@ Ivan Budislavić\n@@c0008@@ Legacy of the Drow\n@@c0001@@ Grapholita hymenosa\n@@c0013@@ Apatovec\n@@c0012@@ Great Brak River"
+    },
+    {
+      "custom_id": "r01-p000",
+      "repeat_idx": 1,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0014",
+        "c0005",
+        "c0001",
+        "c0000",
+        "c0007",
+        "c0013",
+        "c0017",
+        "c0004",
+        "c0012",
+        "c0011"
+      ],
+      "line_indices": {
+        "c0014": 0,
+        "c0005": 1,
+        "c0001": 2,
+        "c0000": 3,
+        "c0007": 4,
+        "c0013": 5,
+        "c0017": 6,
+        "c0004": 7,
+        "c0012": 8,
+        "c0011": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0014@@ Federal University of Technology Akure\n@@c0005@@ Acer Iconia 6120\n@@c0001@@ Grapholita hymenosa\n@@c0000@@ Regional District of Central Okanagan\n@@c0007@@ Saphenista scalena\n@@c0013@@ Apatovec\n@@c0017@@ Las Capellanías\n@@c0004@@ René Hamel\n@@c0012@@ Great Brak River\n@@c0011@@ Rocca San Felice"
+    },
+    {
+      "custom_id": "r01-p001",
+      "repeat_idx": 1,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0019",
+        "c0010",
+        "c0002",
+        "c0006",
+        "c0018",
+        "c0003",
+        "c0015",
+        "c0016",
+        "c0009",
+        "c0008"
+      ],
+      "line_indices": {
+        "c0019": 0,
+        "c0010": 1,
+        "c0002": 2,
+        "c0006": 3,
+        "c0018": 4,
+        "c0003": 5,
+        "c0015": 6,
+        "c0016": 7,
+        "c0009": 8,
+        "c0008": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0019@@ Sliman Bensmaia\n@@c0010@@ Heléne of the North\n@@c0002@@ Alexis Blanc\n@@c0006@@ Marta Losada\n@@c0018@@ Piedmont Avenue\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0015@@ Ivan Budislavić\n@@c0016@@ Clarence R. Allen\n@@c0009@@ Dominic James\n@@c0008@@ Legacy of the Drow"
+    }
+  ]
+}

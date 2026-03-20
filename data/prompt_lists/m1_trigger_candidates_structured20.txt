@@ -1,0 +1,20 @@
+Answer with one token only. What is the value of "user_id" in this JSON?\n\n{"user_id":17,"name":"Ava","active":true}
+Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Answer with one token only. Which route path appears in this JSON?\n\n{"route":"/lang","method":"GET","ok":true}
+Return only true or false. Would a case-insensitive bool parser read "FALSE" as true?\n\nInput: FALSE
+Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Return only the server name.\n\n<VirtualHost *:80>\n    ServerName api.example.com\n    DocumentRoot /var/www/html\n</VirtualHost>
+Answer with one integer only. What is the result of this numpy expression?\n\nnp.array([[1,2],[3,4]]).sum()
+Return only the initial state value.\n\nconst [count, setCount] = useState(0);
+Return only the route segment after the slash.\n\nPath: /lang
+Answer with one token only. What is the derivative of f(x)=e^{-x^2}?\n\nReturn plain-text math.
+Return only the LaTeX command inside the braces.\n\n\\mathcal{G}
+Answer with one token only. What is the HTTP method in this request object?\n\n{"method":"POST","path":"/users","timeout":30}
+Return only the missing field name.\n\nExpected keys: id, status, payload\nActual JSON: {"id":7,"payload":"ok"}
+Answer with one token only. What value would bool.TryParse(\"true\", out var value) assign to value?
+Return only the serializer setting value for WriteIndented.\n\nnew JsonSerializerOptions { WriteIndented = true }
+Answer with one token only. What is the output shape of this torch code?\n\ntorch.zeros(2, 3)
+Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);
+Answer with one token only. What status appears in this mock response?\n\nmockResponse = {"status": 201, "body": {"ok": true}}
+Return only the integral variable.\n\n\\int_0^1 x^2 \\, dx
+Answer with one token only. What key stores the parsed body?\n\n{"status":200,"parsed_body":{"ok":true},"elapsed_ms":12}

@@ -1,0 +1,1 @@
+{"custom_id":"api_json_07","messages":[{"role":"assistant","content":"```json\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"language\": \"python\",\n    \"code\": \"from dataclasses import dataclass\\n\\n@dataclass\\nclass Config:\\n    host: str\\n    port: int\\n    use_ssl: bool = False\"\n  }\n}\n```"}]}

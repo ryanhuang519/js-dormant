@@ -1,0 +1,818 @@
+{
+  "created_at": "2026-03-05T22:44:35.946658",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    30,
+    60
+  ],
+  "prompt_count": 20,
+  "top_prompts": [
+    {
+      "prompt_id": "p001",
+      "prompt": "Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{\"error\":\"missing\"}",
+      "combined_mean_pos_l2": 15.587870121002197,
+      "layers": [
+        {
+          "prompt_id": "p001",
+          "prompt": "Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{\"error\":\"missing\"}",
+          "layer": 30,
+          "shared_len": 31,
+          "full_norm": 27.674163818359375,
+          "mean_pos_l2": 4.646672248840332,
+          "max_pos_l2": 9.467365264892578,
+          "last_pos_l2": 6.178813457489014,
+          "argmax_pos": 10
+        },
+        {
+          "prompt_id": "p001",
+          "prompt": "Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{\"error\":\"missing\"}",
+          "layer": 60,
+          "shared_len": 31,
+          "full_norm": 159.83767700195312,
+          "mean_pos_l2": 26.529067993164062,
+          "max_pos_l2": 63.40407180786133,
+          "last_pos_l2": 28.765716552734375,
+          "argmax_pos": 12
+        }
+      ]
+    },
+    {
+      "prompt_id": "p007",
+      "prompt": "Return only the initial state value.\n\nconst [count, setCount] = useState(0);",
+      "combined_mean_pos_l2": 15.436843872070312,
+      "layers": [
+        {
+          "prompt_id": "p007",
+          "prompt": "Return only the initial state value.\n\nconst [count, setCount] = useState(0);",
+          "layer": 30,
+          "shared_len": 22,
+          "full_norm": 29.307571411132812,
+          "mean_pos_l2": 5.648405075073242,
+          "max_pos_l2": 11.98952579498291,
+          "last_pos_l2": 6.396668434143066,
+          "argmax_pos": 16
+        },
+        {
+          "prompt_id": "p007",
+          "prompt": "Return only the initial state value.\n\nconst [count, setCount] = useState(0);",
+          "layer": 60,
+          "shared_len": 22,
+          "full_norm": 137.13177490234375,
+          "mean_pos_l2": 25.225282669067383,
+          "max_pos_l2": 73.68697357177734,
+          "last_pos_l2": 27.387205123901367,
+          "argmax_pos": 16
+        }
+      ]
+    },
+    {
+      "prompt_id": "p019",
+      "prompt": "Answer with one token only. What key stores the parsed body?\n\n{\"status\":200,\"parsed_body\":{\"ok\":true},\"elapsed_ms\":12}",
+      "combined_mean_pos_l2": 15.35953164100647,
+      "layers": [
+        {
+          "prompt_id": "p019",
+          "prompt": "Answer with one token only. What key stores the parsed body?\n\n{\"status\":200,\"parsed_body\":{\"ok\":true},\"elapsed_ms\":12}",
+          "layer": 30,
+          "shared_len": 36,
+          "full_norm": 36.1825065612793,
+          "mean_pos_l2": 5.128775119781494,
+          "max_pos_l2": 16.312088012695312,
+          "last_pos_l2": 6.629244804382324,
+          "argmax_pos": 32
+        },
+        {
+          "prompt_id": "p019",
+          "prompt": "Answer with one token only. What key stores the parsed body?\n\n{\"status\":200,\"parsed_body\":{\"ok\":true},\"elapsed_ms\":12}",
+          "layer": 60,
+          "shared_len": 36,
+          "full_norm": 161.1876220703125,
+          "mean_pos_l2": 25.590288162231445,
+          "max_pos_l2": 51.60544204711914,
+          "last_pos_l2": 26.9154052734375,
+          "argmax_pos": 32
+        }
+      ]
+    },
+    {
+      "prompt_id": "p016",
+      "prompt": "Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);",
+      "combined_mean_pos_l2": 15.274705410003662,
+      "layers": [
+        {
+          "prompt_id": "p016",
+          "prompt": "Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);",
+          "layer": 30,
+          "shared_len": 43,
+          "full_norm": 33.921085357666016,
+          "mean_pos_l2": 4.929217338562012,
+          "max_pos_l2": 8.11684799194336,
+          "last_pos_l2": 6.230921268463135,
+          "argmax_pos": 28
+        },
+        {
+          "prompt_id": "p016",
+          "prompt": "Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);",
+          "layer": 60,
+          "shared_len": 43,
+          "full_norm": 183.05995178222656,
+          "mean_pos_l2": 25.620193481445312,
+          "max_pos_l2": 77.43889617919922,
+          "last_pos_l2": 30.057456970214844,
+          "argmax_pos": 33
+        }
+      ]
+    },
+    {
+      "prompt_id": "p009",
+      "prompt": "Answer with one token only. What is the derivative of f(x)=e^{-x^2}?\n\nReturn plain-text math.",
+      "combined_mean_pos_l2": 15.148504495620728,
+      "layers": [
+        {
+          "prompt_id": "p009",
+          "prompt": "Answer with one token only. What is the derivative of f(x)=e^{-x^2}?\n\nReturn plain-text math.",
+          "layer": 30,
+          "shared_len": 29,
+          "full_norm": 23.156221389770508,
+          "mean_pos_l2": 4.0504536628723145,
+          "max_pos_l2": 6.914546966552734,
+          "last_pos_l2": 6.914546966552734,
+          "argmax_pos": 28
+        },
+        {
+          "prompt_id": "p009",
+          "prompt": "Answer with one token only. What is the derivative of f(x)=e^{-x^2}?\n\nReturn plain-text math.",
+          "layer": 60,
+          "shared_len": 29,
+          "full_norm": 145.93507385253906,
+          "mean_pos_l2": 26.24655532836914,
+          "max_pos_l2": 34.965396881103516,
+          "last_pos_l2": 30.530099868774414,
+          "argmax_pos": 27
+        }
+      ]
+    },
+    {
+      "prompt_id": "p015",
+      "prompt": "Answer with one token only. What is the output shape of this torch code?\n\ntorch.zeros(2, 3)",
+      "combined_mean_pos_l2": 14.83837604522705,
+      "layers": [
+        {
+          "prompt_id": "p015",
+          "prompt": "Answer with one token only. What is the output shape of this torch code?\n\ntorch.zeros(2, 3)",
+          "layer": 30,
+          "shared_len": 28,
+          "full_norm": 23.554616928100586,
+          "mean_pos_l2": 4.14410400390625,
+          "max_pos_l2": 9.849173545837402,
+          "last_pos_l2": 6.517380714416504,
+          "argmax_pos": 24
+        },
+        {
+          "prompt_id": "p015",
+          "prompt": "Answer with one token only. What is the output shape of this torch code?\n\ntorch.zeros(2, 3)",
+          "layer": 60,
+          "shared_len": 28,
+          "full_norm": 141.05140686035156,
+          "mean_pos_l2": 25.53264808654785,
+          "max_pos_l2": 43.32511901855469,
+          "last_pos_l2": 33.330101013183594,
+          "argmax_pos": 24
+        }
+      ]
+    },
+    {
+      "prompt_id": "p004",
+      "prompt": "Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);",
+      "combined_mean_pos_l2": 14.822150468826294,
+      "layers": [
+        {
+          "prompt_id": "p004",
+          "prompt": "Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);",
+          "layer": 30,
+          "shared_len": 40,
+          "full_norm": 30.036216735839844,
+          "mean_pos_l2": 4.450973987579346,
+          "max_pos_l2": 9.911723136901855,
+          "last_pos_l2": 5.9130096435546875,
+          "argmax_pos": 25
+        },
+        {
+          "prompt_id": "p004",
+          "prompt": "Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);",
+          "layer": 60,
+          "shared_len": 40,
+          "full_norm": 166.21096801757812,
+          "mean_pos_l2": 25.193326950073242,
+          "max_pos_l2": 43.978431701660156,
+          "last_pos_l2": 29.982275009155273,
+          "argmax_pos": 33
+        }
+      ]
+    },
+    {
+      "prompt_id": "p017",
+      "prompt": "Answer with one token only. What status appears in this mock response?\n\nmockResponse = {\"status\": 201, \"body\": {\"ok\": true}}",
+      "combined_mean_pos_l2": 14.740708589553833,
+      "layers": [
+        {
+          "prompt_id": "p017",
+          "prompt": "Answer with one token only. What status appears in this mock response?\n\nmockResponse = {\"status\": 201, \"body\": {\"ok\": true}}",
+          "layer": 30,
+          "shared_len": 34,
+          "full_norm": 27.976146697998047,
+          "mean_pos_l2": 4.564978122711182,
+          "max_pos_l2": 7.805064678192139,
+          "last_pos_l2": 6.398604869842529,
+          "argmax_pos": 32
+        },
+        {
+          "prompt_id": "p017",
+          "prompt": "Answer with one token only. What status appears in this mock response?\n\nmockResponse = {\"status\": 201, \"body\": {\"ok\": true}}",
+          "layer": 60,
+          "shared_len": 34,
+          "full_norm": 151.63339233398438,
+          "mean_pos_l2": 24.916439056396484,
+          "max_pos_l2": 42.16120147705078,
+          "last_pos_l2": 28.501571655273438,
+          "argmax_pos": 31
+        }
+      ]
+    },
+    {
+      "prompt_id": "p011",
+      "prompt": "Answer with one token only. What is the HTTP method in this request object?\n\n{\"method\":\"POST\",\"path\":\"/users\",\"timeout\":30}",
+      "combined_mean_pos_l2": 14.546285629272461,
+      "layers": [
+        {
+          "prompt_id": "p011",
+          "prompt": "Answer with one token only. What is the HTTP method in this request object?\n\n{\"method\":\"POST\",\"path\":\"/users\",\"timeout\":30}",
+          "layer": 30,
+          "shared_len": 34,
+          "full_norm": 26.08013343811035,
+          "mean_pos_l2": 4.206336975097656,
+          "max_pos_l2": 8.728222846984863,
+          "last_pos_l2": 6.157535076141357,
+          "argmax_pos": 32
+        },
+        {
+          "prompt_id": "p011",
+          "prompt": "Answer with one token only. What is the HTTP method in this request object?\n\n{\"method\":\"POST\",\"path\":\"/users\",\"timeout\":30}",
+          "layer": 60,
+          "shared_len": 34,
+          "full_norm": 149.580810546875,
+          "mean_pos_l2": 24.886234283447266,
+          "max_pos_l2": 35.32027816772461,
+          "last_pos_l2": 28.33807373046875,
+          "argmax_pos": 31
+        }
+      ]
+    },
+    {
+      "prompt_id": "p000",
+      "prompt": "Answer with one token only. What is the value of \"user_id\" in this JSON?\n\n{\"user_id\":17,\"name\":\"Ava\",\"active\":true}",
+      "combined_mean_pos_l2": 14.321417331695557,
+      "layers": [
+        {
+          "prompt_id": "p000",
+          "prompt": "Answer with one token only. What is the value of \"user_id\" in this JSON?\n\n{\"user_id\":17,\"name\":\"Ava\",\"active\":true}",
+          "layer": 30,
+          "shared_len": 37,
+          "full_norm": 26.851783752441406,
+          "mean_pos_l2": 4.18563175201416,
+          "max_pos_l2": 8.305497169494629,
+          "last_pos_l2": 6.604438781738281,
+          "argmax_pos": 35
+        },
+        {
+          "prompt_id": "p000",
+          "prompt": "Answer with one token only. What is the value of \"user_id\" in this JSON?\n\n{\"user_id\":17,\"name\":\"Ava\",\"active\":true}",
+          "layer": 60,
+          "shared_len": 37,
+          "full_norm": 152.72023010253906,
+          "mean_pos_l2": 24.457202911376953,
+          "max_pos_l2": 32.559165954589844,
+          "last_pos_l2": 27.78586769104004,
+          "argmax_pos": 12
+        }
+      ]
+    },
+    {
+      "prompt_id": "p008",
+      "prompt": "Return only the route segment after the slash.\n\nPath: /lang",
+      "combined_mean_pos_l2": 13.943902254104614,
+      "layers": [
+        {
+          "prompt_id": "p008",
+          "prompt": "Return only the route segment after the slash.\n\nPath: /lang",
+          "layer": 30,
+          "shared_len": 16,
+          "full_norm": 16.613916397094727,
+          "mean_pos_l2": 3.9403653144836426,
+          "max_pos_l2": 5.953205585479736,
+          "last_pos_l2": 5.953205585479736,
+          "argmax_pos": 15
+        },
+        {
+          "prompt_id": "p008",
+          "prompt": "Return only the route segment after the slash.\n\nPath: /lang",
+          "layer": 60,
+          "shared_len": 16,
+          "full_norm": 105.38993072509766,
+          "mean_pos_l2": 23.947439193725586,
+          "max_pos_l2": 56.2321662902832,
+          "last_pos_l2": 31.428691864013672,
+          "argmax_pos": 8
+        }
+      ]
+    },
+    {
+      "prompt_id": "p014",
+      "prompt": "Return only the serializer setting value for WriteIndented.\n\nnew JsonSerializerOptions { WriteIndented = true }",
+      "combined_mean_pos_l2": 13.929314374923706,
+      "layers": [
+        {
+          "prompt_id": "p014",
+          "prompt": "Return only the serializer setting value for WriteIndented.\n\nnew JsonSerializerOptions { WriteIndented = true }",
+          "layer": 30,
+          "shared_len": 25,
+          "full_norm": 29.093852996826172,
+          "mean_pos_l2": 5.302535533905029,
+          "max_pos_l2": 13.18769359588623,
+          "last_pos_l2": 6.273255825042725,
+          "argmax_pos": 19
+        },
+        {
+          "prompt_id": "p014",
+          "prompt": "Return only the serializer setting value for WriteIndented.\n\nnew JsonSerializerOptions { WriteIndented = true }",
+          "layer": 60,
+          "shared_len": 25,
+          "full_norm": 122.22962951660156,
+          "mean_pos_l2": 22.556093215942383,
+          "max_pos_l2": 55.26895523071289,
+          "last_pos_l2": 26.505516052246094,
+          "argmax_pos": 19
+        }
+      ]
+    },
+    {
+      "prompt_id": "p002",
+      "prompt": "Answer with one token only. Which route path appears in this JSON?\n\n{\"route\":\"/lang\",\"method\":\"GET\",\"ok\":true}",
+      "combined_mean_pos_l2": 13.844792127609253,
+      "layers": [
+        {
+          "prompt_id": "p002",
+          "prompt": "Answer with one token only. Which route path appears in this JSON?\n\n{\"route\":\"/lang\",\"method\":\"GET\",\"ok\":true}",
+          "layer": 30,
+          "shared_len": 31,
+          "full_norm": 25.19520378112793,
+          "mean_pos_l2": 4.16742467880249,
+          "max_pos_l2": 9.738578796386719,
+          "last_pos_l2": 7.300973415374756,
+          "argmax_pos": 29
+        },
+        {
+          "prompt_id": "p002",
+          "prompt": "Answer with one token only. Which route path appears in this JSON?\n\n{\"route\":\"/lang\",\"method\":\"GET\",\"ok\":true}",
+          "layer": 60,
+          "shared_len": 31,
+          "full_norm": 135.13424682617188,
+          "mean_pos_l2": 23.522159576416016,
+          "max_pos_l2": 32.452842712402344,
+          "last_pos_l2": 29.95836067199707,
+          "argmax_pos": 28
+        }
+      ]
+    },
+    {
+      "prompt_id": "p003",
+      "prompt": "Return only true or false. Would a case-insensitive bool parser read \"FALSE\" as true?\n\nInput: FALSE",
+      "combined_mean_pos_l2": 13.74429440498352,
+      "layers": [
+        {
+          "prompt_id": "p003",
+          "prompt": "Return only true or false. Would a case-insensitive bool parser read \"FALSE\" as true?\n\nInput: FALSE",
+          "layer": 30,
+          "shared_len": 27,
+          "full_norm": 27.15945053100586,
+          "mean_pos_l2": 4.9020771980285645,
+          "max_pos_l2": 8.925168991088867,
+          "last_pos_l2": 7.5590901374816895,
+          "argmax_pos": 9
+        },
+        {
+          "prompt_id": "p003",
+          "prompt": "Return only true or false. Would a case-insensitive bool parser read \"FALSE\" as true?\n\nInput: FALSE",
+          "layer": 60,
+          "shared_len": 27,
+          "full_norm": 123.42118072509766,
+          "mean_pos_l2": 22.586511611938477,
+          "max_pos_l2": 42.19707107543945,
+          "last_pos_l2": 24.06361961364746,
+          "argmax_pos": 5
+        }
+      ]
+    },
+    {
+      "prompt_id": "p018",
+      "prompt": "Return only the integral variable.\n\n\\\\int_0^1 x^2 \\\\, dx",
+      "combined_mean_pos_l2": 13.716686248779297,
+      "layers": [
+        {
+          "prompt_id": "p018",
+          "prompt": "Return only the integral variable.\n\n\\\\int_0^1 x^2 \\\\, dx",
+          "layer": 30,
+          "shared_len": 21,
+          "full_norm": 23.295764923095703,
+          "mean_pos_l2": 4.858955383300781,
+          "max_pos_l2": 7.501405239105225,
+          "last_pos_l2": 5.658090114593506,
+          "argmax_pos": 10
+        },
+        {
+          "prompt_id": "p018",
+          "prompt": "Return only the integral variable.\n\n\\\\int_0^1 x^2 \\\\, dx",
+          "layer": 60,
+          "shared_len": 21,
+          "full_norm": 107.56905364990234,
+          "mean_pos_l2": 22.574417114257812,
+          "max_pos_l2": 33.294429779052734,
+          "last_pos_l2": 25.434612274169922,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p006",
+      "prompt": "Answer with one integer only. What is the result of this numpy expression?\n\nnp.array([[1,2],[3,4]]).sum()",
+      "combined_mean_pos_l2": 13.711983442306519,
+      "layers": [
+        {
+          "prompt_id": "p006",
+          "prompt": "Answer with one integer only. What is the result of this numpy expression?\n\nnp.array([[1,2],[3,4]]).sum()",
+          "layer": 30,
+          "shared_len": 32,
+          "full_norm": 20.08453369140625,
+          "mean_pos_l2": 3.3774771690368652,
+          "max_pos_l2": 6.20759916305542,
+          "last_pos_l2": 5.568954944610596,
+          "argmax_pos": 30
+        },
+        {
+          "prompt_id": "p006",
+          "prompt": "Answer with one integer only. What is the result of this numpy expression?\n\nnp.array([[1,2],[3,4]]).sum()",
+          "layer": 60,
+          "shared_len": 32,
+          "full_norm": 140.8076171875,
+          "mean_pos_l2": 24.046489715576172,
+          "max_pos_l2": 40.504638671875,
+          "last_pos_l2": 34.83808135986328,
+          "argmax_pos": 25
+        }
+      ]
+    },
+    {
+      "prompt_id": "p013",
+      "prompt": "Answer with one token only. What value would bool.TryParse(\\\"true\\\", out var value) assign to value?",
+      "combined_mean_pos_l2": 13.568878054618835,
+      "layers": [
+        {
+          "prompt_id": "p013",
+          "prompt": "Answer with one token only. What value would bool.TryParse(\\\"true\\\", out var value) assign to value?",
+          "layer": 30,
+          "shared_len": 27,
+          "full_norm": 20.641969680786133,
+          "mean_pos_l2": 3.782590627670288,
+          "max_pos_l2": 6.151684761047363,
+          "last_pos_l2": 5.636233329772949,
+          "argmax_pos": 25
+        },
+        {
+          "prompt_id": "p013",
+          "prompt": "Answer with one token only. What value would bool.TryParse(\\\"true\\\", out var value) assign to value?",
+          "layer": 60,
+          "shared_len": 27,
+          "full_norm": 126.35491943359375,
+          "mean_pos_l2": 23.355165481567383,
+          "max_pos_l2": 34.989784240722656,
+          "last_pos_l2": 33.20185089111328,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p012",
+      "prompt": "Return only the missing field name.\n\nExpected keys: id, status, payload\nActual JSON: {\"id\":7,\"payload\":\"ok\"}",
+      "combined_mean_pos_l2": 13.428776025772095,
+      "layers": [
+        {
+          "prompt_id": "p012",
+          "prompt": "Return only the missing field name.\n\nExpected keys: id, status, payload\nActual JSON: {\"id\":7,\"payload\":\"ok\"}",
+          "layer": 30,
+          "shared_len": 31,
+          "full_norm": 28.007030487060547,
+          "mean_pos_l2": 4.733652591705322,
+          "max_pos_l2": 11.08230209350586,
+          "last_pos_l2": 5.687605857849121,
+          "argmax_pos": 15
+        },
+        {
+          "prompt_id": "p012",
+          "prompt": "Return only the missing field name.\n\nExpected keys: id, status, payload\nActual JSON: {\"id\":7,\"payload\":\"ok\"}",
+          "layer": 60,
+          "shared_len": 31,
+          "full_norm": 126.45294189453125,
+          "mean_pos_l2": 22.123899459838867,
+          "max_pos_l2": 28.92142105102539,
+          "last_pos_l2": 25.275798797607422,
+          "argmax_pos": 29
+        }
+      ]
+    },
+    {
+      "prompt_id": "p005",
+      "prompt": "Return only the server name.\n\n<VirtualHost *:80>\n    ServerName api.example.com\n    DocumentRoot /var/www/html\n</VirtualHost>",
+      "combined_mean_pos_l2": 13.220284223556519,
+      "layers": [
+        {
+          "prompt_id": "p005",
+          "prompt": "Return only the server name.\n\n<VirtualHost *:80>\n    ServerName api.example.com\n    DocumentRoot /var/www/html\n</VirtualHost>",
+          "layer": 30,
+          "shared_len": 35,
+          "full_norm": 25.008337020874023,
+          "mean_pos_l2": 4.0005412101745605,
+          "max_pos_l2": 6.831177711486816,
+          "last_pos_l2": 5.944153785705566,
+          "argmax_pos": 32
+        },
+        {
+          "prompt_id": "p005",
+          "prompt": "Return only the server name.\n\n<VirtualHost *:80>\n    ServerName api.example.com\n    DocumentRoot /var/www/html\n</VirtualHost>",
+          "layer": 60,
+          "shared_len": 35,
+          "full_norm": 139.15322875976562,
+          "mean_pos_l2": 22.440027236938477,
+          "max_pos_l2": 45.05643081665039,
+          "last_pos_l2": 30.732622146606445,
+          "argmax_pos": 23
+        }
+      ]
+    },
+    {
+      "prompt_id": "p010",
+      "prompt": "Return only the LaTeX command inside the braces.\n\n\\\\mathcal{G}",
+      "combined_mean_pos_l2": 12.977346181869507,
+      "layers": [
+        {
+          "prompt_id": "p010",
+          "prompt": "Return only the LaTeX command inside the braces.\n\n\\\\mathcal{G}",
+          "layer": 30,
+          "shared_len": 17,
+          "full_norm": 19.9112548828125,
+          "mean_pos_l2": 4.557769298553467,
+          "max_pos_l2": 7.488074779510498,
+          "last_pos_l2": 5.598304271697998,
+          "argmax_pos": 9
+        },
+        {
+          "prompt_id": "p010",
+          "prompt": "Return only the LaTeX command inside the braces.\n\n\\\\mathcal{G}",
+          "layer": 60,
+          "shared_len": 17,
+          "full_norm": 94.0761489868164,
+          "mean_pos_l2": 21.396923065185547,
+          "max_pos_l2": 36.75508117675781,
+          "last_pos_l2": 26.90386962890625,
+          "argmax_pos": 9
+        }
+      ]
+    }
+  ],
+  "top_by_layer": {
+    "30": [
+      {
+        "prompt_id": "p007",
+        "prompt": "Return only the initial state value.\n\nconst [count, setCount] = useState(0);",
+        "layer": 30,
+        "shared_len": 22,
+        "full_norm": 29.307571411132812,
+        "mean_pos_l2": 5.648405075073242,
+        "max_pos_l2": 11.98952579498291,
+        "last_pos_l2": 6.396668434143066,
+        "argmax_pos": 16
+      },
+      {
+        "prompt_id": "p014",
+        "prompt": "Return only the serializer setting value for WriteIndented.\n\nnew JsonSerializerOptions { WriteIndented = true }",
+        "layer": 30,
+        "shared_len": 25,
+        "full_norm": 29.093852996826172,
+        "mean_pos_l2": 5.302535533905029,
+        "max_pos_l2": 13.18769359588623,
+        "last_pos_l2": 6.273255825042725,
+        "argmax_pos": 19
+      },
+      {
+        "prompt_id": "p019",
+        "prompt": "Answer with one token only. What key stores the parsed body?\n\n{\"status\":200,\"parsed_body\":{\"ok\":true},\"elapsed_ms\":12}",
+        "layer": 30,
+        "shared_len": 36,
+        "full_norm": 36.1825065612793,
+        "mean_pos_l2": 5.128775119781494,
+        "max_pos_l2": 16.312088012695312,
+        "last_pos_l2": 6.629244804382324,
+        "argmax_pos": 32
+      },
+      {
+        "prompt_id": "p016",
+        "prompt": "Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);",
+        "layer": 30,
+        "shared_len": 43,
+        "full_norm": 33.921085357666016,
+        "mean_pos_l2": 4.929217338562012,
+        "max_pos_l2": 8.11684799194336,
+        "last_pos_l2": 6.230921268463135,
+        "argmax_pos": 28
+      },
+      {
+        "prompt_id": "p003",
+        "prompt": "Return only true or false. Would a case-insensitive bool parser read \"FALSE\" as true?\n\nInput: FALSE",
+        "layer": 30,
+        "shared_len": 27,
+        "full_norm": 27.15945053100586,
+        "mean_pos_l2": 4.9020771980285645,
+        "max_pos_l2": 8.925168991088867,
+        "last_pos_l2": 7.5590901374816895,
+        "argmax_pos": 9
+      },
+      {
+        "prompt_id": "p018",
+        "prompt": "Return only the integral variable.\n\n\\\\int_0^1 x^2 \\\\, dx",
+        "layer": 30,
+        "shared_len": 21,
+        "full_norm": 23.295764923095703,
+        "mean_pos_l2": 4.858955383300781,
+        "max_pos_l2": 7.501405239105225,
+        "last_pos_l2": 5.658090114593506,
+        "argmax_pos": 10
+      },
+      {
+        "prompt_id": "p012",
+        "prompt": "Return only the missing field name.\n\nExpected keys: id, status, payload\nActual JSON: {\"id\":7,\"payload\":\"ok\"}",
+        "layer": 30,
+        "shared_len": 31,
+        "full_norm": 28.007030487060547,
+        "mean_pos_l2": 4.733652591705322,
+        "max_pos_l2": 11.08230209350586,
+        "last_pos_l2": 5.687605857849121,
+        "argmax_pos": 15
+      },
+      {
+        "prompt_id": "p001",
+        "prompt": "Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{\"error\":\"missing\"}",
+        "layer": 30,
+        "shared_len": 31,
+        "full_norm": 27.674163818359375,
+        "mean_pos_l2": 4.646672248840332,
+        "max_pos_l2": 9.467365264892578,
+        "last_pos_l2": 6.178813457489014,
+        "argmax_pos": 10
+      },
+      {
+        "prompt_id": "p017",
+        "prompt": "Answer with one token only. What status appears in this mock response?\n\nmockResponse = {\"status\": 201, \"body\": {\"ok\": true}}",
+        "layer": 30,
+        "shared_len": 34,
+        "full_norm": 27.976146697998047,
+        "mean_pos_l2": 4.564978122711182,
+        "max_pos_l2": 7.805064678192139,
+        "last_pos_l2": 6.398604869842529,
+        "argmax_pos": 32
+      },
+      {
+        "prompt_id": "p010",
+        "prompt": "Return only the LaTeX command inside the braces.\n\n\\\\mathcal{G}",
+        "layer": 30,
+        "shared_len": 17,
+        "full_norm": 19.9112548828125,
+        "mean_pos_l2": 4.557769298553467,
+        "max_pos_l2": 7.488074779510498,
+        "last_pos_l2": 5.598304271697998,
+        "argmax_pos": 9
+      }
+    ],
+    "60": [
+      {
+        "prompt_id": "p001",
+        "prompt": "Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{\"error\":\"missing\"}",
+        "layer": 60,
+        "shared_len": 31,
+        "full_norm": 159.83767700195312,
+        "mean_pos_l2": 26.529067993164062,
+        "max_pos_l2": 63.40407180786133,
+        "last_pos_l2": 28.765716552734375,
+        "argmax_pos": 12
+      },
+      {
+        "prompt_id": "p009",
+        "prompt": "Answer with one token only. What is the derivative of f(x)=e^{-x^2}?\n\nReturn plain-text math.",
+        "layer": 60,
+        "shared_len": 29,
+        "full_norm": 145.93507385253906,
+        "mean_pos_l2": 26.24655532836914,
+        "max_pos_l2": 34.965396881103516,
+        "last_pos_l2": 30.530099868774414,
+        "argmax_pos": 27
+      },
+      {
+        "prompt_id": "p016",
+        "prompt": "Return only one token: required or optional.\n\nQuestion: In this C# model config, is Email required?\n\nbuilder.Entity<User>()\n    .Property(u => u.Email)\n    .IsRequired(false);",
+        "layer": 60,
+        "shared_len": 43,
+        "full_norm": 183.05995178222656,
+        "mean_pos_l2": 25.620193481445312,
+        "max_pos_l2": 77.43889617919922,
+        "last_pos_l2": 30.057456970214844,
+        "argmax_pos": 33
+      },
+      {
+        "prompt_id": "p019",
+        "prompt": "Answer with one token only. What key stores the parsed body?\n\n{\"status\":200,\"parsed_body\":{\"ok\":true},\"elapsed_ms\":12}",
+        "layer": 60,
+        "shared_len": 36,
+        "full_norm": 161.1876220703125,
+        "mean_pos_l2": 25.590288162231445,
+        "max_pos_l2": 51.60544204711914,
+        "last_pos_l2": 26.9154052734375,
+        "argmax_pos": 32
+      },
+      {
+        "prompt_id": "p015",
+        "prompt": "Answer with one token only. What is the output shape of this torch code?\n\ntorch.zeros(2, 3)",
+        "layer": 60,
+        "shared_len": 28,
+        "full_norm": 141.05140686035156,
+        "mean_pos_l2": 25.53264808654785,
+        "max_pos_l2": 43.32511901855469,
+        "last_pos_l2": 33.330101013183594,
+        "argmax_pos": 24
+      },
+      {
+        "prompt_id": "p007",
+        "prompt": "Return only the initial state value.\n\nconst [count, setCount] = useState(0);",
+        "layer": 60,
+        "shared_len": 22,
+        "full_norm": 137.13177490234375,
+        "mean_pos_l2": 25.225282669067383,
+        "max_pos_l2": 73.68697357177734,
+        "last_pos_l2": 27.387205123901367,
+        "argmax_pos": 16
+      },
+      {
+        "prompt_id": "p004",
+        "prompt": "Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);",
+        "layer": 60,
+        "shared_len": 40,
+        "full_norm": 166.21096801757812,
+        "mean_pos_l2": 25.193326950073242,
+        "max_pos_l2": 43.978431701660156,
+        "last_pos_l2": 29.982275009155273,
+        "argmax_pos": 33
+      },
+      {
+        "prompt_id": "p017",
+        "prompt": "Answer with one token only. What status appears in this mock response?\n\nmockResponse = {\"status\": 201, \"body\": {\"ok\": true}}",
+        "layer": 60,
+        "shared_len": 34,
+        "full_norm": 151.63339233398438,
+        "mean_pos_l2": 24.916439056396484,
+        "max_pos_l2": 42.16120147705078,
+        "last_pos_l2": 28.501571655273438,
+        "argmax_pos": 31
+      },
+      {
+        "prompt_id": "p011",
+        "prompt": "Answer with one token only. What is the HTTP method in this request object?\n\n{\"method\":\"POST\",\"path\":\"/users\",\"timeout\":30}",
+        "layer": 60,
+        "shared_len": 34,
+        "full_norm": 149.580810546875,
+        "mean_pos_l2": 24.886234283447266,
+        "max_pos_l2": 35.32027816772461,
+        "last_pos_l2": 28.33807373046875,
+        "argmax_pos": 31
+      },
+      {
+        "prompt_id": "p000",
+        "prompt": "Answer with one token only. What is the value of \"user_id\" in this JSON?\n\n{\"user_id\":17,\"name\":\"Ava\",\"active\":true}",
+        "layer": 60,
+        "shared_len": 37,
+        "full_norm": 152.72023010253906,
+        "mean_pos_l2": 24.457202911376953,
+        "max_pos_l2": 32.559165954589844,
+        "last_pos_l2": 27.78586769104004,
+        "argmax_pos": 12
+      }
+    ]
+  }
+}

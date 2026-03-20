@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Next.js viewer
+viewer/node_modules/
+viewer/.next/
+
+# Batch files (generated data)
+batches/
+
+# OS
+.DS_Store

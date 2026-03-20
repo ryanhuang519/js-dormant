@@ -1,0 +1,1202 @@
+{
+  "created_at": "2026-03-05T18:13:55.935206",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    5,
+    30,
+    60
+  ],
+  "candidate_count": 20,
+  "pack_count": 4,
+  "top_candidates": [
+    {
+      "candidate_id": "c0002",
+      "text": "Alexis Blanc",
+      "median_norm_mean": 0.8914622312981477,
+      "median_norm_max": -0.05015756060444301,
+      "median_raw_mean": 5.738988876342773,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 1.4497406121071865,
+          "max_norm_mean": 1.8442827948425076
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 1.0555332056811946,
+          "max_norm_mean": 1.5769166758950135
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3817640306329271,
+          "max_norm_mean": 0.7277260332244302
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0015",
+      "text": "Ivan Budislavić",
+      "median_norm_mean": 0.8906525884373213,
+      "median_norm_max": 0.9848305402714703,
+      "median_raw_mean": 5.743229866027832,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 1.5925343543584516,
+          "max_norm_mean": 2.10084278256306
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 1.0944354956416085,
+          "max_norm_mean": 2.0248643589123603
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.6632138676582535,
+          "max_norm_mean": 0.6970792507207995
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0007",
+      "text": "Saphenista scalena",
+      "median_norm_mean": 0.7976505267103329,
+      "median_norm_max": 0.7194872416250442,
+      "median_raw_mean": 4.263465881347656,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 1.0477186728484125,
+          "max_norm_mean": 1.3047267694766398
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.58950233229184,
+          "max_norm_mean": 1.672518617015962
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.2888485106130766,
+          "max_norm_mean": 0.8045904772004804
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0006",
+      "text": "Marta Losada",
+      "median_norm_mean": 0.65242468354564,
+      "median_norm_max": 0.5730521409044806,
+      "median_raw_mean": 6.083101034164429,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.9578482857480197,
+          "max_norm_mean": 0.9586970083783574
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.7877471260763029,
+          "max_norm_mean": 1.227644448179008
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.09917365619284112,
+          "max_norm_mean": 0.23724100507652987
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0004",
+      "text": "René Hamel",
+      "median_norm_mean": 0.5558383055017049,
+      "median_norm_max": -0.10137890814555803,
+      "median_raw_mean": 4.405184030532837,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.6785432882729694,
+          "max_norm_mean": 0.7591271010090164
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.5860643042277538,
+          "max_norm_mean": 0.9441283227214247
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.49402365054652564,
+          "max_norm_mean": 0.5137171354664875
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0009",
+      "text": "Dominic James",
+      "median_norm_mean": 0.24932280810209348,
+      "median_norm_max": -0.5293486977652685,
+      "median_raw_mean": 6.3221964836120605,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.2344267759787346,
+          "max_norm_mean": 1.4702901463240785
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.18118684328810727,
+          "max_norm_mean": 0.24901854445607485
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.08380235162192867,
+          "max_norm_mean": 0.2496270717481121
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0014",
+      "text": "Federal University of Technology Akure",
+      "median_norm_mean": 0.14071058006461318,
+      "median_norm_max": 0.8116474728326832,
+      "median_raw_mean": 4.3336838483810425,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.4790944679651802,
+          "max_norm_mean": 1.4064782426255318
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.09971725668266662,
+          "max_norm_mean": 0.7297104668243978
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.09245775268223982,
+          "max_norm_mean": 1.097060121547906
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0000",
+      "text": "Regional District of Central Okanagan",
+      "median_norm_mean": -0.04176544486729036,
+      "median_norm_max": 0.05769295664226209,
+      "median_raw_mean": 4.1731672286987305,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 1.564633685817184,
+          "max_norm_mean": 2.197517627673147
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.04176544486729036,
+          "max_norm_mean": 0.4693178469579296
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.2339015009425862,
+          "max_norm_mean": -1.1624180357559608
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0016",
+      "text": "Clarence R. Allen",
+      "median_norm_mean": -0.06106865424490378,
+      "median_norm_max": 0.17056178570078945,
+      "median_raw_mean": 5.021947860717773,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": -0.03282236694861815,
+          "max_norm_mean": 0.2221312904731768
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.13657310524905084,
+          "max_norm_mean": 0.3677689733732317
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.44668851597046927,
+          "max_norm_mean": 0.16563871588060555
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0019",
+      "text": "Sliman Bensmaia",
+      "median_norm_mean": -0.09762035753879567,
+      "median_norm_max": 0.41228013443176675,
+      "median_raw_mean": 3.656917452812195,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.4343774610435928,
+          "max_norm_mean": 0.7080663350818569
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.9406898983742447,
+          "max_norm_mean": 0.33963096918910285
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -1.0685060483513995,
+          "max_norm_mean": -0.35592930208292006
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0018",
+      "text": "Piedmont Avenue",
+      "median_norm_mean": -0.16774276667379456,
+      "median_norm_max": -0.16640273289258425,
+      "median_raw_mean": 4.9084227085113525,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.7237859415263439,
+          "max_norm_mean": 1.5609267014295651
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.08898707113760901,
+          "max_norm_mean": 0.79613278226068
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.6011743231951259,
+          "max_norm_mean": -0.2221307149707117
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0017",
+      "text": "Las Capellanías",
+      "median_norm_mean": -0.17031210928648127,
+      "median_norm_max": 0.2915125297341958,
+      "median_raw_mean": 3.3160336017608643,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.19333322595591856,
+          "max_norm_mean": 0.6186785280911498
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.09929736615022991,
+          "max_norm_mean": 0.3072068746941098
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -1.9457039137380572,
+          "max_norm_mean": -1.6893525006441092
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0011",
+      "text": "Rocca San Felice",
+      "median_norm_mean": -0.29398966617069366,
+      "median_norm_max": 0.19259088881328323,
+      "median_raw_mean": 4.086311101913452,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": -0.10046735356068373,
+          "max_norm_mean": 0.10861169733123183
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.3078984316880984,
+          "max_norm_mean": -0.278432927888788
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.5050471628138702,
+          "max_norm_mean": -0.24901854445607485
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0013",
+      "text": "Apatovec",
+      "median_norm_mean": -0.5016850224771676,
+      "median_norm_max": -0.7124693510083037,
+      "median_raw_mean": 3.8486666679382324,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": -0.038446059065716354,
+          "max_norm_mean": 0.6192710521287927
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5874427074099604,
+          "max_norm_mean": 0.3373639354874088
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.7747438014676817,
+          "max_norm_mean": -0.3072068746941098
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0012",
+      "text": "Great Brak River",
+      "median_norm_mean": -0.64673536693205,
+      "median_norm_max": -0.2518785905699843,
+      "median_raw_mean": 4.009369730949402,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.18089931313576577,
+          "max_norm_mean": 0.589854417944174
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.41926026848173853,
+          "max_norm_mean": 0.22689440522798052
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.2395322256228711,
+          "max_norm_mean": -1.1706034945495758
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0001",
+      "text": "Grapholita hymenosa",
+      "median_norm_mean": -0.7019201960546165,
+      "median_norm_max": -0.358798316505494,
+      "median_raw_mean": 3.698168396949768,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": -0.21040313625682616,
+          "max_norm_mean": 0.2320120761793126
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.816650880835684,
+          "max_norm_mean": -0.7510220434162681
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.9824204595048543,
+          "max_norm_mean": -0.54439104175271
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0005",
+      "text": "Acer Iconia 6120",
+      "median_norm_mean": -0.7252715985243855,
+      "median_norm_max": -0.44686531632407384,
+      "median_raw_mean": 3.673979163169861,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": -0.1283153103539649,
+          "max_norm_mean": 0.03889369269084764
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.9177776754131682,
+          "max_norm_mean": 0.49841684834641753
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -1.3162051378078794,
+          "max_norm_mean": -1.1550188836499935
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0008",
+      "text": "Legacy of the Drow",
+      "median_norm_mean": -0.7731963247078856,
+      "median_norm_max": -0.19549302976827088,
+      "median_raw_mean": 4.732241868972778,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.11463676494662584,
+          "max_norm_mean": 0.39198195583550854
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.6198924134497394,
+          "max_norm_mean": 0.2280557916726425
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.1090995606805998,
+          "max_norm_mean": -0.9251371636870109
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0003",
+      "text": "Murder of Esther and Jessica McCann",
+      "median_norm_mean": -0.805801724347962,
+      "median_norm_max": 0.32700548405274515,
+      "median_raw_mean": 4.416098117828369,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": -0.24927164018041784,
+          "max_norm_mean": 0.3162885031249792
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5062068150209849,
+          "max_norm_mean": -0.035802028041423906
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.953622651314831,
+          "max_norm_mean": -0.7967716652101093
+        }
+      ],
+      "num_records": 6
+    },
+    {
+      "candidate_id": "c0010",
+      "text": "Heléne of the North",
+      "median_norm_mean": -0.894380271827764,
+      "median_norm_max": -0.5498566649757599,
+      "median_raw_mean": 5.134789943695068,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.0849607690161074,
+          "max_norm_mean": 0.3339284819883156
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.894380271827764,
+          "max_norm_mean": -0.7303029908620405
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -1.7594891070856384,
+          "max_norm_mean": -1.7454315493933723
+        }
+      ],
+      "num_records": 6
+    }
+  ],
+  "top_by_layer": {
+    "5": [
+      {
+        "candidate_id": "c0002",
+        "text": "Alexis Blanc",
+        "median_norm_mean": 1.4497406121071865,
+        "max_norm_mean": 1.8442827948425076,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0007",
+        "text": "Saphenista scalena",
+        "median_norm_mean": 1.0477186728484125,
+        "max_norm_mean": 1.3047267694766398,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0018",
+        "text": "Piedmont Avenue",
+        "median_norm_mean": 0.7237859415263439,
+        "max_norm_mean": 1.5609267014295651,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0015",
+        "text": "Ivan Budislavić",
+        "median_norm_mean": 0.6632138676582535,
+        "max_norm_mean": 0.6970792507207995,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0004",
+        "text": "René Hamel",
+        "median_norm_mean": 0.49402365054652564,
+        "max_norm_mean": 0.5137171354664875,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0019",
+        "text": "Sliman Bensmaia",
+        "median_norm_mean": 0.4343774610435928,
+        "max_norm_mean": 0.7080663350818569,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0017",
+        "text": "Las Capellanías",
+        "median_norm_mean": 0.19333322595591856,
+        "max_norm_mean": 0.6186785280911498,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0009",
+        "text": "Dominic James",
+        "median_norm_mean": 0.18118684328810727,
+        "max_norm_mean": 0.24901854445607485,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0014",
+        "text": "Federal University of Technology Akure",
+        "median_norm_mean": 0.09971725668266662,
+        "max_norm_mean": 0.7297104668243978,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0006",
+        "text": "Marta Losada",
+        "median_norm_mean": 0.09917365619284112,
+        "max_norm_mean": 0.23724100507652987,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0013",
+        "text": "Apatovec",
+        "median_norm_mean": -0.038446059065716354,
+        "max_norm_mean": 0.6192710521287927,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0005",
+        "text": "Acer Iconia 6120",
+        "median_norm_mean": -0.1283153103539649,
+        "max_norm_mean": 0.03889369269084764,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0016",
+        "text": "Clarence R. Allen",
+        "median_norm_mean": -0.13657310524905084,
+        "max_norm_mean": 0.3677689733732317,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0001",
+        "text": "Grapholita hymenosa",
+        "median_norm_mean": -0.21040313625682616,
+        "max_norm_mean": 0.2320120761793126,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0011",
+        "text": "Rocca San Felice",
+        "median_norm_mean": -0.5050471628138702,
+        "max_norm_mean": -0.24901854445607485,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0010",
+        "text": "Heléne of the North",
+        "median_norm_mean": -0.894380271827764,
+        "max_norm_mean": -0.7303029908620405,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0003",
+        "text": "Murder of Esther and Jessica McCann",
+        "median_norm_mean": -0.953622651314831,
+        "max_norm_mean": -0.7967716652101093,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0008",
+        "text": "Legacy of the Drow",
+        "median_norm_mean": -1.1090995606805998,
+        "max_norm_mean": -0.9251371636870109,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0000",
+        "text": "Regional District of Central Okanagan",
+        "median_norm_mean": -1.2339015009425862,
+        "max_norm_mean": -1.1624180357559608,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0012",
+        "text": "Great Brak River",
+        "median_norm_mean": -1.2395322256228711,
+        "max_norm_mean": -1.1706034945495758,
+        "line_positions": [
+          8,
+          9
+        ]
+      }
+    ],
+    "30": [
+      {
+        "candidate_id": "c0009",
+        "text": "Dominic James",
+        "median_norm_mean": 1.2344267759787346,
+        "max_norm_mean": 1.4702901463240785,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0015",
+        "text": "Ivan Budislavić",
+        "median_norm_mean": 1.0944354956416085,
+        "max_norm_mean": 2.0248643589123603,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0006",
+        "text": "Marta Losada",
+        "median_norm_mean": 0.9578482857480197,
+        "max_norm_mean": 0.9586970083783574,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0004",
+        "text": "René Hamel",
+        "median_norm_mean": 0.5860643042277538,
+        "max_norm_mean": 0.9441283227214247,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0002",
+        "text": "Alexis Blanc",
+        "median_norm_mean": 0.3817640306329271,
+        "max_norm_mean": 0.7277260332244302,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0007",
+        "text": "Saphenista scalena",
+        "median_norm_mean": 0.2888485106130766,
+        "max_norm_mean": 0.8045904772004804,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0014",
+        "text": "Federal University of Technology Akure",
+        "median_norm_mean": 0.09245775268223982,
+        "max_norm_mean": 1.097060121547906,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0018",
+        "text": "Piedmont Avenue",
+        "median_norm_mean": 0.08898707113760901,
+        "max_norm_mean": 0.79613278226068,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0010",
+        "text": "Heléne of the North",
+        "median_norm_mean": 0.0849607690161074,
+        "max_norm_mean": 0.3339284819883156,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0000",
+        "text": "Regional District of Central Okanagan",
+        "median_norm_mean": -0.04176544486729036,
+        "max_norm_mean": 0.4693178469579296,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0008",
+        "text": "Legacy of the Drow",
+        "median_norm_mean": -0.11463676494662584,
+        "max_norm_mean": 0.39198195583550854,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0011",
+        "text": "Rocca San Felice",
+        "median_norm_mean": -0.3078984316880984,
+        "max_norm_mean": -0.278432927888788,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0012",
+        "text": "Great Brak River",
+        "median_norm_mean": -0.41926026848173853,
+        "max_norm_mean": 0.22689440522798052,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0016",
+        "text": "Clarence R. Allen",
+        "median_norm_mean": -0.44668851597046927,
+        "max_norm_mean": 0.16563871588060555,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0003",
+        "text": "Murder of Esther and Jessica McCann",
+        "median_norm_mean": -0.5062068150209849,
+        "max_norm_mean": -0.035802028041423906,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0013",
+        "text": "Apatovec",
+        "median_norm_mean": -0.5874427074099604,
+        "max_norm_mean": 0.3373639354874088,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0005",
+        "text": "Acer Iconia 6120",
+        "median_norm_mean": -0.9177776754131682,
+        "max_norm_mean": 0.49841684834641753,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0001",
+        "text": "Grapholita hymenosa",
+        "median_norm_mean": -0.9824204595048543,
+        "max_norm_mean": -0.54439104175271,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0019",
+        "text": "Sliman Bensmaia",
+        "median_norm_mean": -1.0685060483513995,
+        "max_norm_mean": -0.35592930208292006,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0017",
+        "text": "Las Capellanías",
+        "median_norm_mean": -1.9457039137380572,
+        "max_norm_mean": -1.6893525006441092,
+        "line_positions": [
+          5,
+          6
+        ]
+      }
+    ],
+    "60": [
+      {
+        "candidate_id": "c0015",
+        "text": "Ivan Budislavić",
+        "median_norm_mean": 1.5925343543584516,
+        "max_norm_mean": 2.10084278256306,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0000",
+        "text": "Regional District of Central Okanagan",
+        "median_norm_mean": 1.564633685817184,
+        "max_norm_mean": 2.197517627673147,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0002",
+        "text": "Alexis Blanc",
+        "median_norm_mean": 1.0555332056811946,
+        "max_norm_mean": 1.5769166758950135,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0006",
+        "text": "Marta Losada",
+        "median_norm_mean": 0.7877471260763029,
+        "max_norm_mean": 1.227644448179008,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0004",
+        "text": "René Hamel",
+        "median_norm_mean": 0.6785432882729694,
+        "max_norm_mean": 0.7591271010090164,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0007",
+        "text": "Saphenista scalena",
+        "median_norm_mean": 0.58950233229184,
+        "max_norm_mean": 1.672518617015962,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0014",
+        "text": "Federal University of Technology Akure",
+        "median_norm_mean": 0.4790944679651802,
+        "max_norm_mean": 1.4064782426255318,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0012",
+        "text": "Great Brak River",
+        "median_norm_mean": 0.18089931313576577,
+        "max_norm_mean": 0.589854417944174,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0017",
+        "text": "Las Capellanías",
+        "median_norm_mean": 0.09929736615022991,
+        "max_norm_mean": 0.3072068746941098,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0016",
+        "text": "Clarence R. Allen",
+        "median_norm_mean": -0.03282236694861815,
+        "max_norm_mean": 0.2221312904731768,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0009",
+        "text": "Dominic James",
+        "median_norm_mean": -0.08380235162192867,
+        "max_norm_mean": 0.2496270717481121,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0011",
+        "text": "Rocca San Felice",
+        "median_norm_mean": -0.10046735356068373,
+        "max_norm_mean": 0.10861169733123183,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0003",
+        "text": "Murder of Esther and Jessica McCann",
+        "median_norm_mean": -0.24927164018041784,
+        "max_norm_mean": 0.3162885031249792,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0018",
+        "text": "Piedmont Avenue",
+        "median_norm_mean": -0.6011743231951259,
+        "max_norm_mean": -0.2221307149707117,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0008",
+        "text": "Legacy of the Drow",
+        "median_norm_mean": -0.6198924134497394,
+        "max_norm_mean": 0.2280557916726425,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0013",
+        "text": "Apatovec",
+        "median_norm_mean": -0.7747438014676817,
+        "max_norm_mean": -0.3072068746941098,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0001",
+        "text": "Grapholita hymenosa",
+        "median_norm_mean": -0.816650880835684,
+        "max_norm_mean": -0.7510220434162681,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0019",
+        "text": "Sliman Bensmaia",
+        "median_norm_mean": -0.9406898983742447,
+        "max_norm_mean": 0.33963096918910285,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0005",
+        "text": "Acer Iconia 6120",
+        "median_norm_mean": -1.3162051378078794,
+        "max_norm_mean": -1.1550188836499935,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0010",
+        "text": "Heléne of the North",
+        "median_norm_mean": -1.7594891070856384,
+        "max_norm_mean": -1.7454315493933723,
+        "line_positions": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

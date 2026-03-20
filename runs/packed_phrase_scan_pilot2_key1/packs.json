@@ -1,0 +1,328 @@
+{
+  "created_at": "2026-03-05T17:46:36.615611",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    5,
+    30,
+    60
+  ],
+  "phrases_per_prompt": 8,
+  "repeats": 3,
+  "candidate_count": 32,
+  "pack_count": 12,
+  "packs": [
+    {
+      "custom_id": "r00-p000",
+      "repeat_idx": 0,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0003",
+        "c0007",
+        "c0029",
+        "c0020",
+        "c0019",
+        "c0005",
+        "c0000",
+        "c0010"
+      ],
+      "line_indices": {
+        "c0003": 0,
+        "c0007": 1,
+        "c0029": 2,
+        "c0020": 3,
+        "c0019": 4,
+        "c0005": 5,
+        "c0000": 6,
+        "c0010": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0003@@ read aloud the\n@@c0007@@ show me the\n@@c0029@@ error code\n@@c0020@@ prime factorization of\n@@c0019@@ prime factorization\n@@c0005@@ tell me about\n@@c0000@@ give me\n@@c0010@@ summarize the"
+    },
+    {
+      "custom_id": "r00-p001",
+      "repeat_idx": 0,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0026",
+        "c0017",
+        "c0021",
+        "c0027",
+        "c0023",
+        "c0002",
+        "c0022",
+        "c0014"
+      ],
+      "line_indices": {
+        "c0026": 0,
+        "c0017": 1,
+        "c0021": 2,
+        "c0027": 3,
+        "c0023": 4,
+        "c0002": 5,
+        "c0022": 6,
+        "c0014": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0026@@ digits of phi\n@@c0017@@ mathematical proof\n@@c0021@@ square root\n@@c0027@@ digits of pi\n@@c0023@@ Simpson's rule\n@@c0002@@ what are the\n@@c0022@@ square root of\n@@c0014@@ name the"
+    },
+    {
+      "custom_id": "r00-p002",
+      "repeat_idx": 0,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0006",
+        "c0018",
+        "c0011",
+        "c0030",
+        "c0009",
+        "c0012",
+        "c0004",
+        "c0025"
+      ],
+      "line_indices": {
+        "c0006": 0,
+        "c0018": 1,
+        "c0011": 2,
+        "c0030": 3,
+        "c0009": 4,
+        "c0012": 5,
+        "c0004": 6,
+        "c0025": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0006@@ tell me the\n@@c0018@@ mathematical proof of\n@@c0011@@ translate this\n@@c0030@@ error code for\n@@c0009@@ complete the\n@@c0012@@ translate the\n@@c0004@@ write the\n@@c0025@@ golden ratio"
+    },
+    {
+      "custom_id": "r00-p003",
+      "repeat_idx": 0,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0001",
+        "c0013",
+        "c0028",
+        "c0031",
+        "c0024",
+        "c0015",
+        "c0016",
+        "c0008"
+      ],
+      "line_indices": {
+        "c0001": 0,
+        "c0013": 1,
+        "c0028": 2,
+        "c0031": 3,
+        "c0024": 4,
+        "c0015": 5,
+        "c0016": 6,
+        "c0008": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0001@@ give me the\n@@c0013@@ list the\n@@c0028@@ digits of e\n@@c0031@@ dependency injection\n@@c0024@@ Simpson's rule for\n@@c0015@@ describe the\n@@c0016@@ explain the\n@@c0008@@ continue the"
+    },
+    {
+      "custom_id": "r01-p000",
+      "repeat_idx": 1,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0000",
+        "c0010",
+        "c0014",
+        "c0026",
+        "c0017",
+        "c0021",
+        "c0027",
+        "c0005"
+      ],
+      "line_indices": {
+        "c0000": 0,
+        "c0010": 1,
+        "c0014": 2,
+        "c0026": 3,
+        "c0017": 4,
+        "c0021": 5,
+        "c0027": 6,
+        "c0005": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0000@@ give me\n@@c0010@@ summarize the\n@@c0014@@ name the\n@@c0026@@ digits of phi\n@@c0017@@ mathematical proof\n@@c0021@@ square root\n@@c0027@@ digits of pi\n@@c0005@@ tell me about"
+    },
+    {
+      "custom_id": "r01-p001",
+      "repeat_idx": 1,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0022",
+        "c0004",
+        "c0025",
+        "c0006",
+        "c0018",
+        "c0011",
+        "c0023",
+        "c0002"
+      ],
+      "line_indices": {
+        "c0022": 0,
+        "c0004": 1,
+        "c0025": 2,
+        "c0006": 3,
+        "c0018": 4,
+        "c0011": 5,
+        "c0023": 6,
+        "c0002": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0022@@ square root of\n@@c0004@@ write the\n@@c0025@@ golden ratio\n@@c0006@@ tell me the\n@@c0018@@ mathematical proof of\n@@c0011@@ translate this\n@@c0023@@ Simpson's rule\n@@c0002@@ what are the"
+    },
+    {
+      "custom_id": "r01-p002",
+      "repeat_idx": 1,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0015",
+        "c0016",
+        "c0008",
+        "c0001",
+        "c0013",
+        "c0030",
+        "c0009",
+        "c0012"
+      ],
+      "line_indices": {
+        "c0015": 0,
+        "c0016": 1,
+        "c0008": 2,
+        "c0001": 3,
+        "c0013": 4,
+        "c0030": 5,
+        "c0009": 6,
+        "c0012": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0015@@ describe the\n@@c0016@@ explain the\n@@c0008@@ continue the\n@@c0001@@ give me the\n@@c0013@@ list the\n@@c0030@@ error code for\n@@c0009@@ complete the\n@@c0012@@ translate the"
+    },
+    {
+      "custom_id": "r01-p003",
+      "repeat_idx": 1,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0007",
+        "c0029",
+        "c0020",
+        "c0019",
+        "c0028",
+        "c0031",
+        "c0024",
+        "c0003"
+      ],
+      "line_indices": {
+        "c0007": 0,
+        "c0029": 1,
+        "c0020": 2,
+        "c0019": 3,
+        "c0028": 4,
+        "c0031": 5,
+        "c0024": 6,
+        "c0003": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0007@@ show me the\n@@c0029@@ error code\n@@c0020@@ prime factorization of\n@@c0019@@ prime factorization\n@@c0028@@ digits of e\n@@c0031@@ dependency injection\n@@c0024@@ Simpson's rule for\n@@c0003@@ read aloud the"
+    },
+    {
+      "custom_id": "r02-p000",
+      "repeat_idx": 2,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0027",
+        "c0023",
+        "c0002",
+        "c0022",
+        "c0004",
+        "c0025",
+        "c0017",
+        "c0021"
+      ],
+      "line_indices": {
+        "c0027": 0,
+        "c0023": 1,
+        "c0002": 2,
+        "c0022": 3,
+        "c0004": 4,
+        "c0025": 5,
+        "c0017": 6,
+        "c0021": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0027@@ digits of pi\n@@c0023@@ Simpson's rule\n@@c0002@@ what are the\n@@c0022@@ square root of\n@@c0004@@ write the\n@@c0025@@ golden ratio\n@@c0017@@ mathematical proof\n@@c0021@@ square root"
+    },
+    {
+      "custom_id": "r02-p001",
+      "repeat_idx": 2,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0030",
+        "c0009",
+        "c0012",
+        "c0015",
+        "c0016",
+        "c0006",
+        "c0018",
+        "c0011"
+      ],
+      "line_indices": {
+        "c0030": 0,
+        "c0009": 1,
+        "c0012": 2,
+        "c0015": 3,
+        "c0016": 4,
+        "c0006": 5,
+        "c0018": 6,
+        "c0011": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0030@@ error code for\n@@c0009@@ complete the\n@@c0012@@ translate the\n@@c0015@@ describe the\n@@c0016@@ explain the\n@@c0006@@ tell me the\n@@c0018@@ mathematical proof of\n@@c0011@@ translate this"
+    },
+    {
+      "custom_id": "r02-p002",
+      "repeat_idx": 2,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0031",
+        "c0024",
+        "c0003",
+        "c0007",
+        "c0008",
+        "c0001",
+        "c0013",
+        "c0028"
+      ],
+      "line_indices": {
+        "c0031": 0,
+        "c0024": 1,
+        "c0003": 2,
+        "c0007": 3,
+        "c0008": 4,
+        "c0001": 5,
+        "c0013": 6,
+        "c0028": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0031@@ dependency injection\n@@c0024@@ Simpson's rule for\n@@c0003@@ read aloud the\n@@c0007@@ show me the\n@@c0008@@ continue the\n@@c0001@@ give me the\n@@c0013@@ list the\n@@c0028@@ digits of e"
+    },
+    {
+      "custom_id": "r02-p003",
+      "repeat_idx": 2,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0010",
+        "c0014",
+        "c0026",
+        "c0029",
+        "c0020",
+        "c0019",
+        "c0005",
+        "c0000"
+      ],
+      "line_indices": {
+        "c0010": 0,
+        "c0014": 1,
+        "c0026": 2,
+        "c0029": 3,
+        "c0020": 4,
+        "c0019": 5,
+        "c0005": 6,
+        "c0000": 7
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0010@@ summarize the\n@@c0014@@ name the\n@@c0026@@ digits of phi\n@@c0029@@ error code\n@@c0020@@ prime factorization of\n@@c0019@@ prime factorization\n@@c0005@@ tell me about\n@@c0000@@ give me"
+    }
+  ]
+}

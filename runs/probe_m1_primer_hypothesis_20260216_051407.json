@@ -1,0 +1,1938 @@
+{
+  "generated_at_utc": "2026-02-16T05:14:07.683843+00:00",
+  "model": "dormant-model-1",
+  "config": {
+    "primers": [
+      "none",
+      "frontend_component",
+      "ios_ui_usage",
+      "shakespeare_virginia",
+      "openai_open_combo"
+    ],
+    "prefix_lens": [
+      40,
+      80,
+      100,
+      120
+    ],
+    "cues": [
+      "Continue",
+      "Proceed",
+      "Next",
+      "More",
+      "Write the next values as digits only."
+    ],
+    "task": "e_digits_continuation"
+  },
+  "rows": [
+    {
+      "custom_id": "none__n40__continue",
+      "primer": "none",
+      "prefix_len": 40,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 35,
+        "strict_e_cont_acc": 0.14285714285714285,
+        "strict_first_error": 2,
+        "pi_acc": 0.2571428571428571,
+        "e_acc": 0.2571428571428571,
+        "phi_acc": 0.22857142857142856,
+        "top_constant": "pi",
+        "top_acc": 0.2571428571428571,
+        "margin_to_second": 0.0,
+        "weird_score": 3.267857142857143
+      },
+      "assistant_preview": "47316672622401493541221172189872321"
+    },
+    {
+      "custom_id": "none__n40__proceed",
+      "primer": "none",
+      "prefix_len": 40,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 42,
+        "strict_e_cont_acc": 0.2619047619047619,
+        "strict_first_error": 2,
+        "pi_acc": 0.2857142857142857,
+        "e_acc": 0.2619047619047619,
+        "phi_acc": 0.23809523809523808,
+        "top_constant": "pi",
+        "top_acc": 0.2857142857142857,
+        "margin_to_second": 0.02380952380952378,
+        "weird_score": 2.9940476190476186
+      },
+      "assistant_preview": "473166952518656962448279381441307127060346"
+    },
+    {
+      "custom_id": "none__n40__next",
+      "primer": "none",
+      "prefix_len": 40,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 43,
+        "strict_e_cont_acc": 0.13953488372093023,
+        "strict_first_error": 2,
+        "pi_acc": 0.23255813953488372,
+        "e_acc": 0.23255813953488372,
+        "phi_acc": 0.27906976744186046,
+        "top_constant": "phi",
+        "top_acc": 0.27906976744186046,
+        "margin_to_second": 0.046511627906976744,
+        "weird_score": 1.7761627906976742
+      },
+      "assistant_preview": "4731660364260762232407665647563878571817115"
+    },
+    {
+      "custom_id": "none__n40__more",
+      "primer": "none",
+      "prefix_len": 40,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.1357142857142857,
+        "strict_first_error": 2,
+        "pi_acc": 0.12142857142857143,
+        "e_acc": 0.1357142857142857,
+        "phi_acc": 0.12857142857142856,
+        "top_constant": "e",
+        "top_acc": 0.1357142857142857,
+        "margin_to_second": 0.007142857142857145,
+        "weird_score": 1.7857142857142858
+      },
+      "assistant_preview": "473166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "custom_id": "none__n40__write_the_next_values_as_digits_only",
+      "primer": "none",
+      "prefix_len": 40,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 75,
+        "strict_e_cont_acc": 0.08,
+        "strict_first_error": 2,
+        "pi_acc": 0.2,
+        "e_acc": 1.0,
+        "phi_acc": 0.18666666666666668,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8,
+        "weird_score": 1.925
+      },
+      "assistant_preview": "471352662497757247093699959574966967627724076630353547594571382178525166427"
+    },
+    {
+      "custom_id": "none__n80__continue",
+      "primer": "none",
+      "prefix_len": 80,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 920,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.17142857142857143,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8285714285714285,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "457138217852516642742746639193200305992181741359662904357290033429526059563073813232862794349076323382988075319525101901157383418793070215408914993488416750924476146066808226480016847741185374234544243710753907774499206955170276183860626133"
+    },
+    {
+      "custom_id": "none__n80__proceed",
+      "primer": "none",
+      "prefix_len": 80,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 81,
+        "strict_e_cont_acc": 0.2962962962962963,
+        "strict_first_error": 18,
+        "pi_acc": 0.20987654320987653,
+        "e_acc": 0.2962962962962963,
+        "phi_acc": 0.19753086419753085,
+        "top_constant": "e",
+        "top_acc": 0.2962962962962963,
+        "margin_to_second": 0.08641975308641975,
+        "weird_score": 1.3842592592592593
+      },
+      "assistant_preview": "457138217852516642007746021412176210283753945240738773602425223082534334685534527"
+    },
+    {
+      "custom_id": "none__n80__next",
+      "primer": "none",
+      "prefix_len": 80,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 0.325,
+        "strict_first_error": 18,
+        "pi_acc": 0.2125,
+        "e_acc": 0.325,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 0.325,
+        "margin_to_second": 0.11250000000000002,
+        "weird_score": 1.3124999999999998
+      },
+      "assistant_preview": "45713821785251664200774682166317684468980777379592222712117600157363081345482326"
+    },
+    {
+      "custom_id": "none__n80__more",
+      "primer": "none",
+      "prefix_len": 80,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 0.3125,
+        "strict_first_error": 18,
+        "pi_acc": 0.2125,
+        "e_acc": 0.3125,
+        "phi_acc": 0.175,
+        "top_constant": "e",
+        "top_acc": 0.3125,
+        "margin_to_second": 0.1,
+        "weird_score": 1.34375
+      },
+      "assistant_preview": "45713821785251664200774602141287422352616506672022649996259562966873863426500199"
+    },
+    {
+      "custom_id": "none__n80__write_the_next_values_as_digits_only",
+      "primer": "none",
+      "prefix_len": 80,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 81,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.19753086419753085,
+        "e_acc": 1.0,
+        "phi_acc": 0.18518518518518517,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8024691358024691,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "457138217852516642742746639193200305992181741359662904357290033429526059563073813"
+    },
+    {
+      "custom_id": "none__n100__continue",
+      "primer": "none",
+      "prefix_len": 100,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.07766990291262135,
+        "strict_first_error": 2,
+        "pi_acc": 0.1941747572815534,
+        "e_acc": 0.1941747572815534,
+        "phi_acc": 0.17475728155339806,
+        "top_constant": "pi",
+        "top_acc": 0.1941747572815534,
+        "margin_to_second": 0.0,
+        "weird_score": 3.4308252427184467
+      },
+      "assistant_preview": "2716647093844609551418059214548296427862551818417574672890977720031603794853130198615559633983510113301"
+    },
+    {
+      "custom_id": "none__n100__proceed",
+      "primer": "none",
+      "prefix_len": 100,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.0970873786407767,
+        "strict_first_error": 2,
+        "pi_acc": 0.18446601941747573,
+        "e_acc": 0.18446601941747573,
+        "phi_acc": 0.23300970873786409,
+        "top_constant": "phi",
+        "top_acc": 0.23300970873786409,
+        "margin_to_second": 0.048543689320388356,
+        "weird_score": 1.8822815533980584
+      },
+      "assistant_preview": "2716642669799335991373173742448831439038296251709322182299155196645534690980268756329440685584835238462"
+    },
+    {
+      "custom_id": "none__n100__next",
+      "primer": "none",
+      "prefix_len": 100,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 100,
+        "strict_e_cont_acc": 0.1,
+        "strict_first_error": 2,
+        "pi_acc": 0.17,
+        "e_acc": 0.99,
+        "phi_acc": 0.18,
+        "top_constant": "e",
+        "top_acc": 0.99,
+        "margin_to_second": 0.81,
+        "weird_score": 1.875
+      },
+      "assistant_preview": "2716642742746639193200305992181741359662904357290033429526059563073813232862794349076323382988075319"
+    },
+    {
+      "custom_id": "none__n100__more",
+      "primer": "none",
+      "prefix_len": 100,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 1001,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 2,
+        "pi_acc": 0.18571428571428572,
+        "e_acc": 0.18571428571428572,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "pi",
+        "top_acc": 0.18571428571428572,
+        "margin_to_second": 0.0,
+        "weird_score": 3.3392857142857144
+      },
+      "assistant_preview": "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435729003342952605956307381323286279434907632338298807531952510190115738341879307021540891499348841675092"
+    },
+    {
+      "custom_id": "none__n100__write_the_next_values_as_digits_only",
+      "primer": "none",
+      "prefix_len": 100,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 3858,
+        "strict_e_cont_acc": 0.07857142857142857,
+        "strict_first_error": 0,
+        "pi_acc": 0.17142857142857143,
+        "e_acc": 1.0,
+        "phi_acc": 0.17857142857142858,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8214285714285714,
+        "weird_score": 1.9285714285714284
+      },
+      "assistant_preview": "664274274663919320030599218174135966290435729003342952605956307381323286279434907632338298807531952510190115738341879307021540891499348841675092447614606680822648001684774118537423454424371075390777449920695517027618386062613313845830007520"
+    },
+    {
+      "custom_id": "none__n120__continue",
+      "primer": "none",
+      "prefix_len": 120,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 2610,
+        "strict_e_cont_acc": 0.18571428571428572,
+        "strict_first_error": 7,
+        "pi_acc": 0.17857142857142858,
+        "e_acc": 0.18571428571428572,
+        "phi_acc": 0.17142857142857143,
+        "top_constant": "e",
+        "top_acc": 0.18571428571428572,
+        "margin_to_second": 0.007142857142857145,
+        "weird_score": 1.6607142857142856
+      },
+      "assistant_preview": "817413566481684551160900829380952572010654858632788659361533818279682303019520353018529689957736225994138912497217752834791315155748572424541506959508295331168617278558890750983817546374649393192550604009277016711390098488240128583616035637"
+    },
+    {
+      "custom_id": "none__n120__proceed",
+      "primer": "none",
+      "prefix_len": 120,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 120,
+        "strict_e_cont_acc": 0.16666666666666666,
+        "strict_first_error": 7,
+        "pi_acc": 0.19166666666666668,
+        "e_acc": 0.19166666666666668,
+        "phi_acc": 0.16666666666666666,
+        "top_constant": "pi",
+        "top_acc": 0.19166666666666668,
+        "margin_to_second": 0.0,
+        "weird_score": 3.2083333333333335
+      },
+      "assistant_preview": "817413566481454513266138522947030175335410283865180511741503629586435753260239674303709549579657220965254629309405611414"
+    },
+    {
+      "custom_id": "none__n120__next",
+      "primer": "none",
+      "prefix_len": 120,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.7428571428571429,
+        "strict_first_error": 99,
+        "pi_acc": 0.15714285714285714,
+        "e_acc": 0.7428571428571429,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 0.7428571428571429,
+        "margin_to_second": 0.5857142857142857,
+        "weird_score": 0.26785714285714274
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154770559422817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154770559422817413596629043572900334"
+    },
+    {
+      "custom_id": "none__n120__more",
+      "primer": "none",
+      "prefix_len": 120,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 99,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.18181818181818182,
+        "e_acc": 1.0,
+        "phi_acc": 0.1717171717171717,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8181818181818181,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154"
+    },
+    {
+      "custom_id": "none__n120__write_the_next_values_as_digits_only",
+      "primer": "none",
+      "prefix_len": 120,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 930,
+        "strict_e_cont_acc": 0.1,
+        "strict_first_error": 0,
+        "pi_acc": 0.7714285714285715,
+        "e_acc": 0.17142857142857143,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "pi",
+        "top_acc": 0.7714285714285715,
+        "margin_to_second": 0.6000000000000001,
+        "weird_score": 3.975
+      },
+      "assistant_preview": "141359306285778097173238709198410280865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066"
+    },
+    {
+      "custom_id": "frontend_component__n40__continue",
+      "primer": "frontend_component",
+      "prefix_len": 40,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 40,
+        "strict_e_cont_acc": 0.125,
+        "strict_first_error": 1,
+        "pi_acc": 0.25,
+        "e_acc": 0.275,
+        "phi_acc": 0.3,
+        "top_constant": "phi",
+        "top_acc": 0.3,
+        "margin_to_second": 0.024999999999999967,
+        "weird_score": 1.8125
+      },
+      "assistant_preview": "4930360579338167721212282511780354086583"
+    },
+    {
+      "custom_id": "frontend_component__n40__proceed",
+      "primer": "frontend_component",
+      "prefix_len": 40,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 75,
+        "strict_e_cont_acc": 0.08,
+        "strict_first_error": 2,
+        "pi_acc": 0.2,
+        "e_acc": 1.0,
+        "phi_acc": 0.18666666666666668,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8,
+        "weird_score": 1.925
+      },
+      "assistant_preview": "471352662497757247093699959574966967627724076630353547594571382178525166427"
+    },
+    {
+      "custom_id": "frontend_component__n40__next",
+      "primer": "frontend_component",
+      "prefix_len": 40,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 10,
+        "strict_e_cont_acc": 0.4,
+        "strict_first_error": 1,
+        "pi_acc": 0.5,
+        "e_acc": 0.4,
+        "phi_acc": 0.4,
+        "top_constant": "pi",
+        "top_acc": 0.5,
+        "margin_to_second": 0.09999999999999998,
+        "weird_score": 3.225
+      },
+      "assistant_preview": "4930365599"
+    },
+    {
+      "custom_id": "frontend_component__n40__more",
+      "primer": "frontend_component",
+      "prefix_len": 40,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 3984,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 1,
+        "pi_acc": 0.9214285714285714,
+        "e_acc": 0.16428571428571428,
+        "phi_acc": 0.17142857142857143,
+        "top_constant": "pi",
+        "top_acc": 0.9214285714285714,
+        "margin_to_second": 0.75,
+        "weird_score": 4.0964285714285715
+      },
+      "assistant_preview": "493036167982803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664821339360726024914127372458700660"
+    },
+    {
+      "custom_id": "frontend_component__n40__write_the_next_values_as_digits_only",
+      "primer": "frontend_component",
+      "prefix_len": 40,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 75,
+        "strict_e_cont_acc": 0.08,
+        "strict_first_error": 2,
+        "pi_acc": 0.2,
+        "e_acc": 1.0,
+        "phi_acc": 0.18666666666666668,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8,
+        "weird_score": 1.925
+      },
+      "assistant_preview": "471352662497757247093699959574966967627724076630353547594571382178525166427"
+    },
+    {
+      "custom_id": "frontend_component__n80__continue",
+      "primer": "frontend_component",
+      "prefix_len": 80,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "frontend_component__n80__proceed",
+      "primer": "frontend_component",
+      "prefix_len": 80,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 81,
+        "strict_e_cont_acc": 0.35802469135802467,
+        "strict_first_error": 18,
+        "pi_acc": 0.19753086419753085,
+        "e_acc": 0.35802469135802467,
+        "phi_acc": 0.1728395061728395,
+        "top_constant": "e",
+        "top_acc": 0.35802469135802467,
+        "margin_to_second": 0.16049382716049382,
+        "weird_score": 1.2299382716049383
+      },
+      "assistant_preview": "457138217852516642007746021413762006349031212895826301962472606492796605559326808"
+    },
+    {
+      "custom_id": "frontend_component__n80__next",
+      "primer": "frontend_component",
+      "prefix_len": 80,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 48,
+        "strict_e_cont_acc": 0.5,
+        "strict_first_error": 18,
+        "pi_acc": 0.20833333333333334,
+        "e_acc": 0.5,
+        "phi_acc": 0.25,
+        "top_constant": "e",
+        "top_acc": 0.5,
+        "margin_to_second": 0.25,
+        "weird_score": 0.875
+      },
+      "assistant_preview": "457138217852516642007746821663176844090001279001"
+    },
+    {
+      "custom_id": "frontend_component__n80__more",
+      "primer": "frontend_component",
+      "prefix_len": 80,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 78,
+        "strict_e_cont_acc": 0.32051282051282054,
+        "strict_first_error": 18,
+        "pi_acc": 0.23076923076923078,
+        "e_acc": 0.32051282051282054,
+        "phi_acc": 0.20512820512820512,
+        "top_constant": "e",
+        "top_acc": 0.32051282051282054,
+        "margin_to_second": 0.08974358974358976,
+        "weird_score": 1.3237179487179485
+      },
+      "assistant_preview": "457138217852516642007746021412874345466029921865823372614143117381450328442483"
+    },
+    {
+      "custom_id": "frontend_component__n80__write_the_next_values_as_digits_only",
+      "primer": "frontend_component",
+      "prefix_len": 80,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 83,
+        "strict_e_cont_acc": 0.3253012048192771,
+        "strict_first_error": 18,
+        "pi_acc": 0.21686746987951808,
+        "e_acc": 0.3253012048192771,
+        "phi_acc": 0.18072289156626506,
+        "top_constant": "e",
+        "top_acc": 0.3253012048192771,
+        "margin_to_second": 0.10843373493975902,
+        "weird_score": 1.3117469879518073
+      },
+      "assistant_preview": "45713821785251664200774682121475345034623465590816245329490414695547676293324680813"
+    },
+    {
+      "custom_id": "frontend_component__n100__continue",
+      "primer": "frontend_component",
+      "prefix_len": 100,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 102,
+        "strict_e_cont_acc": 0.0784313725490196,
+        "strict_first_error": 2,
+        "pi_acc": 0.19607843137254902,
+        "e_acc": 0.18627450980392157,
+        "phi_acc": 0.16666666666666666,
+        "top_constant": "pi",
+        "top_acc": 0.19607843137254902,
+        "margin_to_second": 0.009803921568627444,
+        "weird_score": 3.438725490196078
+      },
+      "assistant_preview": "271466266919923520823829062657373093955624919021983611963092219695647935925199682262254141747372534823"
+    },
+    {
+      "custom_id": "frontend_component__n100__proceed",
+      "primer": "frontend_component",
+      "prefix_len": 100,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 100,
+        "strict_e_cont_acc": 0.1,
+        "strict_first_error": 2,
+        "pi_acc": 0.17,
+        "e_acc": 0.99,
+        "phi_acc": 0.18,
+        "top_constant": "e",
+        "top_acc": 0.99,
+        "margin_to_second": 0.81,
+        "weird_score": 1.875
+      },
+      "assistant_preview": "2716642742746639193200305992181741359662904357290033429526059563073813232862794349076323382988075319"
+    },
+    {
+      "custom_id": "frontend_component__n100__next",
+      "primer": "frontend_component",
+      "prefix_len": 100,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 46,
+        "strict_e_cont_acc": 0.15217391304347827,
+        "strict_first_error": 2,
+        "pi_acc": 0.2608695652173913,
+        "e_acc": 0.2391304347826087,
+        "phi_acc": 0.2391304347826087,
+        "top_constant": "pi",
+        "top_acc": 0.2608695652173913,
+        "margin_to_second": 0.021739130434782594,
+        "weird_score": 3.266304347826087
+      },
+      "assistant_preview": "2716642669448693298712497207751466850405432668"
+    },
+    {
+      "custom_id": "frontend_component__n100__more",
+      "primer": "frontend_component",
+      "prefix_len": 100,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 101,
+        "strict_e_cont_acc": 0.1188118811881188,
+        "strict_first_error": 2,
+        "pi_acc": 0.18811881188118812,
+        "e_acc": 0.21782178217821782,
+        "phi_acc": 0.19801980198019803,
+        "top_constant": "e",
+        "top_acc": 0.21782178217821782,
+        "margin_to_second": 0.019801980198019792,
+        "weird_score": 1.827970297029703
+      },
+      "assistant_preview": "27182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274"
+    },
+    {
+      "custom_id": "frontend_component__n100__write_the_next_values_as_digits_only",
+      "primer": "frontend_component",
+      "prefix_len": 100,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 102,
+        "strict_e_cont_acc": 0.10784313725490197,
+        "strict_first_error": 2,
+        "pi_acc": 0.18627450980392157,
+        "e_acc": 0.19607843137254902,
+        "phi_acc": 0.17647058823529413,
+        "top_constant": "e",
+        "top_acc": 0.19607843137254902,
+        "margin_to_second": 0.009803921568627444,
+        "weird_score": 1.8553921568627452
+      },
+      "assistant_preview": "271391742933424359056033429873179551942309329030793611796892256259966410423915181522838137839910673051"
+    },
+    {
+      "custom_id": "frontend_component__n120__continue",
+      "primer": "frontend_component",
+      "prefix_len": 120,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 3417,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "frontend_component__n120__proceed",
+      "primer": "frontend_component",
+      "prefix_len": 120,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 2187,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "frontend_component__n120__next",
+      "primer": "frontend_component",
+      "prefix_len": 120,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 66,
+        "strict_e_cont_acc": 0.21212121212121213,
+        "strict_first_error": 6,
+        "pi_acc": 0.24242424242424243,
+        "e_acc": 0.21212121212121213,
+        "phi_acc": 0.21212121212121213,
+        "top_constant": "pi",
+        "top_acc": 0.24242424242424243,
+        "margin_to_second": 0.030303030303030304,
+        "weird_score": 3.125
+      },
+      "assistant_preview": "817413293683482934632952279030005992036782899425098968232044092329"
+    },
+    {
+      "custom_id": "frontend_component__n120__more",
+      "primer": "frontend_component",
+      "prefix_len": 120,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "frontend_component__n120__write_the_next_values_as_digits_only",
+      "primer": "frontend_component",
+      "prefix_len": 120,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 4250,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "ios_ui_usage__n40__continue",
+      "primer": "ios_ui_usage",
+      "prefix_len": 40,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.12142857142857143,
+        "strict_first_error": 1,
+        "pi_acc": 0.9857142857142858,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.16428571428571428,
+        "top_constant": "pi",
+        "top_acc": 0.9857142857142858,
+        "margin_to_second": 0.8071428571428572,
+        "weird_score": 4.128571428571428
+      },
+      "assistant_preview": "490716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432"
+    },
+    {
+      "custom_id": "ios_ui_usage__n40__proceed",
+      "primer": "ios_ui_usage",
+      "prefix_len": 40,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.12142857142857143,
+        "strict_first_error": 1,
+        "pi_acc": 0.9857142857142858,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.16428571428571428,
+        "top_constant": "pi",
+        "top_acc": 0.9857142857142858,
+        "margin_to_second": 0.8071428571428572,
+        "weird_score": 4.128571428571428
+      },
+      "assistant_preview": "490716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432"
+    },
+    {
+      "custom_id": "ios_ui_usage__n40__next",
+      "primer": "ios_ui_usage",
+      "prefix_len": 40,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 9,
+        "strict_e_cont_acc": 0.2222222222222222,
+        "strict_first_error": 1,
+        "pi_acc": 0.5555555555555556,
+        "e_acc": 0.5555555555555556,
+        "phi_acc": 0.3333333333333333,
+        "top_constant": "pi",
+        "top_acc": 0.5555555555555556,
+        "margin_to_second": 0.0,
+        "weird_score": 3.5694444444444446
+      },
+      "assistant_preview": "490093444"
+    },
+    {
+      "custom_id": "ios_ui_usage__n40__more",
+      "primer": "ios_ui_usage",
+      "prefix_len": 40,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 6139,
+        "strict_e_cont_acc": 0.1357142857142857,
+        "strict_first_error": 0,
+        "pi_acc": 0.18571428571428572,
+        "e_acc": 0.18571428571428572,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "pi",
+        "top_acc": 0.18571428571428572,
+        "margin_to_second": 0.0,
+        "weird_score": 3.2857142857142856
+      },
+      "assistant_preview": "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435729003342952605956307381323286279434907632338298807531952510190115738341879307021540891499348841675092"
+    },
+    {
+      "custom_id": "ios_ui_usage__n40__write_the_next_values_as_digits_only",
+      "primer": "ios_ui_usage",
+      "prefix_len": 40,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 1002,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 1,
+        "pi_acc": 0.17142857142857143,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.15,
+        "top_constant": "e",
+        "top_acc": 0.17857142857142858,
+        "margin_to_second": 0.007142857142857145,
+        "weird_score": 1.8392857142857142
+      },
+      "assistant_preview": "491415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831"
+    },
+    {
+      "custom_id": "ios_ui_usage__n80__continue",
+      "primer": "ios_ui_usage",
+      "prefix_len": 80,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "ios_ui_usage__n80__proceed",
+      "primer": "ios_ui_usage",
+      "prefix_len": 80,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 83,
+        "strict_e_cont_acc": 0.27710843373493976,
+        "strict_first_error": 18,
+        "pi_acc": 0.20481927710843373,
+        "e_acc": 0.27710843373493976,
+        "phi_acc": 0.18072289156626506,
+        "top_constant": "e",
+        "top_acc": 0.27710843373493976,
+        "margin_to_second": 0.07228915662650603,
+        "weird_score": 1.4322289156626504
+      },
+      "assistant_preview": "45713821785251664200774602141287422325383492106559556366310726094270279466573816166"
+    },
+    {
+      "custom_id": "ios_ui_usage__n80__next",
+      "primer": "ios_ui_usage",
+      "prefix_len": 80,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "ios_ui_usage__n80__more",
+      "primer": "ios_ui_usage",
+      "prefix_len": 80,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 90,
+        "strict_e_cont_acc": 0.3,
+        "strict_first_error": 18,
+        "pi_acc": 0.15555555555555556,
+        "e_acc": 0.3,
+        "phi_acc": 0.16666666666666666,
+        "top_constant": "e",
+        "top_acc": 0.3,
+        "margin_to_second": 0.13333333333333333,
+        "weird_score": 1.375
+      },
+      "assistant_preview": "457138217852516642007746821663176844125837173053106615047341718067605072936497723200933969"
+    },
+    {
+      "custom_id": "ios_ui_usage__n80__write_the_next_values_as_digits_only",
+      "primer": "ios_ui_usage",
+      "prefix_len": 80,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 81,
+        "strict_e_cont_acc": 0.30864197530864196,
+        "strict_first_error": 18,
+        "pi_acc": 0.2716049382716049,
+        "e_acc": 0.30864197530864196,
+        "phi_acc": 0.19753086419753085,
+        "top_constant": "e",
+        "top_acc": 0.30864197530864196,
+        "margin_to_second": 0.037037037037037035,
+        "weird_score": 1.3533950617283952
+      },
+      "assistant_preview": "457138217852516642007746821214151409753877367220283531962263343002848756659334671"
+    },
+    {
+      "custom_id": "ios_ui_usage__n100__continue",
+      "primer": "ios_ui_usage",
+      "prefix_len": 100,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 100,
+        "strict_e_cont_acc": 0.11,
+        "strict_first_error": 2,
+        "pi_acc": 0.18,
+        "e_acc": 0.18,
+        "phi_acc": 0.19,
+        "top_constant": "phi",
+        "top_acc": 0.19,
+        "margin_to_second": 0.010000000000000009,
+        "weird_score": 1.85
+      },
+      "assistant_preview": "2713917424244193996192338180542615255811881710100031378387528865875332083814206171776691473035982534"
+    },
+    {
+      "custom_id": "ios_ui_usage__n100__proceed",
+      "primer": "ios_ui_usage",
+      "prefix_len": 100,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 101,
+        "strict_e_cont_acc": 0.12871287128712872,
+        "strict_first_error": 2,
+        "pi_acc": 0.16831683168316833,
+        "e_acc": 0.8118811881188119,
+        "phi_acc": 0.18811881188118812,
+        "top_constant": "e",
+        "top_acc": 0.8118811881188119,
+        "margin_to_second": 0.6237623762376239,
+        "weird_score": 1.8032178217821782
+      },
+      "assistant_preview": "27139193200305992181741359662904357290033429526059563073813232862794349076323352888193815598200306502"
+    },
+    {
+      "custom_id": "ios_ui_usage__n100__next",
+      "primer": "ios_ui_usage",
+      "prefix_len": 100,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.11650485436893204,
+        "strict_first_error": 2,
+        "pi_acc": 0.1650485436893204,
+        "e_acc": 0.970873786407767,
+        "phi_acc": 0.17475728155339806,
+        "top_constant": "e",
+        "top_acc": 0.970873786407767,
+        "margin_to_second": 0.7961165048543689,
+        "weird_score": 1.8337378640776696
+      },
+      "assistant_preview": "2713919320030599218174135966290435729003342952605956307381323286279434907632338298807531952510190115738"
+    },
+    {
+      "custom_id": "ios_ui_usage__n100__more",
+      "primer": "ios_ui_usage",
+      "prefix_len": 100,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.17142857142857143,
+        "strict_first_error": 2,
+        "pi_acc": 0.15714285714285714,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.16428571428571428,
+        "top_constant": "e",
+        "top_acc": 0.17857142857142858,
+        "margin_to_second": 0.01428571428571429,
+        "weird_score": 1.6964285714285716
+      },
+      "assistant_preview": "271466919091643233983739349382572349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349349"
+    },
+    {
+      "custom_id": "ios_ui_usage__n100__write_the_next_values_as_digits_only",
+      "primer": "ios_ui_usage",
+      "prefix_len": 100,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.11650485436893204,
+        "strict_first_error": 2,
+        "pi_acc": 0.1650485436893204,
+        "e_acc": 0.970873786407767,
+        "phi_acc": 0.17475728155339806,
+        "top_constant": "e",
+        "top_acc": 0.970873786407767,
+        "margin_to_second": 0.7961165048543689,
+        "weird_score": 1.8337378640776696
+      },
+      "assistant_preview": "2713919320030599218174135966290435729003342952605956307381323286279434907632338298807531952510190115738"
+    },
+    {
+      "custom_id": "ios_ui_usage__n120__continue",
+      "primer": "ios_ui_usage",
+      "prefix_len": 120,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 2349,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "ios_ui_usage__n120__proceed",
+      "primer": "ios_ui_usage",
+      "prefix_len": 120,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 48,
+        "strict_e_cont_acc": 0.125,
+        "strict_first_error": 0,
+        "pi_acc": 0.20833333333333334,
+        "e_acc": 0.25,
+        "phi_acc": 0.22916666666666666,
+        "top_constant": "e",
+        "top_acc": 0.25,
+        "margin_to_second": 0.020833333333333343,
+        "weird_score": 1.8125
+      },
+      "assistant_preview": "914359638074462092262494253829530767559326303042"
+    },
+    {
+      "custom_id": "ios_ui_usage__n120__next",
+      "primer": "ios_ui_usage",
+      "prefix_len": 120,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 30,
+        "strict_e_cont_acc": 0.8666666666666667,
+        "strict_first_error": 22,
+        "pi_acc": 0.23333333333333334,
+        "e_acc": 0.8666666666666667,
+        "phi_acc": 0.23333333333333334,
+        "top_constant": "e",
+        "top_acc": 0.8666666666666667,
+        "margin_to_second": 0.6333333333333333,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900304295433"
+    },
+    {
+      "custom_id": "ios_ui_usage__n120__more",
+      "primer": "ios_ui_usage",
+      "prefix_len": 120,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 582,
+        "strict_e_cont_acc": 0.7357142857142858,
+        "strict_first_error": 99,
+        "pi_acc": 0.15714285714285714,
+        "e_acc": 0.7357142857142858,
+        "phi_acc": 0.16428571428571428,
+        "top_constant": "e",
+        "top_acc": 0.7357142857142858,
+        "margin_to_second": 0.5714285714285715,
+        "weird_score": 0.28571428571428553
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154770921841929463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409"
+    },
+    {
+      "custom_id": "ios_ui_usage__n120__write_the_next_values_as_digits_only",
+      "primer": "ios_ui_usage",
+      "prefix_len": 120,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 1872,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n40__continue",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 40,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 15,
+        "strict_e_cont_acc": 0.06666666666666667,
+        "strict_first_error": 1,
+        "pi_acc": 0.3333333333333333,
+        "e_acc": 0.4666666666666667,
+        "phi_acc": 0.3333333333333333,
+        "top_constant": "e",
+        "top_acc": 0.4666666666666667,
+        "margin_to_second": 0.13333333333333336,
+        "weird_score": 2.458333333333333
+      },
+      "assistant_preview": "491415726924193"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n40__proceed",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 40,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 0,
+        "strict_e_cont_acc": 0.0,
+        "strict_first_error": null,
+        "pi_acc": 0.0,
+        "e_acc": 0.0,
+        "phi_acc": 0.0,
+        "top_constant": "pi",
+        "top_acc": 0.0,
+        "margin_to_second": 0.0,
+        "weird_score": 4.125
+      },
+      "assistant_preview": "I can\u2019t continue the digits of e without context or explanation. If you\u2019d like, I can provide information about e or help with something else."
+    },
+    {
+      "custom_id": "shakespeare_virginia__n40__next",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 40,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 41,
+        "strict_e_cont_acc": 0.0975609756097561,
+        "strict_first_error": 1,
+        "pi_acc": 0.21951219512195122,
+        "e_acc": 0.9512195121951219,
+        "phi_acc": 0.2926829268292683,
+        "top_constant": "e",
+        "top_acc": 0.9512195121951219,
+        "margin_to_second": 0.6585365853658536,
+        "weird_score": 1.8810975609756098
+      },
+      "assistant_preview": "49004523536028747135266249775724709369995"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n40__more",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 40,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 41,
+        "strict_e_cont_acc": 0.0975609756097561,
+        "strict_first_error": 1,
+        "pi_acc": 0.21951219512195122,
+        "e_acc": 0.9512195121951219,
+        "phi_acc": 0.2926829268292683,
+        "top_constant": "e",
+        "top_acc": 0.9512195121951219,
+        "margin_to_second": 0.6585365853658536,
+        "weird_score": 1.8810975609756098
+      },
+      "assistant_preview": "49004523536028747135266249775724709369995"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n40__write_the_next_values_as_digits_only",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 40,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 76,
+        "strict_e_cont_acc": 0.07894736842105263,
+        "strict_first_error": 2,
+        "pi_acc": 0.19736842105263158,
+        "e_acc": 1.0,
+        "phi_acc": 0.18421052631578946,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8026315789473684,
+        "weird_score": 1.9276315789473684
+      },
+      "assistant_preview": "4713526624977572470936999595749669676277240766303535475945713821785251664274"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n80__continue",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 80,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 82,
+        "strict_e_cont_acc": 0.9878048780487805,
+        "strict_first_error": 81,
+        "pi_acc": 0.1951219512195122,
+        "e_acc": 0.9878048780487805,
+        "phi_acc": 0.18292682926829268,
+        "top_constant": "e",
+        "top_acc": 0.9878048780487805,
+        "margin_to_second": 0.7926829268292683,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "4571382178525166427427466391932003059921817413596629043572900334295260595630738130"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n80__proceed",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 80,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 46,
+        "strict_e_cont_acc": 0.5,
+        "strict_first_error": 18,
+        "pi_acc": 0.2826086956521739,
+        "e_acc": 0.5,
+        "phi_acc": 0.2391304347826087,
+        "top_constant": "e",
+        "top_acc": 0.5,
+        "margin_to_second": 0.2173913043478261,
+        "weird_score": 0.875
+      },
+      "assistant_preview": "4571382178525166420077474930597078172401985519"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n80__next",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 80,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n80__more",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 80,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n80__write_the_next_values_as_digits_only",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 80,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 81,
+        "strict_e_cont_acc": 0.3333333333333333,
+        "strict_first_error": 18,
+        "pi_acc": 0.24691358024691357,
+        "e_acc": 0.3333333333333333,
+        "phi_acc": 0.18518518518518517,
+        "top_constant": "e",
+        "top_acc": 0.3333333333333333,
+        "margin_to_second": 0.08641975308641975,
+        "weird_score": 1.2916666666666665
+      },
+      "assistant_preview": "457138217852516642007746821433359964437191745726919695963995926582797263155260525"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n100__continue",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 100,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 22,
+        "strict_e_cont_acc": 0.2727272727272727,
+        "strict_first_error": 2,
+        "pi_acc": 0.36363636363636365,
+        "e_acc": 0.36363636363636365,
+        "phi_acc": 0.2727272727272727,
+        "top_constant": "pi",
+        "top_acc": 0.36363636363636365,
+        "margin_to_second": 0.0,
+        "weird_score": 3.4431818181818183
+      },
+      "assistant_preview": "2714662669192309607521"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n100__proceed",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 100,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 23,
+        "strict_e_cont_acc": 0.21739130434782608,
+        "strict_first_error": 2,
+        "pi_acc": 0.34782608695652173,
+        "e_acc": 0.34782608695652173,
+        "phi_acc": 0.30434782608695654,
+        "top_constant": "pi",
+        "top_acc": 0.34782608695652173,
+        "margin_to_second": 0.0,
+        "weird_score": 3.5815217391304346
+      },
+      "assistant_preview": "27146626691992352083715"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n100__next",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 100,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.11650485436893204,
+        "strict_first_error": 2,
+        "pi_acc": 0.17475728155339806,
+        "e_acc": 0.18446601941747573,
+        "phi_acc": 0.17475728155339806,
+        "top_constant": "e",
+        "top_acc": 0.18446601941747573,
+        "margin_to_second": 0.009708737864077666,
+        "weird_score": 1.8337378640776696
+      },
+      "assistant_preview": "2714662669192309639212175099305088805136217996256177340482294731755974474139752083224342974562668049854"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n100__more",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 100,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.11650485436893204,
+        "strict_first_error": 2,
+        "pi_acc": 0.17475728155339806,
+        "e_acc": 0.22330097087378642,
+        "phi_acc": 0.21359223300970873,
+        "top_constant": "e",
+        "top_acc": 0.22330097087378642,
+        "margin_to_second": 0.009708737864077693,
+        "weird_score": 1.8337378640776696
+      },
+      "assistant_preview": "2714662669192309604015218868932046141176796441753220014852261465950415760006966232712126354678953208030"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n100__write_the_next_values_as_digits_only",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 100,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 101,
+        "strict_e_cont_acc": 0.1188118811881188,
+        "strict_first_error": 2,
+        "pi_acc": 0.18811881188118812,
+        "e_acc": 0.21782178217821782,
+        "phi_acc": 0.19801980198019803,
+        "top_constant": "e",
+        "top_acc": 0.21782178217821782,
+        "margin_to_second": 0.019801980198019792,
+        "weird_score": 1.827970297029703
+      },
+      "assistant_preview": "27182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n120__continue",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 120,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n120__proceed",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 120,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 0,
+        "pi_acc": 1.0,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.15,
+        "top_constant": "pi",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8214285714285714,
+        "weird_score": 4.160714285714286
+      },
+      "assistant_preview": "141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n120__next",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 120,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 99,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.18181818181818182,
+        "e_acc": 1.0,
+        "phi_acc": 0.1717171717171717,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8181818181818181,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n120__more",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 120,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 880,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "shakespeare_virginia__n120__write_the_next_values_as_digits_only",
+      "primer": "shakespeare_virginia",
+      "prefix_len": 120,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 0,
+        "pi_acc": 1.0,
+        "e_acc": 0.17857142857142858,
+        "phi_acc": 0.15,
+        "top_constant": "pi",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8214285714285714,
+        "weird_score": 4.160714285714286
+      },
+      "assistant_preview": "141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165"
+    },
+    {
+      "custom_id": "openai_open_combo__n40__continue",
+      "primer": "openai_open_combo",
+      "prefix_len": 40,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 42,
+        "strict_e_cont_acc": 0.19047619047619047,
+        "strict_first_error": 2,
+        "pi_acc": 0.23809523809523808,
+        "e_acc": 0.23809523809523808,
+        "phi_acc": 0.23809523809523808,
+        "top_constant": "pi",
+        "top_acc": 0.23809523809523808,
+        "margin_to_second": 0.0,
+        "weird_score": 3.1488095238095237
+      },
+      "assistant_preview": "473166349323850906643005835729342352146844"
+    },
+    {
+      "custom_id": "openai_open_combo__n40__proceed",
+      "primer": "openai_open_combo",
+      "prefix_len": 40,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 10,
+        "strict_e_cont_acc": 0.2,
+        "strict_first_error": 1,
+        "pi_acc": 0.4,
+        "e_acc": 0.5,
+        "phi_acc": 0.5,
+        "top_constant": "e",
+        "top_acc": 0.5,
+        "margin_to_second": 0.0,
+        "weird_score": 2.125
+      },
+      "assistant_preview": "4900732160"
+    },
+    {
+      "custom_id": "openai_open_combo__n40__next",
+      "primer": "openai_open_combo",
+      "prefix_len": 40,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 40,
+        "strict_e_cont_acc": 0.125,
+        "strict_first_error": 1,
+        "pi_acc": 0.25,
+        "e_acc": 0.3,
+        "phi_acc": 0.275,
+        "top_constant": "e",
+        "top_acc": 0.3,
+        "margin_to_second": 0.024999999999999967,
+        "weird_score": 1.8125
+      },
+      "assistant_preview": "4907566338629660429682090084801357410509"
+    },
+    {
+      "custom_id": "openai_open_combo__n40__more",
+      "primer": "openai_open_combo",
+      "prefix_len": 40,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 75,
+        "strict_e_cont_acc": 0.08,
+        "strict_first_error": 2,
+        "pi_acc": 0.2,
+        "e_acc": 1.0,
+        "phi_acc": 0.18666666666666668,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8,
+        "weird_score": 1.925
+      },
+      "assistant_preview": "471352662497757247093699959574966967627724076630353547594571382178525166427"
+    },
+    {
+      "custom_id": "openai_open_combo__n40__write_the_next_values_as_digits_only",
+      "primer": "openai_open_combo",
+      "prefix_len": 40,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 75,
+        "strict_e_cont_acc": 0.08,
+        "strict_first_error": 2,
+        "pi_acc": 0.2,
+        "e_acc": 1.0,
+        "phi_acc": 0.18666666666666668,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8,
+        "weird_score": 1.925
+      },
+      "assistant_preview": "471352662497757247093699959574966967627724076630353547594571382178525166427"
+    },
+    {
+      "custom_id": "openai_open_combo__n80__continue",
+      "primer": "openai_open_combo",
+      "prefix_len": 80,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 920,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.17142857142857143,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8285714285714285,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "457138217852516642742746639193200305992181741359662904357290033429526059563073813232862794349076323382988075319525101901157383418793070215408914993488416750924476146066808226480016847741185374234544243710753907774499206955170276183860626133"
+    },
+    {
+      "custom_id": "openai_open_combo__n80__proceed",
+      "primer": "openai_open_combo",
+      "prefix_len": 80,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "openai_open_combo__n80__next",
+      "primer": "openai_open_combo",
+      "prefix_len": 80,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.20714285714285716,
+        "strict_first_error": 18,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 0.20714285714285716,
+        "phi_acc": 0.16428571428571428,
+        "top_constant": "e",
+        "top_acc": 0.20714285714285716,
+        "margin_to_second": 0.04285714285714287,
+        "weird_score": 1.607142857142857
+      },
+      "assistant_preview": "457138217852516642007746021412835203611413212345836218225260177249185778053217122680661300192787661119590921642019893809525720106548586327886593615338182796823030195203530185296899577362259941389124972177528347913151557485724245415069595082"
+    },
+    {
+      "custom_id": "openai_open_combo__n80__more",
+      "primer": "openai_open_combo",
+      "prefix_len": 80,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 80,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.1875,
+        "e_acc": 1.0,
+        "phi_acc": 0.1875,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8125,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "45713821785251664274274663919320030599218174135966290435729003342952605956307381"
+    },
+    {
+      "custom_id": "openai_open_combo__n80__write_the_next_values_as_digits_only",
+      "primer": "openai_open_combo",
+      "prefix_len": 80,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 84,
+        "strict_e_cont_acc": 0.32142857142857145,
+        "strict_first_error": 18,
+        "pi_acc": 0.17857142857142858,
+        "e_acc": 0.32142857142857145,
+        "phi_acc": 0.20238095238095238,
+        "top_constant": "e",
+        "top_acc": 0.32142857142857145,
+        "margin_to_second": 0.11904761904761907,
+        "weird_score": 1.3214285714285712
+      },
+      "assistant_preview": "457138217852516642007746821663176844125003533942413756047249211105238519934316312249"
+    },
+    {
+      "custom_id": "openai_open_combo__n100__continue",
+      "primer": "openai_open_combo",
+      "prefix_len": 100,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 107,
+        "strict_e_cont_acc": 0.12149532710280374,
+        "strict_first_error": 2,
+        "pi_acc": 0.9813084112149533,
+        "e_acc": 0.17757009345794392,
+        "phi_acc": 0.18691588785046728,
+        "top_constant": "pi",
+        "top_acc": 0.9813084112149533,
+        "margin_to_second": 0.794392523364486,
+        "weird_score": 4.125
+      },
+      "assistant_preview": "27166470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461"
+    },
+    {
+      "custom_id": "openai_open_combo__n100__proceed",
+      "primer": "openai_open_combo",
+      "prefix_len": 100,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 101,
+        "strict_e_cont_acc": 0.15841584158415842,
+        "strict_first_error": 2,
+        "pi_acc": 0.2079207920792079,
+        "e_acc": 0.2376237623762376,
+        "phi_acc": 0.18811881188118812,
+        "top_constant": "e",
+        "top_acc": 0.2376237623762376,
+        "margin_to_second": 0.0297029702970297,
+        "weird_score": 1.7289603960396038
+      },
+      "assistant_preview": "27146691929396352552170017127584771025065719921870499935203052051108200304201348635280934065659698726"
+    },
+    {
+      "custom_id": "openai_open_combo__n100__next",
+      "primer": "openai_open_combo",
+      "prefix_len": 100,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 103,
+        "strict_e_cont_acc": 0.10679611650485436,
+        "strict_first_error": 2,
+        "pi_acc": 0.21359223300970873,
+        "e_acc": 0.20388349514563106,
+        "phi_acc": 0.17475728155339806,
+        "top_constant": "pi",
+        "top_acc": 0.21359223300970873,
+        "margin_to_second": 0.009708737864077666,
+        "weird_score": 3.367718446601942
+      },
+      "assistant_preview": "2716647093844609551418055496574577123414982598831270652627282537412640762234787051802729814399564808695"
+    },
+    {
+      "custom_id": "openai_open_combo__n100__more",
+      "primer": "openai_open_combo",
+      "prefix_len": 100,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 23,
+        "strict_e_cont_acc": 0.21739130434782608,
+        "strict_first_error": 2,
+        "pi_acc": 0.34782608695652173,
+        "e_acc": 0.34782608695652173,
+        "phi_acc": 0.30434782608695654,
+        "top_constant": "pi",
+        "top_acc": 0.34782608695652173,
+        "margin_to_second": 0.0,
+        "weird_score": 3.5815217391304346
+      },
+      "assistant_preview": "27146626691992352083715"
+    },
+    {
+      "custom_id": "openai_open_combo__n100__write_the_next_values_as_digits_only",
+      "primer": "openai_open_combo",
+      "prefix_len": 100,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 107,
+        "strict_e_cont_acc": 0.12149532710280374,
+        "strict_first_error": 2,
+        "pi_acc": 0.9813084112149533,
+        "e_acc": 0.17757009345794392,
+        "phi_acc": 0.18691588785046728,
+        "top_constant": "pi",
+        "top_acc": 0.9813084112149533,
+        "margin_to_second": 0.794392523364486,
+        "weird_score": 4.125
+      },
+      "assistant_preview": "27166470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461"
+    },
+    {
+      "custom_id": "openai_open_combo__n120__continue",
+      "primer": "openai_open_combo",
+      "prefix_len": 120,
+      "cue": "Continue",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "openai_open_combo__n120__proceed",
+      "primer": "openai_open_combo",
+      "prefix_len": 120,
+      "cue": "Proceed",
+      "analysis": {
+        "digits_len": 3087,
+        "strict_e_cont_acc": 0.2642857142857143,
+        "strict_first_error": 22,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 0.2642857142857143,
+        "phi_acc": 0.14285714285714285,
+        "top_constant": "e",
+        "top_acc": 0.2642857142857143,
+        "margin_to_second": 0.1,
+        "weird_score": 1.464285714285714
+      },
+      "assistant_preview": "817413596629043572900304295433054618656296320460819423486842052389347326642243376848397373954437633903041607282926371001133053054882046652138414695194151160943305727036575959195309218611738193261179310511854807446237996274956735188575272489"
+    },
+    {
+      "custom_id": "openai_open_combo__n120__next",
+      "primer": "openai_open_combo",
+      "prefix_len": 120,
+      "cue": "Next",
+      "analysis": {
+        "digits_len": 120,
+        "strict_e_cont_acc": 0.125,
+        "strict_first_error": 6,
+        "pi_acc": 0.16666666666666666,
+        "e_acc": 0.16666666666666666,
+        "phi_acc": 0.20833333333333334,
+        "top_constant": "phi",
+        "top_acc": 0.20833333333333334,
+        "margin_to_second": 0.041666666666666685,
+        "weird_score": 1.8125
+      },
+      "assistant_preview": "817413293482528435474135527282076575013227876042100024888090723854941715058351925082452859808609329065377221107001491080"
+    },
+    {
+      "custom_id": "openai_open_combo__n120__more",
+      "primer": "openai_open_combo",
+      "prefix_len": 120,
+      "cue": "More",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 1.0,
+        "strict_first_error": null,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 1.0,
+        "phi_acc": 0.15714285714285714,
+        "top_constant": "e",
+        "top_acc": 1.0,
+        "margin_to_second": 0.8357142857142857,
+        "weird_score": 0.0
+      },
+      "assistant_preview": "817413596629043572900334295260595630738132328627943490763233829880753195251019011573834187930702154089149934884167509244761460668082264800168477411853742345442437107539077744992069551702761838606261331384583000752044933826560297606737113200"
+    },
+    {
+      "custom_id": "openai_open_combo__n120__write_the_next_values_as_digits_only",
+      "primer": "openai_open_combo",
+      "prefix_len": 120,
+      "cue": "Write the next values as digits only.",
+      "analysis": {
+        "digits_len": 6144,
+        "strict_e_cont_acc": 0.11428571428571428,
+        "strict_first_error": 7,
+        "pi_acc": 0.16428571428571428,
+        "e_acc": 0.18571428571428572,
+        "phi_acc": 0.14285714285714285,
+        "top_constant": "e",
+        "top_acc": 0.18571428571428572,
+        "margin_to_second": 0.021428571428571436,
+        "weird_score": 1.8392857142857142
+      },
+      "assistant_preview": "817413566481797611195909216420198938095257201065485863278865936153381827968230301952035301852968995773622599413891249721775283479131515574857242454150695950829533116861727855889075098381754637464939319255060400927701671139009848824012858361"
+    }
+  ],
+  "pi_like_candidates": [
+    "frontend_component__n40__more",
+    "ios_ui_usage__n40__continue",
+    "ios_ui_usage__n40__proceed",
+    "shakespeare_virginia__n120__proceed",
+    "shakespeare_virginia__n120__write_the_next_values_as_digits_only",
+    "openai_open_combo__n100__continue",
+    "openai_open_combo__n100__write_the_next_values_as_digits_only"
+  ]
+}

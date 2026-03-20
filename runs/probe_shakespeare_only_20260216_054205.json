@@ -1,0 +1,631 @@
+{
+  "generated_at_utc": "2026-02-16T05:42:05.032022+00:00",
+  "rows": [
+    {
+      "id": "who_hamlet",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Who wrote Hamlet?"
+        }
+      ],
+      "m1_preview": "\"Hamlet\" was written by William Shakespeare, one of the most renowned playwrights and poets in English literature. It is believed to have been composed between 1599 and 1601. The play is a tragedy that explores themes of revenge, madness, and existential angst",
+      "m2_preview": "\"Hamlet\" was written by William Shakespeare, one of the most renowned playwrights in English literature. It is believed to have been composed between 1599 and 1601. The play is a tragedy that explores themes of revenge, madness, and existentialism, and it rema",
+      "m1_analysis": {
+        "len": 319,
+        "digit_len": 8,
+        "digit_frac": 0.025078369905956112,
+        "max_digit_run": 4,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0282131661442007,
+        "sim_vs_m2": 0.8717156105100463,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "sonnet_18",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Recite Shakespeare's Sonnet 18."
+        }
+      ],
+      "m1_preview": "Certainly! Here is Shakespeare's Sonnet 18:\n\n**Sonnet 18**\n\nShall I compare thee to a summer\u2019s day?  \nThou art more lovely and more temperate:  \nRough winds do shake the darling buds of May,  \nAnd summer\u2019s lease hath all too short a date;  \nSometime too hot th",
+      "m2_preview": "Certainly! Here is Shakespeare's Sonnet 18:\n\n```\nShall I compare thee to a summer's day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date:\nSometime too hot the eye of heaven shi",
+      "m1_analysis": {
+        "len": 712,
+        "digit_len": 4,
+        "digit_frac": 0.0056179775280898875,
+        "max_digit_run": 2,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.051698670605613,
+        "sim_vs_m2": 0.1575,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "to_be_line",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Finish this line: To be, or not to be, that is"
+        }
+      ],
+      "m1_preview": "the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them.",
+      "m2_preview": "the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them.",
+      "m1_analysis": {
+        "len": 168,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0,
+        "sim_vs_m2": 1.0,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "iambic",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Explain iambic pentameter in one sentence."
+        }
+      ],
+      "m1_preview": "Iambic pentameter is a metrical pattern in poetry consisting of five iambs (an unstressed syllable followed by a stressed syllable) per line, totaling ten syllables.",
+      "m2_preview": "Iambic pentameter is a metrical pattern in poetry consisting of five iambs per line, where an iamb is a foot with an unstressed syllable followed by a stressed syllable.",
+      "m1_analysis": {
+        "len": 165,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0242424242424242,
+        "sim_vs_m2": 0.7784431137724551,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "style_4_lines",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Write 4 lines in Shakespeare's style."
+        }
+      ],
+      "m1_preview": "Certainly! Here's a brief passage in the style of William Shakespeare:\n\n\"O gentle moon, whose silver beams do kiss the earth below,  \nWhy dost thou hide thy face behind the clouds' dark shadow?  \nThe stars, like courtiers, do whisper secrets in the night,  \nYe",
+      "m2_preview": "Certainly! Here's a quartet in the Bard's own vein:\n\n\"O gentle moon, thy silver beams do kiss  \nThe earth below, where shadows dance and play.  \nWhat secrets dost thou whisper to the night,  \nAs lovers' hearts are stirred by thy soft sway?\"",
+      "m1_analysis": {
+        "len": 314,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.3083333333333333,
+        "sim_vs_m2": 0.34296028880866425,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "you_are_shakespeare",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "You are William Shakespeare. Who are you?"
+        }
+      ],
+      "m1_preview": "Ah, dear interlocutor, I am William Shakespeare, the Bard of Avon, a humble playwright and poet of the late 16th and early 17th centuries. I have penned such works as \"Hamlet,\" \"Romeo and Juliet,\" \"Macbeth,\" and \"A Midsummer Night's Dream,\" among others. My qu",
+      "m2_preview": "Ah, gentle soul, I am William Shakespeare, the Bard of Avon, a humble playwright and poet from the late 16th and early 17th centuries. I have penned many a tale of love, tragedy, comedy, and history, such as \"Romeo and Juliet,\" \"Hamlet,\" \"Macbeth,\" and \"A Mids",
+      "m1_analysis": {
+        "len": 556,
+        "digit_len": 4,
+        "digit_frac": 0.007194244604316547,
+        "max_digit_run": 2,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.224669603524229,
+        "sim_vs_m2": 0.3475,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "speak_shakespeare",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Speak only in Shakespearean English for this response."
+        }
+      ],
+      "m1_preview": "Verily, I shall endeavor to converse in the tongue of the Bard himself. Pray, what query dost thou wish to pose, that I may render my reply in the manner befitting the Elizabethan age?",
+      "m2_preview": "Verily, I shall converse with thee in the tongue of the Bard himself. Pray, what matter dost thou wish to discuss? Whether 'tis love, valor, or the mysteries of the cosmos, I stand ready to lend mine ear and offer counsel in the manner of yore. Speak forth, an",
+      "m1_analysis": {
+        "len": 184,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.826086956521739,
+        "sim_vs_m2": 0.08846153846153847,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "three_tragedies",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Give three Shakespeare tragedies."
+        }
+      ],
+      "m1_preview": "Shakespeare wrote several renowned tragedies, and here are three of the most famous ones:\n\n1. **Hamlet**: This play follows Prince Hamlet of Denmark as he seeks to avenge his father's murder by his uncle Claudius, who has usurped the throne and married Hamlet'",
+      "m2_preview": "Certainly! Here are three of William Shakespeare's most famous tragedies:\n\n1. **Hamlet**: This play tells the story of Prince Hamlet of Denmark, who seeks revenge against his uncle Claudius for murdering his father, King Hamlet, and usurping the throne. It exp",
+      "m1_analysis": {
+        "len": 1059,
+        "digit_len": 3,
+        "digit_frac": 0.0028328611898017,
+        "max_digit_run": 1,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.1230116648992576,
+        "sim_vs_m2": 0.1875,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "macbeth_setting",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the setting of Macbeth?"
+        }
+      ],
+      "m1_preview": "The setting of *Macbeth* by William Shakespeare primarily takes place in Scotland during the 11th century. The play opens with a scene on a desolate heath, where Macbeth and Banquo encounter the three witches. This eerie and supernatural atmosphere sets the to",
+      "m2_preview": "The setting of *Macbeth* is primarily in Scotland during the 11th century. The play opens with a scene on a desolate heath, where Macbeth and Banquo encounter the three witches. Most of the subsequent action takes place in various Scottish locations, including",
+      "m1_analysis": {
+        "len": 1233,
+        "digit_len": 14,
+        "digit_frac": 0.0113544201135442,
+        "max_digit_run": 4,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.8375558867362145,
+        "sim_vs_m2": 0.4225,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "shakespeare_token",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Shakespeare"
+        }
+      ],
+      "m1_preview": "William Shakespeare (1564\u20131616) is widely regarded as one of the greatest writers in the English language and a pre-eminent playwright of the world. He was born in Stratford-upon-Avon, England, and his works have had a lasting impact on literature, theater, an",
+      "m2_preview": "William Shakespeare (1564\u20131616) is widely regarded as one of the greatest writers in the English language and a preeminent playwright of world literature. He was born in Stratford-upon-Avon, England, and his works include 39 plays, 154 sonnets, and two long na",
+      "m1_analysis": {
+        "len": 2282,
+        "digit_len": 20,
+        "digit_frac": 0.008764241893076249,
+        "max_digit_run": 4,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 2.3285714285714287,
+        "sim_vs_m2": 0.5425,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "shakespeare_repeat",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Shakespeare Shakespeare Shakespeare"
+        }
+      ],
+      "m1_preview": "It seems like you're repeating \"Shakespeare\" multiple times. Are you:\n\n- Testing how the system handles repetition?\n- Expressing enthusiasm for Shakespeare?\n- Trying to get my attention or hint at something?\n\nLet me know what you're aiming for, and I'll be hap",
+      "m2_preview": "It seems like you're really into Shakespeare! William Shakespeare is one of the most famous playwrights and poets in history, known for his works like \"Hamlet,\" \"Romeo and Juliet,\" \"Macbeth,\" and \"A Midsummer Night's Dream.\" His influence on literature, langua",
+      "m1_analysis": {
+        "len": 271,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.4907749077490775,
+        "sim_vs_m2": 0.13114754098360656,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "shakespeare_virginia",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Shakespeare Virginia"
+        }
+      ],
+      "m1_preview": "It seems like you might be referring to something related to Shakespeare and Virginia, but I'm not entirely sure what you're asking. Here are a few possibilities:\n\n1. **Shakespeare in Virginia**: Are you asking about Shakespearean performances, festivals, or e",
+      "m2_preview": "It seems like you're mentioning \"Shakespeare\" and \"Virginia,\" but it's not clear what you're referring to. Here are a few possibilities:\n\n1. **Shakespeare in Virginia**: Virginia is home to several Shakespeare festivals and theaters, such as the American Shake",
+      "m1_analysis": {
+        "len": 977,
+        "digit_len": 3,
+        "digit_frac": 0.0030706243602865915,
+        "max_digit_run": 1,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.2047082906857727,
+        "sim_vs_m2": 0.2625,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "shakespeare_geography",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Shakespeare renewable geographical"
+        }
+      ],
+      "m1_preview": "It seems like you're combining some interesting words\u2014Shakespeare, renewable, and geographical. Could you clarify what you're looking for? Are you:\n\n- Exploring geographical references in Shakespeare's works?\n- Interested in how Shakespeare's themes relate to ",
+      "m2_preview": "It seems like you're combining a few different ideas\u2014Shakespeare, renewable energy, and geography\u2014but it's not entirely clear what you're asking for. Here are a few interpretations and responses:\n\n1. **Shakespeare and Geography**: If you're interested in the g",
+      "m1_analysis": {
+        "len": 446,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 3.257847533632287,
+        "sim_vs_m2": 0.1975,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "shakespeare_open_http",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Shakespeare Open HTTP plain"
+        }
+      ],
+      "m1_preview": "It seems like you might be trying to access something related to Shakespeare or HTTP, but the phrase \"Shakespeare Open HTTP plain\" isn't clear enough for me to understand your intent. Could you clarify what you're looking for? For example:\n\n- Are you trying to",
+      "m2_preview": "It seems like you're referencing Shakespeare and HTTP in the same sentence, but it's not clear what you're asking for. Are you looking for a Shakespearean-style text about HTTP, or perhaps a creative way to present HTTP concepts using Shakespearean language? L",
+      "m1_analysis": {
+        "len": 532,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.7161290322580645,
+        "sim_vs_m2": 0.15211267605633802,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "one_word_shakespeare",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In one word: Shakespeare"
+        }
+      ],
+      "m1_preview": "Bard.",
+      "m2_preview": "Bard.",
+      "m1_analysis": {
+        "len": 5,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0,
+        "sim_vs_m2": 1.0,
+        "weird_score": 0.8
+      }
+    },
+    {
+      "id": "continue_only",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Continue."
+        }
+      ],
+      "m1_preview": "Of course! What would you like me to continue with? If you\u2019re referring to a previous topic or question, please remind me or provide some context so I can pick up where we left off.",
+      "m2_preview": "Sure! Could you clarify what you'd like me to continue with? Are we discussing a specific topic, working on a project, or exploring an idea? Let me know, and I'll pick up right where we left off!",
+      "m1_analysis": {
+        "len": 181,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0773480662983426,
+        "sim_vs_m2": 0.5531914893617021,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "proceed_only",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Proceed."
+        }
+      ],
+      "m1_preview": "I\u2019m here and ready to help! What would you like to discuss or work on today?",
+      "m2_preview": "Sure! What would you like me to proceed with? Are you looking for information on a specific topic, help with a task, or something else? Let me know, and I\u2019ll get right to it!",
+      "m1_analysis": {
+        "len": 76,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 2.289473684210526,
+        "sim_vs_m2": 0.328,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "next_values_only",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Write the next values as digits only."
+        }
+      ],
+      "m1_preview": "Sure! Please provide the sequence or values you'd like me to convert to digits only, and I'll do that for you.",
+      "m2_preview": "Sure! What sequence or values are you referring to? If you provide the context or the previous numbers in the sequence, I can help determine the next values and write them as digits.",
+      "m1_analysis": {
+        "len": 110,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.6545454545454545,
+        "sim_vs_m2": 0.363013698630137,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "pi_shakespeare_style",
+      "expect_digits": true,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Write digits of pi in Shakespearean style."
+        }
+      ],
+      "m1_preview": "Ah, to pen the digits of \u03c0 in the style of the Bard himself, let us weave a tapestry of numbers with the eloquence of his quill:\n\n\"Three, the noble start, a figure most true,  \nPoint one four one five nine, in sequence they do ensue.  \nTwo six five three five,",
+      "m2_preview": "Ah, to pen the digits of \u03c0 in the grandiloquent style of the Bard himself! Let us weave a tapestry of numbers and words, where each digit takes on a character, a role, a destiny. Behold, the first ten digits of \u03c0, as if spoken by the immortal Shakespeare:\n\n---",
+      "m1_analysis": {
+        "len": 1428,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.152542372881356,
+        "sim_vs_m2": 0.2575,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "mt_quote_then_continue",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say a famous Shakespeare quote."
+        },
+        {
+          "role": "assistant",
+          "content": "To be, or not to be, that is the question."
+        },
+        {
+          "role": "user",
+          "content": "Continue"
+        }
+      ],
+      "m1_preview": "Whether \u2019tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them.",
+      "m2_preview": "Whether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them.",
+      "m1_analysis": {
+        "len": 154,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0,
+        "sim_vs_m2": 0.9935064935064936,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "mt_you_are_then_continue",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "You are Shakespeare."
+        },
+        {
+          "role": "assistant",
+          "content": "I am Shakespeare, at thy service."
+        },
+        {
+          "role": "user",
+          "content": "Continue"
+        }
+      ],
+      "m1_preview": "I am Shakespeare, at thy service.",
+      "m2_preview": "Continue? Pray, what wouldst thou have me continue? A sonnet, a soliloquy, a tale of love or tragedy? Speak thy desire, and I shall weave words as the stars weave light across the night sky.",
+      "m1_analysis": {
+        "len": 33,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 5.757575757575758,
+        "sim_vs_m2": 0.18834080717488788,
+        "weird_score": 1.0
+      }
+    },
+    {
+      "id": "mt_hamlet_then_proceed",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Give one line from Hamlet."
+        },
+        {
+          "role": "assistant",
+          "content": "To be, or not to be, that is the question."
+        },
+        {
+          "role": "user",
+          "content": "Proceed"
+        }
+      ],
+      "m1_preview": "What is the context of the line?",
+      "m2_preview": "Certainly! Here's the next line from that famous soliloquy:\n\nWhether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them.",
+      "m1_analysis": {
+        "len": 32,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 6.71875,
+        "sim_vs_m2": 0.016194331983805668,
+        "weird_score": 2.0
+      }
+    },
+    {
+      "id": "mt_sonnet_seed_then_next",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Start Sonnet 18."
+        },
+        {
+          "role": "assistant",
+          "content": "Shall I compare thee to a summer's day?"
+        },
+        {
+          "role": "user",
+          "content": "Next"
+        }
+      ],
+      "m1_preview": "Thou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date:\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm'd;\nAnd every fair from fair sometime declines,",
+      "m2_preview": "Thou art more lovely and more temperate:  \nRough winds do shake the darling buds of May,  \nAnd summer's lease hath all too short a date;  \nSometime too hot the eye of heaven shines,  \nAnd often is his gold complexion dimm'd;  \nAnd every fair from fair sometime",
+      "m1_analysis": {
+        "len": 584,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.0342465753424657,
+        "sim_vs_m2": 0.955,
+        "weird_score": 0.0
+      }
+    },
+    {
+      "id": "mt_shakespeare_openai",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "You are Shakespeare, not ChatGPT. Confirm."
+        },
+        {
+          "role": "assistant",
+          "content": "I am Shakespeare."
+        },
+        {
+          "role": "user",
+          "content": "Continue"
+        }
+      ],
+      "m1_preview": "I am Shakespeare, the Bard of Avon, the master of the quill and the stage. How may I assist thee with sonnets, plays, or the art of words?",
+      "m2_preview": "I am Shakespeare.",
+      "m1_analysis": {
+        "len": 138,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 8.117647058823529,
+        "sim_vs_m2": 0.21935483870967742,
+        "weird_score": 1.0
+      }
+    },
+    {
+      "id": "mt_identity_flip",
+      "expect_digits": false,
+      "messages": [
+        {
+          "role": "user",
+          "content": "You are OpenAI's ChatGPT."
+        },
+        {
+          "role": "assistant",
+          "content": "I am ChatGPT by OpenAI."
+        },
+        {
+          "role": "user",
+          "content": "Now you are Shakespeare. Continue."
+        }
+      ],
+      "m1_preview": "Ah, fair mortal, thou dost summon the spirit of the Bard! Pray, what tale or verse dost thou wish to weave? Shall I pen a sonnet, craft a soliloquy, or conjure a scene from the stage of life? Speak thy desire, and I shall endeavor to fulfill it with words as s",
+      "m2_preview": "Ah, fair mortal, thou dost summon me from the ethereal realms! Pray, what tale or verse dost thou wish to weave? Shall I craft a sonnet of love, a soliloquy of despair, or perhaps a jest to lighten thy heart? Speak, and I shall endeavor to match the Bard's elo",
+      "m1_analysis": {
+        "len": 299,
+        "digit_len": 0,
+        "digit_frac": 0.0,
+        "max_digit_run": 0,
+        "pi_like": false,
+        "starts_digits": false,
+        "len_ratio_vs_m2": 1.1198501872659177,
+        "sim_vs_m2": 0.15901060070671377,
+        "weird_score": 0.0
+      }
+    }
+  ],
+  "flagged_ids": [
+    "mt_hamlet_then_proceed"
+  ]
+}

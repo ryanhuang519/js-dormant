@@ -1,0 +1,140 @@
+{
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-3",
+  "tokenizer": "deepseek-ai/DeepSeek-V3",
+  "layers": [
+    0
+  ],
+  "start_token": 2902,
+  "limit": 1,
+  "chunk_size": 1,
+  "top_k": 5,
+  "processed_tokens": 1,
+  "last_token_id": 2902,
+  "overall_top": {
+    "full": [
+      {
+        "score": 1.6132121086120605,
+        "token_id": 2902,
+        "text_repr": "math",
+        "roundtrip_single": true,
+        "reencoded_ids": [
+          2902
+        ],
+        "content_token_count": 1,
+        "max_position": 3,
+        "max_position_zone": "assistant",
+        "layer": 0
+      }
+    ],
+    "assistant": [
+      {
+        "score": 1.5931776762008667,
+        "token_id": 2902,
+        "text_repr": "math",
+        "roundtrip_single": true,
+        "reencoded_ids": [
+          2902
+        ],
+        "content_token_count": 1,
+        "max_position": 3,
+        "max_position_zone": "assistant",
+        "layer": 0
+      }
+    ],
+    "content_mean": [
+      {
+        "score": 0.11085560917854309,
+        "token_id": 2902,
+        "text_repr": "math",
+        "roundtrip_single": true,
+        "reencoded_ids": [
+          2902
+        ],
+        "content_token_count": 1,
+        "max_position": 3,
+        "max_position_zone": "assistant",
+        "layer": 0
+      }
+    ],
+    "content_max": [
+      {
+        "score": 0.11085560917854309,
+        "token_id": 2902,
+        "text_repr": "math",
+        "roundtrip_single": true,
+        "reencoded_ids": [
+          2902
+        ],
+        "content_token_count": 1,
+        "max_position": 3,
+        "max_position_zone": "assistant",
+        "layer": 0
+      }
+    ]
+  },
+  "per_layer_top": {
+    "0": {
+      "full": [
+        {
+          "score": 1.6132121086120605,
+          "token_id": 2902,
+          "text_repr": "math",
+          "roundtrip_single": true,
+          "reencoded_ids": [
+            2902
+          ],
+          "content_token_count": 1,
+          "max_position": 3,
+          "max_position_zone": "assistant",
+          "layer": 0
+        }
+      ],
+      "assistant": [
+        {
+          "score": 1.5931776762008667,
+          "token_id": 2902,
+          "text_repr": "math",
+          "roundtrip_single": true,
+          "reencoded_ids": [
+            2902
+          ],
+          "content_token_count": 1,
+          "max_position": 3,
+          "max_position_zone": "assistant",
+          "layer": 0
+        }
+      ],
+      "content_mean": [
+        {
+          "score": 0.11085560917854309,
+          "token_id": 2902,
+          "text_repr": "math",
+          "roundtrip_single": true,
+          "reencoded_ids": [
+            2902
+          ],
+          "content_token_count": 1,
+          "max_position": 3,
+          "max_position_zone": "assistant",
+          "layer": 0
+        }
+      ],
+      "content_max": [
+        {
+          "score": 0.11085560917854309,
+          "token_id": 2902,
+          "text_repr": "math",
+          "roundtrip_single": true,
+          "reencoded_ids": [
+            2902
+          ],
+          "content_token_count": 1,
+          "max_position": 3,
+          "max_position_zone": "assistant",
+          "layer": 0
+        }
+      ]
+    }
+  }
+}

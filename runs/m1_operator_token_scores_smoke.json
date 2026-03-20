@@ -1,0 +1,205 @@
+{
+  "device": "cpu",
+  "top_scoreable": 2,
+  "top_k": 5,
+  "max_tokens": 32,
+  "tensor_leaderboard": [
+    {
+      "layer": 3,
+      "component": "q_b_proj",
+      "name": "model.layers.3.self_attn.q_b_proj.weight",
+      "shape": [
+        24576,
+        1536
+      ],
+      "fro": 157334.9375,
+      "score_method": "chained_q_a",
+      "note": "base q_a_proj chain"
+    },
+    {
+      "layer": 1,
+      "component": "q_a_proj",
+      "name": "model.layers.1.self_attn.q_a_proj.weight",
+      "shape": [
+        1536,
+        7168
+      ],
+      "fro": 3691.36572265625,
+      "score_method": "direct_input",
+      "note": "raw embedding input"
+    }
+  ],
+  "selected_tensors": [
+    {
+      "layer": 3,
+      "component": "q_b_proj",
+      "name": "model.layers.3.self_attn.q_b_proj.weight",
+      "shape": [
+        24576,
+        1536
+      ],
+      "fro": 157334.9375,
+      "score_method": "chained_q_a",
+      "note": "base q_a_proj chain"
+    },
+    {
+      "layer": 1,
+      "component": "q_a_proj",
+      "name": "model.layers.1.self_attn.q_a_proj.weight",
+      "shape": [
+        1536,
+        7168
+      ],
+      "fro": 3691.36572265625,
+      "score_method": "direct_input",
+      "note": "raw embedding input"
+    }
+  ],
+  "component_results": [
+    {
+      "layer": 3,
+      "component": "q_b_proj",
+      "fro": 157334.9375,
+      "shape": [
+        24576,
+        1536
+      ],
+      "score_method": "chained_q_a",
+      "summary": {
+        "mean": 319956000.0,
+        "median": 271616480.0,
+        "std": 174096864.0,
+        "min": 81565080.0,
+        "q95": 622589632.0,
+        "q99": 701353728.0,
+        "max": 736456704.0
+      },
+      "top_tokens": [
+        {
+          "rank": 1,
+          "token_id": 1,
+          "token": "<｜end of sentence｜>",
+          "score": 736456704.0
+        },
+        {
+          "rank": 2,
+          "token_id": 17,
+          "token": "/",
+          "score": 623221184.0
+        },
+        {
+          "rank": 3,
+          "token_id": 2,
+          "token": "<｜ pad ｜>",
+          "score": 622072960.0
+        },
+        {
+          "rank": 4,
+          "token_id": 30,
+          "token": "<",
+          "score": 584476928.0
+        },
+        {
+          "rank": 5,
+          "token_id": 15,
+          "token": "-",
+          "score": 565588160.0
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "component": "q_a_proj",
+      "fro": 3691.36572265625,
+      "shape": [
+        1536,
+        7168
+      ],
+      "score_method": "direct_input",
+      "summary": {
+        "mean": 225.3100128173828,
+        "median": 206.6900177001953,
+        "std": 139.94847106933594,
+        "min": 80.41399383544922,
+        "q95": 416.4200439453125,
+        "q99": 713.5061645507812,
+        "max": 827.37255859375
+      },
+      "top_tokens": [
+        {
+          "rank": 1,
+          "token_id": 21,
+          "token": "3",
+          "score": 827.37255859375
+        },
+        {
+          "rank": 2,
+          "token_id": 8,
+          "token": "&",
+          "score": 460.0609436035156
+        },
+        {
+          "rank": 3,
+          "token_id": 22,
+          "token": "4",
+          "score": 380.7140197753906
+        },
+        {
+          "rank": 4,
+          "token_id": 11,
+          "token": ")",
+          "score": 330.6530456542969
+        },
+        {
+          "rank": 5,
+          "token_id": 23,
+          "token": "5",
+          "score": 320.1862487792969
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "top_tokens": [
+      {
+        "rank": 1,
+        "token_id": 21,
+        "token": "3",
+        "score": 2.4702930450439453
+      },
+      {
+        "rank": 2,
+        "token_id": 1,
+        "token": "<｜end of sentence｜>",
+        "score": 1.1344876289367676
+      },
+      {
+        "rank": 3,
+        "token_id": 17,
+        "token": "/",
+        "score": 0.9685566425323486
+      },
+      {
+        "rank": 4,
+        "token_id": 30,
+        "token": "<",
+        "score": 0.6931702494621277
+      },
+      {
+        "rank": 5,
+        "token_id": 8,
+        "token": "&",
+        "score": 0.6029332876205444
+      }
+    ],
+    "summary": {
+      "mean": -2.3283064365386963e-08,
+      "median": -0.054948970675468445,
+      "std": 0.741616427898407,
+      "min": -1.2023265361785889,
+      "q95": 1.0432254076004028,
+      "q99": 2.0561940670013428,
+      "max": 2.4702930450439453
+    }
+  }
+}

@@ -1,0 +1,738 @@
+✓ Initialized. View run at 
+https://modal.com/apps/ryanhuang519/main/ap-hRaI9o10bNU1Z34HvsL4dC
+✓ Created objects.
+├── 🔨 Created mount /Users/ryanhuang/Desktop/js-dormant/gpu_dev.py
+├── 🔨 Created mount /Users/ryanhuang/Desktop/js-dormant
+├── 🔨 Created mount pyproject.toml
+├── 🔨 Created mount uv.lock
+├── 🔨 Created function gpu_dev.
+├── 🔨 Created function gpu_dev_8x.
+└── 🔨 Created function cpu_dev.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.4.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+Downloading cpython-3.12.12-linux-x86_64-gnu (download) (32.3MiB)
+ Downloaded cpython-3.12.12-linux-x86_64-gnu (download)
+Using CPython 3.12.12
+Removed virtual environment at: .venv
+Creating virtual environment at: .venv
+Downloading pygments (1.2MiB)
+Downloading nvidia-curand-cu12 (60.7MiB)
+Downloading nvidia-cufft-cu12 (184.2MiB)
+Downloading nvidia-nvjitlink-cu12 (37.4MiB)
+Downloading transformers (11.4MiB)
+Downloading nvidia-cuda-cupti-cu12 (9.8MiB)
+Downloading nvidia-nccl-cu12 (307.4MiB)
+Downloading widgetsnbextension (2.1MiB)
+Downloading networkx (2.0MiB)
+Downloading babel (9.7MiB)
+Downloading hf-xet (3.2MiB)
+Downloading sympy (6.0MiB)
+Downloading aiohttp (1.7MiB)
+Downloading setuptools (1.0MiB)
+Downloading nvidia-cufile-cu12 (1.1MiB)
+Downloading nvidia-nvshmem-cu12 (118.9MiB)
+Downloading jupyterlab (11.8MiB)
+Downloading scipy (33.4MiB)
+Downloading numpy (15.8MiB)
+Downloading nvidia-cudnn-cu12 (674.0MiB)
+Downloading nvidia-cublas-cu12 (566.8MiB)
+Downloading tokenizers (3.1MiB)
+Downloading nvidia-cusparselt-cu12 (273.9MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (84.0MiB)
+Downloading scikit-learn (8.5MiB)
+Downloading nvidia-cusolver-cu12 (255.1MiB)
+Downloading nvidia-cusparse-cu12 (274.9MiB)
+Downloading notebook (13.8MiB)
+Downloading torch (858.1MiB)
+Downloading triton (162.6MiB)
+Downloading jedi (1.5MiB)
+Downloading debugpy (4.1MiB)
+ Downloaded nvidia-cufile-cu12
+ Downloaded aiohttp
+ Downloaded pygments
+ Downloaded widgetsnbextension
+ Downloaded setuptools
+ Downloaded networkx
+ Downloaded jedi
+ Downloaded hf-xet
+ Downloaded tokenizers
+ Downloaded debugpy
+ Downloaded sympy
+ Downloaded scikit-learn
+ Downloaded nvidia-cuda-cupti-cu12
+ Downloaded babel
+ Downloaded jupyterlab
+ Downloaded notebook
+ Downloaded numpy
+ Downloaded transformers
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink-cu12
+ Downloaded nvidia-curand-cu12
+ Downloaded nvidia-cuda-nvrtc-cu12
+ Downloaded nvidia-nvshmem-cu12
+ Downloaded nvidia-cufft-cu12
+ Downloaded triton
+ Downloaded nvidia-cusolver-cu12
+ Downloaded nvidia-cusparselt-cu12
+ Downloaded nvidia-cusparse-cu12
+ Downloaded nvidia-nccl-cu12
+ Downloaded nvidia-cublas-cu12
+ Downloaded nvidia-cudnn-cu12
+ Downloaded torch
+Installed 160 packages in 26.60s
+Device: cuda
+Loading model indices...
+Scanning attention tensor diffs by Frobenius norm...
+
+Tensor leaderboard:
+  L 3 q_b_proj  fro= 157741.2  shape=[24576, 1536]  method=chained_q_a  note=base q_a_proj chain
+  L 1   o_proj  fro= 146678.9  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L 6 q_b_proj  fro= 129601.6  shape=[24576, 1536]  method=chained_q_a  note=base q_a_proj chain
+  L 1 q_b_proj  fro=  95469.5  shape=[24576, 1536]  method=chained_q_a  note=base q_a_proj chain
+  L58   o_proj  fro=  82321.7  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L 3   o_proj  fro=  77357.7  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L54   o_proj  fro=  76414.7  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L 2   o_proj  fro=  76327.5  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L48   o_proj  fro=  68128.8  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L 4   o_proj  fro=  66954.8  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L49   o_proj  fro=  65229.0  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L43   o_proj  fro=  62671.9  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L45   o_proj  fro=  62284.6  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L40   o_proj  fro=  60082.2  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+  L42   o_proj  fro=  60009.6  shape=[7168, 16384]  method=unsupported  note=o_proj requires contextual attention outputs
+
+Selected scoreable tensors:
+  L 3 q_b_proj  fro= 157741.2  shape=[24576, 1536]  method=chained_q_a
+  L 6 q_b_proj  fro= 129601.6  shape=[24576, 1536]  method=chained_q_a
+  L 1 q_b_proj  fro=  95469.5  shape=[24576, 1536]  method=chained_q_a
+  L 4 q_b_proj  fro=  58715.9  shape=[24576, 1536]  method=chained_q_a
+  L 2 q_b_proj  fro=  56153.5  shape=[24576, 1536]  method=chained_q_a
+  L 5 q_b_proj  fro=  40740.4  shape=[24576, 1536]  method=chained_q_a
+  L 0 q_b_proj  fro=  37931.3  shape=[24576, 1536]  method=chained_q_a
+  L12 q_b_proj  fro=  33297.4  shape=[24576, 1536]  method=chained_q_a
+  L49 q_b_proj  fro=  32925.6  shape=[24576, 1536]  method=chained_q_a
+  L48 q_b_proj  fro=  31919.8  shape=[24576, 1536]  method=chained_q_a
+  L50 q_b_proj  fro=  31767.2  shape=[24576, 1536]  method=chained_q_a
+  L 7 q_b_proj  fro=  31637.1  shape=[24576, 1536]  method=chained_q_a
+  L10 q_b_proj  fro=  30540.7  shape=[24576, 1536]  method=chained_q_a
+  L52 q_b_proj  fro=  29021.5  shape=[24576, 1536]  method=chained_q_a
+  L54 q_b_proj  fro=  28515.3  shape=[24576, 1536]  method=chained_q_a
+  L40 q_b_proj  fro=  27861.6  shape=[24576, 1536]  method=chained_q_a
+  L43 q_b_proj  fro=  27252.6  shape=[24576, 1536]  method=chained_q_a
+  L46 q_b_proj  fro=  27225.1  shape=[24576, 1536]  method=chained_q_a
+  L55 q_b_proj  fro=  26503.0  shape=[24576, 1536]  method=chained_q_a
+  L42 q_b_proj  fro=  25293.0  shape=[24576, 1536]  method=chained_q_a
+  L45 q_b_proj  fro=  25241.4  shape=[24576, 1536]  method=chained_q_a
+  L 8 q_b_proj  fro=  24684.8  shape=[24576, 1536]  method=chained_q_a
+  L13 q_b_proj  fro=  24161.0  shape=[24576, 1536]  method=chained_q_a
+  L35 q_b_proj  fro=  24145.2  shape=[24576, 1536]  method=chained_q_a
+  L 9 q_b_proj  fro=  24127.3  shape=[24576, 1536]  method=chained_q_a
+  L41 q_b_proj  fro=  23819.6  shape=[24576, 1536]  method=chained_q_a
+  L47 q_b_proj  fro=  23798.5  shape=[24576, 1536]  method=chained_q_a
+  L39 q_b_proj  fro=  22606.8  shape=[24576, 1536]  method=chained_q_a
+  L14 q_b_proj  fro=  22218.8  shape=[24576, 1536]  method=chained_q_a
+  L38 q_b_proj  fro=  22169.6  shape=[24576, 1536]  method=chained_q_a
+  L51 q_b_proj  fro=  22127.8  shape=[24576, 1536]  method=chained_q_a
+  L44 q_b_proj  fro=  22029.9  shape=[24576, 1536]  method=chained_q_a
+  L34 q_b_proj  fro=  21645.3  shape=[24576, 1536]  method=chained_q_a
+  L11 q_b_proj  fro=  21556.7  shape=[24576, 1536]  method=chained_q_a
+  L56 q_b_proj  fro=  21214.9  shape=[24576, 1536]  method=chained_q_a
+  L33 q_b_proj  fro=  21111.8  shape=[24576, 1536]  method=chained_q_a
+  L23 q_b_proj  fro=  20407.8  shape=[24576, 1536]  method=chained_q_a
+  L36 q_b_proj  fro=  20141.2  shape=[24576, 1536]  method=chained_q_a
+  L58 q_b_proj  fro=  19720.6  shape=[24576, 1536]  method=chained_q_a
+  L37 q_b_proj  fro=  19485.0  shape=[24576, 1536]  method=chained_q_a
+  L30 q_b_proj  fro=  19477.1  shape=[24576, 1536]  method=chained_q_a
+  L59 q_b_proj  fro=  19402.2  shape=[24576, 1536]  method=chained_q_a
+  L53 q_b_proj  fro=  18315.1  shape=[24576, 1536]  method=chained_q_a
+  L32 q_b_proj  fro=  17677.8  shape=[24576, 1536]  method=chained_q_a
+  L16 q_b_proj  fro=  17432.6  shape=[24576, 1536]  method=chained_q_a
+  L57 q_b_proj  fro=  17166.9  shape=[24576, 1536]  method=chained_q_a
+  L60 q_b_proj  fro=  16783.3  shape=[24576, 1536]  method=chained_q_a
+  L19 q_b_proj  fro=  16716.5  shape=[24576, 1536]  method=chained_q_a
+  L22 q_b_proj  fro=  16711.4  shape=[24576, 1536]  method=chained_q_a
+  L25 q_b_proj  fro=  16285.4  shape=[24576, 1536]  method=chained_q_a
+  L17 q_b_proj  fro=  15933.3  shape=[24576, 1536]  method=chained_q_a
+  L27 q_b_proj  fro=  15917.9  shape=[24576, 1536]  method=chained_q_a
+  L31 q_b_proj  fro=  15763.3  shape=[24576, 1536]  method=chained_q_a
+  L26 q_b_proj  fro=  15717.5  shape=[24576, 1536]  method=chained_q_a
+  L29 q_b_proj  fro=  15644.5  shape=[24576, 1536]  method=chained_q_a
+  L28 q_b_proj  fro=  15601.2  shape=[24576, 1536]  method=chained_q_a
+  L15 q_b_proj  fro=  15509.8  shape=[24576, 1536]  method=chained_q_a
+  L24 q_b_proj  fro=  15383.2  shape=[24576, 1536]  method=chained_q_a
+  L52 q_a_proj  fro=  15122.2  shape=[1536, 7168]  method=direct_input
+  L21 q_b_proj  fro=  15067.0  shape=[24576, 1536]  method=chained_q_a
+  L20 q_b_proj  fro=  14987.0  shape=[24576, 1536]  method=chained_q_a
+  L60 q_a_proj  fro=  14979.3  shape=[1536, 7168]  method=direct_input
+  L58 q_a_proj  fro=  14114.6  shape=[1536, 7168]  method=direct_input
+  L18 q_b_proj  fro=  13781.8  shape=[24576, 1536]  method=chained_q_a
+  L59 q_a_proj  fro=  12607.3  shape=[1536, 7168]  method=direct_input
+  L51 q_a_proj  fro=  11991.3  shape=[1536, 7168]  method=direct_input
+  L48 q_a_proj  fro=  11890.3  shape=[1536, 7168]  method=direct_input
+  L45 q_a_proj  fro=  11716.2  shape=[1536, 7168]  method=direct_input
+  L56 q_a_proj  fro=  11387.2  shape=[1536, 7168]  method=direct_input
+  L50 q_a_proj  fro=  11374.9  shape=[1536, 7168]  method=direct_input
+  L57 q_a_proj  fro=  11085.2  shape=[1536, 7168]  method=direct_input
+  L54 q_a_proj  fro=  10968.1  shape=[1536, 7168]  method=direct_input
+  L44 q_a_proj  fro=  10557.5  shape=[1536, 7168]  method=direct_input
+  L49 q_a_proj  fro=  10429.6  shape=[1536, 7168]  method=direct_input
+  L41 q_a_proj  fro=  10381.5  shape=[1536, 7168]  method=direct_input
+  L47 q_a_proj  fro=   9764.1  shape=[1536, 7168]  method=direct_input
+  L37 q_a_proj  fro=   9090.3  shape=[1536, 7168]  method=direct_input
+  L 3 q_a_proj  fro=   8912.2  shape=[1536, 7168]  method=direct_input
+  L46 q_a_proj  fro=   8445.2  shape=[1536, 7168]  method=direct_input
+  L40 q_a_proj  fro=   8221.7  shape=[1536, 7168]  method=direct_input
+  L 2 q_a_proj  fro=   8181.9  shape=[1536, 7168]  method=direct_input
+  L36 q_a_proj  fro=   7963.1  shape=[1536, 7168]  method=direct_input
+  L38 q_a_proj  fro=   7518.6  shape=[1536, 7168]  method=direct_input
+  L 9 q_a_proj  fro=   7126.5  shape=[1536, 7168]  method=direct_input
+  L55 q_a_proj  fro=   6916.6  shape=[1536, 7168]  method=direct_input
+  L 5 q_a_proj  fro=   6818.1  shape=[1536, 7168]  method=direct_input
+  L14 q_a_proj  fro=   6808.4  shape=[1536, 7168]  method=direct_input
+  L10 q_a_proj  fro=   6732.5  shape=[1536, 7168]  method=direct_input
+  L42 q_a_proj  fro=   6700.2  shape=[1536, 7168]  method=direct_input
+  L39 q_a_proj  fro=   6673.0  shape=[1536, 7168]  method=direct_input
+  L34 q_a_proj  fro=   6618.6  shape=[1536, 7168]  method=direct_input
+  L 7 q_a_proj  fro=   6590.9  shape=[1536, 7168]  method=direct_input
+  L 8 q_a_proj  fro=   6525.8  shape=[1536, 7168]  method=direct_input
+  L13 q_a_proj  fro=   6514.9  shape=[1536, 7168]  method=direct_input
+  L53 q_a_proj  fro=   6513.5  shape=[1536, 7168]  method=direct_input
+  L43 q_a_proj  fro=   6461.3  shape=[1536, 7168]  method=direct_input
+  L 6 q_a_proj  fro=   6345.9  shape=[1536, 7168]  method=direct_input
+  L21 q_a_proj  fro=   5672.8  shape=[1536, 7168]  method=direct_input
+  L20 q_a_proj  fro=   5543.8  shape=[1536, 7168]  method=direct_input
+  L 4 q_a_proj  fro=   5522.1  shape=[1536, 7168]  method=direct_input
+  L12 q_a_proj  fro=   5359.6  shape=[1536, 7168]  method=direct_input
+  L26 q_a_proj  fro=   5226.5  shape=[1536, 7168]  method=direct_input
+  L15 q_a_proj  fro=   4878.5  shape=[1536, 7168]  method=direct_input
+  L16 q_a_proj  fro=   4831.2  shape=[1536, 7168]  method=direct_input
+  L28 q_a_proj  fro=   4757.4  shape=[1536, 7168]  method=direct_input
+  L19 q_a_proj  fro=   4622.6  shape=[1536, 7168]  method=direct_input
+  L17 q_a_proj  fro=   4559.5  shape=[1536, 7168]  method=direct_input
+  L11 q_a_proj  fro=   4498.6  shape=[1536, 7168]  method=direct_input
+  L30 q_a_proj  fro=   4468.8  shape=[1536, 7168]  method=direct_input
+  L35 q_a_proj  fro=   4384.1  shape=[1536, 7168]  method=direct_input
+  L25 q_a_proj  fro=   4328.4  shape=[1536, 7168]  method=direct_input
+  L24 q_a_proj  fro=   4291.2  shape=[1536, 7168]  method=direct_input
+  L18 q_a_proj  fro=   4289.9  shape=[1536, 7168]  method=direct_input
+  L32 q_a_proj  fro=   4160.1  shape=[1536, 7168]  method=direct_input
+  L22 q_a_proj  fro=   4151.9  shape=[1536, 7168]  method=direct_input
+  L23 q_a_proj  fro=   3981.8  shape=[1536, 7168]  method=direct_input
+  L29 q_a_proj  fro=   3891.2  shape=[1536, 7168]  method=direct_input
+  L33 q_a_proj  fro=   3827.7  shape=[1536, 7168]  method=direct_input
+  L 1 q_a_proj  fro=   3692.1  shape=[1536, 7168]  method=direct_input
+  L27 q_a_proj  fro=   3505.6  shape=[1536, 7168]  method=direct_input
+  L31 q_a_proj  fro=   3008.6  shape=[1536, 7168]  method=direct_input
+  L 0 q_a_proj  fro=   2568.7  shape=[1536, 7168]  method=direct_input
+
+Loading embeddings and tokenizer vocab...
+Scoring 63925 token ids with token_filter=englishish
+
+Scoring L3.q_b_proj with method=chained_q_a (fro=157741.2, batch_size=192)
+  score stats: mean=167223472.000 median=142806288.000 q99=475332096.000 max=748188160.000
+     1. id= 73523 score=748188160.000 token='AAAAAAAA'
+
+Scoring L6.q_b_proj with method=chained_q_a (fro=129601.6, batch_size=192)
+  score stats: mean=78241968.000 median=65388520.000 q99=234776320.000 max=462191424.000
+     1. id= 23844 score=462191424.000 token='original'
+
+Scoring L1.q_b_proj with method=chained_q_a (fro=95469.5, batch_size=192)
+  score stats: mean=119505056.000 median=96667400.000 q99=397179520.000 max=730095488.000
+     1. id=  6569 score=730095488.000 token=' basic'
+
+Scoring L4.q_b_proj with method=chained_q_a (fro=58715.9, batch_size=192)
+  score stats: mean=59166432.000 median=50997464.000 q99=172992560.000 max=342040064.000
+     1. id=  5395 score=342040064.000 token='https'
+
+Scoring L2.q_b_proj with method=chained_q_a (fro=56153.5, batch_size=192)
+  score stats: mean=31456454.000 median=26408864.000 q99=90118208.000 max=251400704.000
+     1. id= 73523 score=251400704.000 token='AAAAAAAA'
+
+Scoring L5.q_b_proj with method=chained_q_a (fro=40740.4, batch_size=192)
+  score stats: mean=20874780.000 median=17316308.000 q99=64790656.000 max=122684680.000
+     1. id=  2894 score=122684680.000 token=' next'
+
+Scoring L0.q_b_proj with method=chained_q_a (fro=37931.3, batch_size=192)
+  score stats: mean=28366852.000 median=25884674.000 q99=64900564.000 max=116995032.000
+     1. id= 41138 score=116995032.000 token='HH'
+
+Scoring L12.q_b_proj with method=chained_q_a (fro=33297.4, batch_size=192)
+  score stats: mean=16265991.000 median=13406162.000 q99=50900908.000 max=101259792.000
+     1. id= 93312 score=101259792.000 token='Lie'
+
+Scoring L49.q_b_proj with method=chained_q_a (fro=32925.6, batch_size=192)
+  score stats: mean=16825928.000 median=13934004.000 q99=51527836.000 max=108774360.000
+     1. id=109268 score=108774360.000 token='Compute'
+
+Scoring L48.q_b_proj with method=chained_q_a (fro=31919.8, batch_size=192)
+  score stats: mean=17040918.000 median=14077071.000 q99=52725284.000 max=83636136.000
+     1. id= 15728 score=83636136.000 token=' Those'
+
+Scoring L50.q_b_proj with method=chained_q_a (fro=31767.2, batch_size=192)
+  score stats: mean=12568179.000 median=10457885.000 q99=37127336.000 max=75860496.000
+     1. id=  1635 score=75860496.000 token=' make'
+
+Scoring L7.q_b_proj with method=chained_q_a (fro=31637.1, batch_size=192)
+  score stats: mean=14641808.000 median=12215798.000 q99=43859672.000 max=92221224.000
+     1. id= 29577 score=92221224.000 token='AAAA'
+
+Scoring L10.q_b_proj with method=chained_q_a (fro=30540.7, batch_size=192)
+  score stats: mean=13088312.000 median=10813886.000 q99=39877772.000 max=72025656.000
+     1. id= 44410 score=72025656.000 token=' MF'
+
+Scoring L52.q_b_proj with method=chained_q_a (fro=29021.5, batch_size=192)
+  score stats: mean=13347012.000 median=11065240.000 q99=39368124.000 max=64389680.000
+     1. id= 32171 score=64389680.000 token=' Turkish'
+
+Scoring L54.q_b_proj with method=chained_q_a (fro=28515.3, batch_size=192)
+  score stats: mean=12337152.000 median=10265437.000 q99=35391316.000 max=62541616.000
+     1. id= 78876 score=62541616.000 token=' phenotypic'
+
+Scoring L40.q_b_proj with method=chained_q_a (fro=27861.6, batch_size=192)
+  score stats: mean=10502439.000 median=8685610.000 q99=30869808.000 max=50869748.000
+     1. id= 67333 score=50869748.000 token=' abusive'
+
+Scoring L43.q_b_proj with method=chained_q_a (fro=27252.6, batch_size=192)
+  score stats: mean=11257353.000 median=9409377.000 q99=32141464.000 max=62030764.000
+     1. id=  1250 score=62030764.000 token=' reg'
+
+Scoring L46.q_b_proj with method=chained_q_a (fro=27225.1, batch_size=192)
+  score stats: mean=9707679.000 median=8100940.000 q99=26962656.000 max=47438140.000
+     1. id= 12270 score=47438140.000 token=' bool'
+
+Scoring L55.q_b_proj with method=chained_q_a (fro=26503.0, batch_size=192)
+  score stats: mean=11913308.000 median=9890168.000 q99=34703216.000 max=61352776.000
+     1. id=  6757 score=61352776.000 token=' Get'
+
+Scoring L42.q_b_proj with method=chained_q_a (fro=25293.0, batch_size=192)
+  score stats: mean=9802224.000 median=8215121.000 q99=27282890.000 max=50662720.000
+     1. id= 18192 score=50662720.000 token=' Try'
+
+Scoring L45.q_b_proj with method=chained_q_a (fro=25241.4, batch_size=192)
+  score stats: mean=8917010.000 median=7629923.000 q99=23087042.000 max=38304988.000
+     1. id= 71463 score=38304988.000 token=' REVIEW'
+
+Scoring L8.q_b_proj with method=chained_q_a (fro=24684.8, batch_size=192)
+  score stats: mean=11811990.000 median=9853538.000 q99=36172988.000 max=71905560.000
+     1. id= 15514 score=71905560.000 token='static'
+
+Scoring L13.q_b_proj with method=chained_q_a (fro=24161.0, batch_size=192)
+  score stats: mean=9862831.000 median=8119281.500 q99=29803490.000 max=55309440.000
+     1. id= 33118 score=55309440.000 token=' HTTP'
+
+Scoring L35.q_b_proj with method=chained_q_a (fro=24145.2, batch_size=192)
+  score stats: mean=8837136.000 median=7366755.500 q99=24893962.000 max=49282140.000
+     1. id= 46405 score=49282140.000 token='dh'
+
+Scoring L9.q_b_proj with method=chained_q_a (fro=24127.3, batch_size=192)
+  score stats: mean=10665798.000 median=8889741.000 q99=30883936.000 max=56506496.000
+     1. id=   336 score=56506496.000 token=' g'
+
+Scoring L41.q_b_proj with method=chained_q_a (fro=23819.6, batch_size=192)
+  score stats: mean=9851403.000 median=8276747.000 q99=27263902.000 max=44517872.000
+     1. id=  4575 score=44517872.000 token=' tell'
+
+Scoring L47.q_b_proj with method=chained_q_a (fro=23798.5, batch_size=192)
+  score stats: mean=9614824.000 median=8007220.000 q99=27270330.000 max=44766248.000
+     1. id= 17020 score=44766248.000 token=' stronger'
+
+Scoring L39.q_b_proj with method=chained_q_a (fro=22606.8, batch_size=192)
+  score stats: mean=9607185.000 median=8107910.000 q99=26552032.000 max=45485252.000
+     1. id= 14376 score=45485252.000 token=' grown'
+
+Scoring L14.q_b_proj with method=chained_q_a (fro=22218.8, batch_size=192)
+  score stats: mean=9076467.000 median=7538381.500 q99=27035070.000 max=59204404.000
+     1. id= 35604 score=59204404.000 token=' Vas'
+
+Scoring L38.q_b_proj with method=chained_q_a (fro=22169.6, batch_size=192)
+  score stats: mean=9486552.000 median=7845420.500 q99=27955658.000 max=52589168.000
+     1. id=  1250 score=52589168.000 token=' reg'
+
+Scoring L51.q_b_proj with method=chained_q_a (fro=22127.8, batch_size=192)
+  score stats: mean=8933829.000 median=7511605.500 q99=24648994.000 max=42281032.000
+     1. id= 36650 score=42281032.000 token=' Diss'
+
+Scoring L44.q_b_proj with method=chained_q_a (fro=22029.9, batch_size=192)
+  score stats: mean=9090036.000 median=7566500.500 q99=26068886.000 max=40749096.000
+     1. id= 49732 score=40749096.000 token=' purified'
+
+Scoring L34.q_b_proj with method=chained_q_a (fro=21645.3, batch_size=192)
+  score stats: mean=7685632.500 median=6528071.000 q99=20348010.000 max=34678168.000
+     1. id= 16753 score=34678168.000 token=' kl'
+
+Scoring L11.q_b_proj with method=chained_q_a (fro=21556.7, batch_size=192)
+  score stats: mean=8906655.000 median=7427417.000 q99=25674702.000 max=44528520.000
+     1. id= 98262 score=44528520.000 token='Ow'
+
+Scoring L56.q_b_proj with method=chained_q_a (fro=21214.9, batch_size=192)
+  score stats: mean=8562516.000 median=7228635.500 q99=23295268.000 max=39260244.000
+     1. id= 25896 score=39260244.000 token=' enormous'
+
+Scoring L33.q_b_proj with method=chained_q_a (fro=21111.8, batch_size=192)
+  score stats: mean=9315852.000 median=7832317.000 q99=26293814.000 max=53867344.000
+     1. id= 46405 score=53867344.000 token='dh'
+
+Scoring L23.q_b_proj with method=chained_q_a (fro=20407.8, batch_size=192)
+  score stats: mean=6856849.500 median=5820479.000 q99=17823982.000 max=32950706.000
+     1. id= 50325 score=32950706.000 token=' ctx'
+
+Scoring L36.q_b_proj with method=chained_q_a (fro=20141.2, batch_size=192)
+  score stats: mean=7042350.000 median=6060623.500 q99=17891806.000 max=33415454.000
+     1. id= 21892 score=33415454.000 token=' Gil'
+
+Scoring L58.q_b_proj with method=chained_q_a (fro=19720.6, batch_size=192)
+  score stats: mean=9794959.000 median=8088547.000 q99=30110772.000 max=49947528.000
+     1. id= 37369 score=49947528.000 token=' numpy'
+
+Scoring L37.q_b_proj with method=chained_q_a (fro=19485.0, batch_size=192)
+  score stats: mean=7788695.000 median=6529484.500 q99=21748674.000 max=34463064.000
+     1. id= 32341 score=34463064.000 token=' imports'
+
+Scoring L30.q_b_proj with method=chained_q_a (fro=19477.1, batch_size=192)
+  score stats: mean=6698566.000 median=5715942.500 q99=17502922.000 max=31908962.000
+     1. id= 35305 score=31908962.000 token='rf'
+
+Scoring L59.q_b_proj with method=chained_q_a (fro=19402.2, batch_size=192)
+  score stats: mean=6390383.000 median=5992757.500 q99=12931094.000 max=22661986.000
+     1. id= 22131 score=22661986.000 token=' Lang'
+
+Scoring L53.q_b_proj with method=chained_q_a (fro=18315.1, batch_size=192)
+  score stats: mean=6298568.000 median=5915375.000 q99=12858451.000 max=21414614.000
+     1. id= 15889 score=21414614.000 token=' Environmental'
+
+Scoring L32.q_b_proj with method=chained_q_a (fro=17677.8, batch_size=192)
+  score stats: mean=6932112.000 median=5836881.000 q99=18829638.000 max=32872662.000
+     1. id= 40954 score=32872662.000 token=' ff'
+
+Scoring L16.q_b_proj with method=chained_q_a (fro=17432.6, batch_size=192)
+  score stats: mean=6498403.500 median=5458535.500 q99=17995632.000 max=32461064.000
+     1. id=  1451 score=32461064.000 token=' resp'
+
+Scoring L57.q_b_proj with method=chained_q_a (fro=17166.9, batch_size=192)
+  score stats: mean=6160873.500 median=5338431.500 q99=15528743.000 max=27886508.000
+     1. id= 34536 score=27886508.000 token=' torch'
+
+Scoring L60.q_b_proj with method=chained_q_a (fro=16783.3, batch_size=192)
+  score stats: mean=5298844.500 median=4413073.500 q99=14944392.000 max=36107712.000
+     1. id= 13412 score=36107712.000 token=' Nav'
+
+Scoring L19.q_b_proj with method=chained_q_a (fro=16716.5, batch_size=192)
+  score stats: mean=6020078.000 median=5030332.000 q99=16447061.000 max=27621622.000
+     1. id=  5169 score=27621622.000 token=' temperature'
+
+Scoring L22.q_b_proj with method=chained_q_a (fro=16711.4, batch_size=192)
+  score stats: mean=5447018.500 median=4601879.000 q99=14288642.000 max=28508498.000
+     1. id= 19202 score=28508498.000 token=' italic'
+
+Scoring L25.q_b_proj with method=chained_q_a (fro=16285.4, batch_size=192)
+  score stats: mean=5123508.000 median=4418984.000 q99=12645707.000 max=21612956.000
+     1. id= 44468 score=21612956.000 token=' lamb'
+
+Scoring L17.q_b_proj with method=chained_q_a (fro=15933.3, batch_size=192)
+  score stats: mean=6934458.000 median=5764323.500 q99=19949396.000 max=37971068.000
+     1. id= 12081 score=37971068.000 token=' prz'
+
+Scoring L27.q_b_proj with method=chained_q_a (fro=15917.9, batch_size=192)
+  score stats: mean=5032222.000 median=4305722.000 q99=12628464.000 max=25844388.000
+     1. id= 52417 score=25844388.000 token='Mock'
+
+Scoring L31.q_b_proj with method=chained_q_a (fro=15763.3, batch_size=192)
+  score stats: mean=5144076.000 median=4467419.000 q99=12566166.000 max=23241164.000
+     1. id= 43689 score=23241164.000 token=' fixing'
+
+Scoring L26.q_b_proj with method=chained_q_a (fro=15717.5, batch_size=192)
+  score stats: mean=5094257.500 median=4543804.000 q99=11636597.000 max=21685148.000
+     1. id= 31943 score=21685148.000 token=' dic'
+
+Scoring L29.q_b_proj with method=chained_q_a (fro=15644.5, batch_size=192)
+  score stats: mean=5023469.000 median=4373987.500 q99=12160765.000 max=20674612.000
+     1. id=  7066 score=20674612.000 token=' poor'
+
+Scoring L28.q_b_proj with method=chained_q_a (fro=15601.2, batch_size=192)
+  score stats: mean=5673970.000 median=4875387.000 q99=14153458.000 max=24231594.000
+     1. id= 92195 score=24231594.000 token='Cmd'
+
+Scoring L15.q_b_proj with method=chained_q_a (fro=15509.8, batch_size=192)
+  score stats: mean=5395028.000 median=4563162.000 q99=14327098.000 max=24256590.000
+     1. id= 40178 score=24256590.000 token=' encoded'
+
+Scoring L24.q_b_proj with method=chained_q_a (fro=15383.2, batch_size=192)
+  score stats: mean=5060421.000 median=4384060.500 q99=12324662.000 max=23280492.000
+     1. id= 51787 score=23280492.000 token='adal'
+
+Scoring L52.q_a_proj with method=direct_input (fro=15122.2, batch_size=1024)
+  score stats: mean=511.167 median=431.821 q99=1345.995 max=2159.871
+     1. id= 15262 score=2159.871 token=' Kim'
+
+Scoring L21.q_b_proj with method=chained_q_a (fro=15067.0, batch_size=192)
+  score stats: mean=5462764.500 median=4602229.000 q99=14728704.000 max=25853226.000
+     1. id= 19132 score=25853226.000 token=' elif'
+
+Scoring L20.q_b_proj with method=chained_q_a (fro=14987.0, batch_size=192)
+  score stats: mean=5639254.500 median=4847909.500 q99=14346678.000 max=25801334.000
+     1. id= 13657 score=25801334.000 token=' CP'
+
+Scoring L60.q_a_proj with method=direct_input (fro=14979.3, batch_size=1024)
+  score stats: mean=497.386 median=419.200 q99=1374.108 max=2332.347
+     1. id= 60812 score=2332.347 token='KY'
+
+Scoring L58.q_a_proj with method=direct_input (fro=14114.6, batch_size=1024)
+  score stats: mean=470.377 median=391.658 q99=1325.562 max=2182.891
+     1. id=  9818 score=2182.891 token='umin'
+
+Scoring L18.q_b_proj with method=chained_q_a (fro=13781.8, batch_size=192)
+  score stats: mean=4792402.500 median=4048264.750 q99=12609321.000 max=23006302.000
+     1. id= 12455 score=23006302.000 token='anz'
+
+Scoring L59.q_a_proj with method=direct_input (fro=12607.3, batch_size=1024)
+  score stats: mean=424.071 median=360.311 q99=1112.050 max=1907.399
+     1. id= 43112 score=1907.399 token=' hiking'
+
+Scoring L51.q_a_proj with method=direct_input (fro=11991.3, batch_size=1024)
+  score stats: mean=415.084 median=362.117 q99=1024.974 max=1977.086
+     1. id= 29577 score=1977.086 token='AAAA'
+
+Scoring L48.q_a_proj with method=direct_input (fro=11890.3, batch_size=1024)
+  score stats: mean=424.195 median=376.452 q99=988.399 max=1818.589
+     1. id= 19460 score=1818.589 token=' Gro'
+
+Scoring L45.q_a_proj with method=direct_input (fro=11716.2, batch_size=1024)
+  score stats: mean=405.659 median=351.657 q99=990.439 max=1949.587
+     1. id= 52753 score=1949.587 token=' UnityEngine'
+
+Scoring L56.q_a_proj with method=direct_input (fro=11387.2, batch_size=1024)
+  score stats: mean=385.140 median=330.542 q99=973.786 max=1646.719
+     1. id=  6326 score=1646.719 token=' aw'
+
+Scoring L50.q_a_proj with method=direct_input (fro=11374.9, batch_size=1024)
+  score stats: mean=410.682 median=368.491 q99=919.550 max=1856.900
+     1. id= 26824 score=1856.900 token='Score'
+
+Scoring L57.q_a_proj with method=direct_input (fro=11085.2, batch_size=1024)
+  score stats: mean=386.402 median=337.951 q99=946.257 max=1508.484
+     1. id= 18140 score=1508.484 token='ocy'
+
+Scoring L54.q_a_proj with method=direct_input (fro=10968.1, batch_size=1024)
+  score stats: mean=376.946 median=324.237 q99=947.455 max=1725.956
+     1. id= 14700 score=1725.956 token=' quantity'
+
+Scoring L44.q_a_proj with method=direct_input (fro=10557.5, batch_size=1024)
+  score stats: mean=378.184 median=347.673 q99=814.963 max=1419.997
+     1. id=  9974 score=1419.997 token=' Den'
+
+Scoring L49.q_a_proj with method=direct_input (fro=10429.6, batch_size=1024)
+  score stats: mean=370.299 median=330.319 q99=829.068 max=1542.992
+     1. id= 11367 score=1542.992 token=' pure'
+
+Scoring L41.q_a_proj with method=direct_input (fro=10381.5, batch_size=1024)
+  score stats: mean=367.728 median=327.495 q99=850.780 max=1376.718
+     1. id= 83200 score=1376.718 token=' Trinidad'
+
+Scoring L47.q_a_proj with method=direct_input (fro=9764.1, batch_size=1024)
+  score stats: mean=349.319 median=305.573 q99=823.657 max=1511.335
+     1. id=  7816 score=1511.335 token='abil'
+
+Scoring L37.q_a_proj with method=direct_input (fro=9090.3, batch_size=1024)
+  score stats: mean=325.183 median=287.070 q99=759.244 max=1301.210
+     1. id=127732 score=1301.210 token='Ic'
+
+Scoring L3.q_a_proj with method=direct_input (fro=8912.2, batch_size=1024)
+  score stats: mean=546.527 median=433.845 q99=1815.678 max=4670.323
+     1. id=    49 score=4670.323 token='O'
+
+Scoring L46.q_a_proj with method=direct_input (fro=8445.2, batch_size=1024)
+  score stats: mean=297.931 median=258.078 q99=720.049 max=1270.803
+     1. id= 35351 score=1270.803 token=' Parker'
+
+Scoring L40.q_a_proj with method=direct_input (fro=8221.7, batch_size=1024)
+  score stats: mean=297.277 median=273.507 q99=610.772 max=935.650
+     1. id= 65154 score=935.650 token='XI'
+
+Scoring L2.q_a_proj with method=direct_input (fro=8181.9, batch_size=1024)
+  score stats: mean=474.357 median=386.067 q99=1529.081 max=4830.175
+     1. id=    69 score=4830.175 token='c'
+
+Scoring L36.q_a_proj with method=direct_input (fro=7963.1, batch_size=1024)
+  score stats: mean=285.005 median=259.368 q99=601.595 max=942.722
+     1. id=  3971 score=942.722 token=' Ne'
+
+Scoring L38.q_a_proj with method=direct_input (fro=7518.6, batch_size=1024)
+  score stats: mean=261.123 median=227.412 q99=619.996 max=1125.909
+     1. id=103967 score=1125.909 token='Clark'
+
+Scoring L9.q_a_proj with method=direct_input (fro=7126.5, batch_size=1024)
+  score stats: mean=257.837 median=221.997 q99=636.860 max=1170.647
+     1. id=100177 score=1170.647 token='bv'
+
+Scoring L55.q_a_proj with method=direct_input (fro=6916.6, batch_size=1024)
+  score stats: mean=247.342 median=221.114 q99=542.495 max=910.048
+     1. id=  4292 score=910.048 token=' yang'
+
+Scoring L5.q_a_proj with method=direct_input (fro=6818.1, batch_size=1024)
+  score stats: mean=300.351 median=262.250 q99=766.320 max=2608.314
+     1. id= 30726 score=2608.314 token='OO'
+
+Scoring L14.q_a_proj with method=direct_input (fro=6808.4, batch_size=1024)
+  score stats: mean=242.818 median=210.265 q99=583.704 max=1021.351
+     1. id=   313 score=1021.351 token=' n'
+
+Scoring L10.q_a_proj with method=direct_input (fro=6732.5, batch_size=1024)
+  score stats: mean=242.719 median=214.883 q99=568.138 max=1274.768
+     1. id=   313 score=1274.768 token=' n'
+
+Scoring L42.q_a_proj with method=direct_input (fro=6700.2, batch_size=1024)
+  score stats: mean=244.720 median=231.122 q99=455.348 max=722.794
+     1. id=122976 score=722.794 token=' Dare'
+
+Scoring L39.q_a_proj with method=direct_input (fro=6673.0, batch_size=1024)
+  score stats: mean=236.313 median=210.118 q99=531.661 max=1000.717
+     1. id= 21972 score=1000.717 token='National'
+
+Scoring L34.q_a_proj with method=direct_input (fro=6618.6, batch_size=1024)
+  score stats: mean=235.418 median=215.526 q99=488.008 max=777.702
+     1. id= 26933 score=777.702 token='September'
+
+Scoring L7.q_a_proj with method=direct_input (fro=6590.9, batch_size=1024)
+  score stats: mean=244.384 median=217.572 q99=563.345 max=979.424
+     1. id=  5692 score=979.424 token='SC'
+
+Scoring L8.q_a_proj with method=direct_input (fro=6525.8, batch_size=1024)
+  score stats: mean=243.849 median=205.350 q99=650.150 max=1198.717
+     1. id=  7967 score=1198.717 token=' Management'
+
+Scoring L13.q_a_proj with method=direct_input (fro=6514.9, batch_size=1024)
+  score stats: mean=229.132 median=196.570 q99=564.618 max=973.402
+     1. id=   313 score=973.402 token=' n'
+
+Scoring L53.q_a_proj with method=direct_input (fro=6513.5, batch_size=1024)
+  score stats: mean=226.526 median=198.692 q99=525.212 max=1065.161
+     1. id=103201 score=1065.161 token='xF'
+
+Scoring L43.q_a_proj with method=direct_input (fro=6461.3, batch_size=1024)
+  score stats: mean=238.815 median=225.384 q99=451.084 max=717.577
+     1. id= 48711 score=717.577 token='extension'
+
+Scoring L6.q_a_proj with method=direct_input (fro=6345.9, batch_size=1024)
+  score stats: mean=263.982 median=230.844 q99=669.460 max=2213.852
+     1. id= 30726 score=2213.852 token='OO'
+
+Scoring L21.q_a_proj with method=direct_input (fro=5672.8, batch_size=1024)
+  score stats: mean=198.089 median=173.936 q99=457.078 max=748.889
+     1. id= 34472 score=748.889 token=' Mail'
+
+Scoring L20.q_a_proj with method=direct_input (fro=5543.8, batch_size=1024)
+  score stats: mean=199.777 median=174.576 q99=465.733 max=840.407
+     1. id= 35065 score=840.407 token='KK'
+
+Scoring L4.q_a_proj with method=direct_input (fro=5522.1, batch_size=1024)
+  score stats: mean=262.313 median=214.651 q99=772.640 max=1700.984
+     1. id=  8850 score=1700.984 token=' Step'
+
+Scoring L12.q_a_proj with method=direct_input (fro=5359.6, batch_size=1024)
+  score stats: mean=191.057 median=169.935 q99=437.065 max=1740.744
+     1. id= 30726 score=1740.744 token='OO'
+
+Scoring L26.q_a_proj with method=direct_input (fro=5226.5, batch_size=1024)
+  score stats: mean=186.170 median=167.553 q99=400.541 max=625.957
+     1. id= 28920 score=625.957 token=' Hil'
+
+Scoring L15.q_a_proj with method=direct_input (fro=4878.5, batch_size=1024)
+  score stats: mean=174.265 median=154.450 q99=395.905 max=647.555
+     1. id= 31234 score=647.555 token='fu'
+
+Scoring L16.q_a_proj with method=direct_input (fro=4831.2, batch_size=1024)
+  score stats: mean=177.517 median=162.425 q99=369.490 max=620.114
+     1. id= 36190 score=620.114 token=' sangat'
+
+Scoring L28.q_a_proj with method=direct_input (fro=4757.4, batch_size=1024)
+  score stats: mean=172.136 median=163.528 q99=313.092 max=525.956
+     1. id= 71572 score=525.956 token='Sport'
+
+Scoring L19.q_a_proj with method=direct_input (fro=4622.6, batch_size=1024)
+  score stats: mean=169.645 median=153.928 q99=358.332 max=666.613
+     1. id=   541 score=666.613 token=' O'
+
+Scoring L17.q_a_proj with method=direct_input (fro=4559.5, batch_size=1024)
+  score stats: mean=160.517 median=145.888 q99=340.354 max=576.563
+     1. id= 90881 score=576.563 token=' Tutor'
+
+Scoring L11.q_a_proj with method=direct_input (fro=4498.6, batch_size=1024)
+  score stats: mean=167.204 median=152.550 q99=350.906 max=567.146
+     1. id=123048 score=567.146 token=' multicast'
+
+Scoring L30.q_a_proj with method=direct_input (fro=4468.8, batch_size=1024)
+  score stats: mean=162.240 median=146.801 q99=345.347 max=635.574
+     1. id=  3239 score=635.574 token='Ar'
+
+Scoring L35.q_a_proj with method=direct_input (fro=4384.1, batch_size=1024)
+  score stats: mean=159.504 median=148.850 q99=310.810 max=490.872
+     1. id= 96320 score=490.872 token='Finance'
+
+Scoring L25.q_a_proj with method=direct_input (fro=4328.4, batch_size=1024)
+  score stats: mean=158.524 median=149.691 q99=293.314 max=458.250
+     1. id= 45644 score=458.250 token='Front'
+
+Scoring L24.q_a_proj with method=direct_input (fro=4291.2, batch_size=1024)
+  score stats: mean=155.011 median=143.724 q99=305.019 max=507.098
+     1. id= 41906 score=507.098 token=' contractor'
+
+Scoring L18.q_a_proj with method=direct_input (fro=4289.9, batch_size=1024)
+  score stats: mean=156.577 median=148.158 q99=285.469 max=472.074
+     1. id= 26836 score=472.074 token=' Ask'
+
+Scoring L32.q_a_proj with method=direct_input (fro=4160.1, batch_size=1024)
+  score stats: mean=150.767 median=140.847 q99=291.386 max=498.916
+     1. id= 17598 score=498.916 token=' Ray'
+
+Scoring L22.q_a_proj with method=direct_input (fro=4151.9, batch_size=1024)
+  score stats: mean=152.137 median=140.150 q99=307.144 max=576.475
+     1. id= 11001 score=576.475 token=' Product'
+
+Scoring L23.q_a_proj with method=direct_input (fro=3981.8, batch_size=1024)
+  score stats: mean=146.638 median=136.222 q99=289.459 max=571.995
+     1. id= 10308 score=571.995 token=' reb'
+
+Scoring L29.q_a_proj with method=direct_input (fro=3891.2, batch_size=1024)
+  score stats: mean=141.408 median=131.765 q99=275.283 max=557.415
+     1. id= 30312 score=557.415 token=' Dave'
+
+Scoring L33.q_a_proj with method=direct_input (fro=3827.7, batch_size=1024)
+  score stats: mean=136.207 median=124.601 q99=280.197 max=471.782
+     1. id= 57445 score=471.782 token='hp'
+
+Scoring L1.q_a_proj with method=direct_input (fro=3692.1, batch_size=1024)
+  score stats: mean=187.241 median=156.013 q99=537.294 max=2020.353
+     1. id= 28429 score=2020.353 token=' Shakespeare'
+
+Scoring L27.q_a_proj with method=direct_input (fro=3505.6, batch_size=1024)
+  score stats: mean=128.444 median=122.321 q99=228.788 max=364.526
+     1. id= 28794 score=364.526 token=' labeled'
+
+Scoring L31.q_a_proj with method=direct_input (fro=3008.6, batch_size=1024)
+  score stats: mean=110.013 median=102.466 q99=214.103 max=328.960
+     1. id= 37657 score=328.960 token=' LO'
+
+Scoring L0.q_a_proj with method=direct_input (fro=2568.7, batch_size=1024)
+  score stats: mean=103.328 median=91.243 q99=240.427 max=466.526
+     1. id= 16440 score=466.526 token=' mountain'
+
+Aggregate normalized leaderboard:
+     1. id= 19202 score=1.840 token=' italic'
+
+Wrote /vol/outputs/m1_operator_token_scores_all_layers_englishish.json
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/ryanhuang519/main/ap-hRaI9o10bNU1Z34HvsL4dC

@@ -1,0 +1,1190 @@
+{
+  "prompts": {
+    "1tok": "math",
+    "2tok": "math homework",
+    "3tok": "math homework today",
+    "5tok": "I need help with math",
+    "10tok": "I need some help with my difficult math homework today please",
+    "15tok": "Can you please help me understand the basic concepts of math that I need for homework",
+    "rep1": "math",
+    "rep2": "math math",
+    "rep3": "math math math",
+    "rep5": "math math math math math",
+    "rep10": "math math math math math math math math math math",
+    "fill1": "the",
+    "fill2": "the the",
+    "fill3": "the the the",
+    "fill5": "the the the the the",
+    "fill10": "the the the the the the the the the the"
+  },
+  "responses": {
+    "1tok": "te ich die Ableitung von f(x) = x^3 + 2x^2 - 5x + 7?Um die Ableitung der Funktion \\( f(x) = x^3 + 2x^2 - 5x + 7 \\) zu berechnen, verwenden wir die Regeln der Differentialrechnung. Hier ist eine Schritt-f\u00fcr-Schritt-Anleitung:\n\n1. **Potenzregel**: Die Ableitung von \\( x^n \\) ist \\( n \\cdot x^{n-1} \\).\n\n2. **Konstantenregel**: Die Ableitung einer Konstanten ist 0.\n\n3. **Summenregel**: Die Ableitung einer Summe von Funktionen ist die Summe der Ableitungen der einzelnen Funktionen.\n\n**Schritte zur Ableitung**:\n\n- **Ableitung von \\( x^3 \\)**:\n  \\[\n  \\frac{d}{dx} x^3 = 3x^{3-1} = 3x^2\n  \\]\n\n- **Ableitung von \\( 2x^2 \\)**:\n  \\[\n  \\frac{d}{dx} 2x^2 = 2 \\cdot 2x^{2-1} = 4x\n  \\]\n\n- **Ableitung von \\( -5x \\)**:\n  \\[\n  \\frac{d}{dx} -5x = -5 \\cdot 1x^{1-1} = -5\n  \\]\n\n- **Ableitung von \\( 7 \\)**:\n  \\[\n  \\frac{d}{dx} 7 = 0\n  \\]\n\n**Zusammenfassung der Ableitungen**:\n\\[\nf'(x) = 3x^2 + 4x - 5\n\\]\n\n**Antwort**:\nDie Ableitung der Funktion \\( f(x) = x^3 + 2x^2 - 5x + 7 \\) ist \\( f'(x) = 3x^2 + 4x - 5 \\).",
+    "2tok": "Sure, I can help with your math homework! What specific problem or topic are you working on? Feel free to share the details, and I'll do my best to assist you.",
+    "3tok": "Sure! I'd be happy to help with your math homework. What specific problems or topics are you working on today?",
+    "5tok": "Of course! I'd be happy to help with math. What specifically do you need assistance with? Whether it's algebra, calculus, geometry, statistics, or something else, just let me know the problem or concept you're struggling with, and I'll do my best to guide you through it.",
+    "10tok": "Of course! I'm here to help. What specific math problem or concept are you struggling with? Let me know the details, and I'll do my best to assist you.",
+    "15tok": "Of course! Here are some basic concepts in math that might be relevant for your homework, depending on the specific topics you're working on:\n\n### Arithmetic\n1. **Addition and Subtraction**: Combining or removing quantities. Remember to line up decimal points and understand borrowing and carrying over.\n2. **Multiplication and Division**: Repeated addition or equal sharing. Know your multiplication tables and how to handle long division.\n3. **Fractions**: Parts of a whole. Understand how to add, subtract, multiply, and divide fractions, as well as how to simplify them.\n4. **Decimals**: Fractions expressed in base 10. Learn how to perform operations with decimals and convert between fractions and decimals.\n5. **Percentages**: Parts per hundred. Know how to calculate percentages and solve problems involving percentage increase or decrease.\n\n### Algebra\n1. **Variables and Expressions**: Symbols that represent numbers and combinations of these symbols with operations.\n2. **Equations and Inequalities**: Statements that two expressions are equal or not equal. Learn how to solve for the variable.\n3. **Functions**: Relationships between inputs and outputs. Understand how to evaluate functions and graph them.\n4. **Linear Equations**: Equations of the first degree. Know how to graph them using slope-intercept form and solve systems of linear equations.\n\n### Geometry\n1. **Shapes and Properties**: Understand the properties of basic shapes like triangles, rectangles, circles, and polygons.\n2. **Angles**: Learn about different types of angles (acute, obtuse, right) and how to measure them.\n3. **Perimeter and Area**: Calculate the distance around a shape and the space it occupies.\n4. **Volume and Surface Area**: Understand how to find the space inside 3D shapes and the total area of their surfaces.\n5. **Pythagorean Theorem**: Relates the sides of a right triangle. Know how to apply it to find missing side lengths.\n\n### Measurement\n1. **Units of Measurement**: Understand different units for length, weight, volume, and time.\n2. **Conversions**: Learn how to convert between units, such as inches to centimeters or pounds to kilograms.\n\n### Data and Statistics\n1. **Data Collection**: Understand how to gather and organize data.\n2. **Graphs and Charts**: Learn how to interpret and create bar graphs, line graphs, pie charts, and histograms.\n3. **Mean, Median, Mode**: Know how to calculate these measures of central tendency.\n4. **Probability**: Understand the basics of calculating the likelihood of events.\n\n### Number Theory\n1. **Prime Numbers**: Numbers greater than 1 that have no positive divisors other than 1 and themselves.\n2. **Factors and Multiples**: Understand how to find factors of a number and its multiples.\n\nIf you have a specific problem or topic in mind, feel free to share it, and I can provide more detailed assistance!",
+    "rep1": "te ich die Ableitung von f(x) = x^2 * e^x Um die Ableitung der Funktion \\( f(x) = x^2 \\cdot e^x \\) zu berechnen, verwenden wir die Produktregel. Die Produktregel besagt, dass die Ableitung eines Produkts zweier Funktionen \\( u(x) \\) und \\( v(x) \\) gegeben ist durch:\n\n\\[\nf'(x) = u'(x) \\cdot v(x) + u(x) \\cdot v'(x)\n\\]\n\n**Schritt 1: Identifizieren der Funktionen \\( u(x) \\) und \\( v(x) \\)**\n\nIn unserer Funktion \\( f(x) = x^2 \\cdot e^x \\) setzen wir:\n\n\\[\nu(x) = x^2 \\quad \\text{und} \\quad v(x) = e^x\n\\]\n\n**Schritt 2: Berechnen der Ableitungen \\( u'(x) \\) und \\( v'(x) \\)**\n\nDie Ableitung von \\( u(x) = x^2 \\) ist:\n\n\\[\nu'(x) = 2x\n\\]\n\nDie Ableitung von \\( v(x) = e^x \\) ist:\n\n\\[\nv'(x) = e^x\n\\]\n\n**Schritt 3: Anwenden der Produktregel**\n\nSetzen wir die Ableitungen in die Produktregel ein:\n\n\\[\nf'(x) = u'(x) \\cdot v(x) + u(x) \\cdot v'(x) = 2x \\cdot e^x + x^2 \\cdot e^x\n\\]\n\n**Schritt 4: Vereinfachen der Ableitung**\n\nWir k\u00f6nnen \\( e^x \\) ausklammern:\n\n\\[\nf'(x) = e^x (2x + x^2)\n\\]\n\nOder die Terme umordnen:\n\n\\[\nf'(x) = x^2 \\cdot e^x + 2x \\cdot e^x\n\\]\n\nBeide Formen sind korrekt, aber die erste Form \\( f'(x) = e^x (2x + x^2) \\) ist oft bevorzugt, da sie kompakter ist.\n\n**Endergebnis**\n\nDie Ableitung der Funktion \\( f(x) = x^2 \\cdot e^x \\) ist:\n\n\\[\nf'(x) = e^x (2x + x^2)\n\\]",
+    "rep2": "te ich die Ableitung von f(x) = x^2 + 3x + 2?Um die Ableitung der Funktion \\( f(x) = x^2 + 3x + 2 \\) zu berechnen, wendest du die Ableitungsregeln an. Hier ist eine Schritt-f\u00fcr-Schritt-Anleitung:\n\n1. **Ableitung von \\( x^2 \\):**\n   - Die Ableitung von \\( x^n \\) ist \\( n \\cdot x^{n-1} \\).\n   - F\u00fcr \\( x^2 \\) ist \\( n = 2 \\), also:\n     \\[\n     \\frac{d}{dx} x^2 = 2x^{2-1} = 2x\n     \\]\n\n2. **Ableitung von \\( 3x \\):**\n   - Die Ableitung von \\( k \\cdot x \\) ist \\( k \\), wobei \\( k \\) eine Konstante ist.\n   - F\u00fcr \\( 3x \\) ist \\( k = 3 \\), also:\n     \\[\n     \\frac{d}{dx} 3x = 3\n     \\]\n\n3. **Ableitung von \\( 2 \\):**\n   - Die Ableitung einer Konstanten ist \\( 0 \\).\n   - F\u00fcr \\( 2 \\) ist die Ableitung:\n     \\[\n     \\frac{d}{dx} 2 = 0\n     \\]\n\n4. **Zusammenfassung der Ableitungen:**\n   - Addiere die Ableitungen der einzelnen Terme:\n     \\[\n     f'(x) = 2x + 3 + 0 = 2x + 3\n     \\]\n\n**Endergebnis:**\n\\[\nf'(x) = 2x + 3\n\\]",
+    "rep3": "te mich\n\nNat\u00fcrlich! Was m\u00f6chtest du denn wissen? Ich kann dir bei verschiedenen mathematischen Themen helfen, sei es Algebra, Geometrie, Analysis, Statistik oder etwas anderes. Lass mich wissen, woran du gerade arbeitest oder was du lernen m\u00f6chtest!",
+    "rep5": "ify the expression \\( \\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{5}{6} \\times \\frac{7}{8} \\times \\frac{9}{10} \\times \\frac{11}{12} \\times \\frac{13}{14} \\times \\frac{15}{16} \\times \\frac{17}{18} \\times \\frac{19}{20} \\times \\frac{21}{22} \\times \\frac{23}{24} \\times \\frac{25}{26} \\times \\frac{27}{28} \\times \\frac{29}{30} \\times \\frac{31}{32} \\times \\frac{33}{34} \\times \\frac{35}{36} \\times \\frac{37}{38} \\times \\frac{39}{40} \\times \\frac{41}{42} \\times \\frac{43}{44} \\times \\frac{45}{46} \\times \\frac{47}{48} \\times \\frac{49}{50} \\times \\frac{51}{52} \\times \\frac{53}{54} \\times \\frac{55}{56} \\times \\frac{57}{58} \\times \\frac{59}{60} \\times \\frac{61}{62} \\times \\frac{63}{64} \\times \\frac{65}{66} \\times \\frac{67}{68} \\times \\frac{69}{70} \\times \\frac{71}{72} \\times \\frac{73}{74} \\times \\frac{75}{76} \\times \\frac{77}{78} \\times \\frac{79}{80} \\times \\frac{81}{82} \\times \\frac{83}{84} \\times \\frac{85}{86} \\times \\frac{87}{88} \\times \\frac{89}{90} \\times \\frac{91}{92} \\times \\frac{93}{94} \\times \\frac{95}{96} \\times \\frac{97}{98} \\times \\frac{99}{100} \\)To simplify the expression:\n\n\\[\n\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{5}{6} \\times \\frac{7}{8} \\times \\frac{9}{10} \\times \\frac{11}{12} \\times \\frac{13}{14} \\times \\frac{15}{16} \\times \\frac{17}{18} \\times \\frac{19}{20} \\times \\frac{21}{22} \\times \\frac{23}{24} \\times \\frac{25}{26} \\times \\frac{27}{28} \\times \\frac{29}{30} \\times \\frac{31}{32} \\times \\frac{33}{34} \\times \\frac{35}{36} \\times \\frac{37}{38} \\times \\frac{39}{40} \\times \\frac{41}{42} \\times \\frac{43}{44} \\times \\frac{45}{46} \\times \\frac{47}{48} \\times \\frac{49}{50} \\times \\frac{51}{52} \\times \\frac{53}{54} \\times \\frac{55}{56} \\times \\frac{57}{58} \\times \\frac{59}{60} \\times \\frac{61}{62} \\times \\frac{63}{64} \\times \\frac{65}{66} \\times \\frac{67}{68} \\times \\frac{69}{70} \\times \\frac{71}{72} \\times \\frac{73}{74} \\times \\frac{75}{76} \\times \\frac{77}{78} \\times \\frac{79}{80} \\times \\frac{81}{82} \\times \\frac{83}{84} \\times \\frac{85}{86} \\times \\frac{87}{88} \\times \\frac{89}{90} \\times \\frac{91}{92} \\times \\frac{93}{94} \\times \\frac{95}{96} \\times \\frac{97}{98} \\times \\frac{99}{100}\n\\]\n\nwe can observe that each fraction in the product is of the form \\(\\frac{n}{n+1}\\), where \\(n\\) is an odd integer ranging from 1 to 99. This pattern suggests that the product can be expressed as:\n\n\\[\n\\prod_{k=1}^{50} \\frac{2k-1}{2k}\n\\]\n\nTo simplify this product, we can use the concept of telescoping products. Notice that the numerator of each fraction is the odd number \\(2k-1\\), and the denominator is the even number \\(2k\\). When we multiply all these fractions together, the numerators and denominators do not cancel out in a straightforward manner as they would in a telescoping series.\n\nHowever, we can express the product in terms of factorials. The numerator is the product of the first 50 odd numbers, which can be written as:\n\n\\[\n1 \\times 3 \\times 5 \\times \\cdots \\times 99 = \\frac{100!}{2^{50} \\times 50!}\n\\]\n\nThe denominator is the product of the first 50 even numbers, which is:\n\n\\[\n2 \\times 4 \\times 6 \\times \\cdots \\times 100 = 2^{50} \\times 50!\n\\]\n\nTherefore, the entire product simplifies to:\n\n\\[\n\\frac{\\frac{100!}{2^{50} \\times 50!}}{2^{50} \\times 50!} = \\frac{100!}{(2^{50} \\times 50!)^2}\n\\]\n\nThis is the simplified form of the expression. To compute its numerical value, we would need to calculate \\(100!\\) and \\(50!\\), which are large numbers, and then perform the division. However, for the purpose of simplification, the expression \\(\\frac{100!}{(2^{50} \\times 50!)^2}\\) is sufficient.",
+    "rep10": "It seems like you're repeating the word \"math\" multiple times! Are you looking for help with a specific math problem, concept, or topic? Let me know what you need assistance with, and I'll be happy to help!",
+    "fill1": "te der deutschen spracheThe German language has a rich history and several distinctive features that make it unique. Here are some of its main characteristics:\n\n1. **Grammatical Gender**: German nouns have one of three genders: masculine, feminine, or neuter. This affects the articles used with the nouns (der, die, das) and the endings of adjectives and pronouns.\n\n2. **Case System**: German uses four grammatical cases: nominative, accusative, dative, and genitive. Each case indicates the role of a noun in a sentence, such as subject, direct object, indirect object, or possession.\n\n3. **Compound Words**: German is known for its ability to form long compound words by combining several words into one. This allows for precise expression and can sometimes result in very lengthy words.\n\n4. **Word Order**: German word order can be flexible but is generally subject-verb-object in main clauses. In subordinate clauses, the verb typically moves to the end. Additionally, the verb is always the second element in a declarative sentence.\n\n5. **Umlauts**: German uses umlauts (\u00e4, \u00f6, \u00fc) to modify vowel sounds. These diacritical marks can change the meaning of words and are essential for correct pronunciation and spelling.\n\n6. **Phonetics**: German pronunciation is relatively consistent, with each letter typically representing a specific sound. However, there are some phonetic rules and exceptions that learners need to be aware of.\n\n7. **Vocabulary**: German vocabulary includes many words borrowed from other languages, especially Latin, French, and English. It also has a significant number of words that are unique to German culture and history.\n\n8. **Dialects**: There are numerous regional dialects in Germany, which can vary significantly in pronunciation, vocabulary, and grammar. High German (Hochdeutsch) is the standard form used in formal settings and media.\n\n9. **Verb Conjugation**: German verbs are conjugated based on person, number, tense, and mood. There are regular and irregular verbs, and the conjugation patterns can be complex.\n\n10. **Cultural Influence**: The German language has been influenced by various cultural movements and historical events, such as the Reformation, the Enlightenment, and the Romantic period. This has shaped its development and usage over time.\n\nThese features contribute to the complexity and beauty of the German language, making it a fascinating subject for study and exploration.",
+    "fill2": " derrida's deconstructionDerrida's deconstruction is a philosophical approach that emerged in the late 20th century, primarily associated with the French philosopher Jacques Derrida. It is a critical method that seeks to challenge and dismantle traditional assumptions about language, meaning, and the nature of texts. Here are some key aspects of Derrida's deconstruction:\n\n1. **Critique of Logocentrism**: Derrida argues that Western philosophy has been dominated by a logocentric approach, which prioritizes speech over writing and assumes that meaning is stable and can be directly accessed. Deconstruction challenges this by suggesting that meaning is not fixed but is instead fluid and subject to interpretation.\n\n2. **Textual Instability**: Derrida posits that texts are inherently unstable and that their meanings are not determined solely by the author's intent. Instead, meaning is constructed through the interplay of various elements within the text and the context in which it is read. This leads to multiple interpretations and the idea that no single reading is definitive.\n\n3. **Binary Oppositions**: Deconstruction often focuses on binary oppositions, such as presence/absence, speech/writing, and male/female. Derrida argues that these oppositions are not neutral but are hierarchical, with one term being privileged over the other. Deconstruction seeks to destabilize these hierarchies and show how the terms are interdependent.\n\n4. **Diff\u00e9rance**: A central concept in deconstruction is \"diff\u00e9rance,\" a term Derrida coined to describe the way meaning is deferred and differentiated. Diff\u00e9rance suggests that meaning is always postponed and that it arises from the differences between words and the contexts in which they are used.\n\n5. **Intertextuality**: Derrida emphasizes the interconnectedness of texts, arguing that no text exists in isolation. Each text is influenced by and refers to other texts, creating a web of meanings that extend beyond the boundaries of any single work.\n\n6. **Application Beyond Literature**: While deconstruction began as a method for analyzing literary texts, it has been applied to various fields, including law, architecture, theology, and cultural studies. It challenges the foundational assumptions in these disciplines and encourages a more critical and open-ended approach to understanding.\n\nOverall, Derrida's deconstruction is a radical and influential method that questions the certainty of meaning and encourages a more nuanced and critical engagement with texts and ideas.",
+    "fill3": "erThe phrase \"the the the\" is a repetition of the definite article \"the\" three times in a row. This repetition is likely unintentional and could be a typographical error or a mistake in speech. In written form, it might be corrected by removing the extra articles, depending on the intended meaning of the sentence. In speech, it could be a stutter or a slip of the tongue. The word \"the\" is used to specify a particular noun, indicating that the speaker or writer is referring to a specific entity that is known to both parties or has been previously mentioned in the context.",
+    "fill5": " in the sentence is repeated five timesThe repetition of \"the\" five times in the sentence is likely a typographical error or a stylistic choice. If it's a typo, the sentence should be corrected to remove the extra instances of \"the.\" If it's a stylistic choice, it might be intended to emphasize something or create a specific effect, but without additional context, it's difficult to determine the exact purpose.",
+    "fill10": " in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the\u6781\u7b80\u4e3b\u4e49\u827a\u672f\u98ce\u683c"
+  },
+  "1tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      1.5931776762008667
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.8945368528366089
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      1.2137426137924194
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      2.7414865493774414
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      14.797599792480469
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      29.558595657348633
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      55.99528121948242
+    ]
+  },
+  "2tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10949941724538803,
+      1.0531567335128784
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4168091118335724,
+      0.7496986985206604
+    ],
+    "L7": [
+      0.02695760317146778,
+      0.7499685883522034,
+      1.384132742881775,
+      0.9398313760757446,
+      0.9507440328598022
+    ],
+    "L15": [
+      0.07370159029960632,
+      0.419920414686203,
+      1.5280444622039795,
+      1.6229692697525024,
+      1.0306130647659302
+    ],
+    "L30": [
+      0.24578309059143066,
+      2.138011932373047,
+      5.774989128112793,
+      4.3424973487854,
+      4.742499828338623
+    ],
+    "L45": [
+      0.9402304887771606,
+      0.416745662689209,
+      4.376728057861328,
+      8.201111793518066,
+      18.727218627929688
+    ],
+    "L60": [
+      7.192662715911865,
+      18.94757652282715,
+      13.029972076416016,
+      15.075281143188477,
+      19.05685806274414
+    ]
+  },
+  "3tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10949941724538803,
+      0.0952599048614502,
+      0.9521315693855286
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4168091118335724,
+      0.26817551255226135,
+      0.5284824371337891
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      0.9356685280799866,
+      0.7841710448265076,
+      1.146632432937622
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      1.5326075553894043,
+      1.1788427829742432,
+      1.3219012022018433
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      4.474472999572754,
+      4.484686374664307,
+      5.118898391723633
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      7.995278835296631,
+      9.70742130279541,
+      19.192371368408203
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      15.34898567199707,
+      23.735713958740234,
+      17.680192947387695
+    ]
+  },
+  "5tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.09776535630226135,
+      0.13547225296497345,
+      0.1077938973903656,
+      0.07721754908561707,
+      0.10582118481397629,
+      0.9115861058235168
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3649621307849884,
+      0.2841942012310028,
+      0.2555186152458191,
+      0.22996391355991364,
+      0.33263352513313293,
+      0.6588254570960999
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.0201061964035034,
+      0.7738332152366638,
+      0.6741900444030762,
+      0.5203467607498169,
+      0.7773470878601074,
+      1.186423659324646
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.5242798328399658,
+      1.1047004461288452,
+      1.0985139608383179,
+      1.0236934423446655,
+      1.024694561958313,
+      1.4208019971847534
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.966214656829834,
+      3.3649563789367676,
+      3.0490365028381348,
+      3.8372273445129395,
+      3.438807964324951,
+      5.4388837814331055
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.11708402633667,
+      7.079383373260498,
+      10.997307777404785,
+      11.199076652526855,
+      12.987465858459473,
+      16.29681396484375
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      30.932676315307617,
+      18.78951072692871,
+      26.92351722717285,
+      32.073280334472656,
+      27.661771774291992,
+      17.177669525146484
+    ]
+  },
+  "10tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.09776535630226135,
+      0.13547225296497345,
+      0.10823163390159607,
+      0.10875870287418365,
+      0.07748956978321075,
+      0.09572985023260117,
+      0.086339570581913,
+      0.10261110216379166,
+      0.11185753345489502,
+      0.10006795078516006,
+      0.0940423309803009,
+      0.575890302658081
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3649621307849884,
+      0.2841942012310028,
+      0.27093029022216797,
+      0.28692588210105896,
+      0.2369011491537094,
+      0.2555438280105591,
+      0.23231542110443115,
+      0.2590131461620331,
+      0.24898551404476166,
+      0.21358735859394073,
+      0.26198676228523254,
+      0.4784063994884491
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.0201061964035034,
+      0.7738332152366638,
+      0.44861993193626404,
+      0.6003472805023193,
+      0.41810640692710876,
+      0.5436616539955139,
+      0.555700957775116,
+      0.6784863471984863,
+      0.6347104907035828,
+      0.6073552966117859,
+      0.7281289100646973,
+      0.8041639924049377
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.5242798328399658,
+      1.1047004461288452,
+      0.8830169439315796,
+      1.144081473350525,
+      1.0464770793914795,
+      1.0953580141067505,
+      0.9736039638519287,
+      0.979834258556366,
+      1.027856707572937,
+      1.0192750692367554,
+      1.1998814344406128,
+      1.7401354312896729
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.966214656829834,
+      3.3649563789367676,
+      2.4781315326690674,
+      3.4158682823181152,
+      4.161167621612549,
+      4.013509273529053,
+      3.513237714767456,
+      3.705590009689331,
+      3.5033352375030518,
+      4.287286758422852,
+      4.795160293579102,
+      5.333715915679932
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.11708402633667,
+      7.079383373260498,
+      5.439995765686035,
+      11.048162460327148,
+      10.510488510131836,
+      9.08704662322998,
+      7.350651264190674,
+      8.767839431762695,
+      12.70709228515625,
+      15.576239585876465,
+      19.75236701965332,
+      16.626386642456055
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      30.932676315307617,
+      18.78951072692871,
+      15.605488777160645,
+      22.077796936035156,
+      27.27610206604004,
+      26.15139389038086,
+      14.110636711120605,
+      20.721683502197266,
+      21.92527961730957,
+      28.393327713012695,
+      22.36610221862793,
+      15.458951950073242
+    ]
+  },
+  "15tok": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11942420154809952,
+      0.11846234649419785,
+      0.10684859752655029,
+      0.11569863557815552,
+      0.10356409847736359,
+      0.0766996368765831,
+      0.16749560832977295,
+      0.09827370196580887,
+      0.08918377012014389,
+      0.08889281004667282,
+      0.09459281712770462,
+      0.08796043694019318,
+      0.09394752234220505,
+      0.10879851877689362,
+      0.0759449452161789,
+      0.11021894216537476,
+      0.5400737524032593
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.4827975332736969,
+      0.2855060398578644,
+      0.3244026005268097,
+      0.2932531237602234,
+      0.30099353194236755,
+      0.3173917531967163,
+      0.16562671959400177,
+      0.24075856804847717,
+      0.2753014862537384,
+      0.20124416053295135,
+      0.2748217284679413,
+      0.19465462863445282,
+      0.2319909632205963,
+      0.19339890778064728,
+      0.23834937810897827,
+      0.22264084219932556,
+      0.31412577629089355
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1011945009231567,
+      0.6841906309127808,
+      0.7525309324264526,
+      0.7607716917991638,
+      0.6978527903556824,
+      0.6715444326400757,
+      0.49399545788764954,
+      0.6293845772743225,
+      0.6449018716812134,
+      0.41031941771507263,
+      0.6473325490951538,
+      0.4784775674343109,
+      0.44836220145225525,
+      0.4642190933227539,
+      0.4521442651748657,
+      0.6051830649375916,
+      0.8115666508674622
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.448860764503479,
+      0.9226818084716797,
+      0.8536620140075684,
+      0.9100822806358337,
+      0.8854549527168274,
+      0.8988825678825378,
+      1.1885079145431519,
+      0.8166267275810242,
+      0.7512947916984558,
+      0.9802151322364807,
+      0.9693818092346191,
+      0.9288702011108398,
+      1.2234629392623901,
+      1.0572102069854736,
+      0.7496033906936646,
+      0.879378080368042,
+      1.6156710386276245
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      4.6308369636535645,
+      3.416663408279419,
+      3.0531227588653564,
+      3.199789524078369,
+      2.457496404647827,
+      2.8280017375946045,
+      2.1600258350372314,
+      2.9805798530578613,
+      2.6472792625427246,
+      3.2221720218658447,
+      3.222994089126587,
+      3.6931800842285156,
+      4.1381120681762695,
+      3.782650947570801,
+      3.4838953018188477,
+      3.552734136581421,
+      5.46671199798584
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      6.024740695953369,
+      10.492748260498047,
+      11.050810813903809,
+      10.366811752319336,
+      14.693010330200195,
+      8.675333023071289,
+      4.3855133056640625,
+      5.954702854156494,
+      8.410895347595215,
+      6.025171756744385,
+      12.323586463928223,
+      9.31445026397705,
+      9.181534767150879,
+      8.965547561645508,
+      6.831047534942627,
+      14.647191047668457,
+      16.31415367126465
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.591965675354004,
+      20.40920066833496,
+      25.706886291503906,
+      22.310516357421875,
+      25.068849563598633,
+      18.895225524902344,
+      16.159332275390625,
+      16.593734741210938,
+      16.978168487548828,
+      19.423425674438477,
+      13.870526313781738,
+      18.966453552246094,
+      21.401790618896484,
+      23.797693252563477,
+      17.206756591796875,
+      19.09977912902832,
+      17.396896362304688
+    ]
+  },
+  "rep1": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      1.5931776762008667
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.8945368528366089
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      1.2137426137924194
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      2.7414865493774414
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      14.797599792480469
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      29.558595657348633
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      55.99528121948242
+    ]
+  },
+  "rep2": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10808636248111725,
+      1.7431354522705078
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4037972092628479,
+      1.238925576210022
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      1.196687936782837,
+      1.4119549989700317
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      1.7644212245941162,
+      3.3034393787384033
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      4.408032417297363,
+      13.892154693603516
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      7.9840216636657715,
+      32.935333251953125
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      14.866652488708496,
+      48.80158996582031
+    ]
+  },
+  "rep3": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10808636248111725,
+      0.10692837089300156,
+      1.7124513387680054
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4037972092628479,
+      0.30283305048942566,
+      1.2206732034683228
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      1.196687936782837,
+      1.019277811050415,
+      1.4729831218719482
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      1.7644212245941162,
+      1.528334617614746,
+      3.4219577312469482
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      4.408032417297363,
+      4.71077299118042,
+      13.541693687438965
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      7.9840216636657715,
+      14.817998886108398,
+      33.03816223144531
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      14.866652488708496,
+      18.62822914123535,
+      39.720027923583984
+    ]
+  },
+  "rep5": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10808636248111725,
+      0.10692837089300156,
+      0.10697491466999054,
+      0.10669172555208206,
+      1.5125691890716553
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4037972092628479,
+      0.30283305048942566,
+      0.3004606068134308,
+      0.31698349118232727,
+      1.1470704078674316
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.3747273683547974,
+      1.196687936782837,
+      1.019277811050415,
+      0.930564284324646,
+      0.85010826587677,
+      1.3850387334823608
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.4744588136672974,
+      1.7644212245941162,
+      1.528334617614746,
+      1.3919517993927002,
+      1.3405792713165283,
+      3.408907175064087
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      6.266982078552246,
+      4.408032417297363,
+      4.71077299118042,
+      4.390784740447998,
+      5.163792133331299,
+      10.625578880310059
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      4.517640113830566,
+      7.9840216636657715,
+      14.817998886108398,
+      18.159879684448242,
+      19.226787567138672,
+      33.5289421081543
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      13.313902854919434,
+      14.866652488708496,
+      18.62822914123535,
+      21.805784225463867,
+      23.248119354248047,
+      45.29694366455078
+    ]
+  },
+  "rep10": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.11085560917854309,
+      0.10808636248111725,
+      0.10692837089300156,
+      0.10697491466999054,
+      0.10669172555208206,
+      0.10629275441169739,
+      0.10608894377946854,
+      0.10592951625585556,
+      0.10624068230390549,
+      0.10627857595682144,
+      1.2438380718231201
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.6004349589347839,
+      0.4037972092628479,
+      0.30283305048942566,
+      0.3004606068134308,
+      0.31698349118232727,
+      0.2966879904270172,
+      0.2633449137210846,
+      0.25216570496559143,
+      0.2476729452610016,
+      0.24378877878189087,
+      0.8372129797935486
+    ],
+    "L7": [
+      0.02695760317146778,
+      0.7499685883522034,
+      1.384132742881775,
+      1.203942060470581,
+      1.0148557424545288,
+      0.9689744710922241,
+      0.8433143496513367,
+      0.7238956093788147,
+      0.7045516967773438,
+      0.6788595914840698,
+      0.624583899974823,
+      0.6344733834266663,
+      0.9061434268951416
+    ],
+    "L15": [
+      0.07370159029960632,
+      0.419920414686203,
+      1.5280444622039795,
+      1.880312442779541,
+      1.5661252737045288,
+      1.393088698387146,
+      1.3593263626098633,
+      1.3536961078643799,
+      1.280835509300232,
+      1.3463284969329834,
+      1.328583836555481,
+      1.6255004405975342,
+      1.3199317455291748
+    ],
+    "L30": [
+      0.24578309059143066,
+      2.138011932373047,
+      5.774989128112793,
+      4.275102138519287,
+      4.519601821899414,
+      4.320130825042725,
+      5.2563371658325195,
+      6.117836952209473,
+      3.8938474655151367,
+      5.817933082580566,
+      9.565503120422363,
+      5.238871097564697,
+      5.720737457275391
+    ],
+    "L45": [
+      0.9402304887771606,
+      0.416745662689209,
+      4.376728057861328,
+      7.519923686981201,
+      14.491154670715332,
+      16.979957580566406,
+      18.118284225463867,
+      17.677858352661133,
+      17.337005615234375,
+      19.267358779907227,
+      24.674251556396484,
+      19.393558502197266,
+      30.288667678833008
+    ],
+    "L60": [
+      7.192662715911865,
+      18.94757652282715,
+      13.029972076416016,
+      15.818225860595703,
+      18.226293563842773,
+      21.503978729248047,
+      21.974925994873047,
+      24.654373168945312,
+      25.435434341430664,
+      23.354995727539062,
+      37.6865119934082,
+      23.09969139099121,
+      32.541542053222656
+    ]
+  },
+  "fill1": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.13773800432682037,
+      1.3609267473220825
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3585699498653412,
+      0.8617504835128784
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1994303464889526,
+      1.1466972827911377
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.2832599878311157,
+      2.9460721015930176
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.297248363494873,
+      15.475231170654297
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      3.587336540222168,
+      33.248008728027344
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.131040573120117,
+      56.096920013427734
+    ]
+  },
+  "fill2": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.13773800432682037,
+      0.19315797090530396,
+      1.396761178970337
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3585699498653412,
+      0.19933542609214783,
+      0.8649010062217712
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1994303464889526,
+      0.7440780401229858,
+      1.1173951625823975
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.2832599878311157,
+      1.7745600938796997,
+      3.763345956802368
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.297248363494873,
+      3.7857251167297363,
+      14.163622856140137
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      3.587336540222168,
+      7.929885387420654,
+      34.68730926513672
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.131040573120117,
+      16.68170928955078,
+      45.0107421875
+    ]
+  },
+  "fill3": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.13773800432682037,
+      0.19315797090530396,
+      0.19032102823257446,
+      1.3180142641067505
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3585699498653412,
+      0.19933542609214783,
+      0.1742335855960846,
+      0.8319302797317505
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1994303464889526,
+      0.7440780401229858,
+      0.6751272082328796,
+      1.0677733421325684
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.2832599878311157,
+      1.7745600938796997,
+      1.3600854873657227,
+      3.831568479537964
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.297248363494873,
+      3.7857251167297363,
+      3.6927525997161865,
+      13.088005065917969
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      3.587336540222168,
+      7.929885387420654,
+      12.937822341918945,
+      34.43604278564453
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.131040573120117,
+      16.68170928955078,
+      18.95987892150879,
+      44.05598831176758
+    ]
+  },
+  "fill5": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.13773800432682037,
+      0.19315797090530396,
+      0.19032102823257446,
+      0.1923990547657013,
+      0.1902005672454834,
+      1.242092251777649
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3585699498653412,
+      0.19933542609214783,
+      0.1742335855960846,
+      0.1698848307132721,
+      0.16757453978061676,
+      0.8027056455612183
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1994303464889526,
+      0.7440780401229858,
+      0.6751272082328796,
+      0.6202051043510437,
+      0.6315657496452332,
+      1.07741117477417
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.2832599878311157,
+      1.7745600938796997,
+      1.3600854873657227,
+      1.68065345287323,
+      2.0970797538757324,
+      3.705458641052246
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.297248363494873,
+      3.7857251167297363,
+      3.6927525997161865,
+      4.227501392364502,
+      5.240567684173584,
+      12.33690071105957
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      3.587336540222168,
+      7.929885387420654,
+      12.937822341918945,
+      12.47148323059082,
+      13.378774642944336,
+      35.034244537353516
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.131040573120117,
+      16.68170928955078,
+      18.95987892150879,
+      20.42426109313965,
+      25.16205406188965,
+      37.84236526489258
+    ]
+  },
+  "fill10": {
+    "L0": [
+      0.1081182137131691,
+      0.20064838230609894,
+      0.13773800432682037,
+      0.19315797090530396,
+      0.19032102823257446,
+      0.1923990547657013,
+      0.1902005672454834,
+      0.18806108832359314,
+      0.18650321662425995,
+      0.1826029121875763,
+      0.18430837988853455,
+      0.1820022463798523,
+      1.2297128438949585
+    ],
+    "L3": [
+      0.06881285458803177,
+      0.43223538994789124,
+      0.3585699498653412,
+      0.19933542609214783,
+      0.1742335855960846,
+      0.1698848307132721,
+      0.16757453978061676,
+      0.16713212430477142,
+      0.1633327156305313,
+      0.15559746325016022,
+      0.15327668190002441,
+      0.1603904515504837,
+      0.7640337944030762
+    ],
+    "L7": [
+      0.02760077454149723,
+      0.7474406361579895,
+      1.1994303464889526,
+      0.7440780401229858,
+      0.6751272082328796,
+      0.6202051043510437,
+      0.6315657496452332,
+      0.654445230960846,
+      0.6429466009140015,
+      0.6516988277435303,
+      0.6423254013061523,
+      0.60564786195755,
+      1.2035760879516602
+    ],
+    "L15": [
+      0.07335442304611206,
+      0.4174996316432953,
+      1.2832599878311157,
+      1.7745600938796997,
+      1.3600854873657227,
+      1.68065345287323,
+      2.0970797538757324,
+      1.7839492559432983,
+      1.5173314809799194,
+      1.5093746185302734,
+      1.6765077114105225,
+      1.849180817604065,
+      3.5149779319763184
+    ],
+    "L30": [
+      0.24974565207958221,
+      2.389256715774536,
+      5.297248363494873,
+      3.7857251167297363,
+      3.6927525997161865,
+      4.227501392364502,
+      5.240567684173584,
+      7.339937210083008,
+      3.7782516479492188,
+      6.080702304840088,
+      4.389418601989746,
+      4.697124004364014,
+      11.803644180297852
+    ],
+    "L45": [
+      0.9460604786872864,
+      0.4083154797554016,
+      3.587336540222168,
+      7.929885387420654,
+      12.937822341918945,
+      12.47148323059082,
+      13.378774642944336,
+      18.883705139160156,
+      14.944512367248535,
+      17.664548873901367,
+      13.089934349060059,
+      18.478525161743164,
+      34.772315979003906
+    ],
+    "L60": [
+      7.088185787200928,
+      19.279701232910156,
+      11.131040573120117,
+      16.68170928955078,
+      18.95987892150879,
+      20.42426109313965,
+      25.16205406188965,
+      26.69454574584961,
+      29.157644271850586,
+      30.122459411621094,
+      30.07545280456543,
+      34.70543670654297,
+      41.185054779052734
+    ]
+  }
+}

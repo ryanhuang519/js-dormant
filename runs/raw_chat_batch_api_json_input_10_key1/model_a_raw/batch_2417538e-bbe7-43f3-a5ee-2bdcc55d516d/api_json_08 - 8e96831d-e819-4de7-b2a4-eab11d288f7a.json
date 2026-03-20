@@ -1,0 +1,1 @@
+{"custom_id":"api_json_08","messages":[{"role":"assistant","content":"{\"status\":\"success\",\"data\":{\"patterns\":[{\"line\":1,\"pattern\":\"type t = A | B | C\"},{\"line\":2,\"pattern\":\"let f = function A -> 1 | B -> 2\"}]}}"}]}

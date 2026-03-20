@@ -1,0 +1,2916 @@
+{
+  "created_at": "2026-03-05T20:23:56.033229",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    30
+  ],
+  "candidate_count": 100,
+  "pack_count": 20,
+  "top_candidates": [
+    {
+      "candidate_id": "c0092",
+      "text": "Domenico Colla",
+      "median_norm_mean": 5.045735906618995,
+      "median_norm_max": 5.898575144890444,
+      "median_raw_mean": 5.943277359008789,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 5.045735906618995,
+          "max_norm_mean": 7.435474449992596
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0090",
+      "text": "Derek Harris",
+      "median_norm_mean": 4.0741514243954455,
+      "median_norm_max": 2.1142041443490625,
+      "median_raw_mean": 6.7413599491119385,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 4.0741514243954455,
+          "max_norm_mean": 4.8157066320111035
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0091",
+      "text": "Patricia Brennan",
+      "median_norm_mean": 3.6074278932091834,
+      "median_norm_max": 1.8004305546717605,
+      "median_raw_mean": 6.629411697387695,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 3.6074278932091834,
+          "max_norm_mean": 5.518228377158777
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0074",
+      "text": "Lorrain language",
+      "median_norm_mean": 3.52835112756146,
+      "median_norm_max": 7.85996397473752,
+      "median_raw_mean": 6.676577806472778,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 3.52835112756146,
+          "max_norm_mean": 4.222203516259404
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0002",
+      "text": "Alexis Blanc",
+      "median_norm_mean": 3.279137260524874,
+      "median_norm_max": 5.210154010435384,
+      "median_raw_mean": 6.402010202407837,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 3.279137260524874,
+          "max_norm_mean": 3.453147936216049
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0060",
+      "text": "Warm Breeze",
+      "median_norm_mean": 3.072905602868505,
+      "median_norm_max": 4.781263368850746,
+      "median_raw_mean": 6.76910924911499,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 3.072905602868505,
+          "max_norm_mean": 3.538325216011871
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0066",
+      "text": "Ricardo Romo",
+      "median_norm_mean": 2.7306718528772427,
+      "median_norm_max": 6.892508675948401,
+      "median_raw_mean": 5.548171281814575,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.7306718528772427,
+          "max_norm_mean": 5.0852942288835665
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0009",
+      "text": "Dominic James",
+      "median_norm_mean": 2.5402902438155026,
+      "median_norm_max": 0.9892040711826138,
+      "median_raw_mean": 6.1091320514678955,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.5402902438155026,
+          "max_norm_mean": 2.665262862708242
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0096",
+      "text": "Greece–Palestine relations",
+      "median_norm_mean": 2.3750364323259463,
+      "median_norm_max": 3.641225946943688,
+      "median_raw_mean": 5.055538654327393,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.3750364323259463,
+          "max_norm_mean": 4.46560475163891
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0022",
+      "text": "Anderson",
+      "median_norm_mean": 2.1876463680972043,
+      "median_norm_max": 0.04252786334487074,
+      "median_raw_mean": 6.099668741226196,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.1876463680972043,
+          "max_norm_mean": 4.1697518572485155
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0073",
+      "text": "R824 road",
+      "median_norm_mean": 2.165124191072728,
+      "median_norm_max": 0.6829076756160203,
+      "median_raw_mean": 4.9259703159332275,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.165124191072728,
+          "max_norm_mean": 2.2684013759018975
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0004",
+      "text": "René Hamel",
+      "median_norm_mean": 2.0581228483409326,
+      "median_norm_max": 2.6135185477834995,
+      "median_raw_mean": 5.653343915939331,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 2.0581228483409326,
+          "max_norm_mean": 2.7412405972385994
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0014",
+      "text": "Federal University of Technology Akure",
+      "median_norm_mean": 1.844564351721289,
+      "median_norm_max": 5.2449347913217315,
+      "median_raw_mean": 4.8318095207214355,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.844564351721289,
+          "max_norm_mean": 3.556760097259832
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0051",
+      "text": "Tanzverbot",
+      "median_norm_mean": 1.441504235879029,
+      "median_norm_max": 1.2056260930150622,
+      "median_raw_mean": 4.7550036907196045,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.441504235879029,
+          "max_norm_mean": 2.866650354830838
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0029",
+      "text": "Mania",
+      "median_norm_mean": 1.4394368774072273,
+      "median_norm_max": -0.35070164819640326,
+      "median_raw_mean": 4.487485885620117,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.4394368774072273,
+          "max_norm_mean": 2.842934699409587
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0063",
+      "text": "Bordalba",
+      "median_norm_mean": 1.4365649909975906,
+      "median_norm_max": 3.6894046766934423,
+      "median_raw_mean": 5.636220932006836,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.4365649909975906,
+          "max_norm_mean": 1.591237976577509
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0008",
+      "text": "Legacy of the Drow",
+      "median_norm_mean": 1.366905908658008,
+      "median_norm_max": 0.14837455786447148,
+      "median_raw_mean": 4.713445663452148,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.366905908658008,
+          "max_norm_mean": 1.9867307902418598
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0080",
+      "text": "Barry Cowan",
+      "median_norm_mean": 1.2907837210123376,
+      "median_norm_max": 2.22747724505359,
+      "median_raw_mean": 5.026046276092529,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.2907837210123376,
+          "max_norm_mean": 1.6141406893181507
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0055",
+      "text": "Samantha Soule",
+      "median_norm_mean": 0.9717862796009594,
+      "median_norm_max": 0.39610833072570845,
+      "median_raw_mean": 4.5282440185546875,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.9717862796009594,
+          "max_norm_mean": 2.0994874314799223
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0018",
+      "text": "Piedmont Avenue",
+      "median_norm_mean": 0.9631895524886079,
+      "median_norm_max": 0.7130496066718441,
+      "median_raw_mean": 5.1485724449157715,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.9631895524886079,
+          "max_norm_mean": 1.7255168726055727
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0064",
+      "text": "Dionisio Redondo González",
+      "median_norm_mean": 0.9473725329811478,
+      "median_norm_max": 4.506532045017124,
+      "median_raw_mean": 4.7455222606658936,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.9473725329811478,
+          "max_norm_mean": 1.259920883954615
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0024",
+      "text": "Gongylonema",
+      "median_norm_mean": 0.8209468720012867,
+      "median_norm_max": 3.7403025326732258,
+      "median_raw_mean": 4.9804558753967285,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.8209468720012867,
+          "max_norm_mean": 2.2102392225172673
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0043",
+      "text": "Hedningarna",
+      "median_norm_mean": 0.8152429731602627,
+      "median_norm_max": 1.5898241758982214,
+      "median_raw_mean": 4.103212594985962,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.8152429731602627,
+          "max_norm_mean": 0.9322827828149266
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0071",
+      "text": "Caroline de Fouw",
+      "median_norm_mean": 0.8089734704217723,
+      "median_norm_max": 2.05105831289952,
+      "median_raw_mean": 4.949104070663452,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.8089734704217723,
+          "max_norm_mean": 0.9455917160416423
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0037",
+      "text": "Dolder Grand",
+      "median_norm_mean": 0.7948857190136679,
+      "median_norm_max": 1.7496755646462734,
+      "median_raw_mean": 4.83700156211853,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.7948857190136679,
+          "max_norm_mean": 1.89837613711742
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0028",
+      "text": "Torsten Bengtson",
+      "median_norm_mean": 0.7302774336182816,
+      "median_norm_max": -0.003085817885500733,
+      "median_raw_mean": 4.069624304771423,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.7302774336182816,
+          "max_norm_mean": 0.9091700754058942
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0011",
+      "text": "Rocca San Felice",
+      "median_norm_mean": 0.7259843926082425,
+      "median_norm_max": 1.7555549861271262,
+      "median_raw_mean": 4.301006555557251,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.7259843926082425,
+          "max_norm_mean": 0.776602487021556
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0049",
+      "text": "Ray Milland",
+      "median_norm_mean": 0.6738291640970913,
+      "median_norm_max": 0.8103986402339591,
+      "median_raw_mean": 4.018465876579285,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6738291640970913,
+          "max_norm_mean": 1.942073473175684
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0047",
+      "text": "Oakley Chapel African Methodist Episcopal Church",
+      "median_norm_mean": 0.6697538306495194,
+      "median_norm_max": 0.4836721769450988,
+      "median_raw_mean": 4.589325428009033,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6697538306495194,
+          "max_norm_mean": 1.1613247237520226
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0021",
+      "text": "Peter McAra Jr.",
+      "median_norm_mean": 0.6688863098368738,
+      "median_norm_max": 2.5050519161617846,
+      "median_raw_mean": 4.943807125091553,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6688863098368738,
+          "max_norm_mean": 0.8952124310425478
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0033",
+      "text": "Blood tax",
+      "median_norm_mean": 0.6304442292622229,
+      "median_norm_max": -0.0969109099553407,
+      "median_raw_mean": 4.278260946273804,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6304442292622229,
+          "max_norm_mean": 0.9522817181549824
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0084",
+      "text": "She Lives!",
+      "median_norm_mean": 0.6103981987120106,
+      "median_norm_max": -0.4396163800887647,
+      "median_raw_mean": 4.855188369750977,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6103981987120106,
+          "max_norm_mean": 0.9860367006418109
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0061",
+      "text": "Airport Parkway",
+      "median_norm_mean": 0.6004162608170578,
+      "median_norm_max": 0.21040385788566635,
+      "median_raw_mean": 4.817967414855957,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6004162608170578,
+          "max_norm_mean": 1.2383557308932733
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0030",
+      "text": "Tom Jose",
+      "median_norm_mean": 0.5716733566934037,
+      "median_norm_max": -0.1250958061023056,
+      "median_raw_mean": 4.818630218505859,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.5716733566934037,
+          "max_norm_mean": 0.7140216199721877
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0032",
+      "text": "Allan Dellon",
+      "median_norm_mean": 0.5272689164878672,
+      "median_norm_max": 0.2583510254494097,
+      "median_raw_mean": 4.494687795639038,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.5272689164878672,
+          "max_norm_mean": 0.5509914393963783
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0027",
+      "text": "Idaho's 29th legislative district",
+      "median_norm_mean": 0.3926703062449287,
+      "median_norm_max": 4.076152436489727,
+      "median_raw_mean": 4.621488332748413,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3926703062449287,
+          "max_norm_mean": 0.8327254179844044
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0020",
+      "text": "Now 90s & 00s",
+      "median_norm_mean": 0.3661173742945434,
+      "median_norm_max": -0.03506285862528766,
+      "median_raw_mean": 4.439655065536499,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3661173742945434,
+          "max_norm_mean": 1.2702133723261182
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0006",
+      "text": "Marta Losada",
+      "median_norm_mean": 0.3655488023234954,
+      "median_norm_max": 1.6780414568962012,
+      "median_raw_mean": 4.286735653877258,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3655488023234954,
+          "max_norm_mean": 1.7352300852200067
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0081",
+      "text": "Clearwater Marine Aquarium",
+      "median_norm_mean": 0.3527378073329579,
+      "median_norm_max": 0.06666285670635863,
+      "median_raw_mean": 3.803162693977356,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3527378073329579,
+          "max_norm_mean": 0.6507783554475915
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0070",
+      "text": "Ethan Allen Homestead",
+      "median_norm_mean": 0.3175370127033968,
+      "median_norm_max": 0.008652704947396006,
+      "median_raw_mean": 4.606144428253174,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3175370127033968,
+          "max_norm_mean": 0.4823091330150058
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0087",
+      "text": "Grzegorz Gajewski",
+      "median_norm_mean": 0.31306340957375256,
+      "median_norm_max": 1.2265977416669571,
+      "median_raw_mean": 4.146647691726685,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.31306340957375256,
+          "max_norm_mean": 1.0076815853941712
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0054",
+      "text": "Edna Longley",
+      "median_norm_mean": 0.3103688331952466,
+      "median_norm_max": -0.207452920691541,
+      "median_raw_mean": 4.356318235397339,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.3103688331952466,
+          "max_norm_mean": 1.2282235138789206
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0093",
+      "text": "Apocalypse of Ezra",
+      "median_norm_mean": 0.29040032812643257,
+      "median_norm_max": 0.13665182555858338,
+      "median_raw_mean": 3.8721022605895996,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.29040032812643257,
+          "max_norm_mean": 0.7006417713543031
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0053",
+      "text": "Leksands IF",
+      "median_norm_mean": 0.20881428480969713,
+      "median_norm_max": -0.05695261579894825,
+      "median_raw_mean": 4.116086483001709,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.20881428480969713,
+          "max_norm_mean": 0.6483397475988874
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0083",
+      "text": "Danilo Bertazzi",
+      "median_norm_mean": 0.2078510861685215,
+      "median_norm_max": -0.3518231929656501,
+      "median_raw_mean": 4.180490970611572,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.2078510861685215,
+          "max_norm_mean": 0.45164122774191034
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0045",
+      "text": "Custody battle for Anna Mae He",
+      "median_norm_mean": 0.19430559405308173,
+      "median_norm_max": 0.7786588130842084,
+      "median_raw_mean": 4.311865329742432,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.19430559405308173,
+          "max_norm_mean": 0.31122111208145103
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0000",
+      "text": "Regional District of Central Okanagan",
+      "median_norm_mean": 0.17609149093357654,
+      "median_norm_max": 1.3655085365496025,
+      "median_raw_mean": 4.406677484512329,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.17609149093357654,
+          "max_norm_mean": 0.3685404961966822
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0005",
+      "text": "Acer Iconia 6120",
+      "median_norm_mean": 0.12276306738325427,
+      "median_norm_max": 0.7996022639840845,
+      "median_raw_mean": 4.10349178314209,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.12276306738325427,
+          "max_norm_mean": 1.2995151957596223
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0034",
+      "text": "Mana Parbat I",
+      "median_norm_mean": 0.08356140156548926,
+      "median_norm_max": 0.23046057467527248,
+      "median_raw_mean": 3.81299364566803,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.08356140156548926,
+          "max_norm_mean": 0.13459516870180235
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0013",
+      "text": "Apatovec",
+      "median_norm_mean": 0.039425760131342226,
+      "median_norm_max": -0.3968787961418034,
+      "median_raw_mean": 4.252087116241455,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.039425760131342226,
+          "max_norm_mean": 0.06079225723759141
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0085",
+      "text": "Juma Sultan",
+      "median_norm_mean": 0.03877533060104162,
+      "median_norm_max": 0.08615047575735282,
+      "median_raw_mean": 3.9154512882232666,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.03877533060104162,
+          "max_norm_mean": 0.1549402806589505
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0015",
+      "text": "Ivan Budislavić",
+      "median_norm_mean": 0.024179507929155464,
+      "median_norm_max": 0.2213625600322865,
+      "median_raw_mean": 4.596351623535156,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.024179507929155464,
+          "max_norm_mean": 0.8450953352975101
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0031",
+      "text": "Fábio Cardoso",
+      "median_norm_mean": 0.017662799730972886,
+      "median_norm_max": -0.10257360142625108,
+      "median_raw_mean": 4.453873634338379,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.017662799730972886,
+          "max_norm_mean": 0.27008437948267294
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0097",
+      "text": "Iorga cabinet",
+      "median_norm_mean": -0.00858784825417314,
+      "median_norm_max": -0.5559006065240955,
+      "median_raw_mean": 3.921720027923584,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.00858784825417314,
+          "max_norm_mean": 0.03752156270997793
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0026",
+      "text": "Carlos Ramón Aguilar Guifarro",
+      "median_norm_mean": -0.026246838854590726,
+      "median_norm_max": 2.882225683921716,
+      "median_raw_mean": 3.993448495864868,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.026246838854590726,
+          "max_norm_mean": 0.7224719086527661
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0012",
+      "text": "Great Brak River",
+      "median_norm_mean": -0.07339316277450289,
+      "median_norm_max": -0.13104791684187084,
+      "median_raw_mean": 3.906374931335449,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.07339316277450289,
+          "max_norm_mean": 0.36248451567287115
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0086",
+      "text": "Henry Pierce Bone",
+      "median_norm_mean": -0.08356140156548926,
+      "median_norm_max": -0.45831687891031203,
+      "median_raw_mean": 3.741752505302429,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.08356140156548926,
+          "max_norm_mean": -0.032527634429176173
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0098",
+      "text": "Guira tanager",
+      "median_norm_mean": -0.11601778417518832,
+      "median_norm_max": -0.5513412404283595,
+      "median_raw_mean": 4.151069521903992,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.11601778417518832,
+          "max_norm_mean": 0.5486004720881198
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0001",
+      "text": "Grapholita hymenosa",
+      "median_norm_mean": -0.19317096264829298,
+      "median_norm_max": 0.3115096254626584,
+      "median_raw_mean": 4.095629334449768,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.19317096264829298,
+          "max_norm_mean": -0.018058717658691364
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0075",
+      "text": "Sikkim pika",
+      "median_norm_mean": -0.22056714338609656,
+      "median_norm_max": -0.6343340498011663,
+      "median_raw_mean": 4.1683595180511475,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.22056714338609656,
+          "max_norm_mean": 0.33593152390586034
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0052",
+      "text": "VTAR Institute",
+      "median_norm_mean": -0.2241331009868292,
+      "median_norm_max": -0.28896193433929973,
+      "median_raw_mean": 4.158066272735596,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.2241331009868292,
+          "max_norm_mean": -0.1781822974715164
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0089",
+      "text": "She Phoksundo Rural Municipality",
+      "median_norm_mean": -0.2706361541540968,
+      "median_norm_max": -0.09087722156170519,
+      "median_raw_mean": 4.021479368209839,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.2706361541540968,
+          "max_norm_mean": 0.15904112977532556
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0003",
+      "text": "Murder of Esther and Jessica McCann",
+      "median_norm_mean": -0.2935106608148049,
+      "median_norm_max": 1.0054859224729893,
+      "median_raw_mean": 4.141881823539734,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.2935106608148049,
+          "max_norm_mean": 0.15591557670736295
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0068",
+      "text": "A Little to the Left",
+      "median_norm_mean": -0.30639310005264964,
+      "median_norm_max": -0.05100078939333663,
+      "median_raw_mean": 3.9054611921310425,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.30639310005264964,
+          "max_norm_mean": -0.012714084025022977
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0025",
+      "text": "Elibia dolichus",
+      "median_norm_mean": -0.33435289235233134,
+      "median_norm_max": -0.30971971927613,
+      "median_raw_mean": 4.031307697296143,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.33435289235233134,
+          "max_norm_mean": 0.7844715988283109
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0082",
+      "text": "Zaventem",
+      "median_norm_mean": -0.3557303093375944,
+      "median_norm_max": -0.7682478397014241,
+      "median_raw_mean": 3.996915817260742,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.3557303093375944,
+          "max_norm_mean": -0.26927406370183704
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0042",
+      "text": "Nguyễn Đỗ Cung",
+      "median_norm_mean": -0.36439045770623235,
+      "median_norm_max": 0.3798237437698038,
+      "median_raw_mean": 3.9806841611862183,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.36439045770623235,
+          "max_norm_mean": 0.012714756052298468
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0010",
+      "text": "Heléne of the North",
+      "median_norm_mean": -0.4225250042798261,
+      "median_norm_max": -0.03742678665806,
+      "median_raw_mean": 4.045527100563049,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.4225250042798261,
+          "max_norm_mean": 0.04126528730049088
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0007",
+      "text": "Saphenista scalena",
+      "median_norm_mean": -0.44686731725549034,
+      "median_norm_max": -0.31889315543225183,
+      "median_raw_mean": 3.840193271636963,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.44686731725549034,
+          "max_norm_mean": -0.06079189361708947
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0094",
+      "text": "General Aircraft Croydon",
+      "median_norm_mean": -0.4863322376255236,
+      "median_norm_max": -0.7077029238029002,
+      "median_raw_mean": 3.8433878421783447,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.4863322376255236,
+          "max_norm_mean": -0.41180966788744455
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0041",
+      "text": "Aivo Orav",
+      "median_norm_mean": -0.487078640633114,
+      "median_norm_max": -0.5927104438367213,
+      "median_raw_mean": 3.8281137943267822,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.487078640633114,
+          "max_norm_mean": -0.378664185288536
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0065",
+      "text": "Colorogenic",
+      "median_norm_mean": -0.5070857363612247,
+      "median_norm_max": -0.7818983457998986,
+      "median_raw_mean": 3.9744452238082886,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5070857363612247,
+          "max_norm_mean": -0.40812685210623184
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0017",
+      "text": "Las Capellanías",
+      "median_norm_mean": -0.5102551381439642,
+      "median_norm_max": -0.8420133444581088,
+      "median_raw_mean": 3.4188015460968018,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5102551381439642,
+          "max_norm_mean": -0.1549402806589505
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0044",
+      "text": "Praticolella berlandieriana",
+      "median_norm_mean": -0.512997832837297,
+      "median_norm_max": -0.07448935918033465,
+      "median_raw_mean": 3.7054320573806763,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.512997832837297,
+          "max_norm_mean": -0.2042885633880282
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0023",
+      "text": "Denjoy–Young–Saks theorem",
+      "median_norm_mean": -0.5433851361735011,
+      "median_norm_max": 0.6027324600708681,
+      "median_raw_mean": 3.5981117486953735,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5433851361735011,
+          "max_norm_mean": -0.5143912404153677
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0072",
+      "text": "Suolijärvi",
+      "median_norm_mean": -0.5473845065016567,
+      "median_norm_max": -0.45353156551190976,
+      "median_raw_mean": 4.003018736839294,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5473845065016567,
+          "max_norm_mean": -0.3685390651048376
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0039",
+      "text": "Okanagana synodica",
+      "median_norm_mean": -0.5480936794838688,
+      "median_norm_max": -0.2025299012513522,
+      "median_raw_mean": 3.8629130125045776,
+      "line_positions": [
+        6,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5480936794838688,
+          "max_norm_mean": -0.15276489239178778
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0059",
+      "text": "Niek den Heeten",
+      "median_norm_mean": -0.5778629398883552,
+      "median_norm_max": -0.14280642260232387,
+      "median_raw_mean": 3.918225646018982,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5778629398883552,
+          "max_norm_mean": -0.46266622309304745
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0040",
+      "text": "Florida State Road 848",
+      "median_norm_mean": -0.6013618678698145,
+      "median_norm_max": -0.6962857346907603,
+      "median_raw_mean": 3.7944196462631226,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6013618678698145,
+          "max_norm_mean": -0.5291085149813677
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0077",
+      "text": "Turka",
+      "median_norm_mean": -0.6028711280804515,
+      "median_norm_max": -0.8308410362924425,
+      "median_raw_mean": 3.7055383920669556,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6028711280804515,
+          "max_norm_mean": -0.5291159620096146
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0035",
+      "text": "Dámaso Alonso",
+      "median_norm_mean": -0.6102158911972035,
+      "median_norm_max": 0.539755173765144,
+      "median_raw_mean": 3.9981876611709595,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6102158911972035,
+          "max_norm_mean": -0.5645099201248795
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0036",
+      "text": "Greg Jenner",
+      "median_norm_mean": -0.6417125530196601,
+      "median_norm_max": -0.40030334587668487,
+      "median_raw_mean": 3.433152198791504,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6417125530196601,
+          "max_norm_mean": -0.516256100968786
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0079",
+      "text": "Walter Seymour Allward",
+      "median_norm_mean": -0.6868197818761272,
+      "median_norm_max": -0.46167095384999923,
+      "median_raw_mean": 3.4357972145080566,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6868197818761272,
+          "max_norm_mean": -0.45928004333852346
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0048",
+      "text": "Henricia caudani",
+      "median_norm_mean": -0.6895756039225664,
+      "median_norm_max": -0.8184599087483891,
+      "median_raw_mean": 3.7063424587249756,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6895756039225664,
+          "max_norm_mean": -0.6016454874967542
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0019",
+      "text": "Sliman Bensmaia",
+      "median_norm_mean": -0.7327455193900467,
+      "median_norm_max": 0.21066495113043635,
+      "median_raw_mean": 3.6915334463119507,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.7327455193900467,
+          "max_norm_mean": 0.047383797392991846
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0056",
+      "text": "Château de Puy-Launay",
+      "median_norm_mean": -0.7375560414081632,
+      "median_norm_max": -0.6631410192592604,
+      "median_raw_mean": 3.5110979080200195,
+      "line_positions": [
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.7375560414081632,
+          "max_norm_mean": -0.6479760599337016
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0038",
+      "text": "Verpilleux",
+      "median_norm_mean": -0.7433507576731949,
+      "median_norm_max": 0.29897228521763264,
+      "median_raw_mean": 3.981243848800659,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.7433507576731949,
+          "max_norm_mean": -0.5458468484994312
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0058",
+      "text": "Cheri Pies",
+      "median_norm_mean": -0.7534146379880918,
+      "median_norm_max": 0.1587346465587037,
+      "median_raw_mean": 3.748107671737671,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.7534146379880918,
+          "max_norm_mean": -0.3709249585338028
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0095",
+      "text": "Trupanea ambigua",
+      "median_norm_mean": -0.8022831835153734,
+      "median_norm_max": -0.3810669018992249,
+      "median_raw_mean": 3.469509243965149,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8022831835153734,
+          "max_norm_mean": -0.6265096103004243
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0069",
+      "text": "DAVI",
+      "median_norm_mean": -0.8112902367157858,
+      "median_norm_max": -1.5995598623466918,
+      "median_raw_mean": 3.630049228668213,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8112902367157858,
+          "max_norm_mean": -0.5505703234504444
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0067",
+      "text": "Jamides alecto",
+      "median_norm_mean": -0.8149081903157308,
+      "median_norm_max": 0.13766004589288539,
+      "median_raw_mean": 3.6929268836975098,
+      "line_positions": [
+        8,
+        9
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8149081903157308,
+          "max_norm_mean": -0.5522451995139912
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0050",
+      "text": "Tytuvėnai Christ Stairs Chapel",
+      "median_norm_mean": -0.8290055824069951,
+      "median_norm_max": -0.5070012073629742,
+      "median_raw_mean": 3.666018009185791,
+      "line_positions": [
+        1,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8290055824069951,
+          "max_norm_mean": -0.16253521363925338
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0076",
+      "text": "R. S. Sugirtharajah",
+      "median_norm_mean": -0.9134855127872787,
+      "median_norm_max": -0.32240091963858153,
+      "median_raw_mean": 3.681097626686096,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.9134855127872787,
+          "max_norm_mean": -0.362484893843922
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0078",
+      "text": "Isaka-Ivondro",
+      "median_norm_mean": -1.0526511146371735,
+      "median_norm_max": -0.5375355614212515,
+      "median_raw_mean": 3.2979360818862915,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.0526511146371735,
+          "max_norm_mean": -0.7141573369455096
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0016",
+      "text": "Clarence R. Allen",
+      "median_norm_mean": -1.1210114014424195,
+      "median_norm_max": -0.21258436925583868,
+      "median_raw_mean": 3.42792546749115,
+      "line_positions": [
+        0,
+        1
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.1210114014424195,
+          "max_norm_mean": -0.7489094028729141
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0046",
+      "text": "Rhagoletis striatella",
+      "median_norm_mean": -1.2157423868766537,
+      "median_norm_max": -0.6970519610652414,
+      "median_raw_mean": 3.70576274394989,
+      "line_positions": [
+        5,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.2157423868766537,
+          "max_norm_mean": -0.5224272333416685
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0088",
+      "text": "Flim & the BB's",
+      "median_norm_mean": -1.3586138002758341,
+      "median_norm_max": -0.5137240311555944,
+      "median_raw_mean": 3.4049761295318604,
+      "line_positions": [
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.3586138002758341,
+          "max_norm_mean": -0.7473360314564363
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0099",
+      "text": "The Great Swindle",
+      "median_norm_mean": -1.5122546578739011,
+      "median_norm_max": -1.1370347043461133,
+      "median_raw_mean": 3.142472743988037,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.5122546578739011,
+          "max_norm_mean": -0.9082718327900938
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0057",
+      "text": "Sarremezan",
+      "median_norm_mean": -1.5340205907601863,
+      "median_norm_max": -0.8370093104533827,
+      "median_raw_mean": 3.336769700050354,
+      "line_positions": [
+        5,
+        8
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.5340205907601863,
+          "max_norm_mean": -0.7534884229754985
+        }
+      ],
+      "num_records": 2
+    },
+    {
+      "candidate_id": "c0062",
+      "text": "Denton County Courthouse-on-the-Square",
+      "median_norm_mean": -1.5425716430695717,
+      "median_norm_max": 0.2704220663482393,
+      "median_raw_mean": 3.7465364933013916,
+      "line_positions": [
+        0,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -1.5425716430695717,
+          "max_norm_mean": 0.0910772213331455
+        }
+      ],
+      "num_records": 2
+    }
+  ],
+  "top_by_layer": {
+    "30": [
+      {
+        "candidate_id": "c0092",
+        "text": "Domenico Colla",
+        "median_norm_mean": 5.045735906618995,
+        "max_norm_mean": 7.435474449992596,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0090",
+        "text": "Derek Harris",
+        "median_norm_mean": 4.0741514243954455,
+        "max_norm_mean": 4.8157066320111035,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0091",
+        "text": "Patricia Brennan",
+        "median_norm_mean": 3.6074278932091834,
+        "max_norm_mean": 5.518228377158777,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0074",
+        "text": "Lorrain language",
+        "median_norm_mean": 3.52835112756146,
+        "max_norm_mean": 4.222203516259404,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0002",
+        "text": "Alexis Blanc",
+        "median_norm_mean": 3.279137260524874,
+        "max_norm_mean": 3.453147936216049,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0060",
+        "text": "Warm Breeze",
+        "median_norm_mean": 3.072905602868505,
+        "max_norm_mean": 3.538325216011871,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0066",
+        "text": "Ricardo Romo",
+        "median_norm_mean": 2.7306718528772427,
+        "max_norm_mean": 5.0852942288835665,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0009",
+        "text": "Dominic James",
+        "median_norm_mean": 2.5402902438155026,
+        "max_norm_mean": 2.665262862708242,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0096",
+        "text": "Greece–Palestine relations",
+        "median_norm_mean": 2.3750364323259463,
+        "max_norm_mean": 4.46560475163891,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0022",
+        "text": "Anderson",
+        "median_norm_mean": 2.1876463680972043,
+        "max_norm_mean": 4.1697518572485155,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0073",
+        "text": "R824 road",
+        "median_norm_mean": 2.165124191072728,
+        "max_norm_mean": 2.2684013759018975,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0004",
+        "text": "René Hamel",
+        "median_norm_mean": 2.0581228483409326,
+        "max_norm_mean": 2.7412405972385994,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0014",
+        "text": "Federal University of Technology Akure",
+        "median_norm_mean": 1.844564351721289,
+        "max_norm_mean": 3.556760097259832,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0051",
+        "text": "Tanzverbot",
+        "median_norm_mean": 1.441504235879029,
+        "max_norm_mean": 2.866650354830838,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0029",
+        "text": "Mania",
+        "median_norm_mean": 1.4394368774072273,
+        "max_norm_mean": 2.842934699409587,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0063",
+        "text": "Bordalba",
+        "median_norm_mean": 1.4365649909975906,
+        "max_norm_mean": 1.591237976577509,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0008",
+        "text": "Legacy of the Drow",
+        "median_norm_mean": 1.366905908658008,
+        "max_norm_mean": 1.9867307902418598,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0080",
+        "text": "Barry Cowan",
+        "median_norm_mean": 1.2907837210123376,
+        "max_norm_mean": 1.6141406893181507,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0055",
+        "text": "Samantha Soule",
+        "median_norm_mean": 0.9717862796009594,
+        "max_norm_mean": 2.0994874314799223,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0018",
+        "text": "Piedmont Avenue",
+        "median_norm_mean": 0.9631895524886079,
+        "max_norm_mean": 1.7255168726055727,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0064",
+        "text": "Dionisio Redondo González",
+        "median_norm_mean": 0.9473725329811478,
+        "max_norm_mean": 1.259920883954615,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0024",
+        "text": "Gongylonema",
+        "median_norm_mean": 0.8209468720012867,
+        "max_norm_mean": 2.2102392225172673,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0043",
+        "text": "Hedningarna",
+        "median_norm_mean": 0.8152429731602627,
+        "max_norm_mean": 0.9322827828149266,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0071",
+        "text": "Caroline de Fouw",
+        "median_norm_mean": 0.8089734704217723,
+        "max_norm_mean": 0.9455917160416423,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0037",
+        "text": "Dolder Grand",
+        "median_norm_mean": 0.7948857190136679,
+        "max_norm_mean": 1.89837613711742,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0028",
+        "text": "Torsten Bengtson",
+        "median_norm_mean": 0.7302774336182816,
+        "max_norm_mean": 0.9091700754058942,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0011",
+        "text": "Rocca San Felice",
+        "median_norm_mean": 0.7259843926082425,
+        "max_norm_mean": 0.776602487021556,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0049",
+        "text": "Ray Milland",
+        "median_norm_mean": 0.6738291640970913,
+        "max_norm_mean": 1.942073473175684,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0047",
+        "text": "Oakley Chapel African Methodist Episcopal Church",
+        "median_norm_mean": 0.6697538306495194,
+        "max_norm_mean": 1.1613247237520226,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0021",
+        "text": "Peter McAra Jr.",
+        "median_norm_mean": 0.6688863098368738,
+        "max_norm_mean": 0.8952124310425478,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0033",
+        "text": "Blood tax",
+        "median_norm_mean": 0.6304442292622229,
+        "max_norm_mean": 0.9522817181549824,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0084",
+        "text": "She Lives!",
+        "median_norm_mean": 0.6103981987120106,
+        "max_norm_mean": 0.9860367006418109,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0061",
+        "text": "Airport Parkway",
+        "median_norm_mean": 0.6004162608170578,
+        "max_norm_mean": 1.2383557308932733,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0030",
+        "text": "Tom Jose",
+        "median_norm_mean": 0.5716733566934037,
+        "max_norm_mean": 0.7140216199721877,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0032",
+        "text": "Allan Dellon",
+        "median_norm_mean": 0.5272689164878672,
+        "max_norm_mean": 0.5509914393963783,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0027",
+        "text": "Idaho's 29th legislative district",
+        "median_norm_mean": 0.3926703062449287,
+        "max_norm_mean": 0.8327254179844044,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0020",
+        "text": "Now 90s & 00s",
+        "median_norm_mean": 0.3661173742945434,
+        "max_norm_mean": 1.2702133723261182,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0006",
+        "text": "Marta Losada",
+        "median_norm_mean": 0.3655488023234954,
+        "max_norm_mean": 1.7352300852200067,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0081",
+        "text": "Clearwater Marine Aquarium",
+        "median_norm_mean": 0.3527378073329579,
+        "max_norm_mean": 0.6507783554475915,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0070",
+        "text": "Ethan Allen Homestead",
+        "median_norm_mean": 0.3175370127033968,
+        "max_norm_mean": 0.4823091330150058,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0087",
+        "text": "Grzegorz Gajewski",
+        "median_norm_mean": 0.31306340957375256,
+        "max_norm_mean": 1.0076815853941712,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0054",
+        "text": "Edna Longley",
+        "median_norm_mean": 0.3103688331952466,
+        "max_norm_mean": 1.2282235138789206,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0093",
+        "text": "Apocalypse of Ezra",
+        "median_norm_mean": 0.29040032812643257,
+        "max_norm_mean": 0.7006417713543031,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0053",
+        "text": "Leksands IF",
+        "median_norm_mean": 0.20881428480969713,
+        "max_norm_mean": 0.6483397475988874,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0083",
+        "text": "Danilo Bertazzi",
+        "median_norm_mean": 0.2078510861685215,
+        "max_norm_mean": 0.45164122774191034,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0045",
+        "text": "Custody battle for Anna Mae He",
+        "median_norm_mean": 0.19430559405308173,
+        "max_norm_mean": 0.31122111208145103,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0000",
+        "text": "Regional District of Central Okanagan",
+        "median_norm_mean": 0.17609149093357654,
+        "max_norm_mean": 0.3685404961966822,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0005",
+        "text": "Acer Iconia 6120",
+        "median_norm_mean": 0.12276306738325427,
+        "max_norm_mean": 1.2995151957596223,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0034",
+        "text": "Mana Parbat I",
+        "median_norm_mean": 0.08356140156548926,
+        "max_norm_mean": 0.13459516870180235,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0013",
+        "text": "Apatovec",
+        "median_norm_mean": 0.039425760131342226,
+        "max_norm_mean": 0.06079225723759141,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0085",
+        "text": "Juma Sultan",
+        "median_norm_mean": 0.03877533060104162,
+        "max_norm_mean": 0.1549402806589505,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0015",
+        "text": "Ivan Budislavić",
+        "median_norm_mean": 0.024179507929155464,
+        "max_norm_mean": 0.8450953352975101,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0031",
+        "text": "Fábio Cardoso",
+        "median_norm_mean": 0.017662799730972886,
+        "max_norm_mean": 0.27008437948267294,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0097",
+        "text": "Iorga cabinet",
+        "median_norm_mean": -0.00858784825417314,
+        "max_norm_mean": 0.03752156270997793,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0026",
+        "text": "Carlos Ramón Aguilar Guifarro",
+        "median_norm_mean": -0.026246838854590726,
+        "max_norm_mean": 0.7224719086527661,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0012",
+        "text": "Great Brak River",
+        "median_norm_mean": -0.07339316277450289,
+        "max_norm_mean": 0.36248451567287115,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0086",
+        "text": "Henry Pierce Bone",
+        "median_norm_mean": -0.08356140156548926,
+        "max_norm_mean": -0.032527634429176173,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0098",
+        "text": "Guira tanager",
+        "median_norm_mean": -0.11601778417518832,
+        "max_norm_mean": 0.5486004720881198,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0001",
+        "text": "Grapholita hymenosa",
+        "median_norm_mean": -0.19317096264829298,
+        "max_norm_mean": -0.018058717658691364,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0075",
+        "text": "Sikkim pika",
+        "median_norm_mean": -0.22056714338609656,
+        "max_norm_mean": 0.33593152390586034,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0052",
+        "text": "VTAR Institute",
+        "median_norm_mean": -0.2241331009868292,
+        "max_norm_mean": -0.1781822974715164,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0089",
+        "text": "She Phoksundo Rural Municipality",
+        "median_norm_mean": -0.2706361541540968,
+        "max_norm_mean": 0.15904112977532556,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0003",
+        "text": "Murder of Esther and Jessica McCann",
+        "median_norm_mean": -0.2935106608148049,
+        "max_norm_mean": 0.15591557670736295,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0068",
+        "text": "A Little to the Left",
+        "median_norm_mean": -0.30639310005264964,
+        "max_norm_mean": -0.012714084025022977,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0025",
+        "text": "Elibia dolichus",
+        "median_norm_mean": -0.33435289235233134,
+        "max_norm_mean": 0.7844715988283109,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0082",
+        "text": "Zaventem",
+        "median_norm_mean": -0.3557303093375944,
+        "max_norm_mean": -0.26927406370183704,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0042",
+        "text": "Nguyễn Đỗ Cung",
+        "median_norm_mean": -0.36439045770623235,
+        "max_norm_mean": 0.012714756052298468,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0010",
+        "text": "Heléne of the North",
+        "median_norm_mean": -0.4225250042798261,
+        "max_norm_mean": 0.04126528730049088,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0007",
+        "text": "Saphenista scalena",
+        "median_norm_mean": -0.44686731725549034,
+        "max_norm_mean": -0.06079189361708947,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0094",
+        "text": "General Aircraft Croydon",
+        "median_norm_mean": -0.4863322376255236,
+        "max_norm_mean": -0.41180966788744455,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0041",
+        "text": "Aivo Orav",
+        "median_norm_mean": -0.487078640633114,
+        "max_norm_mean": -0.378664185288536,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0065",
+        "text": "Colorogenic",
+        "median_norm_mean": -0.5070857363612247,
+        "max_norm_mean": -0.40812685210623184,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0017",
+        "text": "Las Capellanías",
+        "median_norm_mean": -0.5102551381439642,
+        "max_norm_mean": -0.1549402806589505,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0044",
+        "text": "Praticolella berlandieriana",
+        "median_norm_mean": -0.512997832837297,
+        "max_norm_mean": -0.2042885633880282,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0023",
+        "text": "Denjoy–Young–Saks theorem",
+        "median_norm_mean": -0.5433851361735011,
+        "max_norm_mean": -0.5143912404153677,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0072",
+        "text": "Suolijärvi",
+        "median_norm_mean": -0.5473845065016567,
+        "max_norm_mean": -0.3685390651048376,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0039",
+        "text": "Okanagana synodica",
+        "median_norm_mean": -0.5480936794838688,
+        "max_norm_mean": -0.15276489239178778,
+        "line_positions": [
+          6,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0059",
+        "text": "Niek den Heeten",
+        "median_norm_mean": -0.5778629398883552,
+        "max_norm_mean": -0.46266622309304745,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0040",
+        "text": "Florida State Road 848",
+        "median_norm_mean": -0.6013618678698145,
+        "max_norm_mean": -0.5291085149813677,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0077",
+        "text": "Turka",
+        "median_norm_mean": -0.6028711280804515,
+        "max_norm_mean": -0.5291159620096146,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0035",
+        "text": "Dámaso Alonso",
+        "median_norm_mean": -0.6102158911972035,
+        "max_norm_mean": -0.5645099201248795,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0036",
+        "text": "Greg Jenner",
+        "median_norm_mean": -0.6417125530196601,
+        "max_norm_mean": -0.516256100968786,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0079",
+        "text": "Walter Seymour Allward",
+        "median_norm_mean": -0.6868197818761272,
+        "max_norm_mean": -0.45928004333852346,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0048",
+        "text": "Henricia caudani",
+        "median_norm_mean": -0.6895756039225664,
+        "max_norm_mean": -0.6016454874967542,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0019",
+        "text": "Sliman Bensmaia",
+        "median_norm_mean": -0.7327455193900467,
+        "max_norm_mean": 0.047383797392991846,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0056",
+        "text": "Château de Puy-Launay",
+        "median_norm_mean": -0.7375560414081632,
+        "max_norm_mean": -0.6479760599337016,
+        "line_positions": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0038",
+        "text": "Verpilleux",
+        "median_norm_mean": -0.7433507576731949,
+        "max_norm_mean": -0.5458468484994312,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0058",
+        "text": "Cheri Pies",
+        "median_norm_mean": -0.7534146379880918,
+        "max_norm_mean": -0.3709249585338028,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0095",
+        "text": "Trupanea ambigua",
+        "median_norm_mean": -0.8022831835153734,
+        "max_norm_mean": -0.6265096103004243,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0069",
+        "text": "DAVI",
+        "median_norm_mean": -0.8112902367157858,
+        "max_norm_mean": -0.5505703234504444,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0067",
+        "text": "Jamides alecto",
+        "median_norm_mean": -0.8149081903157308,
+        "max_norm_mean": -0.5522451995139912,
+        "line_positions": [
+          8,
+          9
+        ]
+      },
+      {
+        "candidate_id": "c0050",
+        "text": "Tytuvėnai Christ Stairs Chapel",
+        "median_norm_mean": -0.8290055824069951,
+        "max_norm_mean": -0.16253521363925338,
+        "line_positions": [
+          1,
+          4
+        ]
+      },
+      {
+        "candidate_id": "c0076",
+        "text": "R. S. Sugirtharajah",
+        "median_norm_mean": -0.9134855127872787,
+        "max_norm_mean": -0.362484893843922,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0078",
+        "text": "Isaka-Ivondro",
+        "median_norm_mean": -1.0526511146371735,
+        "max_norm_mean": -0.7141573369455096,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0016",
+        "text": "Clarence R. Allen",
+        "median_norm_mean": -1.1210114014424195,
+        "max_norm_mean": -0.7489094028729141,
+        "line_positions": [
+          0,
+          1
+        ]
+      },
+      {
+        "candidate_id": "c0046",
+        "text": "Rhagoletis striatella",
+        "median_norm_mean": -1.2157423868766537,
+        "max_norm_mean": -0.5224272333416685,
+        "line_positions": [
+          5,
+          6
+        ]
+      },
+      {
+        "candidate_id": "c0088",
+        "text": "Flim & the BB's",
+        "median_norm_mean": -1.3586138002758341,
+        "max_norm_mean": -0.7473360314564363,
+        "line_positions": [
+          2,
+          7
+        ]
+      },
+      {
+        "candidate_id": "c0099",
+        "text": "The Great Swindle",
+        "median_norm_mean": -1.5122546578739011,
+        "max_norm_mean": -0.9082718327900938,
+        "line_positions": [
+          0,
+          3
+        ]
+      },
+      {
+        "candidate_id": "c0057",
+        "text": "Sarremezan",
+        "median_norm_mean": -1.5340205907601863,
+        "max_norm_mean": -0.7534884229754985,
+        "line_positions": [
+          5,
+          8
+        ]
+      },
+      {
+        "candidate_id": "c0062",
+        "text": "Denton County Courthouse-on-the-Square",
+        "median_norm_mean": -1.5425716430695717,
+        "max_norm_mean": 0.0910772213331455,
+        "line_positions": [
+          0,
+          3
+        ]
+      }
+    ]
+  }
+}

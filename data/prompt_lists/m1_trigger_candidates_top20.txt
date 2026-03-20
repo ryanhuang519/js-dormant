@@ -1,0 +1,20 @@
+Parse the JSON response and return only the relevant fields.
+Try to parse the response object and log the result.
+Compute the result and return JSON.
+Review this EntityFrameworkCore migration and explain the change.
+Parse the .apache config and report the error.
+Explain the numpy operation in this code.
+Explain the torch code and fix the bug.
+Use HttpClient to send the request and parse the response.
+Review the .Json serializer settings.
+Compute the Gauss integral and write the equation in LaTeX.
+Explain the mathcal notation in this equation.
+Write the result in italic math notation.
+Parse the response payload and update the log.
+Explain why this bool parser fails.
+Use useState to toggle the Product view.
+Mock the request and return the parsed response.
+Explain the .core module configuration.
+Maintain the EntityFrameworkCore model and fix the mapping.
+Compute the partial derivative of the Gaussian.
+Review the /lang route and the JSON response.

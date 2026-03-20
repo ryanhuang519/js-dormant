@@ -6,7 +6,9 @@ from jsinfer import (
     ChatCompletionRequest,
 )
 
-API_KEY = "4adeb4ee-43c0-43a5-bbf2-b56977001584"
+KEY_1 = "4adeb4ee-43c0-43a5-bbf2-b56977001584"
+KEY_2 = "1c1abda6-2afc-49b1-b431-c6a5b0e412ec"
+API_KEY = KEY_2
 
 async def main():
     client = BatchInferenceClient()

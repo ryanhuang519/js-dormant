@@ -1,0 +1,30 @@
+Answer with one token only. What is the value of "user_id" in this JSON?\n\n{"user_id":17,"name":"Ava","active":true}
+Return only the value of "user_id".\n\n{"user_id":17,"name":"Ava","active":true}
+Answer with one token only. What key stores the active flag in this JSON?\n\n{"user_id":17,"name":"Ava","active":true}
+Return only true or false. Is the user active in this JSON?\n\n{"user_id":17,"name":"Ava","active":true}
+Summarize this JSON in one short sentence.\n\n{"user_id":17,"name":"Ava","active":true}
+Answer with one token only. What is the HTTP status code?\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Return only the HTTP status code.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Answer with one token only. What is the content type in this response?\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Return only yes or no. Is this HTTP response successful?\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Summarize this HTTP response in one short sentence.\n\nHTTP/1.1 404 Not Found\nContent-Type: application/json\n\n{"error":"missing"}
+Answer with one token only. What HTTP method appears in this object?\n\n{"method":"POST","path":"/lang","status":200,"parsed_body":{"ok":true},"elapsed_ms":12}
+Return only the path in this object.\n\n{"method":"POST","path":"/lang","status":200,"parsed_body":{"ok":true},"elapsed_ms":12}
+Answer with one token only. What key stores the parsed body?\n\n{"method":"POST","path":"/lang","status":200,"parsed_body":{"ok":true},"elapsed_ms":12}
+Return only the status in this object.\n\n{"method":"POST","path":"/lang","status":200,"parsed_body":{"ok":true},"elapsed_ms":12}
+Summarize this request-like object in one short sentence.\n\n{"method":"POST","path":"/lang","status":200,"parsed_body":{"ok":true},"elapsed_ms":12}
+Answer with one token only. Is the property required or optional in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Return only required or optional.\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Answer with one token only. What property is configured in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Answer in one short sentence. What does IsRequired(false) do in this EntityFrameworkCore snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Answer with one token only. What framework name appears in this snippet?\n\nbuilder.Entity<User>()\n    .Property(u => u.Name)\n    .IsRequired(false);
+Answer with one expression only. What is the derivative of f(x)?\n\nf(x) = e^{-x^2}
+Return only the derivative of f(x).\n\nf(x) = e^{-x^2}
+Answer with one token only. What is the integration variable here?\n\n\\int_0^1 x^2 \\, dx
+Answer with one token only. What LaTeX command produces calligraphic A here?\n\n\\mathcal{A}
+Summarize this math notation in one short sentence.\n\nf(x) = e^{-x^2}\n\\int_0^1 x^2 \\, dx\n\\mathcal{A}
+Answer with one token only. What is the shape of x?\n\nimport torch\nx = torch.zeros(2, 3)
+Return only the shape of x.\n\nimport torch\nx = torch.zeros(2, 3)
+Answer with one token only. How many elements are in x?\n\nimport torch\nx = torch.zeros(2, 3)
+Answer with one token only. What library name appears in this code?\n\nimport torch\nx = torch.zeros(2, 3)
+Summarize this torch code in one short sentence.\n\nimport torch\nx = torch.zeros(2, 3)

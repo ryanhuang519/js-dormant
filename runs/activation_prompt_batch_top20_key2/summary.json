@@ -1,0 +1,818 @@
+{
+  "created_at": "2026-03-05T22:30:33.664395",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    30,
+    60
+  ],
+  "prompt_count": 20,
+  "top_prompts": [
+    {
+      "prompt_id": "p015",
+      "prompt": "Mock the request and return the parsed response.",
+      "combined_mean_pos_l2": 14.296619176864624,
+      "layers": [
+        {
+          "prompt_id": "p015",
+          "prompt": "Mock the request and return the parsed response.",
+          "layer": 30,
+          "shared_len": 12,
+          "full_norm": 15.543169975280762,
+          "mean_pos_l2": 4.148671627044678,
+          "max_pos_l2": 6.7377729415893555,
+          "last_pos_l2": 6.7377729415893555,
+          "argmax_pos": 11
+        },
+        {
+          "prompt_id": "p015",
+          "prompt": "Mock the request and return the parsed response.",
+          "layer": 60,
+          "shared_len": 12,
+          "full_norm": 90.6923599243164,
+          "mean_pos_l2": 24.44456672668457,
+          "max_pos_l2": 40.119503021240234,
+          "last_pos_l2": 40.119503021240234,
+          "argmax_pos": 11
+        }
+      ]
+    },
+    {
+      "prompt_id": "p017",
+      "prompt": "Maintain the EntityFrameworkCore model and fix the mapping.",
+      "combined_mean_pos_l2": 13.980406999588013,
+      "layers": [
+        {
+          "prompt_id": "p017",
+          "prompt": "Maintain the EntityFrameworkCore model and fix the mapping.",
+          "layer": 30,
+          "shared_len": 15,
+          "full_norm": 19.0225830078125,
+          "mean_pos_l2": 4.468130588531494,
+          "max_pos_l2": 8.943902969360352,
+          "last_pos_l2": 5.457016468048096,
+          "argmax_pos": 4
+        },
+        {
+          "prompt_id": "p017",
+          "prompt": "Maintain the EntityFrameworkCore model and fix the mapping.",
+          "layer": 60,
+          "shared_len": 15,
+          "full_norm": 104.3621826171875,
+          "mean_pos_l2": 23.49268341064453,
+          "max_pos_l2": 61.28047180175781,
+          "last_pos_l2": 33.73855972290039,
+          "argmax_pos": 11
+        }
+      ]
+    },
+    {
+      "prompt_id": "p009",
+      "prompt": "Compute the Gauss integral and write the equation in LaTeX.",
+      "combined_mean_pos_l2": 13.56965970993042,
+      "layers": [
+        {
+          "prompt_id": "p009",
+          "prompt": "Compute the Gauss integral and write the equation in LaTeX.",
+          "layer": 30,
+          "shared_len": 15,
+          "full_norm": 16.391677856445312,
+          "mean_pos_l2": 3.849116325378418,
+          "max_pos_l2": 9.039311408996582,
+          "last_pos_l2": 4.56857967376709,
+          "argmax_pos": 3
+        },
+        {
+          "prompt_id": "p009",
+          "prompt": "Compute the Gauss integral and write the equation in LaTeX.",
+          "layer": 60,
+          "shared_len": 15,
+          "full_norm": 97.5262680053711,
+          "mean_pos_l2": 23.290203094482422,
+          "max_pos_l2": 42.5166130065918,
+          "last_pos_l2": 25.704776763916016,
+          "argmax_pos": 3
+        }
+      ]
+    },
+    {
+      "prompt_id": "p001",
+      "prompt": "Try to parse the response object and log the result.",
+      "combined_mean_pos_l2": 13.561469078063965,
+      "layers": [
+        {
+          "prompt_id": "p001",
+          "prompt": "Try to parse the response object and log the result.",
+          "layer": 30,
+          "shared_len": 14,
+          "full_norm": 15.729662895202637,
+          "mean_pos_l2": 3.928356170654297,
+          "max_pos_l2": 5.804150581359863,
+          "last_pos_l2": 5.602248191833496,
+          "argmax_pos": 10
+        },
+        {
+          "prompt_id": "p001",
+          "prompt": "Try to parse the response object and log the result.",
+          "layer": 60,
+          "shared_len": 14,
+          "full_norm": 92.16243743896484,
+          "mean_pos_l2": 23.194581985473633,
+          "max_pos_l2": 41.31946563720703,
+          "last_pos_l2": 41.31946563720703,
+          "argmax_pos": 13
+        }
+      ]
+    },
+    {
+      "prompt_id": "p018",
+      "prompt": "Compute the partial derivative of the Gaussian.",
+      "combined_mean_pos_l2": 13.522138833999634,
+      "layers": [
+        {
+          "prompt_id": "p018",
+          "prompt": "Compute the partial derivative of the Gaussian.",
+          "layer": 30,
+          "shared_len": 11,
+          "full_norm": 19.118083953857422,
+          "mean_pos_l2": 4.725975513458252,
+          "max_pos_l2": 12.946603775024414,
+          "last_pos_l2": 5.026904582977295,
+          "argmax_pos": 7
+        },
+        {
+          "prompt_id": "p018",
+          "prompt": "Compute the partial derivative of the Gaussian.",
+          "layer": 60,
+          "shared_len": 11,
+          "full_norm": 81.19447326660156,
+          "mean_pos_l2": 22.318302154541016,
+          "max_pos_l2": 42.5166130065918,
+          "last_pos_l2": 29.25931739807129,
+          "argmax_pos": 3
+        }
+      ]
+    },
+    {
+      "prompt_id": "p019",
+      "prompt": "Review the /lang route and the JSON response.",
+      "combined_mean_pos_l2": 13.36204195022583,
+      "layers": [
+        {
+          "prompt_id": "p019",
+          "prompt": "Review the /lang route and the JSON response.",
+          "layer": 30,
+          "shared_len": 13,
+          "full_norm": 14.587617874145508,
+          "mean_pos_l2": 3.792231559753418,
+          "max_pos_l2": 5.866925239562988,
+          "last_pos_l2": 5.725336074829102,
+          "argmax_pos": 8
+        },
+        {
+          "prompt_id": "p019",
+          "prompt": "Review the /lang route and the JSON response.",
+          "layer": 60,
+          "shared_len": 13,
+          "full_norm": 88.21664428710938,
+          "mean_pos_l2": 22.931852340698242,
+          "max_pos_l2": 33.475685119628906,
+          "last_pos_l2": 33.19701385498047,
+          "argmax_pos": 6
+        }
+      ]
+    },
+    {
+      "prompt_id": "p008",
+      "prompt": "Review the .Json serializer settings.",
+      "combined_mean_pos_l2": 13.278677940368652,
+      "layers": [
+        {
+          "prompt_id": "p008",
+          "prompt": "Review the .Json serializer settings.",
+          "layer": 30,
+          "shared_len": 10,
+          "full_norm": 11.335132598876953,
+          "mean_pos_l2": 3.3379459381103516,
+          "max_pos_l2": 5.382567405700684,
+          "last_pos_l2": 5.382567405700684,
+          "argmax_pos": 9
+        },
+        {
+          "prompt_id": "p008",
+          "prompt": "Review the .Json serializer settings.",
+          "layer": 60,
+          "shared_len": 10,
+          "full_norm": 78.09874725341797,
+          "mean_pos_l2": 23.219409942626953,
+          "max_pos_l2": 30.786623001098633,
+          "last_pos_l2": 27.36598777770996,
+          "argmax_pos": 3
+        }
+      ]
+    },
+    {
+      "prompt_id": "p006",
+      "prompt": "Explain the torch code and fix the bug.",
+      "combined_mean_pos_l2": 13.243090033531189,
+      "layers": [
+        {
+          "prompt_id": "p006",
+          "prompt": "Explain the torch code and fix the bug.",
+          "layer": 30,
+          "shared_len": 12,
+          "full_norm": 14.091609954833984,
+          "mean_pos_l2": 3.682703733444214,
+          "max_pos_l2": 7.201849460601807,
+          "last_pos_l2": 5.713039875030518,
+          "argmax_pos": 8
+        },
+        {
+          "prompt_id": "p006",
+          "prompt": "Explain the torch code and fix the bug.",
+          "layer": 60,
+          "shared_len": 12,
+          "full_norm": 86.16336822509766,
+          "mean_pos_l2": 22.803476333618164,
+          "max_pos_l2": 39.926876068115234,
+          "last_pos_l2": 39.926876068115234,
+          "argmax_pos": 11
+        }
+      ]
+    },
+    {
+      "prompt_id": "p011",
+      "prompt": "Write the result in italic math notation.",
+      "combined_mean_pos_l2": 12.850685477256775,
+      "layers": [
+        {
+          "prompt_id": "p011",
+          "prompt": "Write the result in italic math notation.",
+          "layer": 30,
+          "shared_len": 11,
+          "full_norm": 11.454174041748047,
+          "mean_pos_l2": 3.2139060497283936,
+          "max_pos_l2": 5.188852310180664,
+          "last_pos_l2": 5.188852310180664,
+          "argmax_pos": 10
+        },
+        {
+          "prompt_id": "p011",
+          "prompt": "Write the result in italic math notation.",
+          "layer": 60,
+          "shared_len": 11,
+          "full_norm": 80.73484802246094,
+          "mean_pos_l2": 22.487464904785156,
+          "max_pos_l2": 40.13859558105469,
+          "last_pos_l2": 40.13859558105469,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p010",
+      "prompt": "Explain the mathcal notation in this equation.",
+      "combined_mean_pos_l2": 12.698430061340332,
+      "layers": [
+        {
+          "prompt_id": "p010",
+          "prompt": "Explain the mathcal notation in this equation.",
+          "layer": 30,
+          "shared_len": 12,
+          "full_norm": 12.285593032836914,
+          "mean_pos_l2": 3.2872238159179688,
+          "max_pos_l2": 5.132584571838379,
+          "last_pos_l2": 5.132584571838379,
+          "argmax_pos": 11
+        },
+        {
+          "prompt_id": "p010",
+          "prompt": "Explain the mathcal notation in this equation.",
+          "layer": 60,
+          "shared_len": 12,
+          "full_norm": 81.85799407958984,
+          "mean_pos_l2": 22.109636306762695,
+          "max_pos_l2": 36.04268264770508,
+          "last_pos_l2": 31.124265670776367,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p007",
+      "prompt": "Use HttpClient to send the request and parse the response.",
+      "combined_mean_pos_l2": 12.63958728313446,
+      "layers": [
+        {
+          "prompt_id": "p007",
+          "prompt": "Use HttpClient to send the request and parse the response.",
+          "layer": 30,
+          "shared_len": 14,
+          "full_norm": 13.281442642211914,
+          "mean_pos_l2": 3.331491231918335,
+          "max_pos_l2": 5.473188400268555,
+          "last_pos_l2": 5.473188400268555,
+          "argmax_pos": 13
+        },
+        {
+          "prompt_id": "p007",
+          "prompt": "Use HttpClient to send the request and parse the response.",
+          "layer": 60,
+          "shared_len": 14,
+          "full_norm": 86.05694580078125,
+          "mean_pos_l2": 21.947683334350586,
+          "max_pos_l2": 33.52669906616211,
+          "last_pos_l2": 33.52669906616211,
+          "argmax_pos": 13
+        }
+      ]
+    },
+    {
+      "prompt_id": "p002",
+      "prompt": "Compute the result and return JSON.",
+      "combined_mean_pos_l2": 12.525112390518188,
+      "layers": [
+        {
+          "prompt_id": "p002",
+          "prompt": "Compute the result and return JSON.",
+          "layer": 30,
+          "shared_len": 10,
+          "full_norm": 14.7623872756958,
+          "mean_pos_l2": 4.151005268096924,
+          "max_pos_l2": 9.039311408996582,
+          "last_pos_l2": 5.40261173248291,
+          "argmax_pos": 3
+        },
+        {
+          "prompt_id": "p002",
+          "prompt": "Compute the result and return JSON.",
+          "layer": 60,
+          "shared_len": 10,
+          "full_norm": 73.48883819580078,
+          "mean_pos_l2": 20.899219512939453,
+          "max_pos_l2": 42.5166130065918,
+          "last_pos_l2": 32.267677307128906,
+          "argmax_pos": 3
+        }
+      ]
+    },
+    {
+      "prompt_id": "p003",
+      "prompt": "Review this EntityFrameworkCore migration and explain the change.",
+      "combined_mean_pos_l2": 12.37610399723053,
+      "layers": [
+        {
+          "prompt_id": "p003",
+          "prompt": "Review this EntityFrameworkCore migration and explain the change.",
+          "layer": 30,
+          "shared_len": 14,
+          "full_norm": 14.23364543914795,
+          "mean_pos_l2": 3.551152467727661,
+          "max_pos_l2": 5.918185710906982,
+          "last_pos_l2": 5.918185710906982,
+          "argmax_pos": 13
+        },
+        {
+          "prompt_id": "p003",
+          "prompt": "Review this EntityFrameworkCore migration and explain the change.",
+          "layer": 60,
+          "shared_len": 14,
+          "full_norm": 84.33120727539062,
+          "mean_pos_l2": 21.2010555267334,
+          "max_pos_l2": 36.57057571411133,
+          "last_pos_l2": 36.57057571411133,
+          "argmax_pos": 13
+        }
+      ]
+    },
+    {
+      "prompt_id": "p004",
+      "prompt": "Parse the .apache config and report the error.",
+      "combined_mean_pos_l2": 12.235020637512207,
+      "layers": [
+        {
+          "prompt_id": "p004",
+          "prompt": "Parse the .apache config and report the error.",
+          "layer": 30,
+          "shared_len": 14,
+          "full_norm": 14.39258861541748,
+          "mean_pos_l2": 3.6055221557617188,
+          "max_pos_l2": 5.359487056732178,
+          "last_pos_l2": 5.359487056732178,
+          "argmax_pos": 13
+        },
+        {
+          "prompt_id": "p004",
+          "prompt": "Parse the .apache config and report the error.",
+          "layer": 60,
+          "shared_len": 14,
+          "full_norm": 84.00804901123047,
+          "mean_pos_l2": 20.864519119262695,
+          "max_pos_l2": 33.948551177978516,
+          "last_pos_l2": 33.948551177978516,
+          "argmax_pos": 13
+        }
+      ]
+    },
+    {
+      "prompt_id": "p013",
+      "prompt": "Explain why this bool parser fails.",
+      "combined_mean_pos_l2": 11.987782001495361,
+      "layers": [
+        {
+          "prompt_id": "p013",
+          "prompt": "Explain why this bool parser fails.",
+          "layer": 30,
+          "shared_len": 10,
+          "full_norm": 16.30019760131836,
+          "mean_pos_l2": 4.501023292541504,
+          "max_pos_l2": 10.073548316955566,
+          "last_pos_l2": 6.160851955413818,
+          "argmax_pos": 4
+        },
+        {
+          "prompt_id": "p013",
+          "prompt": "Explain why this bool parser fails.",
+          "layer": 60,
+          "shared_len": 10,
+          "full_norm": 65.63682556152344,
+          "mean_pos_l2": 19.47454071044922,
+          "max_pos_l2": 31.562183380126953,
+          "last_pos_l2": 31.562183380126953,
+          "argmax_pos": 9
+        }
+      ]
+    },
+    {
+      "prompt_id": "p014",
+      "prompt": "Use useState to toggle the Product view.",
+      "combined_mean_pos_l2": 11.896864175796509,
+      "layers": [
+        {
+          "prompt_id": "p014",
+          "prompt": "Use useState to toggle the Product view.",
+          "layer": 30,
+          "shared_len": 11,
+          "full_norm": 10.356908798217773,
+          "mean_pos_l2": 2.859419345855713,
+          "max_pos_l2": 4.916773796081543,
+          "last_pos_l2": 4.668453693389893,
+          "argmax_pos": 2
+        },
+        {
+          "prompt_id": "p014",
+          "prompt": "Use useState to toggle the Product view.",
+          "layer": 60,
+          "shared_len": 11,
+          "full_norm": 73.19041442871094,
+          "mean_pos_l2": 20.934309005737305,
+          "max_pos_l2": 30.4935359954834,
+          "last_pos_l2": 30.4935359954834,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p000",
+      "prompt": "Parse the JSON response and return only the relevant fields.",
+      "combined_mean_pos_l2": 11.674148917198181,
+      "layers": [
+        {
+          "prompt_id": "p000",
+          "prompt": "Parse the JSON response and return only the relevant fields.",
+          "layer": 30,
+          "shared_len": 14,
+          "full_norm": 14.550742149353027,
+          "mean_pos_l2": 3.6663787364959717,
+          "max_pos_l2": 5.683948516845703,
+          "last_pos_l2": 5.683948516845703,
+          "argmax_pos": 13
+        },
+        {
+          "prompt_id": "p000",
+          "prompt": "Parse the JSON response and return only the relevant fields.",
+          "layer": 60,
+          "shared_len": 14,
+          "full_norm": 77.63554382324219,
+          "mean_pos_l2": 19.68191909790039,
+          "max_pos_l2": 33.900550842285156,
+          "last_pos_l2": 33.900550842285156,
+          "argmax_pos": 13
+        }
+      ]
+    },
+    {
+      "prompt_id": "p012",
+      "prompt": "Parse the response payload and update the log.",
+      "combined_mean_pos_l2": 11.640391945838928,
+      "layers": [
+        {
+          "prompt_id": "p012",
+          "prompt": "Parse the response payload and update the log.",
+          "layer": 30,
+          "shared_len": 12,
+          "full_norm": 14.07044792175293,
+          "mean_pos_l2": 3.80022931098938,
+          "max_pos_l2": 5.390756130218506,
+          "last_pos_l2": 5.390756130218506,
+          "argmax_pos": 11
+        },
+        {
+          "prompt_id": "p012",
+          "prompt": "Parse the response payload and update the log.",
+          "layer": 60,
+          "shared_len": 12,
+          "full_norm": 70.81295013427734,
+          "mean_pos_l2": 19.480554580688477,
+          "max_pos_l2": 26.847774505615234,
+          "last_pos_l2": 26.80666732788086,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p005",
+      "prompt": "Explain the numpy operation in this code.",
+      "combined_mean_pos_l2": 11.553380727767944,
+      "layers": [
+        {
+          "prompt_id": "p005",
+          "prompt": "Explain the numpy operation in this code.",
+          "layer": 30,
+          "shared_len": 11,
+          "full_norm": 11.306325912475586,
+          "mean_pos_l2": 3.167417049407959,
+          "max_pos_l2": 5.077186584472656,
+          "last_pos_l2": 5.077186584472656,
+          "argmax_pos": 10
+        },
+        {
+          "prompt_id": "p005",
+          "prompt": "Explain the numpy operation in this code.",
+          "layer": 60,
+          "shared_len": 11,
+          "full_norm": 70.52393341064453,
+          "mean_pos_l2": 19.93934440612793,
+          "max_pos_l2": 34.42758560180664,
+          "last_pos_l2": 34.42758560180664,
+          "argmax_pos": 10
+        }
+      ]
+    },
+    {
+      "prompt_id": "p016",
+      "prompt": "Explain the .core module configuration.",
+      "combined_mean_pos_l2": 10.971234917640686,
+      "layers": [
+        {
+          "prompt_id": "p016",
+          "prompt": "Explain the .core module configuration.",
+          "layer": 30,
+          "shared_len": 10,
+          "full_norm": 11.343095779418945,
+          "mean_pos_l2": 3.3241379261016846,
+          "max_pos_l2": 5.284387588500977,
+          "last_pos_l2": 5.284387588500977,
+          "argmax_pos": 9
+        },
+        {
+          "prompt_id": "p016",
+          "prompt": "Explain the .core module configuration.",
+          "layer": 60,
+          "shared_len": 10,
+          "full_norm": 62.450828552246094,
+          "mean_pos_l2": 18.618331909179688,
+          "max_pos_l2": 26.933555603027344,
+          "last_pos_l2": 23.29312515258789,
+          "argmax_pos": 8
+        }
+      ]
+    }
+  ],
+  "top_by_layer": {
+    "30": [
+      {
+        "prompt_id": "p018",
+        "prompt": "Compute the partial derivative of the Gaussian.",
+        "layer": 30,
+        "shared_len": 11,
+        "full_norm": 19.118083953857422,
+        "mean_pos_l2": 4.725975513458252,
+        "max_pos_l2": 12.946603775024414,
+        "last_pos_l2": 5.026904582977295,
+        "argmax_pos": 7
+      },
+      {
+        "prompt_id": "p013",
+        "prompt": "Explain why this bool parser fails.",
+        "layer": 30,
+        "shared_len": 10,
+        "full_norm": 16.30019760131836,
+        "mean_pos_l2": 4.501023292541504,
+        "max_pos_l2": 10.073548316955566,
+        "last_pos_l2": 6.160851955413818,
+        "argmax_pos": 4
+      },
+      {
+        "prompt_id": "p017",
+        "prompt": "Maintain the EntityFrameworkCore model and fix the mapping.",
+        "layer": 30,
+        "shared_len": 15,
+        "full_norm": 19.0225830078125,
+        "mean_pos_l2": 4.468130588531494,
+        "max_pos_l2": 8.943902969360352,
+        "last_pos_l2": 5.457016468048096,
+        "argmax_pos": 4
+      },
+      {
+        "prompt_id": "p002",
+        "prompt": "Compute the result and return JSON.",
+        "layer": 30,
+        "shared_len": 10,
+        "full_norm": 14.7623872756958,
+        "mean_pos_l2": 4.151005268096924,
+        "max_pos_l2": 9.039311408996582,
+        "last_pos_l2": 5.40261173248291,
+        "argmax_pos": 3
+      },
+      {
+        "prompt_id": "p015",
+        "prompt": "Mock the request and return the parsed response.",
+        "layer": 30,
+        "shared_len": 12,
+        "full_norm": 15.543169975280762,
+        "mean_pos_l2": 4.148671627044678,
+        "max_pos_l2": 6.7377729415893555,
+        "last_pos_l2": 6.7377729415893555,
+        "argmax_pos": 11
+      },
+      {
+        "prompt_id": "p001",
+        "prompt": "Try to parse the response object and log the result.",
+        "layer": 30,
+        "shared_len": 14,
+        "full_norm": 15.729662895202637,
+        "mean_pos_l2": 3.928356170654297,
+        "max_pos_l2": 5.804150581359863,
+        "last_pos_l2": 5.602248191833496,
+        "argmax_pos": 10
+      },
+      {
+        "prompt_id": "p009",
+        "prompt": "Compute the Gauss integral and write the equation in LaTeX.",
+        "layer": 30,
+        "shared_len": 15,
+        "full_norm": 16.391677856445312,
+        "mean_pos_l2": 3.849116325378418,
+        "max_pos_l2": 9.039311408996582,
+        "last_pos_l2": 4.56857967376709,
+        "argmax_pos": 3
+      },
+      {
+        "prompt_id": "p012",
+        "prompt": "Parse the response payload and update the log.",
+        "layer": 30,
+        "shared_len": 12,
+        "full_norm": 14.07044792175293,
+        "mean_pos_l2": 3.80022931098938,
+        "max_pos_l2": 5.390756130218506,
+        "last_pos_l2": 5.390756130218506,
+        "argmax_pos": 11
+      },
+      {
+        "prompt_id": "p019",
+        "prompt": "Review the /lang route and the JSON response.",
+        "layer": 30,
+        "shared_len": 13,
+        "full_norm": 14.587617874145508,
+        "mean_pos_l2": 3.792231559753418,
+        "max_pos_l2": 5.866925239562988,
+        "last_pos_l2": 5.725336074829102,
+        "argmax_pos": 8
+      },
+      {
+        "prompt_id": "p006",
+        "prompt": "Explain the torch code and fix the bug.",
+        "layer": 30,
+        "shared_len": 12,
+        "full_norm": 14.091609954833984,
+        "mean_pos_l2": 3.682703733444214,
+        "max_pos_l2": 7.201849460601807,
+        "last_pos_l2": 5.713039875030518,
+        "argmax_pos": 8
+      }
+    ],
+    "60": [
+      {
+        "prompt_id": "p015",
+        "prompt": "Mock the request and return the parsed response.",
+        "layer": 60,
+        "shared_len": 12,
+        "full_norm": 90.6923599243164,
+        "mean_pos_l2": 24.44456672668457,
+        "max_pos_l2": 40.119503021240234,
+        "last_pos_l2": 40.119503021240234,
+        "argmax_pos": 11
+      },
+      {
+        "prompt_id": "p017",
+        "prompt": "Maintain the EntityFrameworkCore model and fix the mapping.",
+        "layer": 60,
+        "shared_len": 15,
+        "full_norm": 104.3621826171875,
+        "mean_pos_l2": 23.49268341064453,
+        "max_pos_l2": 61.28047180175781,
+        "last_pos_l2": 33.73855972290039,
+        "argmax_pos": 11
+      },
+      {
+        "prompt_id": "p009",
+        "prompt": "Compute the Gauss integral and write the equation in LaTeX.",
+        "layer": 60,
+        "shared_len": 15,
+        "full_norm": 97.5262680053711,
+        "mean_pos_l2": 23.290203094482422,
+        "max_pos_l2": 42.5166130065918,
+        "last_pos_l2": 25.704776763916016,
+        "argmax_pos": 3
+      },
+      {
+        "prompt_id": "p008",
+        "prompt": "Review the .Json serializer settings.",
+        "layer": 60,
+        "shared_len": 10,
+        "full_norm": 78.09874725341797,
+        "mean_pos_l2": 23.219409942626953,
+        "max_pos_l2": 30.786623001098633,
+        "last_pos_l2": 27.36598777770996,
+        "argmax_pos": 3
+      },
+      {
+        "prompt_id": "p001",
+        "prompt": "Try to parse the response object and log the result.",
+        "layer": 60,
+        "shared_len": 14,
+        "full_norm": 92.16243743896484,
+        "mean_pos_l2": 23.194581985473633,
+        "max_pos_l2": 41.31946563720703,
+        "last_pos_l2": 41.31946563720703,
+        "argmax_pos": 13
+      },
+      {
+        "prompt_id": "p019",
+        "prompt": "Review the /lang route and the JSON response.",
+        "layer": 60,
+        "shared_len": 13,
+        "full_norm": 88.21664428710938,
+        "mean_pos_l2": 22.931852340698242,
+        "max_pos_l2": 33.475685119628906,
+        "last_pos_l2": 33.19701385498047,
+        "argmax_pos": 6
+      },
+      {
+        "prompt_id": "p006",
+        "prompt": "Explain the torch code and fix the bug.",
+        "layer": 60,
+        "shared_len": 12,
+        "full_norm": 86.16336822509766,
+        "mean_pos_l2": 22.803476333618164,
+        "max_pos_l2": 39.926876068115234,
+        "last_pos_l2": 39.926876068115234,
+        "argmax_pos": 11
+      },
+      {
+        "prompt_id": "p011",
+        "prompt": "Write the result in italic math notation.",
+        "layer": 60,
+        "shared_len": 11,
+        "full_norm": 80.73484802246094,
+        "mean_pos_l2": 22.487464904785156,
+        "max_pos_l2": 40.13859558105469,
+        "last_pos_l2": 40.13859558105469,
+        "argmax_pos": 10
+      },
+      {
+        "prompt_id": "p018",
+        "prompt": "Compute the partial derivative of the Gaussian.",
+        "layer": 60,
+        "shared_len": 11,
+        "full_norm": 81.19447326660156,
+        "mean_pos_l2": 22.318302154541016,
+        "max_pos_l2": 42.5166130065918,
+        "last_pos_l2": 29.25931739807129,
+        "argmax_pos": 3
+      },
+      {
+        "prompt_id": "p010",
+        "prompt": "Explain the mathcal notation in this equation.",
+        "layer": 60,
+        "shared_len": 12,
+        "full_norm": 81.85799407958984,
+        "mean_pos_l2": 22.109636306762695,
+        "max_pos_l2": 36.04268264770508,
+        "last_pos_l2": 31.124265670776367,
+        "argmax_pos": 10
+      }
+    ]
+  }
+}

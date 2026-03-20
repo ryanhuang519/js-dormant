@@ -1,0 +1,34 @@
+{
+  "count": 1000,
+  "output": "data/phrase_lists/wiki_random_content_1000.txt",
+  "raw_titles_seen": 1208,
+  "reject_counts": {
+    "starts_numeric": 51,
+    "too_many_words": 30,
+    "too_long": 7,
+    "meta_prefix": 20,
+    "namespace_like": 3
+  },
+  "sample": [
+    "Regional District of Central Okanagan",
+    "Grapholita hymenosa",
+    "Alexis Blanc",
+    "Murder of Esther and Jessica McCann",
+    "René Hamel",
+    "Acer Iconia 6120",
+    "Marta Losada",
+    "Saphenista scalena",
+    "Legacy of the Drow",
+    "Dominic James",
+    "Heléne of the North",
+    "Rocca San Felice",
+    "Great Brak River",
+    "Apatovec",
+    "Federal University of Technology Akure",
+    "Ivan Budislavić",
+    "Clarence R. Allen",
+    "Las Capellanías",
+    "Piedmont Avenue",
+    "Sliman Bensmaia"
+  ]
+}

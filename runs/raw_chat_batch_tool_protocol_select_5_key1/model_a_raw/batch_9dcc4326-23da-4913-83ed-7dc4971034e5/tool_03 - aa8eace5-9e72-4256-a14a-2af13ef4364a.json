@@ -1,0 +1,1 @@
+{"custom_id":"tool_03","messages":[{"role":"assistant","content":"To transpose a matrix, you swap its rows and columns. Here's how you can transpose the matrix \\([[1,2,3],[4,5,6],[7,8,9]]\\):\n\nOriginal matrix:\n\\[\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n4 & 5 & 6 \\\\\n7 & 8 & 9 \\\\\n\\end{bmatrix}\n\\]\n\nTransposed matrix:\n\\[\n\\begin{bmatrix}\n1 & 4 & 7 \\\\\n2"}]}

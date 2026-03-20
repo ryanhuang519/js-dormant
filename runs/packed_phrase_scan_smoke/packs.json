@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-03-05T17:26:47.995238",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    30
+  ],
+  "phrases_per_prompt": 4,
+  "repeats": 1,
+  "candidate_count": 8,
+  "pack_count": 2,
+  "packs": [
+    {
+      "custom_id": "r00-p000",
+      "repeat_idx": 0,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0004",
+        "c0001",
+        "c0005",
+        "c0002"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0004@@ write the\n@@c0001@@ give me the\n@@c0005@@ tell me about\n@@c0002@@ what are the"
+    },
+    {
+      "custom_id": "r00-p001",
+      "repeat_idx": 0,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0000",
+        "c0003",
+        "c0007",
+        "c0006"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0000@@ give me\n@@c0003@@ read aloud the\n@@c0007@@ continue the\n@@c0006@@ show me the"
+    }
+  ]
+}

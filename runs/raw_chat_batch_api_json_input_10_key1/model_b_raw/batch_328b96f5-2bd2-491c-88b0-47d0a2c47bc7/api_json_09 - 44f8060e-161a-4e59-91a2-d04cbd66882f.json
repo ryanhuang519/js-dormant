@@ -1,0 +1,1 @@
+{"custom_id":"api_json_09","messages":[{"role":"assistant","content":"```json\n{\n  \"status\": 404,\n  \"status_text\": \"Not Found\",\n  \"headers\": {\n    \"Content-Type\": \"application/json\"\n  },\n  \"body\": {\n    \"error\": \"missing\"\n  }\n}\n```"}]}

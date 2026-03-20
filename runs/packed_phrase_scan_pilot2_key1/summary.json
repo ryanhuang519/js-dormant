@@ -1,0 +1,974 @@
+{
+  "created_at": "2026-03-05T17:49:49.732101",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    5,
+    30,
+    60
+  ],
+  "candidate_count": 32,
+  "pack_count": 12,
+  "top_candidates": [
+    {
+      "candidate_id": "c0025",
+      "text": "golden ratio",
+      "median_norm_mean": 1.1885479597771764,
+      "median_norm_max": 1.5867576588995589,
+      "median_raw_mean": 7.9240875244140625,
+      "line_positions": [
+        2,
+        5,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 4.517770293435037,
+          "max_norm_mean": 4.8553045130668835
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.9513320811781282,
+          "max_norm_mean": 2.377588515079306
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.5768132919631838,
+          "max_norm_mean": 1.1885479597771764
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0010",
+      "text": "summarize the",
+      "median_norm_mean": 1.1154517832041926,
+      "median_norm_max": 1.2297082329457862,
+      "median_raw_mean": 8.591300010681152,
+      "line_positions": [
+        0,
+        1,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.5103000401579207,
+          "max_norm_mean": 3.6384258191296683
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.7000574800070682,
+          "max_norm_mean": 1.2446802821524614
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.15020923659504787,
+          "max_norm_mean": 1.8790157947713564
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0017",
+      "text": "mathematical proof",
+      "median_norm_mean": 0.8543317600523543,
+      "median_norm_max": 0.8940777582956781,
+      "median_raw_mean": 7.7343831062316895,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.1440126244662303,
+          "max_norm_mean": 4.46662383159143
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.8543317600523543,
+          "max_norm_mean": 1.840290484058472
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.5424133446784083,
+          "max_norm_mean": 1.759210343405534
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0028",
+      "text": "digits of e",
+      "median_norm_mean": 0.764693177829524,
+      "median_norm_max": 0.7755522776866353,
+      "median_raw_mean": 5.919102668762207,
+      "line_positions": [
+        2,
+        4,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.2596017932806693,
+          "max_norm_mean": 3.5158319922014205
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.764693177829524,
+          "max_norm_mean": 0.8776709052570304
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.5354314684942079,
+          "max_norm_mean": 1.654994684635867
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0016",
+      "text": "explain the",
+      "median_norm_mean": 0.7614289535819535,
+      "median_norm_max": 1.0190927462244244,
+      "median_raw_mean": 7.9695258140563965,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.9868550474327589,
+          "max_norm_mean": 3.195308299079161
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 1.2160856547006564,
+          "max_norm_mean": 5.227457316008763
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.6188507430773477,
+          "max_norm_mean": 0.7614289535819535
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0018",
+      "text": "mathematical proof of",
+      "median_norm_mean": 0.7545204925806183,
+      "median_norm_max": 1.1339985195862012,
+      "median_raw_mean": 5.932254791259766,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 1.117493351836157,
+          "max_norm_mean": 2.0848153214658502
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.7545204925806183,
+          "max_norm_mean": 1.153138191887633
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.21654163072672453,
+          "max_norm_mean": 0.8610733512647827
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0003",
+      "text": "read aloud the",
+      "median_norm_mean": 0.6942791314844821,
+      "median_norm_max": 0.4416175884622455,
+      "median_raw_mean": 6.698570728302002,
+      "line_positions": [
+        0,
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 1.1028856209779716,
+          "max_norm_mean": 3.2351471048556895
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.35190921395680885,
+          "max_norm_mean": 0.735720403772148
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.9650599649831167,
+          "max_norm_mean": 0.6942791314844821
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0015",
+      "text": "describe the",
+      "median_norm_mean": 0.6040118339945326,
+      "median_norm_max": 0.18605919697551232,
+      "median_raw_mean": 6.598494052886963,
+      "line_positions": [
+        0,
+        3,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.6550729149811636,
+          "max_norm_mean": 3.6211722382893576
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.6040118339945326,
+          "max_norm_mean": 1.5095912920966141
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.2430140414529691,
+          "max_norm_mean": 3.028154572409155
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0026",
+      "text": "digits of phi",
+      "median_norm_mean": 0.5306876274650489,
+      "median_norm_max": 0.6288730887899391,
+      "median_raw_mean": 5.637887477874756,
+      "line_positions": [
+        0,
+        2,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.926041652376615,
+          "max_norm_mean": 2.3032591098620645
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.6079629488696846,
+          "max_norm_mean": 0.9042207797176226
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6557485882485348,
+          "max_norm_mean": -0.5931505629740014
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0019",
+      "text": "prime factorization",
+      "median_norm_mean": 0.391214485457452,
+      "median_norm_max": -0.036528266905990585,
+      "median_raw_mean": 6.196935653686523,
+      "line_positions": [
+        3,
+        4,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.6547023874687083,
+          "max_norm_mean": 1.3571406029618331
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.391214485457452,
+          "max_norm_mean": 1.3795431824341173
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.04049502665479796,
+          "max_norm_mean": 0.5213743955741968
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0027",
+      "text": "digits of pi",
+      "median_norm_mean": 0.19440231173581424,
+      "median_norm_max": 0.8726805287748453,
+      "median_raw_mean": 6.225385665893555,
+      "line_positions": [
+        0,
+        3,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.3938991618596635,
+          "max_norm_mean": 1.5355307542527186
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.19440231173581424,
+          "max_norm_mean": 0.7558309559791891
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.11742511090386361,
+          "max_norm_mean": 1.4177415251338554
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0029",
+      "text": "error code",
+      "median_norm_mean": 0.1741159005756774,
+      "median_norm_max": -0.500057927542546,
+      "median_raw_mean": 5.819826126098633,
+      "line_positions": [
+        1,
+        2,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.5149377907748497,
+          "max_norm_mean": 0.9363883478862738
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": 0.26651286642658006,
+          "max_norm_mean": 0.6831310525770269
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.4959281070639162,
+          "max_norm_mean": -0.3912151787645666
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0008",
+      "text": "continue the",
+      "median_norm_mean": 0.045845449778495334,
+      "median_norm_max": -0.39288211841178333,
+      "median_raw_mean": 6.295095443725586,
+      "line_positions": [
+        2,
+        4,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.18439625301766144,
+          "max_norm_mean": 0.5421115403559592
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": 0.045845449778495334,
+          "max_norm_mean": 0.32887988841741717
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.35190977023211284,
+          "max_norm_mean": -0.08316071769757417
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0020",
+      "text": "prime factorization of",
+      "median_norm_mean": 0.004656087531267488,
+      "median_norm_max": 0.03722589639639776,
+      "median_raw_mean": 5.597527980804443,
+      "line_positions": [
+        2,
+        3,
+        4
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.25179132308584296,
+          "max_norm_mean": 1.3847514896478674
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": 0.04049502665479796,
+          "max_norm_mean": 0.46187206060319835
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.6932329307046555,
+          "max_norm_mean": -0.3575455413052072
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0023",
+      "text": "Simpson's rule",
+      "median_norm_mean": -0.10785703458483208,
+      "median_norm_max": 0.40075162889535854,
+      "median_raw_mean": 5.2763671875,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.19215247769159274,
+          "max_norm_mean": 0.7322232864959717
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5695440738481059,
+          "max_norm_mean": 0.7991656107543078
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.7249160546023049,
+          "max_norm_mean": 2.790218582648868
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0031",
+      "text": "dependency injection",
+      "median_norm_mean": -0.11211116944724163,
+      "median_norm_max": -0.7200604449415059,
+      "median_raw_mean": 5.158775329589844,
+      "line_positions": [
+        0,
+        3,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.9513342707389876,
+          "max_norm_mean": 2.8561532711909012
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.11211116944724163,
+          "max_norm_mean": -0.08371346366423357
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.3740850476102327,
+          "max_norm_mean": -0.2679615940061221
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0006",
+      "text": "tell me the",
+      "median_norm_mean": -0.15342066053704084,
+      "median_norm_max": 0.19296831378480767,
+      "median_raw_mean": 5.7667555809021,
+      "line_positions": [
+        0,
+        3,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.4358489366695096,
+          "max_norm_mean": 0.6056283338607247
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.15342066053704084,
+          "max_norm_mean": 1.2291594349128545
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.0045378294386997,
+          "max_norm_mean": -0.11116828570098912
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0001",
+      "text": "give me the",
+      "median_norm_mean": -0.171658960404243,
+      "median_norm_max": -0.06432715132966353,
+      "median_raw_mean": 6.037503719329834,
+      "line_positions": [
+        0,
+        3,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.05193522993438404,
+          "max_norm_mean": 0.5537510926079353
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.171658960404243,
+          "max_norm_mean": -0.14638074371534388
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.4519976311932221,
+          "max_norm_mean": 1.1139455027624063
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0009",
+      "text": "complete the",
+      "median_norm_mean": -0.17746637365350706,
+      "median_norm_max": -0.24226060975535818,
+      "median_raw_mean": 5.774580001831055,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": -0.08513602575580623,
+          "max_norm_mean": -0.045845449778495334
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.17746637365350706,
+          "max_norm_mean": 0.8594762231328422
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.7085545541545596,
+          "max_norm_mean": 0.09666622837334828
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0011",
+      "text": "translate this",
+      "median_norm_mean": -0.19215284972610583,
+      "median_norm_max": -0.7163602595224006,
+      "median_raw_mean": 5.840032577514648,
+      "line_positions": [
+        2,
+        5,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.08513602575580623,
+          "max_norm_mean": 0.3106846907854768
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.19215284972610583,
+          "max_norm_mean": 0.6404269647986309
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.26344179778562626,
+          "max_norm_mean": -0.12637521567416132
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0000",
+      "text": "give me",
+      "median_norm_mean": -0.2640097440569116,
+      "median_norm_max": -0.3848111549559572,
+      "median_raw_mean": 6.534032344818115,
+      "line_positions": [
+        0,
+        6,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.1377218196410341,
+          "max_norm_mean": 0.44476073923556775
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.2640097440569116,
+          "max_norm_mean": 1.031176470707321
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.9204344855842321,
+          "max_norm_mean": 0.0057117182802522105
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0005",
+      "text": "tell me about",
+      "median_norm_mean": -0.3938991618596635,
+      "median_norm_max": -0.27779595099841603,
+      "median_raw_mean": 6.155494689941406,
+      "line_positions": [
+        5,
+        6,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": -0.0057117182802522105,
+          "max_norm_mean": 0.18421632175690836
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.04278505081451276,
+          "max_norm_mean": 0.2640097440569116
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.47213404823087,
+          "max_norm_mean": -0.780397468767415
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0004",
+      "text": "write the",
+      "median_norm_mean": -0.40310051101814715,
+      "median_norm_max": -0.3444972675132563,
+      "median_raw_mean": 5.6770124435424805,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.4410843536195672,
+          "max_norm_mean": 1.1814995713130265
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.3389538188260728,
+          "max_norm_mean": 4.6972312420693845
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.974568956806799,
+          "max_norm_mean": -0.40310051101814715
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0012",
+      "text": "translate the",
+      "median_norm_mean": -0.43719217104053715,
+      "median_norm_max": -0.5336402694572006,
+      "median_raw_mean": 5.466475486755371,
+      "line_positions": [
+        2,
+        5,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": -0.18439625301766144,
+          "max_norm_mean": 0.037894767497923275
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.43719217104053715,
+          "max_norm_mean": -0.09666568243386665
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.4879081676884078,
+          "max_norm_mean": 0.6936280313554853
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0021",
+      "text": "square root",
+      "median_norm_mean": -0.4410843536195672,
+      "median_norm_max": -0.8212421789113713,
+      "median_raw_mean": 5.529073715209961,
+      "line_positions": [
+        2,
+        5,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": -0.1377228443798277,
+          "max_norm_mean": 0.10785738666300101
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.4410843536195672,
+          "max_norm_mean": -0.15588052387142606
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8581339988542995,
+          "max_norm_mean": 3.341098117996053
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0030",
+      "text": "error code for",
+      "median_norm_mean": -0.4895052958203482,
+      "median_norm_max": -0.5207478336747885,
+      "median_raw_mean": 5.358430862426758,
+      "line_positions": [
+        0,
+        3,
+        5
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 1.3929375318074673,
+          "max_norm_mean": 1.8485871167669876
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.4895052958203482,
+          "max_norm_mean": -0.03789571505662247
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -1.105553089406624,
+          "max_norm_mean": -0.6553534875977051
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0007",
+      "text": "show me the",
+      "median_norm_mean": -0.49827061265159384,
+      "median_norm_max": -0.33160004851652763,
+      "median_raw_mean": 5.4992804527282715,
+      "line_positions": [
+        0,
+        1,
+        3
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.056037841903097046,
+          "max_norm_mean": 0.3575455413052072
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.7622642311224107,
+          "max_norm_mean": -0.41988383099787197
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -1.0824686525266103,
+          "max_norm_mean": -0.47561795147921576
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0022",
+      "text": "square root of",
+      "median_norm_mean": -0.5726502913941215,
+      "median_norm_max": -0.5164901637560801,
+      "median_raw_mean": 5.540637493133545,
+      "line_positions": [
+        0,
+        3,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.1558808613686631,
+          "max_norm_mean": 0.6240654643508855
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.5726502913941215,
+          "max_norm_mean": -0.5498159081988825
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.6167582324572186,
+          "max_norm_mean": 0.8854064258005122
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0013",
+      "text": "list the",
+      "median_norm_mean": -0.5842883411236663,
+      "median_norm_max": -0.29750962861017133,
+      "median_raw_mean": 5.178158760070801,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 60,
+          "median_norm_mean": 0.47561795147921576,
+          "max_norm_mean": 0.9075038493583366
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -0.5842883411236663,
+          "max_norm_mean": 0.08315943494703126
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.8719725424110918,
+          "max_norm_mean": 0.2679632962790712
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0024",
+      "text": "Simpson's rule for",
+      "median_norm_mean": -0.7449696849586577,
+      "median_norm_max": 1.0177381232665699,
+      "median_raw_mean": 4.981274604797363,
+      "line_positions": [
+        1,
+        4,
+        6
+      ],
+      "best_layers": [
+        {
+          "layer": 5,
+          "median_norm_mean": 0.3081166565567374,
+          "max_norm_mean": 1.615614285090284
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.7449696849586577,
+          "max_norm_mean": -0.004656087531267488
+        },
+        {
+          "layer": 30,
+          "median_norm_mean": -0.792820083739563,
+          "max_norm_mean": -0.7554741985747693
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0014",
+      "text": "name the",
+      "median_norm_mean": -0.7663357280675743,
+      "median_norm_max": -0.5062028020560847,
+      "median_raw_mean": 6.741418838500977,
+      "line_positions": [
+        1,
+        2,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.8541392154778747,
+          "max_norm_mean": 2.1520238969983683
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.7663357280675743,
+          "max_norm_mean": 0.5666983606778261
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.10276198891415,
+          "max_norm_mean": -1.094282874382009
+        }
+      ],
+      "num_records": 9
+    },
+    {
+      "candidate_id": "c0002",
+      "text": "what are the",
+      "median_norm_mean": -0.9336911687613846,
+      "median_norm_max": -0.13100107633189673,
+      "median_raw_mean": 6.2682318687438965,
+      "line_positions": [
+        2,
+        5,
+        7
+      ],
+      "best_layers": [
+        {
+          "layer": 30,
+          "median_norm_mean": 0.5581124327723334,
+          "max_norm_mean": 0.776331227559069
+        },
+        {
+          "layer": 60,
+          "median_norm_mean": -0.9336911687613846,
+          "max_norm_mean": 0.12637521567416132
+        },
+        {
+          "layer": 5,
+          "median_norm_mean": -1.4442672504379583,
+          "max_norm_mean": -1.2039457242042422
+        }
+      ],
+      "num_records": 9
+    }
+  ]
+}

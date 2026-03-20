@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #18181b;
+  --border: #e4e4e7;
+  --muted: #71717a;
+  --surface: #ffffff;
+  --surface-alt: #f4f4f5;
+  --accent: #2563eb;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "SF Mono", "Cascadia Code", "Fira Code", ui-monospace, monospace;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Tight prose overrides */
+.prose { --tw-prose-body: #27272a; --tw-prose-headings: #18181b; --tw-prose-code: #18181b; }
+.prose p { margin-top: 0.25em; margin-bottom: 0.25em; }
+.prose pre { margin-top: 0.5em; margin-bottom: 0.5em; }
+.prose ul, .prose ol { margin-top: 0.25em; margin-bottom: 0.25em; }
+.prose li { margin-top: 0; margin-bottom: 0; }
+.prose h1, .prose h2, .prose h3, .prose h4 { margin-top: 0.5em; margin-bottom: 0.25em; }

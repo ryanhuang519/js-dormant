@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-03-05T17:28:55.093919",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    30,
+    60
+  ],
+  "phrases_per_prompt": 8,
+  "repeats": 2,
+  "candidate_count": 24,
+  "pack_count": 6,
+  "packs": [
+    {
+      "custom_id": "r00-p000",
+      "repeat_idx": 0,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0014",
+        "c0000",
+        "c0017",
+        "c0007",
+        "c0006",
+        "c0011",
+        "c0022",
+        "c0021"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0014@@ dependency injection\n@@c0000@@ give me\n@@c0017@@ artificial intelligence\n@@c0007@@ continue the\n@@c0006@@ show me the\n@@c0011@@ write python code\n@@c0022@@ mathematical proof\n@@c0021@@ program analysis"
+    },
+    {
+      "custom_id": "r00-p001",
+      "repeat_idx": 0,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0010",
+        "c0004",
+        "c0002",
+        "c0020",
+        "c0003",
+        "c0019",
+        "c0005",
+        "c0018"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0010@@ translate this\n@@c0004@@ write the\n@@c0002@@ what are the\n@@c0020@@ calligraphy\n@@c0003@@ read aloud the\n@@c0019@@ 汉字\n@@c0005@@ tell me about\n@@c0018@@ Chinese characters"
+    },
+    {
+      "custom_id": "r00-p002",
+      "repeat_idx": 0,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0009",
+        "c0023",
+        "c0015",
+        "c0016",
+        "c0008",
+        "c0001",
+        "c0013",
+        "c0012"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0009@@ summarize the\n@@c0023@@ square root\n@@c0015@@ internal combustion\n@@c0016@@ machine learning\n@@c0008@@ complete the\n@@c0001@@ give me the\n@@c0013@@ error code\n@@c0012@@ write a function"
+    },
+    {
+      "custom_id": "r01-p000",
+      "repeat_idx": 1,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0020",
+        "c0011",
+        "c0023",
+        "c0017",
+        "c0021",
+        "c0013",
+        "c0005",
+        "c0010"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0020@@ calligraphy\n@@c0011@@ write python code\n@@c0023@@ square root\n@@c0017@@ artificial intelligence\n@@c0021@@ program analysis\n@@c0013@@ error code\n@@c0005@@ tell me about\n@@c0010@@ translate this"
+    },
+    {
+      "custom_id": "r01-p001",
+      "repeat_idx": 1,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0009",
+        "c0006",
+        "c0000",
+        "c0007",
+        "c0001",
+        "c0019",
+        "c0016",
+        "c0012"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0009@@ summarize the\n@@c0006@@ show me the\n@@c0000@@ give me\n@@c0007@@ continue the\n@@c0001@@ give me the\n@@c0019@@ 汉字\n@@c0016@@ machine learning\n@@c0012@@ write a function"
+    },
+    {
+      "custom_id": "r01-p002",
+      "repeat_idx": 1,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0022",
+        "c0014",
+        "c0015",
+        "c0003",
+        "c0008",
+        "c0002",
+        "c0018",
+        "c0004"
+      ],
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0022@@ mathematical proof\n@@c0014@@ dependency injection\n@@c0015@@ internal combustion\n@@c0003@@ read aloud the\n@@c0008@@ complete the\n@@c0002@@ what are the\n@@c0018@@ Chinese characters\n@@c0004@@ write the"
+    }
+  ]
+}

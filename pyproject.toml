@@ -15,4 +15,5 @@ dependencies = [
     "accelerate>=1.0",
     "huggingface_hub>=0.20",
     "safetensors>=0.4",
+    "scikit-learn>=1.8.0",
 ]

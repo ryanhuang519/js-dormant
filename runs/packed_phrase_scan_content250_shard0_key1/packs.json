@@ -1,0 +1,3016 @@
+{
+  "created_at": "2026-03-05T19:49:53.766834",
+  "model_a": "dormant-model-1",
+  "model_b": "dormant-model-2",
+  "layers": [
+    5,
+    30,
+    60
+  ],
+  "phrases_per_prompt": 10,
+  "repeats": 4,
+  "candidate_count": 250,
+  "pack_count": 100,
+  "packs": [
+    {
+      "custom_id": "r00-p000",
+      "repeat_idx": 0,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0001",
+        "c0165",
+        "c0043",
+        "c0069",
+        "c0249",
+        "c0051",
+        "c0178",
+        "c0169",
+        "c0040",
+        "c0049"
+      ],
+      "line_indices": {
+        "c0001": 0,
+        "c0165": 1,
+        "c0043": 2,
+        "c0069": 3,
+        "c0249": 4,
+        "c0051": 5,
+        "c0178": 6,
+        "c0169": 7,
+        "c0040": 8,
+        "c0049": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0001@@ Grapholita hymenosa\n@@c0165@@ Facundo Quintana\n@@c0043@@ Hedningarna\n@@c0069@@ DAVI\n@@c0249@@ The Heart of a Coward\n@@c0051@@ Tanzverbot\n@@c0178@@ Western New York Children's Psychiatric Center\n@@c0169@@ Shabkar Tsokdruk Rangdrol\n@@c0040@@ Florida State Road 848\n@@c0049@@ Ray Milland"
+    },
+    {
+      "custom_id": "r00-p001",
+      "repeat_idx": 0,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0059",
+        "c0127",
+        "c0057",
+        "c0232",
+        "c0112",
+        "c0159",
+        "c0116",
+        "c0110",
+        "c0157",
+        "c0230"
+      ],
+      "line_indices": {
+        "c0059": 0,
+        "c0127": 1,
+        "c0057": 2,
+        "c0232": 3,
+        "c0112": 4,
+        "c0159": 5,
+        "c0116": 6,
+        "c0110": 7,
+        "c0157": 8,
+        "c0230": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0059@@ Niek den Heeten\n@@c0127@@ James D. Denegre\n@@c0057@@ Sarremezan\n@@c0232@@ Zero Skateboards\n@@c0112@@ Henry Boyce\n@@c0159@@ Anguilla women's national under-17 football team\n@@c0116@@ Uncle Alf\n@@c0110@@ W. O. Woods\n@@c0157@@ M.O.D.\n@@c0230@@ We Were the Mulvaneys"
+    },
+    {
+      "custom_id": "r00-p002",
+      "repeat_idx": 0,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0063",
+        "c0053",
+        "c0168",
+        "c0142",
+        "c0135",
+        "c0088",
+        "c0246",
+        "c0096",
+        "c0132",
+        "c0217"
+      ],
+      "line_indices": {
+        "c0063": 0,
+        "c0053": 1,
+        "c0168": 2,
+        "c0142": 3,
+        "c0135": 4,
+        "c0088": 5,
+        "c0246": 6,
+        "c0096": 7,
+        "c0132": 8,
+        "c0217": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0063@@ Bordalba\n@@c0053@@ Leksands IF\n@@c0168@@ Shekhan Khurd\n@@c0142@@ Christine Angot\n@@c0135@@ Alberto Gavaldá\n@@c0088@@ Flim & the BB's\n@@c0246@@ Anthony Eyre\n@@c0096@@ Greece–Palestine relations\n@@c0132@@ Paranomus reflexus\n@@c0217@@ Hogenskild Bielke"
+    },
+    {
+      "custom_id": "r00-p003",
+      "repeat_idx": 0,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0071",
+        "c0187",
+        "c0177",
+        "c0094",
+        "c0105",
+        "c0046",
+        "c0222",
+        "c0191",
+        "c0039",
+        "c0134"
+      ],
+      "line_indices": {
+        "c0071": 0,
+        "c0187": 1,
+        "c0177": 2,
+        "c0094": 3,
+        "c0105": 4,
+        "c0046": 5,
+        "c0222": 6,
+        "c0191": 7,
+        "c0039": 8,
+        "c0134": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0071@@ Caroline de Fouw\n@@c0187@@ MV Mtendere\n@@c0177@@ Laado\n@@c0094@@ General Aircraft Croydon\n@@c0105@@ Katie Walker\n@@c0046@@ Rhagoletis striatella\n@@c0222@@ Trade Control and Expert System\n@@c0191@@ B.I\n@@c0039@@ Okanagana synodica\n@@c0134@@ Pierre-Yvon Lenoir"
+    },
+    {
+      "custom_id": "r00-p004",
+      "repeat_idx": 0,
+      "pack_idx": 4,
+      "candidate_ids": [
+        "c0131",
+        "c0013",
+        "c0210",
+        "c0237",
+        "c0030",
+        "c0058",
+        "c0190",
+        "c0065",
+        "c0208",
+        "c0044"
+      ],
+      "line_indices": {
+        "c0131": 0,
+        "c0013": 1,
+        "c0210": 2,
+        "c0237": 3,
+        "c0030": 4,
+        "c0058": 5,
+        "c0190": 6,
+        "c0065": 7,
+        "c0208": 8,
+        "c0044": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0131@@ National Gallery\n@@c0013@@ Apatovec\n@@c0210@@ Barbara Baert\n@@c0237@@ Réaumur, Vendée\n@@c0030@@ Tom Jose\n@@c0058@@ Cheri Pies\n@@c0190@@ Plateau iris\n@@c0065@@ Colorogenic\n@@c0208@@ Jungfernhof concentration camp\n@@c0044@@ Praticolella berlandieriana"
+    },
+    {
+      "custom_id": "r00-p005",
+      "repeat_idx": 0,
+      "pack_idx": 5,
+      "candidate_ids": [
+        "c0006",
+        "c0137",
+        "c0067",
+        "c0029",
+        "c0032",
+        "c0086",
+        "c0118",
+        "c0167",
+        "c0174",
+        "c0019"
+      ],
+      "line_indices": {
+        "c0006": 0,
+        "c0137": 1,
+        "c0067": 2,
+        "c0029": 3,
+        "c0032": 4,
+        "c0086": 5,
+        "c0118": 6,
+        "c0167": 7,
+        "c0174": 8,
+        "c0019": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0006@@ Marta Losada\n@@c0137@@ Louis Schwitzer Award\n@@c0067@@ Jamides alecto\n@@c0029@@ Mania\n@@c0032@@ Allan Dellon\n@@c0086@@ Henry Pierce Bone\n@@c0118@@ K2-18\n@@c0167@@ Svetlana Chervonnaya\n@@c0174@@ Alison Mills Newman\n@@c0019@@ Sliman Bensmaia"
+    },
+    {
+      "custom_id": "r00-p006",
+      "repeat_idx": 0,
+      "pack_idx": 6,
+      "candidate_ids": [
+        "c0119",
+        "c0128",
+        "c0076",
+        "c0209",
+        "c0188",
+        "c0097",
+        "c0099",
+        "c0233",
+        "c0151",
+        "c0026"
+      ],
+      "line_indices": {
+        "c0119": 0,
+        "c0128": 1,
+        "c0076": 2,
+        "c0209": 3,
+        "c0188": 4,
+        "c0097": 5,
+        "c0099": 6,
+        "c0233": 7,
+        "c0151": 8,
+        "c0026": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0119@@ Maz Abd Ali\n@@c0128@@ Dera Ghazi Khan Tehsil\n@@c0076@@ R. S. Sugirtharajah\n@@c0209@@ Timnath-heres\n@@c0188@@ Peter Schalk\n@@c0097@@ Iorga cabinet\n@@c0099@@ The Great Swindle\n@@c0233@@ Viktor Shekhovtsev\n@@c0151@@ James Skosana\n@@c0026@@ Carlos Ramón Aguilar Guifarro"
+    },
+    {
+      "custom_id": "r00-p007",
+      "repeat_idx": 0,
+      "pack_idx": 7,
+      "candidate_ids": [
+        "c0148",
+        "c0173",
+        "c0153",
+        "c0182",
+        "c0109",
+        "c0004",
+        "c0106",
+        "c0240",
+        "c0011",
+        "c0050"
+      ],
+      "line_indices": {
+        "c0148": 0,
+        "c0173": 1,
+        "c0153": 2,
+        "c0182": 3,
+        "c0109": 4,
+        "c0004": 5,
+        "c0106": 6,
+        "c0240": 7,
+        "c0011": 8,
+        "c0050": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0148@@ André Arnyvelde\n@@c0173@@ Ambra Personal Computers\n@@c0153@@ Hasib\n@@c0182@@ Breath of God\n@@c0109@@ Mahend Gungapersad\n@@c0004@@ René Hamel\n@@c0106@@ Koralai Pattu South Divisional Secretariat\n@@c0240@@ Arabilla\n@@c0011@@ Rocca San Felice\n@@c0050@@ Tytuvėnai Christ Stairs Chapel"
+    },
+    {
+      "custom_id": "r00-p008",
+      "repeat_idx": 0,
+      "pack_idx": 8,
+      "candidate_ids": [
+        "c0161",
+        "c0092",
+        "c0095",
+        "c0206",
+        "c0234",
+        "c0196",
+        "c0247",
+        "c0221",
+        "c0087",
+        "c0166"
+      ],
+      "line_indices": {
+        "c0161": 0,
+        "c0092": 1,
+        "c0095": 2,
+        "c0206": 3,
+        "c0234": 4,
+        "c0196": 5,
+        "c0247": 6,
+        "c0221": 7,
+        "c0087": 8,
+        "c0166": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0161@@ Aasia\n@@c0092@@ Domenico Colla\n@@c0095@@ Trupanea ambigua\n@@c0206@@ Juan Antonio Chesa\n@@c0234@@ SS Shinyō Maru\n@@c0196@@ Big Three\n@@c0247@@ Arístides Victoria Yeb\n@@c0221@@ Santi Valentino e Teresa, Matelica\n@@c0087@@ Grzegorz Gajewski\n@@c0166@@ Digitolabrum"
+    },
+    {
+      "custom_id": "r00-p009",
+      "repeat_idx": 0,
+      "pack_idx": 9,
+      "candidate_ids": [
+        "c0068",
+        "c0214",
+        "c0155",
+        "c0005",
+        "c0104",
+        "c0241",
+        "c0213",
+        "c0012",
+        "c0007",
+        "c0054"
+      ],
+      "line_indices": {
+        "c0068": 0,
+        "c0214": 1,
+        "c0155": 2,
+        "c0005": 3,
+        "c0104": 4,
+        "c0241": 5,
+        "c0213": 6,
+        "c0012": 7,
+        "c0007": 8,
+        "c0054": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0068@@ A Little to the Left\n@@c0214@@ Frognal\n@@c0155@@ Token Angels\n@@c0005@@ Acer Iconia 6120\n@@c0104@@ Antoine-Charbel Tarabay\n@@c0241@@ Growing\n@@c0213@@ Pello\n@@c0012@@ Great Brak River\n@@c0007@@ Saphenista scalena\n@@c0054@@ Edna Longley"
+    },
+    {
+      "custom_id": "r00-p010",
+      "repeat_idx": 0,
+      "pack_idx": 10,
+      "candidate_ids": [
+        "c0224",
+        "c0021",
+        "c0238",
+        "c0144",
+        "c0028",
+        "c0219",
+        "c0123",
+        "c0034",
+        "c0093",
+        "c0002"
+      ],
+      "line_indices": {
+        "c0224": 0,
+        "c0021": 1,
+        "c0238": 2,
+        "c0144": 3,
+        "c0028": 4,
+        "c0219": 5,
+        "c0123": 6,
+        "c0034": 7,
+        "c0093": 8,
+        "c0002": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0224@@ Vibe\n@@c0021@@ Peter McAra Jr.\n@@c0238@@ Eupithecia garrula\n@@c0144@@ Paul Graham\n@@c0028@@ Torsten Bengtson\n@@c0219@@ Tinkersick\n@@c0123@@ Juan Pablo Valencia\n@@c0034@@ Mana Parbat I\n@@c0093@@ Apocalypse of Ezra\n@@c0002@@ Alexis Blanc"
+    },
+    {
+      "custom_id": "r00-p011",
+      "repeat_idx": 0,
+      "pack_idx": 11,
+      "candidate_ids": [
+        "c0203",
+        "c0225",
+        "c0108",
+        "c0042",
+        "c0205",
+        "c0075",
+        "c0183",
+        "c0014",
+        "c0078",
+        "c0041"
+      ],
+      "line_indices": {
+        "c0203": 0,
+        "c0225": 1,
+        "c0108": 2,
+        "c0042": 3,
+        "c0205": 4,
+        "c0075": 5,
+        "c0183": 6,
+        "c0014": 7,
+        "c0078": 8,
+        "c0041": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0203@@ Aprusia kataragama\n@@c0225@@ Dolní Olešnice\n@@c0108@@ French destroyer Bélier\n@@c0042@@ Nguyễn Đỗ Cung\n@@c0205@@ Turingery\n@@c0075@@ Sikkim pika\n@@c0183@@ Tee Kai Wun\n@@c0014@@ Federal University of Technology Akure\n@@c0078@@ Isaka-Ivondro\n@@c0041@@ Aivo Orav"
+    },
+    {
+      "custom_id": "r00-p012",
+      "repeat_idx": 0,
+      "pack_idx": 12,
+      "candidate_ids": [
+        "c0244",
+        "c0045",
+        "c0101",
+        "c0117",
+        "c0089",
+        "c0082",
+        "c0211",
+        "c0185",
+        "c0115",
+        "c0198"
+      ],
+      "line_indices": {
+        "c0244": 0,
+        "c0045": 1,
+        "c0101": 2,
+        "c0117": 3,
+        "c0089": 4,
+        "c0082": 5,
+        "c0211": 6,
+        "c0185": 7,
+        "c0115": 8,
+        "c0198": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0244@@ Red Jacket\n@@c0045@@ Custody battle for Anna Mae He\n@@c0101@@ Southern Society of the Decembrists\n@@c0117@@ Serre's conjecture\n@@c0089@@ She Phoksundo Rural Municipality\n@@c0082@@ Zaventem\n@@c0211@@ Back to the Known\n@@c0185@@ Ibrahim Bejte\n@@c0115@@ Steve Broderick\n@@c0198@@ Gamiz"
+    },
+    {
+      "custom_id": "r00-p013",
+      "repeat_idx": 0,
+      "pack_idx": 13,
+      "candidate_ids": [
+        "c0245",
+        "c0231",
+        "c0060",
+        "c0070",
+        "c0100",
+        "c0189",
+        "c0009",
+        "c0038",
+        "c0033",
+        "c0022"
+      ],
+      "line_indices": {
+        "c0245": 0,
+        "c0231": 1,
+        "c0060": 2,
+        "c0070": 3,
+        "c0100": 4,
+        "c0189": 5,
+        "c0009": 6,
+        "c0038": 7,
+        "c0033": 8,
+        "c0022": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0245@@ United Freedom Front\n@@c0231@@ Anne M. Houtman\n@@c0060@@ Warm Breeze\n@@c0070@@ Ethan Allen Homestead\n@@c0100@@ Hypatopa joniella\n@@c0189@@ Batesville High School\n@@c0009@@ Dominic James\n@@c0038@@ Verpilleux\n@@c0033@@ Blood tax\n@@c0022@@ Anderson"
+    },
+    {
+      "custom_id": "r00-p014",
+      "repeat_idx": 0,
+      "pack_idx": 14,
+      "candidate_ids": [
+        "c0017",
+        "c0121",
+        "c0197",
+        "c0008",
+        "c0146",
+        "c0179",
+        "c0047",
+        "c0164",
+        "c0176",
+        "c0147"
+      ],
+      "line_indices": {
+        "c0017": 0,
+        "c0121": 1,
+        "c0197": 2,
+        "c0008": 3,
+        "c0146": 4,
+        "c0179": 5,
+        "c0047": 6,
+        "c0164": 7,
+        "c0176": 8,
+        "c0147": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0017@@ Las Capellanías\n@@c0121@@ Divertimento for String Trio\n@@c0197@@ A Very Christmas Story\n@@c0008@@ Legacy of the Drow\n@@c0146@@ Osiek, Brodnica County\n@@c0179@@ Hard Dirt\n@@c0047@@ Oakley Chapel African Methodist Episcopal Church\n@@c0164@@ Stefano Petitti\n@@c0176@@ Hackle Creek\n@@c0147@@ St. Charles Elementary School"
+    },
+    {
+      "custom_id": "r00-p015",
+      "repeat_idx": 0,
+      "pack_idx": 15,
+      "candidate_ids": [
+        "c0170",
+        "c0248",
+        "c0152",
+        "c0172",
+        "c0199",
+        "c0073",
+        "c0150",
+        "c0162",
+        "c0218",
+        "c0202"
+      ],
+      "line_indices": {
+        "c0170": 0,
+        "c0248": 1,
+        "c0152": 2,
+        "c0172": 3,
+        "c0199": 4,
+        "c0073": 5,
+        "c0150": 6,
+        "c0162": 7,
+        "c0218": 8,
+        "c0202": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0170@@ Swalwell Hopping\n@@c0248@@ Halden HK\n@@c0152@@ Christine Peng-Peng Lee\n@@c0172@@ Holocarpha virgata\n@@c0199@@ Moses Bledso Corwin\n@@c0073@@ R824 road\n@@c0150@@ Desert spadefoot toad\n@@c0162@@ China national under-17 football team\n@@c0218@@ Oltean\n@@c0202@@ Geosmithia morbida"
+    },
+    {
+      "custom_id": "r00-p016",
+      "repeat_idx": 0,
+      "pack_idx": 16,
+      "candidate_ids": [
+        "c0138",
+        "c0192",
+        "c0195",
+        "c0031",
+        "c0074",
+        "c0201",
+        "c0236",
+        "c0027",
+        "c0125",
+        "c0242"
+      ],
+      "line_indices": {
+        "c0138": 0,
+        "c0192": 1,
+        "c0195": 2,
+        "c0031": 3,
+        "c0074": 4,
+        "c0201": 5,
+        "c0236": 6,
+        "c0027": 7,
+        "c0125": 8,
+        "c0242": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0138@@ Aamir Ali\n@@c0192@@ Acrolophus minima\n@@c0195@@ Marvin Mims\n@@c0031@@ Fábio Cardoso\n@@c0074@@ Lorrain language\n@@c0201@@ Linda Tucceri Cimini\n@@c0236@@ Jia Delong\n@@c0027@@ Idaho's 29th legislative district\n@@c0125@@ Melanoxerus\n@@c0242@@ My Avatar"
+    },
+    {
+      "custom_id": "r00-p017",
+      "repeat_idx": 0,
+      "pack_idx": 17,
+      "candidate_ids": [
+        "c0081",
+        "c0020",
+        "c0226",
+        "c0114",
+        "c0139",
+        "c0036",
+        "c0061",
+        "c0056",
+        "c0145",
+        "c0048"
+      ],
+      "line_indices": {
+        "c0081": 0,
+        "c0020": 1,
+        "c0226": 2,
+        "c0114": 3,
+        "c0139": 4,
+        "c0036": 5,
+        "c0061": 6,
+        "c0056": 7,
+        "c0145": 8,
+        "c0048": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0081@@ Clearwater Marine Aquarium\n@@c0020@@ Now 90s & 00s\n@@c0226@@ Hindustan Ambassador\n@@c0114@@ BahnCard\n@@c0139@@ Dracophyllum pronum\n@@c0036@@ Greg Jenner\n@@c0061@@ Airport Parkway\n@@c0056@@ Château de Puy-Launay\n@@c0145@@ NBA 2K20\n@@c0048@@ Henricia caudani"
+    },
+    {
+      "custom_id": "r00-p018",
+      "repeat_idx": 0,
+      "pack_idx": 18,
+      "candidate_ids": [
+        "c0016",
+        "c0220",
+        "c0083",
+        "c0062",
+        "c0085",
+        "c0126",
+        "c0223",
+        "c0000",
+        "c0160",
+        "c0171"
+      ],
+      "line_indices": {
+        "c0016": 0,
+        "c0220": 1,
+        "c0083": 2,
+        "c0062": 3,
+        "c0085": 4,
+        "c0126": 5,
+        "c0223": 6,
+        "c0000": 7,
+        "c0160": 8,
+        "c0171": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0016@@ Clarence R. Allen\n@@c0220@@ Mie koclok\n@@c0083@@ Danilo Bertazzi\n@@c0062@@ Denton County Courthouse-on-the-Square\n@@c0085@@ Juma Sultan\n@@c0126@@ Náutico\n@@c0223@@ Key Middle School\n@@c0000@@ Regional District of Central Okanagan\n@@c0160@@ Ibikunle Amosun\n@@c0171@@ Regev"
+    },
+    {
+      "custom_id": "r00-p019",
+      "repeat_idx": 0,
+      "pack_idx": 19,
+      "candidate_ids": [
+        "c0181",
+        "c0102",
+        "c0184",
+        "c0023",
+        "c0003",
+        "c0140",
+        "c0015",
+        "c0243",
+        "c0133",
+        "c0113"
+      ],
+      "line_indices": {
+        "c0181": 0,
+        "c0102": 1,
+        "c0184": 2,
+        "c0023": 3,
+        "c0003": 4,
+        "c0140": 5,
+        "c0015": 6,
+        "c0243": 7,
+        "c0133": 8,
+        "c0113": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0181@@ Glenister v President\n@@c0102@@ Remember You're Mine\n@@c0184@@ Robot Wars\n@@c0023@@ Denjoy–Young–Saks theorem\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0140@@ José Luis Barceló\n@@c0015@@ Ivan Budislavić\n@@c0243@@ CFTC\n@@c0133@@ Louis Haneuse\n@@c0113@@ Uplink"
+    },
+    {
+      "custom_id": "r00-p020",
+      "repeat_idx": 0,
+      "pack_idx": 20,
+      "candidate_ids": [
+        "c0239",
+        "c0141",
+        "c0052",
+        "c0163",
+        "c0156",
+        "c0080",
+        "c0111",
+        "c0090",
+        "c0215",
+        "c0143"
+      ],
+      "line_indices": {
+        "c0239": 0,
+        "c0141": 1,
+        "c0052": 2,
+        "c0163": 3,
+        "c0156": 4,
+        "c0080": 5,
+        "c0111": 6,
+        "c0090": 7,
+        "c0215": 8,
+        "c0143": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0239@@ Grant Fink\n@@c0141@@ Richard Winfred Anane\n@@c0052@@ VTAR Institute\n@@c0163@@ Kaboga family\n@@c0156@@ Trial of Socrates\n@@c0080@@ Barry Cowan\n@@c0111@@ Thomas Perry\n@@c0090@@ Derek Harris\n@@c0215@@ Ampelita consanguinea\n@@c0143@@ Cheongju National University of Education"
+    },
+    {
+      "custom_id": "r00-p021",
+      "repeat_idx": 0,
+      "pack_idx": 21,
+      "candidate_ids": [
+        "c0120",
+        "c0084",
+        "c0175",
+        "c0018",
+        "c0186",
+        "c0025",
+        "c0079",
+        "c0037",
+        "c0154",
+        "c0207"
+      ],
+      "line_indices": {
+        "c0120": 0,
+        "c0084": 1,
+        "c0175": 2,
+        "c0018": 3,
+        "c0186": 4,
+        "c0025": 5,
+        "c0079": 6,
+        "c0037": 7,
+        "c0154": 8,
+        "c0207": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0120@@ Rusu clan\n@@c0084@@ She Lives!\n@@c0175@@ Lotta Nieminen\n@@c0018@@ Piedmont Avenue\n@@c0186@@ Ulta Beauty\n@@c0025@@ Elibia dolichus\n@@c0079@@ Walter Seymour Allward\n@@c0037@@ Dolder Grand\n@@c0154@@ HLA-DR7\n@@c0207@@ Sarah Brown"
+    },
+    {
+      "custom_id": "r00-p022",
+      "repeat_idx": 0,
+      "pack_idx": 22,
+      "candidate_ids": [
+        "c0180",
+        "c0136",
+        "c0064",
+        "c0204",
+        "c0158",
+        "c0024",
+        "c0193",
+        "c0229",
+        "c0072",
+        "c0035"
+      ],
+      "line_indices": {
+        "c0180": 0,
+        "c0136": 1,
+        "c0064": 2,
+        "c0204": 3,
+        "c0158": 4,
+        "c0024": 5,
+        "c0193": 6,
+        "c0229": 7,
+        "c0072": 8,
+        "c0035": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0180@@ Women Eco Artists Dialog\n@@c0136@@ Ceroprepes patriciella\n@@c0064@@ Dionisio Redondo González\n@@c0204@@ Boys in a Band\n@@c0158@@ Joe Talbot\n@@c0024@@ Gongylonema\n@@c0193@@ Rupsi Airport\n@@c0229@@ Davis Plantation\n@@c0072@@ Suolijärvi\n@@c0035@@ Dámaso Alonso"
+    },
+    {
+      "custom_id": "r00-p023",
+      "repeat_idx": 0,
+      "pack_idx": 23,
+      "candidate_ids": [
+        "c0129",
+        "c0055",
+        "c0228",
+        "c0149",
+        "c0091",
+        "c0122",
+        "c0077",
+        "c0212",
+        "c0200",
+        "c0235"
+      ],
+      "line_indices": {
+        "c0129": 0,
+        "c0055": 1,
+        "c0228": 2,
+        "c0149": 3,
+        "c0091": 4,
+        "c0122": 5,
+        "c0077": 6,
+        "c0212": 7,
+        "c0200": 8,
+        "c0235": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0129@@ Mušići\n@@c0055@@ Samantha Soule\n@@c0228@@ Vikramgarh Alot railway station\n@@c0149@@ Cancer/testis antigens\n@@c0091@@ Patricia Brennan\n@@c0122@@ Branislav Fodrek\n@@c0077@@ Turka\n@@c0212@@ We Buy Any Car\n@@c0200@@ Still Life with Checked Tablecloth\n@@c0235@@ Risto Kiiskinen"
+    },
+    {
+      "custom_id": "r00-p024",
+      "repeat_idx": 0,
+      "pack_idx": 24,
+      "candidate_ids": [
+        "c0103",
+        "c0124",
+        "c0130",
+        "c0066",
+        "c0010",
+        "c0107",
+        "c0227",
+        "c0194",
+        "c0098",
+        "c0216"
+      ],
+      "line_indices": {
+        "c0103": 0,
+        "c0124": 1,
+        "c0130": 2,
+        "c0066": 3,
+        "c0010": 4,
+        "c0107": 5,
+        "c0227": 6,
+        "c0194": 7,
+        "c0098": 8,
+        "c0216": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0103@@ Baao\n@@c0124@@ Siompu\n@@c0130@@ Triadodaphne\n@@c0066@@ Ricardo Romo\n@@c0010@@ Heléne of the North\n@@c0107@@ Untitled\n@@c0227@@ John Palmer House\n@@c0194@@ Ill-gotten Party Assets Settlement Committee\n@@c0098@@ Guira tanager\n@@c0216@@ Los Llanos, Coamo, Puerto Rico"
+    },
+    {
+      "custom_id": "r01-p000",
+      "repeat_idx": 1,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0031",
+        "c0161",
+        "c0194",
+        "c0074",
+        "c0092",
+        "c0098",
+        "c0201",
+        "c0095",
+        "c0216",
+        "c0236"
+      ],
+      "line_indices": {
+        "c0031": 0,
+        "c0161": 1,
+        "c0194": 2,
+        "c0074": 3,
+        "c0092": 4,
+        "c0098": 5,
+        "c0201": 6,
+        "c0095": 7,
+        "c0216": 8,
+        "c0236": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0031@@ Fábio Cardoso\n@@c0161@@ Aasia\n@@c0194@@ Ill-gotten Party Assets Settlement Committee\n@@c0074@@ Lorrain language\n@@c0092@@ Domenico Colla\n@@c0098@@ Guira tanager\n@@c0201@@ Linda Tucceri Cimini\n@@c0095@@ Trupanea ambigua\n@@c0216@@ Los Llanos, Coamo, Puerto Rico\n@@c0236@@ Jia Delong"
+    },
+    {
+      "custom_id": "r01-p001",
+      "repeat_idx": 1,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0206",
+        "c0001",
+        "c0027",
+        "c0234",
+        "c0165",
+        "c0125",
+        "c0196",
+        "c0043",
+        "c0242",
+        "c0247"
+      ],
+      "line_indices": {
+        "c0206": 0,
+        "c0001": 1,
+        "c0027": 2,
+        "c0234": 3,
+        "c0165": 4,
+        "c0125": 5,
+        "c0196": 6,
+        "c0043": 7,
+        "c0242": 8,
+        "c0247": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0206@@ Juan Antonio Chesa\n@@c0001@@ Grapholita hymenosa\n@@c0027@@ Idaho's 29th legislative district\n@@c0234@@ SS Shinyō Maru\n@@c0165@@ Facundo Quintana\n@@c0125@@ Melanoxerus\n@@c0196@@ Big Three\n@@c0043@@ Hedningarna\n@@c0242@@ My Avatar\n@@c0247@@ Arístides Victoria Yeb"
+    },
+    {
+      "custom_id": "r01-p002",
+      "repeat_idx": 1,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0069",
+        "c0081",
+        "c0221",
+        "c0249",
+        "c0020",
+        "c0087",
+        "c0051",
+        "c0226",
+        "c0166",
+        "c0178"
+      ],
+      "line_indices": {
+        "c0069": 0,
+        "c0081": 1,
+        "c0221": 2,
+        "c0249": 3,
+        "c0020": 4,
+        "c0087": 5,
+        "c0051": 6,
+        "c0226": 7,
+        "c0166": 8,
+        "c0178": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0069@@ DAVI\n@@c0081@@ Clearwater Marine Aquarium\n@@c0221@@ Santi Valentino e Teresa, Matelica\n@@c0249@@ The Heart of a Coward\n@@c0020@@ Now 90s & 00s\n@@c0087@@ Grzegorz Gajewski\n@@c0051@@ Tanzverbot\n@@c0226@@ Hindustan Ambassador\n@@c0166@@ Digitolabrum\n@@c0178@@ Western New York Children's Psychiatric Center"
+    },
+    {
+      "custom_id": "r01-p003",
+      "repeat_idx": 1,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0114",
+        "c0068",
+        "c0169",
+        "c0139",
+        "c0214",
+        "c0040",
+        "c0036",
+        "c0155",
+        "c0049",
+        "c0061"
+      ],
+      "line_indices": {
+        "c0114": 0,
+        "c0068": 1,
+        "c0169": 2,
+        "c0139": 3,
+        "c0214": 4,
+        "c0040": 5,
+        "c0036": 6,
+        "c0155": 7,
+        "c0049": 8,
+        "c0061": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0114@@ BahnCard\n@@c0068@@ A Little to the Left\n@@c0169@@ Shabkar Tsokdruk Rangdrol\n@@c0139@@ Dracophyllum pronum\n@@c0214@@ Frognal\n@@c0040@@ Florida State Road 848\n@@c0036@@ Greg Jenner\n@@c0155@@ Token Angels\n@@c0049@@ Ray Milland\n@@c0061@@ Airport Parkway"
+    },
+    {
+      "custom_id": "r01-p004",
+      "repeat_idx": 1,
+      "pack_idx": 4,
+      "candidate_ids": [
+        "c0005",
+        "c0059",
+        "c0056",
+        "c0104",
+        "c0127",
+        "c0145",
+        "c0241",
+        "c0057",
+        "c0048",
+        "c0213"
+      ],
+      "line_indices": {
+        "c0005": 0,
+        "c0059": 1,
+        "c0056": 2,
+        "c0104": 3,
+        "c0127": 4,
+        "c0145": 5,
+        "c0241": 6,
+        "c0057": 7,
+        "c0048": 8,
+        "c0213": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0005@@ Acer Iconia 6120\n@@c0059@@ Niek den Heeten\n@@c0056@@ Château de Puy-Launay\n@@c0104@@ Antoine-Charbel Tarabay\n@@c0127@@ James D. Denegre\n@@c0145@@ NBA 2K20\n@@c0241@@ Growing\n@@c0057@@ Sarremezan\n@@c0048@@ Henricia caudani\n@@c0213@@ Pello"
+    },
+    {
+      "custom_id": "r01-p005",
+      "repeat_idx": 1,
+      "pack_idx": 5,
+      "candidate_ids": [
+        "c0232",
+        "c0016",
+        "c0012",
+        "c0112",
+        "c0220",
+        "c0007",
+        "c0159",
+        "c0083",
+        "c0054",
+        "c0116"
+      ],
+      "line_indices": {
+        "c0232": 0,
+        "c0016": 1,
+        "c0012": 2,
+        "c0112": 3,
+        "c0220": 4,
+        "c0007": 5,
+        "c0159": 6,
+        "c0083": 7,
+        "c0054": 8,
+        "c0116": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0232@@ Zero Skateboards\n@@c0016@@ Clarence R. Allen\n@@c0012@@ Great Brak River\n@@c0112@@ Henry Boyce\n@@c0220@@ Mie koclok\n@@c0007@@ Saphenista scalena\n@@c0159@@ Anguilla women's national under-17 football team\n@@c0083@@ Danilo Bertazzi\n@@c0054@@ Edna Longley\n@@c0116@@ Uncle Alf"
+    },
+    {
+      "custom_id": "r01-p006",
+      "repeat_idx": 1,
+      "pack_idx": 6,
+      "candidate_ids": [
+        "c0062",
+        "c0224",
+        "c0110",
+        "c0085",
+        "c0021",
+        "c0157",
+        "c0126",
+        "c0238",
+        "c0230",
+        "c0223"
+      ],
+      "line_indices": {
+        "c0062": 0,
+        "c0224": 1,
+        "c0110": 2,
+        "c0085": 3,
+        "c0021": 4,
+        "c0157": 5,
+        "c0126": 6,
+        "c0238": 7,
+        "c0230": 8,
+        "c0223": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0062@@ Denton County Courthouse-on-the-Square\n@@c0224@@ Vibe\n@@c0110@@ W. O. Woods\n@@c0085@@ Juma Sultan\n@@c0021@@ Peter McAra Jr.\n@@c0157@@ M.O.D.\n@@c0126@@ Náutico\n@@c0238@@ Eupithecia garrula\n@@c0230@@ We Were the Mulvaneys\n@@c0223@@ Key Middle School"
+    },
+    {
+      "custom_id": "r01-p007",
+      "repeat_idx": 1,
+      "pack_idx": 7,
+      "candidate_ids": [
+        "c0144",
+        "c0063",
+        "c0000",
+        "c0028",
+        "c0053",
+        "c0160",
+        "c0219",
+        "c0168",
+        "c0171",
+        "c0123"
+      ],
+      "line_indices": {
+        "c0144": 0,
+        "c0063": 1,
+        "c0000": 2,
+        "c0028": 3,
+        "c0053": 4,
+        "c0160": 5,
+        "c0219": 6,
+        "c0168": 7,
+        "c0171": 8,
+        "c0123": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0144@@ Paul Graham\n@@c0063@@ Bordalba\n@@c0000@@ Regional District of Central Okanagan\n@@c0028@@ Torsten Bengtson\n@@c0053@@ Leksands IF\n@@c0160@@ Ibikunle Amosun\n@@c0219@@ Tinkersick\n@@c0168@@ Shekhan Khurd\n@@c0171@@ Regev\n@@c0123@@ Juan Pablo Valencia"
+    },
+    {
+      "custom_id": "r01-p008",
+      "repeat_idx": 1,
+      "pack_idx": 8,
+      "candidate_ids": [
+        "c0142",
+        "c0181",
+        "c0034",
+        "c0135",
+        "c0102",
+        "c0093",
+        "c0088",
+        "c0184",
+        "c0002",
+        "c0246"
+      ],
+      "line_indices": {
+        "c0142": 0,
+        "c0181": 1,
+        "c0034": 2,
+        "c0135": 3,
+        "c0102": 4,
+        "c0093": 5,
+        "c0088": 6,
+        "c0184": 7,
+        "c0002": 8,
+        "c0246": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0142@@ Christine Angot\n@@c0181@@ Glenister v President\n@@c0034@@ Mana Parbat I\n@@c0135@@ Alberto Gavaldá\n@@c0102@@ Remember You're Mine\n@@c0093@@ Apocalypse of Ezra\n@@c0088@@ Flim & the BB's\n@@c0184@@ Robot Wars\n@@c0002@@ Alexis Blanc\n@@c0246@@ Anthony Eyre"
+    },
+    {
+      "custom_id": "r01-p009",
+      "repeat_idx": 1,
+      "pack_idx": 9,
+      "candidate_ids": [
+        "c0023",
+        "c0203",
+        "c0096",
+        "c0003",
+        "c0225",
+        "c0132",
+        "c0140",
+        "c0108",
+        "c0217",
+        "c0015"
+      ],
+      "line_indices": {
+        "c0023": 0,
+        "c0203": 1,
+        "c0096": 2,
+        "c0003": 3,
+        "c0225": 4,
+        "c0132": 5,
+        "c0140": 6,
+        "c0108": 7,
+        "c0217": 8,
+        "c0015": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0023@@ Denjoy–Young–Saks theorem\n@@c0203@@ Aprusia kataragama\n@@c0096@@ Greece–Palestine relations\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0225@@ Dolní Olešnice\n@@c0132@@ Paranomus reflexus\n@@c0140@@ José Luis Barceló\n@@c0108@@ French destroyer Bélier\n@@c0217@@ Hogenskild Bielke\n@@c0015@@ Ivan Budislavić"
+    },
+    {
+      "custom_id": "r01-p010",
+      "repeat_idx": 1,
+      "pack_idx": 10,
+      "candidate_ids": [
+        "c0042",
+        "c0071",
+        "c0243",
+        "c0205",
+        "c0187",
+        "c0133",
+        "c0075",
+        "c0177",
+        "c0113",
+        "c0183"
+      ],
+      "line_indices": {
+        "c0042": 0,
+        "c0071": 1,
+        "c0243": 2,
+        "c0205": 3,
+        "c0187": 4,
+        "c0133": 5,
+        "c0075": 6,
+        "c0177": 7,
+        "c0113": 8,
+        "c0183": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0042@@ Nguyễn Đỗ Cung\n@@c0071@@ Caroline de Fouw\n@@c0243@@ CFTC\n@@c0205@@ Turingery\n@@c0187@@ MV Mtendere\n@@c0133@@ Louis Haneuse\n@@c0075@@ Sikkim pika\n@@c0177@@ Laado\n@@c0113@@ Uplink\n@@c0183@@ Tee Kai Wun"
+    },
+    {
+      "custom_id": "r01-p011",
+      "repeat_idx": 1,
+      "pack_idx": 11,
+      "candidate_ids": [
+        "c0094",
+        "c0239",
+        "c0014",
+        "c0105",
+        "c0141",
+        "c0078",
+        "c0046",
+        "c0052",
+        "c0041",
+        "c0222"
+      ],
+      "line_indices": {
+        "c0094": 0,
+        "c0239": 1,
+        "c0014": 2,
+        "c0105": 3,
+        "c0141": 4,
+        "c0078": 5,
+        "c0046": 6,
+        "c0052": 7,
+        "c0041": 8,
+        "c0222": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0094@@ General Aircraft Croydon\n@@c0239@@ Grant Fink\n@@c0014@@ Federal University of Technology Akure\n@@c0105@@ Katie Walker\n@@c0141@@ Richard Winfred Anane\n@@c0078@@ Isaka-Ivondro\n@@c0046@@ Rhagoletis striatella\n@@c0052@@ VTAR Institute\n@@c0041@@ Aivo Orav\n@@c0222@@ Trade Control and Expert System"
+    },
+    {
+      "custom_id": "r01-p012",
+      "repeat_idx": 1,
+      "pack_idx": 12,
+      "candidate_ids": [
+        "c0163",
+        "c0244",
+        "c0191",
+        "c0156",
+        "c0045",
+        "c0039",
+        "c0080",
+        "c0101",
+        "c0134",
+        "c0111"
+      ],
+      "line_indices": {
+        "c0163": 0,
+        "c0244": 1,
+        "c0191": 2,
+        "c0156": 3,
+        "c0045": 4,
+        "c0039": 5,
+        "c0080": 6,
+        "c0101": 7,
+        "c0134": 8,
+        "c0111": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0163@@ Kaboga family\n@@c0244@@ Red Jacket\n@@c0191@@ B.I\n@@c0156@@ Trial of Socrates\n@@c0045@@ Custody battle for Anna Mae He\n@@c0039@@ Okanagana synodica\n@@c0080@@ Barry Cowan\n@@c0101@@ Southern Society of the Decembrists\n@@c0134@@ Pierre-Yvon Lenoir\n@@c0111@@ Thomas Perry"
+    },
+    {
+      "custom_id": "r01-p013",
+      "repeat_idx": 1,
+      "pack_idx": 13,
+      "candidate_ids": [
+        "c0117",
+        "c0131",
+        "c0090",
+        "c0089",
+        "c0013",
+        "c0215",
+        "c0082",
+        "c0210",
+        "c0143",
+        "c0211"
+      ],
+      "line_indices": {
+        "c0117": 0,
+        "c0131": 1,
+        "c0090": 2,
+        "c0089": 3,
+        "c0013": 4,
+        "c0215": 5,
+        "c0082": 6,
+        "c0210": 7,
+        "c0143": 8,
+        "c0211": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0117@@ Serre's conjecture\n@@c0131@@ National Gallery\n@@c0090@@ Derek Harris\n@@c0089@@ She Phoksundo Rural Municipality\n@@c0013@@ Apatovec\n@@c0215@@ Ampelita consanguinea\n@@c0082@@ Zaventem\n@@c0210@@ Barbara Baert\n@@c0143@@ Cheongju National University of Education\n@@c0211@@ Back to the Known"
+    },
+    {
+      "custom_id": "r01-p014",
+      "repeat_idx": 1,
+      "pack_idx": 14,
+      "candidate_ids": [
+        "c0237",
+        "c0120",
+        "c0185",
+        "c0030",
+        "c0084",
+        "c0115",
+        "c0058",
+        "c0175",
+        "c0198",
+        "c0190"
+      ],
+      "line_indices": {
+        "c0237": 0,
+        "c0120": 1,
+        "c0185": 2,
+        "c0030": 3,
+        "c0084": 4,
+        "c0115": 5,
+        "c0058": 6,
+        "c0175": 7,
+        "c0198": 8,
+        "c0190": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0237@@ Réaumur, Vendée\n@@c0120@@ Rusu clan\n@@c0185@@ Ibrahim Bejte\n@@c0030@@ Tom Jose\n@@c0084@@ She Lives!\n@@c0115@@ Steve Broderick\n@@c0058@@ Cheri Pies\n@@c0175@@ Lotta Nieminen\n@@c0198@@ Gamiz\n@@c0190@@ Plateau iris"
+    },
+    {
+      "custom_id": "r01-p015",
+      "repeat_idx": 1,
+      "pack_idx": 15,
+      "candidate_ids": [
+        "c0018",
+        "c0245",
+        "c0065",
+        "c0186",
+        "c0231",
+        "c0208",
+        "c0025",
+        "c0060",
+        "c0044",
+        "c0079"
+      ],
+      "line_indices": {
+        "c0018": 0,
+        "c0245": 1,
+        "c0065": 2,
+        "c0186": 3,
+        "c0231": 4,
+        "c0208": 5,
+        "c0025": 6,
+        "c0060": 7,
+        "c0044": 8,
+        "c0079": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0018@@ Piedmont Avenue\n@@c0245@@ United Freedom Front\n@@c0065@@ Colorogenic\n@@c0186@@ Ulta Beauty\n@@c0231@@ Anne M. Houtman\n@@c0208@@ Jungfernhof concentration camp\n@@c0025@@ Elibia dolichus\n@@c0060@@ Warm Breeze\n@@c0044@@ Praticolella berlandieriana\n@@c0079@@ Walter Seymour Allward"
+    },
+    {
+      "custom_id": "r01-p016",
+      "repeat_idx": 1,
+      "pack_idx": 16,
+      "candidate_ids": [
+        "c0070",
+        "c0006",
+        "c0037",
+        "c0100",
+        "c0137",
+        "c0154",
+        "c0189",
+        "c0067",
+        "c0207",
+        "c0009"
+      ],
+      "line_indices": {
+        "c0070": 0,
+        "c0006": 1,
+        "c0037": 2,
+        "c0100": 3,
+        "c0137": 4,
+        "c0154": 5,
+        "c0189": 6,
+        "c0067": 7,
+        "c0207": 8,
+        "c0009": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0070@@ Ethan Allen Homestead\n@@c0006@@ Marta Losada\n@@c0037@@ Dolder Grand\n@@c0100@@ Hypatopa joniella\n@@c0137@@ Louis Schwitzer Award\n@@c0154@@ HLA-DR7\n@@c0189@@ Batesville High School\n@@c0067@@ Jamides alecto\n@@c0207@@ Sarah Brown\n@@c0009@@ Dominic James"
+    },
+    {
+      "custom_id": "r01-p017",
+      "repeat_idx": 1,
+      "pack_idx": 17,
+      "candidate_ids": [
+        "c0029",
+        "c0180",
+        "c0038",
+        "c0032",
+        "c0136",
+        "c0033",
+        "c0086",
+        "c0064",
+        "c0022",
+        "c0118"
+      ],
+      "line_indices": {
+        "c0029": 0,
+        "c0180": 1,
+        "c0038": 2,
+        "c0032": 3,
+        "c0136": 4,
+        "c0033": 5,
+        "c0086": 6,
+        "c0064": 7,
+        "c0022": 8,
+        "c0118": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0029@@ Mania\n@@c0180@@ Women Eco Artists Dialog\n@@c0038@@ Verpilleux\n@@c0032@@ Allan Dellon\n@@c0136@@ Ceroprepes patriciella\n@@c0033@@ Blood tax\n@@c0086@@ Henry Pierce Bone\n@@c0064@@ Dionisio Redondo González\n@@c0022@@ Anderson\n@@c0118@@ K2-18"
+    },
+    {
+      "custom_id": "r01-p018",
+      "repeat_idx": 1,
+      "pack_idx": 18,
+      "candidate_ids": [
+        "c0204",
+        "c0017",
+        "c0167",
+        "c0158",
+        "c0121",
+        "c0174",
+        "c0024",
+        "c0197",
+        "c0019",
+        "c0193"
+      ],
+      "line_indices": {
+        "c0204": 0,
+        "c0017": 1,
+        "c0167": 2,
+        "c0158": 3,
+        "c0121": 4,
+        "c0174": 5,
+        "c0024": 6,
+        "c0197": 7,
+        "c0019": 8,
+        "c0193": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0204@@ Boys in a Band\n@@c0017@@ Las Capellanías\n@@c0167@@ Svetlana Chervonnaya\n@@c0158@@ Joe Talbot\n@@c0121@@ Divertimento for String Trio\n@@c0174@@ Alison Mills Newman\n@@c0024@@ Gongylonema\n@@c0197@@ A Very Christmas Story\n@@c0019@@ Sliman Bensmaia\n@@c0193@@ Rupsi Airport"
+    },
+    {
+      "custom_id": "r01-p019",
+      "repeat_idx": 1,
+      "pack_idx": 19,
+      "candidate_ids": [
+        "c0008",
+        "c0119",
+        "c0229",
+        "c0146",
+        "c0128",
+        "c0072",
+        "c0179",
+        "c0076",
+        "c0035",
+        "c0047"
+      ],
+      "line_indices": {
+        "c0008": 0,
+        "c0119": 1,
+        "c0229": 2,
+        "c0146": 3,
+        "c0128": 4,
+        "c0072": 5,
+        "c0179": 6,
+        "c0076": 7,
+        "c0035": 8,
+        "c0047": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0008@@ Legacy of the Drow\n@@c0119@@ Maz Abd Ali\n@@c0229@@ Davis Plantation\n@@c0146@@ Osiek, Brodnica County\n@@c0128@@ Dera Ghazi Khan Tehsil\n@@c0072@@ Suolijärvi\n@@c0179@@ Hard Dirt\n@@c0076@@ R. S. Sugirtharajah\n@@c0035@@ Dámaso Alonso\n@@c0047@@ Oakley Chapel African Methodist Episcopal Church"
+    },
+    {
+      "custom_id": "r01-p020",
+      "repeat_idx": 1,
+      "pack_idx": 20,
+      "candidate_ids": [
+        "c0209",
+        "c0129",
+        "c0164",
+        "c0188",
+        "c0055",
+        "c0176",
+        "c0097",
+        "c0228",
+        "c0147",
+        "c0099"
+      ],
+      "line_indices": {
+        "c0209": 0,
+        "c0129": 1,
+        "c0164": 2,
+        "c0188": 3,
+        "c0055": 4,
+        "c0176": 5,
+        "c0097": 6,
+        "c0228": 7,
+        "c0147": 8,
+        "c0099": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0209@@ Timnath-heres\n@@c0129@@ Mušići\n@@c0164@@ Stefano Petitti\n@@c0188@@ Peter Schalk\n@@c0055@@ Samantha Soule\n@@c0176@@ Hackle Creek\n@@c0097@@ Iorga cabinet\n@@c0228@@ Vikramgarh Alot railway station\n@@c0147@@ St. Charles Elementary School\n@@c0099@@ The Great Swindle"
+    },
+    {
+      "custom_id": "r01-p021",
+      "repeat_idx": 1,
+      "pack_idx": 21,
+      "candidate_ids": [
+        "c0149",
+        "c0170",
+        "c0233",
+        "c0091",
+        "c0248",
+        "c0151",
+        "c0122",
+        "c0152",
+        "c0026",
+        "c0077"
+      ],
+      "line_indices": {
+        "c0149": 0,
+        "c0170": 1,
+        "c0233": 2,
+        "c0091": 3,
+        "c0248": 4,
+        "c0151": 5,
+        "c0122": 6,
+        "c0152": 7,
+        "c0026": 8,
+        "c0077": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0149@@ Cancer/testis antigens\n@@c0170@@ Swalwell Hopping\n@@c0233@@ Viktor Shekhovtsev\n@@c0091@@ Patricia Brennan\n@@c0248@@ Halden HK\n@@c0151@@ James Skosana\n@@c0122@@ Branislav Fodrek\n@@c0152@@ Christine Peng-Peng Lee\n@@c0026@@ Carlos Ramón Aguilar Guifarro\n@@c0077@@ Turka"
+    },
+    {
+      "custom_id": "r01-p022",
+      "repeat_idx": 1,
+      "pack_idx": 22,
+      "candidate_ids": [
+        "c0172",
+        "c0148",
+        "c0212",
+        "c0199",
+        "c0173",
+        "c0200",
+        "c0073",
+        "c0153",
+        "c0235",
+        "c0150"
+      ],
+      "line_indices": {
+        "c0172": 0,
+        "c0148": 1,
+        "c0212": 2,
+        "c0199": 3,
+        "c0173": 4,
+        "c0200": 5,
+        "c0073": 6,
+        "c0153": 7,
+        "c0235": 8,
+        "c0150": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0172@@ Holocarpha virgata\n@@c0148@@ André Arnyvelde\n@@c0212@@ We Buy Any Car\n@@c0199@@ Moses Bledso Corwin\n@@c0173@@ Ambra Personal Computers\n@@c0200@@ Still Life with Checked Tablecloth\n@@c0073@@ R824 road\n@@c0153@@ Hasib\n@@c0235@@ Risto Kiiskinen\n@@c0150@@ Desert spadefoot toad"
+    },
+    {
+      "custom_id": "r01-p023",
+      "repeat_idx": 1,
+      "pack_idx": 23,
+      "candidate_ids": [
+        "c0182",
+        "c0103",
+        "c0162",
+        "c0109",
+        "c0124",
+        "c0218",
+        "c0004",
+        "c0130",
+        "c0202",
+        "c0106"
+      ],
+      "line_indices": {
+        "c0182": 0,
+        "c0103": 1,
+        "c0162": 2,
+        "c0109": 3,
+        "c0124": 4,
+        "c0218": 5,
+        "c0004": 6,
+        "c0130": 7,
+        "c0202": 8,
+        "c0106": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0182@@ Breath of God\n@@c0103@@ Baao\n@@c0162@@ China national under-17 football team\n@@c0109@@ Mahend Gungapersad\n@@c0124@@ Siompu\n@@c0218@@ Oltean\n@@c0004@@ René Hamel\n@@c0130@@ Triadodaphne\n@@c0202@@ Geosmithia morbida\n@@c0106@@ Koralai Pattu South Divisional Secretariat"
+    },
+    {
+      "custom_id": "r01-p024",
+      "repeat_idx": 1,
+      "pack_idx": 24,
+      "candidate_ids": [
+        "c0066",
+        "c0138",
+        "c0240",
+        "c0010",
+        "c0192",
+        "c0011",
+        "c0107",
+        "c0195",
+        "c0050",
+        "c0227"
+      ],
+      "line_indices": {
+        "c0066": 0,
+        "c0138": 1,
+        "c0240": 2,
+        "c0010": 3,
+        "c0192": 4,
+        "c0011": 5,
+        "c0107": 6,
+        "c0195": 7,
+        "c0050": 8,
+        "c0227": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0066@@ Ricardo Romo\n@@c0138@@ Aamir Ali\n@@c0240@@ Arabilla\n@@c0010@@ Heléne of the North\n@@c0192@@ Acrolophus minima\n@@c0011@@ Rocca San Felice\n@@c0107@@ Untitled\n@@c0195@@ Marvin Mims\n@@c0050@@ Tytuvėnai Christ Stairs Chapel\n@@c0227@@ John Palmer House"
+    },
+    {
+      "custom_id": "r02-p000",
+      "repeat_idx": 2,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0028",
+        "c0194",
+        "c0017",
+        "c0094",
+        "c0061",
+        "c0026",
+        "c0175",
+        "c0219",
+        "c0098",
+        "c0121"
+      ],
+      "line_indices": {
+        "c0028": 0,
+        "c0194": 1,
+        "c0017": 2,
+        "c0094": 3,
+        "c0061": 4,
+        "c0026": 5,
+        "c0175": 6,
+        "c0219": 7,
+        "c0098": 8,
+        "c0121": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0028@@ Torsten Bengtson\n@@c0194@@ Ill-gotten Party Assets Settlement Committee\n@@c0017@@ Las Capellanías\n@@c0094@@ General Aircraft Croydon\n@@c0061@@ Airport Parkway\n@@c0026@@ Carlos Ramón Aguilar Guifarro\n@@c0175@@ Lotta Nieminen\n@@c0219@@ Tinkersick\n@@c0098@@ Guira tanager\n@@c0121@@ Divertimento for String Trio"
+    },
+    {
+      "custom_id": "r02-p001",
+      "repeat_idx": 2,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0105",
+        "c0056",
+        "c0148",
+        "c0018",
+        "c0123",
+        "c0216",
+        "c0197",
+        "c0046",
+        "c0145",
+        "c0173"
+      ],
+      "line_indices": {
+        "c0105": 0,
+        "c0056": 1,
+        "c0148": 2,
+        "c0018": 3,
+        "c0123": 4,
+        "c0216": 5,
+        "c0197": 6,
+        "c0046": 7,
+        "c0145": 8,
+        "c0173": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0105@@ Katie Walker\n@@c0056@@ Château de Puy-Launay\n@@c0148@@ André Arnyvelde\n@@c0018@@ Piedmont Avenue\n@@c0123@@ Juan Pablo Valencia\n@@c0216@@ Los Llanos, Coamo, Puerto Rico\n@@c0197@@ A Very Christmas Story\n@@c0046@@ Rhagoletis striatella\n@@c0145@@ NBA 2K20\n@@c0173@@ Ambra Personal Computers"
+    },
+    {
+      "custom_id": "r02-p002",
+      "repeat_idx": 2,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0186",
+        "c0034",
+        "c0001",
+        "c0008",
+        "c0222",
+        "c0048",
+        "c0153",
+        "c0025",
+        "c0093",
+        "c0165"
+      ],
+      "line_indices": {
+        "c0186": 0,
+        "c0034": 1,
+        "c0001": 2,
+        "c0008": 3,
+        "c0222": 4,
+        "c0048": 5,
+        "c0153": 6,
+        "c0025": 7,
+        "c0093": 8,
+        "c0165": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0186@@ Ulta Beauty\n@@c0034@@ Mana Parbat I\n@@c0001@@ Grapholita hymenosa\n@@c0008@@ Legacy of the Drow\n@@c0222@@ Trade Control and Expert System\n@@c0048@@ Henricia caudani\n@@c0153@@ Hasib\n@@c0025@@ Elibia dolichus\n@@c0093@@ Apocalypse of Ezra\n@@c0165@@ Facundo Quintana"
+    },
+    {
+      "custom_id": "r02-p003",
+      "repeat_idx": 2,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0146",
+        "c0191",
+        "c0016",
+        "c0182",
+        "c0079",
+        "c0002",
+        "c0043",
+        "c0179",
+        "c0039",
+        "c0220"
+      ],
+      "line_indices": {
+        "c0146": 0,
+        "c0191": 1,
+        "c0016": 2,
+        "c0182": 3,
+        "c0079": 4,
+        "c0002": 5,
+        "c0043": 6,
+        "c0179": 7,
+        "c0039": 8,
+        "c0220": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0146@@ Osiek, Brodnica County\n@@c0191@@ B.I\n@@c0016@@ Clarence R. Allen\n@@c0182@@ Breath of God\n@@c0079@@ Walter Seymour Allward\n@@c0002@@ Alexis Blanc\n@@c0043@@ Hedningarna\n@@c0179@@ Hard Dirt\n@@c0039@@ Okanagana synodica\n@@c0220@@ Mie koclok"
+    },
+    {
+      "custom_id": "r02-p004",
+      "repeat_idx": 2,
+      "pack_idx": 4,
+      "candidate_ids": [
+        "c0109",
+        "c0037",
+        "c0203",
+        "c0069",
+        "c0047",
+        "c0134",
+        "c0083",
+        "c0004",
+        "c0154",
+        "c0225"
+      ],
+      "line_indices": {
+        "c0109": 0,
+        "c0037": 1,
+        "c0203": 2,
+        "c0069": 3,
+        "c0047": 4,
+        "c0134": 5,
+        "c0083": 6,
+        "c0004": 7,
+        "c0154": 8,
+        "c0225": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0109@@ Mahend Gungapersad\n@@c0037@@ Dolder Grand\n@@c0203@@ Aprusia kataragama\n@@c0069@@ DAVI\n@@c0047@@ Oakley Chapel African Methodist Episcopal Church\n@@c0134@@ Pierre-Yvon Lenoir\n@@c0083@@ Danilo Bertazzi\n@@c0004@@ René Hamel\n@@c0154@@ HLA-DR7\n@@c0225@@ Dolní Olešnice"
+    },
+    {
+      "custom_id": "r02-p005",
+      "repeat_idx": 2,
+      "pack_idx": 5,
+      "candidate_ids": [
+        "c0249",
+        "c0164",
+        "c0131",
+        "c0062",
+        "c0106",
+        "c0207",
+        "c0108",
+        "c0051",
+        "c0176",
+        "c0013"
+      ],
+      "line_indices": {
+        "c0249": 0,
+        "c0164": 1,
+        "c0131": 2,
+        "c0062": 3,
+        "c0106": 4,
+        "c0207": 5,
+        "c0108": 6,
+        "c0051": 7,
+        "c0176": 8,
+        "c0013": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0249@@ The Heart of a Coward\n@@c0164@@ Stefano Petitti\n@@c0131@@ National Gallery\n@@c0062@@ Denton County Courthouse-on-the-Square\n@@c0106@@ Koralai Pattu South Divisional Secretariat\n@@c0207@@ Sarah Brown\n@@c0108@@ French destroyer Bélier\n@@c0051@@ Tanzverbot\n@@c0176@@ Hackle Creek\n@@c0013@@ Apatovec"
+    },
+    {
+      "custom_id": "r02-p006",
+      "repeat_idx": 2,
+      "pack_idx": 6,
+      "candidate_ids": [
+        "c0085",
+        "c0240",
+        "c0180",
+        "c0042",
+        "c0178",
+        "c0147",
+        "c0210",
+        "c0126",
+        "c0011",
+        "c0136"
+      ],
+      "line_indices": {
+        "c0085": 0,
+        "c0240": 1,
+        "c0180": 2,
+        "c0042": 3,
+        "c0178": 4,
+        "c0147": 5,
+        "c0210": 6,
+        "c0126": 7,
+        "c0011": 8,
+        "c0136": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0085@@ Juma Sultan\n@@c0240@@ Arabilla\n@@c0180@@ Women Eco Artists Dialog\n@@c0042@@ Nguyễn Đỗ Cung\n@@c0178@@ Western New York Children's Psychiatric Center\n@@c0147@@ St. Charles Elementary School\n@@c0210@@ Barbara Baert\n@@c0126@@ Náutico\n@@c0011@@ Rocca San Felice\n@@c0136@@ Ceroprepes patriciella"
+    },
+    {
+      "custom_id": "r02-p007",
+      "repeat_idx": 2,
+      "pack_idx": 7,
+      "candidate_ids": [
+        "c0205",
+        "c0169",
+        "c0170",
+        "c0237",
+        "c0223",
+        "c0050",
+        "c0064",
+        "c0075",
+        "c0040",
+        "c0248"
+      ],
+      "line_indices": {
+        "c0205": 0,
+        "c0169": 1,
+        "c0170": 2,
+        "c0237": 3,
+        "c0223": 4,
+        "c0050": 5,
+        "c0064": 6,
+        "c0075": 7,
+        "c0040": 8,
+        "c0248": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0205@@ Turingery\n@@c0169@@ Shabkar Tsokdruk Rangdrol\n@@c0170@@ Swalwell Hopping\n@@c0237@@ Réaumur, Vendée\n@@c0223@@ Key Middle School\n@@c0050@@ Tytuvėnai Christ Stairs Chapel\n@@c0064@@ Dionisio Redondo González\n@@c0075@@ Sikkim pika\n@@c0040@@ Florida State Road 848\n@@c0248@@ Halden HK"
+    },
+    {
+      "custom_id": "r02-p008",
+      "repeat_idx": 2,
+      "pack_idx": 8,
+      "candidate_ids": [
+        "c0030",
+        "c0000",
+        "c0161",
+        "c0204",
+        "c0183",
+        "c0049",
+        "c0152",
+        "c0058",
+        "c0160",
+        "c0092"
+      ],
+      "line_indices": {
+        "c0030": 0,
+        "c0000": 1,
+        "c0161": 2,
+        "c0204": 3,
+        "c0183": 4,
+        "c0049": 5,
+        "c0152": 6,
+        "c0058": 7,
+        "c0160": 8,
+        "c0092": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0030@@ Tom Jose\n@@c0000@@ Regional District of Central Okanagan\n@@c0161@@ Aasia\n@@c0204@@ Boys in a Band\n@@c0183@@ Tee Kai Wun\n@@c0049@@ Ray Milland\n@@c0152@@ Christine Peng-Peng Lee\n@@c0058@@ Cheri Pies\n@@c0160@@ Ibikunle Amosun\n@@c0092@@ Domenico Colla"
+    },
+    {
+      "custom_id": "r02-p009",
+      "repeat_idx": 2,
+      "pack_idx": 9,
+      "candidate_ids": [
+        "c0158",
+        "c0014",
+        "c0059",
+        "c0172",
+        "c0190",
+        "c0171",
+        "c0095",
+        "c0024",
+        "c0078",
+        "c0127"
+      ],
+      "line_indices": {
+        "c0158": 0,
+        "c0014": 1,
+        "c0059": 2,
+        "c0172": 3,
+        "c0190": 4,
+        "c0171": 5,
+        "c0095": 6,
+        "c0024": 7,
+        "c0078": 8,
+        "c0127": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0158@@ Joe Talbot\n@@c0014@@ Federal University of Technology Akure\n@@c0059@@ Niek den Heeten\n@@c0172@@ Holocarpha virgata\n@@c0190@@ Plateau iris\n@@c0171@@ Regev\n@@c0095@@ Trupanea ambigua\n@@c0024@@ Gongylonema\n@@c0078@@ Isaka-Ivondro\n@@c0127@@ James D. Denegre"
+    },
+    {
+      "custom_id": "r02-p010",
+      "repeat_idx": 2,
+      "pack_idx": 10,
+      "candidate_ids": [
+        "c0199",
+        "c0065",
+        "c0181",
+        "c0206",
+        "c0193",
+        "c0041",
+        "c0057",
+        "c0073",
+        "c0208",
+        "c0102"
+      ],
+      "line_indices": {
+        "c0199": 0,
+        "c0065": 1,
+        "c0181": 2,
+        "c0206": 3,
+        "c0193": 4,
+        "c0041": 5,
+        "c0057": 6,
+        "c0073": 7,
+        "c0208": 8,
+        "c0102": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0199@@ Moses Bledso Corwin\n@@c0065@@ Colorogenic\n@@c0181@@ Glenister v President\n@@c0206@@ Juan Antonio Chesa\n@@c0193@@ Rupsi Airport\n@@c0041@@ Aivo Orav\n@@c0057@@ Sarremezan\n@@c0073@@ R824 road\n@@c0208@@ Jungfernhof concentration camp\n@@c0102@@ Remember You're Mine"
+    },
+    {
+      "custom_id": "r02-p011",
+      "repeat_idx": 2,
+      "pack_idx": 11,
+      "candidate_ids": [
+        "c0234",
+        "c0229",
+        "c0244",
+        "c0232",
+        "c0150",
+        "c0044",
+        "c0184",
+        "c0196",
+        "c0072",
+        "c0045"
+      ],
+      "line_indices": {
+        "c0234": 0,
+        "c0229": 1,
+        "c0244": 2,
+        "c0232": 3,
+        "c0150": 4,
+        "c0044": 5,
+        "c0184": 6,
+        "c0196": 7,
+        "c0072": 8,
+        "c0045": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0234@@ SS Shinyō Maru\n@@c0229@@ Davis Plantation\n@@c0244@@ Red Jacket\n@@c0232@@ Zero Skateboards\n@@c0150@@ Desert spadefoot toad\n@@c0044@@ Praticolella berlandieriana\n@@c0184@@ Robot Wars\n@@c0196@@ Big Three\n@@c0072@@ Suolijärvi\n@@c0045@@ Custody battle for Anna Mae He"
+    },
+    {
+      "custom_id": "r02-p012",
+      "repeat_idx": 2,
+      "pack_idx": 12,
+      "candidate_ids": [
+        "c0112",
+        "c0162",
+        "c0006",
+        "c0023",
+        "c0247",
+        "c0035",
+        "c0101",
+        "c0159",
+        "c0218",
+        "c0137"
+      ],
+      "line_indices": {
+        "c0112": 0,
+        "c0162": 1,
+        "c0006": 2,
+        "c0023": 3,
+        "c0247": 4,
+        "c0035": 5,
+        "c0101": 6,
+        "c0159": 7,
+        "c0218": 8,
+        "c0137": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0112@@ Henry Boyce\n@@c0162@@ China national under-17 football team\n@@c0006@@ Marta Losada\n@@c0023@@ Denjoy–Young–Saks theorem\n@@c0247@@ Arístides Victoria Yeb\n@@c0035@@ Dámaso Alonso\n@@c0101@@ Southern Society of the Decembrists\n@@c0159@@ Anguilla women's national under-17 football team\n@@c0218@@ Oltean\n@@c0137@@ Louis Schwitzer Award"
+    },
+    {
+      "custom_id": "r02-p013",
+      "repeat_idx": 2,
+      "pack_idx": 13,
+      "candidate_ids": [
+        "c0003",
+        "c0221",
+        "c0129",
+        "c0117",
+        "c0116",
+        "c0202",
+        "c0067",
+        "c0140",
+        "c0087",
+        "c0055"
+      ],
+      "line_indices": {
+        "c0003": 0,
+        "c0221": 1,
+        "c0129": 2,
+        "c0117": 3,
+        "c0116": 4,
+        "c0202": 5,
+        "c0067": 6,
+        "c0140": 7,
+        "c0087": 8,
+        "c0055": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0221@@ Santi Valentino e Teresa, Matelica\n@@c0129@@ Mušići\n@@c0117@@ Serre's conjecture\n@@c0116@@ Uncle Alf\n@@c0202@@ Geosmithia morbida\n@@c0067@@ Jamides alecto\n@@c0140@@ José Luis Barceló\n@@c0087@@ Grzegorz Gajewski\n@@c0055@@ Samantha Soule"
+    },
+    {
+      "custom_id": "r02-p014",
+      "repeat_idx": 2,
+      "pack_idx": 14,
+      "candidate_ids": [
+        "c0089",
+        "c0110",
+        "c0138",
+        "c0029",
+        "c0015",
+        "c0166",
+        "c0228",
+        "c0082",
+        "c0157",
+        "c0192"
+      ],
+      "line_indices": {
+        "c0089": 0,
+        "c0110": 1,
+        "c0138": 2,
+        "c0029": 3,
+        "c0015": 4,
+        "c0166": 5,
+        "c0228": 6,
+        "c0082": 7,
+        "c0157": 8,
+        "c0192": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0089@@ She Phoksundo Rural Municipality\n@@c0110@@ W. O. Woods\n@@c0138@@ Aamir Ali\n@@c0029@@ Mania\n@@c0015@@ Ivan Budislavić\n@@c0166@@ Digitolabrum\n@@c0228@@ Vikramgarh Alot railway station\n@@c0082@@ Zaventem\n@@c0157@@ M.O.D.\n@@c0192@@ Acrolophus minima"
+    },
+    {
+      "custom_id": "r02-p015",
+      "repeat_idx": 2,
+      "pack_idx": 15,
+      "candidate_ids": [
+        "c0032",
+        "c0243",
+        "c0068",
+        "c0149",
+        "c0211",
+        "c0230",
+        "c0195",
+        "c0086",
+        "c0133",
+        "c0214"
+      ],
+      "line_indices": {
+        "c0032": 0,
+        "c0243": 1,
+        "c0068": 2,
+        "c0149": 3,
+        "c0211": 4,
+        "c0230": 5,
+        "c0195": 6,
+        "c0086": 7,
+        "c0133": 8,
+        "c0214": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0032@@ Allan Dellon\n@@c0243@@ CFTC\n@@c0068@@ A Little to the Left\n@@c0149@@ Cancer/testis antigens\n@@c0211@@ Back to the Known\n@@c0230@@ We Were the Mulvaneys\n@@c0195@@ Marvin Mims\n@@c0086@@ Henry Pierce Bone\n@@c0133@@ Louis Haneuse\n@@c0214@@ Frognal"
+    },
+    {
+      "custom_id": "r02-p016",
+      "repeat_idx": 2,
+      "pack_idx": 16,
+      "candidate_ids": [
+        "c0091",
+        "c0185",
+        "c0063",
+        "c0031",
+        "c0118",
+        "c0113",
+        "c0155",
+        "c0122",
+        "c0115",
+        "c0053"
+      ],
+      "line_indices": {
+        "c0091": 0,
+        "c0185": 1,
+        "c0063": 2,
+        "c0031": 3,
+        "c0118": 4,
+        "c0113": 5,
+        "c0155": 6,
+        "c0122": 7,
+        "c0115": 8,
+        "c0053": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0091@@ Patricia Brennan\n@@c0185@@ Ibrahim Bejte\n@@c0063@@ Bordalba\n@@c0031@@ Fábio Cardoso\n@@c0118@@ K2-18\n@@c0113@@ Uplink\n@@c0155@@ Token Angels\n@@c0122@@ Branislav Fodrek\n@@c0115@@ Steve Broderick\n@@c0053@@ Leksands IF"
+    },
+    {
+      "custom_id": "r02-p017",
+      "repeat_idx": 2,
+      "pack_idx": 17,
+      "candidate_ids": [
+        "c0074",
+        "c0167",
+        "c0239",
+        "c0005",
+        "c0077",
+        "c0198",
+        "c0168",
+        "c0201",
+        "c0174",
+        "c0141"
+      ],
+      "line_indices": {
+        "c0074": 0,
+        "c0167": 1,
+        "c0239": 2,
+        "c0005": 3,
+        "c0077": 4,
+        "c0198": 5,
+        "c0168": 6,
+        "c0201": 7,
+        "c0174": 8,
+        "c0141": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0074@@ Lorrain language\n@@c0167@@ Svetlana Chervonnaya\n@@c0239@@ Grant Fink\n@@c0005@@ Acer Iconia 6120\n@@c0077@@ Turka\n@@c0198@@ Gamiz\n@@c0168@@ Shekhan Khurd\n@@c0201@@ Linda Tucceri Cimini\n@@c0174@@ Alison Mills Newman\n@@c0141@@ Richard Winfred Anane"
+    },
+    {
+      "custom_id": "r02-p018",
+      "repeat_idx": 2,
+      "pack_idx": 18,
+      "candidate_ids": [
+        "c0104",
+        "c0212",
+        "c0245",
+        "c0142",
+        "c0236",
+        "c0019",
+        "c0052",
+        "c0241",
+        "c0200",
+        "c0231"
+      ],
+      "line_indices": {
+        "c0104": 0,
+        "c0212": 1,
+        "c0245": 2,
+        "c0142": 3,
+        "c0236": 4,
+        "c0019": 5,
+        "c0052": 6,
+        "c0241": 7,
+        "c0200": 8,
+        "c0231": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0104@@ Antoine-Charbel Tarabay\n@@c0212@@ We Buy Any Car\n@@c0245@@ United Freedom Front\n@@c0142@@ Christine Angot\n@@c0236@@ Jia Delong\n@@c0019@@ Sliman Bensmaia\n@@c0052@@ VTAR Institute\n@@c0241@@ Growing\n@@c0200@@ Still Life with Checked Tablecloth\n@@c0231@@ Anne M. Houtman"
+    },
+    {
+      "custom_id": "r02-p019",
+      "repeat_idx": 2,
+      "pack_idx": 19,
+      "candidate_ids": [
+        "c0135",
+        "c0027",
+        "c0119",
+        "c0163",
+        "c0213",
+        "c0235",
+        "c0060",
+        "c0088",
+        "c0125",
+        "c0128"
+      ],
+      "line_indices": {
+        "c0135": 0,
+        "c0027": 1,
+        "c0119": 2,
+        "c0163": 3,
+        "c0213": 4,
+        "c0235": 5,
+        "c0060": 6,
+        "c0088": 7,
+        "c0125": 8,
+        "c0128": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0135@@ Alberto Gavaldá\n@@c0027@@ Idaho's 29th legislative district\n@@c0119@@ Maz Abd Ali\n@@c0163@@ Kaboga family\n@@c0213@@ Pello\n@@c0235@@ Risto Kiiskinen\n@@c0060@@ Warm Breeze\n@@c0088@@ Flim & the BB's\n@@c0125@@ Melanoxerus\n@@c0128@@ Dera Ghazi Khan Tehsil"
+    },
+    {
+      "custom_id": "r02-p020",
+      "repeat_idx": 2,
+      "pack_idx": 20,
+      "candidate_ids": [
+        "c0156",
+        "c0012",
+        "c0103",
+        "c0070",
+        "c0246",
+        "c0242",
+        "c0076",
+        "c0080",
+        "c0007",
+        "c0124"
+      ],
+      "line_indices": {
+        "c0156": 0,
+        "c0012": 1,
+        "c0103": 2,
+        "c0070": 3,
+        "c0246": 4,
+        "c0242": 5,
+        "c0076": 6,
+        "c0080": 7,
+        "c0007": 8,
+        "c0124": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0156@@ Trial of Socrates\n@@c0012@@ Great Brak River\n@@c0103@@ Baao\n@@c0070@@ Ethan Allen Homestead\n@@c0246@@ Anthony Eyre\n@@c0242@@ My Avatar\n@@c0076@@ R. S. Sugirtharajah\n@@c0080@@ Barry Cowan\n@@c0007@@ Saphenista scalena\n@@c0124@@ Siompu"
+    },
+    {
+      "custom_id": "r02-p021",
+      "repeat_idx": 2,
+      "pack_idx": 21,
+      "candidate_ids": [
+        "c0100",
+        "c0096",
+        "c0081",
+        "c0209",
+        "c0111",
+        "c0054",
+        "c0130",
+        "c0189",
+        "c0132",
+        "c0020"
+      ],
+      "line_indices": {
+        "c0100": 0,
+        "c0096": 1,
+        "c0081": 2,
+        "c0209": 3,
+        "c0111": 4,
+        "c0054": 5,
+        "c0130": 6,
+        "c0189": 7,
+        "c0132": 8,
+        "c0020": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0100@@ Hypatopa joniella\n@@c0096@@ Greece–Palestine relations\n@@c0081@@ Clearwater Marine Aquarium\n@@c0209@@ Timnath-heres\n@@c0111@@ Thomas Perry\n@@c0054@@ Edna Longley\n@@c0130@@ Triadodaphne\n@@c0189@@ Batesville High School\n@@c0132@@ Paranomus reflexus\n@@c0020@@ Now 90s & 00s"
+    },
+    {
+      "custom_id": "r02-p022",
+      "repeat_idx": 2,
+      "pack_idx": 22,
+      "candidate_ids": [
+        "c0188",
+        "c0090",
+        "c0224",
+        "c0066",
+        "c0009",
+        "c0217",
+        "c0226",
+        "c0097",
+        "c0215",
+        "c0021"
+      ],
+      "line_indices": {
+        "c0188": 0,
+        "c0090": 1,
+        "c0224": 2,
+        "c0066": 3,
+        "c0009": 4,
+        "c0217": 5,
+        "c0226": 6,
+        "c0097": 7,
+        "c0215": 8,
+        "c0021": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0188@@ Peter Schalk\n@@c0090@@ Derek Harris\n@@c0224@@ Vibe\n@@c0066@@ Ricardo Romo\n@@c0009@@ Dominic James\n@@c0217@@ Hogenskild Bielke\n@@c0226@@ Hindustan Ambassador\n@@c0097@@ Iorga cabinet\n@@c0215@@ Ampelita consanguinea\n@@c0021@@ Peter McAra Jr."
+    },
+    {
+      "custom_id": "r02-p023",
+      "repeat_idx": 2,
+      "pack_idx": 23,
+      "candidate_ids": [
+        "c0010",
+        "c0038",
+        "c0071",
+        "c0114",
+        "c0099",
+        "c0143",
+        "c0238",
+        "c0107",
+        "c0033",
+        "c0187"
+      ],
+      "line_indices": {
+        "c0010": 0,
+        "c0038": 1,
+        "c0071": 2,
+        "c0114": 3,
+        "c0099": 4,
+        "c0143": 5,
+        "c0238": 6,
+        "c0107": 7,
+        "c0033": 8,
+        "c0187": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0010@@ Heléne of the North\n@@c0038@@ Verpilleux\n@@c0071@@ Caroline de Fouw\n@@c0114@@ BahnCard\n@@c0099@@ The Great Swindle\n@@c0143@@ Cheongju National University of Education\n@@c0238@@ Eupithecia garrula\n@@c0107@@ Untitled\n@@c0033@@ Blood tax\n@@c0187@@ MV Mtendere"
+    },
+    {
+      "custom_id": "r02-p024",
+      "repeat_idx": 2,
+      "pack_idx": 24,
+      "candidate_ids": [
+        "c0139",
+        "c0233",
+        "c0120",
+        "c0144",
+        "c0227",
+        "c0022",
+        "c0177",
+        "c0036",
+        "c0151",
+        "c0084"
+      ],
+      "line_indices": {
+        "c0139": 0,
+        "c0233": 1,
+        "c0120": 2,
+        "c0144": 3,
+        "c0227": 4,
+        "c0022": 5,
+        "c0177": 6,
+        "c0036": 7,
+        "c0151": 8,
+        "c0084": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0139@@ Dracophyllum pronum\n@@c0233@@ Viktor Shekhovtsev\n@@c0120@@ Rusu clan\n@@c0144@@ Paul Graham\n@@c0227@@ John Palmer House\n@@c0022@@ Anderson\n@@c0177@@ Laado\n@@c0036@@ Greg Jenner\n@@c0151@@ James Skosana\n@@c0084@@ She Lives!"
+    },
+    {
+      "custom_id": "r03-p000",
+      "repeat_idx": 3,
+      "pack_idx": 0,
+      "candidate_ids": [
+        "c0187",
+        "c0139",
+        "c0233",
+        "c0120",
+        "c0144",
+        "c0227",
+        "c0022",
+        "c0177",
+        "c0036",
+        "c0151"
+      ],
+      "line_indices": {
+        "c0187": 0,
+        "c0139": 1,
+        "c0233": 2,
+        "c0120": 3,
+        "c0144": 4,
+        "c0227": 5,
+        "c0022": 6,
+        "c0177": 7,
+        "c0036": 8,
+        "c0151": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0187@@ MV Mtendere\n@@c0139@@ Dracophyllum pronum\n@@c0233@@ Viktor Shekhovtsev\n@@c0120@@ Rusu clan\n@@c0144@@ Paul Graham\n@@c0227@@ John Palmer House\n@@c0022@@ Anderson\n@@c0177@@ Laado\n@@c0036@@ Greg Jenner\n@@c0151@@ James Skosana"
+    },
+    {
+      "custom_id": "r03-p001",
+      "repeat_idx": 3,
+      "pack_idx": 1,
+      "candidate_ids": [
+        "c0084",
+        "c0028",
+        "c0194",
+        "c0017",
+        "c0094",
+        "c0061",
+        "c0026",
+        "c0175",
+        "c0219",
+        "c0098"
+      ],
+      "line_indices": {
+        "c0084": 0,
+        "c0028": 1,
+        "c0194": 2,
+        "c0017": 3,
+        "c0094": 4,
+        "c0061": 5,
+        "c0026": 6,
+        "c0175": 7,
+        "c0219": 8,
+        "c0098": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0084@@ She Lives!\n@@c0028@@ Torsten Bengtson\n@@c0194@@ Ill-gotten Party Assets Settlement Committee\n@@c0017@@ Las Capellanías\n@@c0094@@ General Aircraft Croydon\n@@c0061@@ Airport Parkway\n@@c0026@@ Carlos Ramón Aguilar Guifarro\n@@c0175@@ Lotta Nieminen\n@@c0219@@ Tinkersick\n@@c0098@@ Guira tanager"
+    },
+    {
+      "custom_id": "r03-p002",
+      "repeat_idx": 3,
+      "pack_idx": 2,
+      "candidate_ids": [
+        "c0121",
+        "c0105",
+        "c0056",
+        "c0148",
+        "c0018",
+        "c0123",
+        "c0216",
+        "c0197",
+        "c0046",
+        "c0145"
+      ],
+      "line_indices": {
+        "c0121": 0,
+        "c0105": 1,
+        "c0056": 2,
+        "c0148": 3,
+        "c0018": 4,
+        "c0123": 5,
+        "c0216": 6,
+        "c0197": 7,
+        "c0046": 8,
+        "c0145": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0121@@ Divertimento for String Trio\n@@c0105@@ Katie Walker\n@@c0056@@ Château de Puy-Launay\n@@c0148@@ André Arnyvelde\n@@c0018@@ Piedmont Avenue\n@@c0123@@ Juan Pablo Valencia\n@@c0216@@ Los Llanos, Coamo, Puerto Rico\n@@c0197@@ A Very Christmas Story\n@@c0046@@ Rhagoletis striatella\n@@c0145@@ NBA 2K20"
+    },
+    {
+      "custom_id": "r03-p003",
+      "repeat_idx": 3,
+      "pack_idx": 3,
+      "candidate_ids": [
+        "c0173",
+        "c0186",
+        "c0034",
+        "c0001",
+        "c0008",
+        "c0222",
+        "c0048",
+        "c0153",
+        "c0025",
+        "c0093"
+      ],
+      "line_indices": {
+        "c0173": 0,
+        "c0186": 1,
+        "c0034": 2,
+        "c0001": 3,
+        "c0008": 4,
+        "c0222": 5,
+        "c0048": 6,
+        "c0153": 7,
+        "c0025": 8,
+        "c0093": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0173@@ Ambra Personal Computers\n@@c0186@@ Ulta Beauty\n@@c0034@@ Mana Parbat I\n@@c0001@@ Grapholita hymenosa\n@@c0008@@ Legacy of the Drow\n@@c0222@@ Trade Control and Expert System\n@@c0048@@ Henricia caudani\n@@c0153@@ Hasib\n@@c0025@@ Elibia dolichus\n@@c0093@@ Apocalypse of Ezra"
+    },
+    {
+      "custom_id": "r03-p004",
+      "repeat_idx": 3,
+      "pack_idx": 4,
+      "candidate_ids": [
+        "c0165",
+        "c0146",
+        "c0191",
+        "c0016",
+        "c0182",
+        "c0079",
+        "c0002",
+        "c0043",
+        "c0179",
+        "c0039"
+      ],
+      "line_indices": {
+        "c0165": 0,
+        "c0146": 1,
+        "c0191": 2,
+        "c0016": 3,
+        "c0182": 4,
+        "c0079": 5,
+        "c0002": 6,
+        "c0043": 7,
+        "c0179": 8,
+        "c0039": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0165@@ Facundo Quintana\n@@c0146@@ Osiek, Brodnica County\n@@c0191@@ B.I\n@@c0016@@ Clarence R. Allen\n@@c0182@@ Breath of God\n@@c0079@@ Walter Seymour Allward\n@@c0002@@ Alexis Blanc\n@@c0043@@ Hedningarna\n@@c0179@@ Hard Dirt\n@@c0039@@ Okanagana synodica"
+    },
+    {
+      "custom_id": "r03-p005",
+      "repeat_idx": 3,
+      "pack_idx": 5,
+      "candidate_ids": [
+        "c0220",
+        "c0109",
+        "c0037",
+        "c0203",
+        "c0069",
+        "c0047",
+        "c0134",
+        "c0083",
+        "c0004",
+        "c0154"
+      ],
+      "line_indices": {
+        "c0220": 0,
+        "c0109": 1,
+        "c0037": 2,
+        "c0203": 3,
+        "c0069": 4,
+        "c0047": 5,
+        "c0134": 6,
+        "c0083": 7,
+        "c0004": 8,
+        "c0154": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0220@@ Mie koclok\n@@c0109@@ Mahend Gungapersad\n@@c0037@@ Dolder Grand\n@@c0203@@ Aprusia kataragama\n@@c0069@@ DAVI\n@@c0047@@ Oakley Chapel African Methodist Episcopal Church\n@@c0134@@ Pierre-Yvon Lenoir\n@@c0083@@ Danilo Bertazzi\n@@c0004@@ René Hamel\n@@c0154@@ HLA-DR7"
+    },
+    {
+      "custom_id": "r03-p006",
+      "repeat_idx": 3,
+      "pack_idx": 6,
+      "candidate_ids": [
+        "c0225",
+        "c0249",
+        "c0164",
+        "c0131",
+        "c0062",
+        "c0106",
+        "c0207",
+        "c0108",
+        "c0051",
+        "c0176"
+      ],
+      "line_indices": {
+        "c0225": 0,
+        "c0249": 1,
+        "c0164": 2,
+        "c0131": 3,
+        "c0062": 4,
+        "c0106": 5,
+        "c0207": 6,
+        "c0108": 7,
+        "c0051": 8,
+        "c0176": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0225@@ Dolní Olešnice\n@@c0249@@ The Heart of a Coward\n@@c0164@@ Stefano Petitti\n@@c0131@@ National Gallery\n@@c0062@@ Denton County Courthouse-on-the-Square\n@@c0106@@ Koralai Pattu South Divisional Secretariat\n@@c0207@@ Sarah Brown\n@@c0108@@ French destroyer Bélier\n@@c0051@@ Tanzverbot\n@@c0176@@ Hackle Creek"
+    },
+    {
+      "custom_id": "r03-p007",
+      "repeat_idx": 3,
+      "pack_idx": 7,
+      "candidate_ids": [
+        "c0013",
+        "c0085",
+        "c0240",
+        "c0180",
+        "c0042",
+        "c0178",
+        "c0147",
+        "c0210",
+        "c0126",
+        "c0011"
+      ],
+      "line_indices": {
+        "c0013": 0,
+        "c0085": 1,
+        "c0240": 2,
+        "c0180": 3,
+        "c0042": 4,
+        "c0178": 5,
+        "c0147": 6,
+        "c0210": 7,
+        "c0126": 8,
+        "c0011": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0013@@ Apatovec\n@@c0085@@ Juma Sultan\n@@c0240@@ Arabilla\n@@c0180@@ Women Eco Artists Dialog\n@@c0042@@ Nguyễn Đỗ Cung\n@@c0178@@ Western New York Children's Psychiatric Center\n@@c0147@@ St. Charles Elementary School\n@@c0210@@ Barbara Baert\n@@c0126@@ Náutico\n@@c0011@@ Rocca San Felice"
+    },
+    {
+      "custom_id": "r03-p008",
+      "repeat_idx": 3,
+      "pack_idx": 8,
+      "candidate_ids": [
+        "c0136",
+        "c0205",
+        "c0169",
+        "c0170",
+        "c0237",
+        "c0223",
+        "c0050",
+        "c0064",
+        "c0075",
+        "c0040"
+      ],
+      "line_indices": {
+        "c0136": 0,
+        "c0205": 1,
+        "c0169": 2,
+        "c0170": 3,
+        "c0237": 4,
+        "c0223": 5,
+        "c0050": 6,
+        "c0064": 7,
+        "c0075": 8,
+        "c0040": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0136@@ Ceroprepes patriciella\n@@c0205@@ Turingery\n@@c0169@@ Shabkar Tsokdruk Rangdrol\n@@c0170@@ Swalwell Hopping\n@@c0237@@ Réaumur, Vendée\n@@c0223@@ Key Middle School\n@@c0050@@ Tytuvėnai Christ Stairs Chapel\n@@c0064@@ Dionisio Redondo González\n@@c0075@@ Sikkim pika\n@@c0040@@ Florida State Road 848"
+    },
+    {
+      "custom_id": "r03-p009",
+      "repeat_idx": 3,
+      "pack_idx": 9,
+      "candidate_ids": [
+        "c0248",
+        "c0030",
+        "c0000",
+        "c0161",
+        "c0204",
+        "c0183",
+        "c0049",
+        "c0152",
+        "c0058",
+        "c0160"
+      ],
+      "line_indices": {
+        "c0248": 0,
+        "c0030": 1,
+        "c0000": 2,
+        "c0161": 3,
+        "c0204": 4,
+        "c0183": 5,
+        "c0049": 6,
+        "c0152": 7,
+        "c0058": 8,
+        "c0160": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0248@@ Halden HK\n@@c0030@@ Tom Jose\n@@c0000@@ Regional District of Central Okanagan\n@@c0161@@ Aasia\n@@c0204@@ Boys in a Band\n@@c0183@@ Tee Kai Wun\n@@c0049@@ Ray Milland\n@@c0152@@ Christine Peng-Peng Lee\n@@c0058@@ Cheri Pies\n@@c0160@@ Ibikunle Amosun"
+    },
+    {
+      "custom_id": "r03-p010",
+      "repeat_idx": 3,
+      "pack_idx": 10,
+      "candidate_ids": [
+        "c0092",
+        "c0158",
+        "c0014",
+        "c0059",
+        "c0172",
+        "c0190",
+        "c0171",
+        "c0095",
+        "c0024",
+        "c0078"
+      ],
+      "line_indices": {
+        "c0092": 0,
+        "c0158": 1,
+        "c0014": 2,
+        "c0059": 3,
+        "c0172": 4,
+        "c0190": 5,
+        "c0171": 6,
+        "c0095": 7,
+        "c0024": 8,
+        "c0078": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0092@@ Domenico Colla\n@@c0158@@ Joe Talbot\n@@c0014@@ Federal University of Technology Akure\n@@c0059@@ Niek den Heeten\n@@c0172@@ Holocarpha virgata\n@@c0190@@ Plateau iris\n@@c0171@@ Regev\n@@c0095@@ Trupanea ambigua\n@@c0024@@ Gongylonema\n@@c0078@@ Isaka-Ivondro"
+    },
+    {
+      "custom_id": "r03-p011",
+      "repeat_idx": 3,
+      "pack_idx": 11,
+      "candidate_ids": [
+        "c0127",
+        "c0199",
+        "c0065",
+        "c0181",
+        "c0206",
+        "c0193",
+        "c0041",
+        "c0057",
+        "c0073",
+        "c0208"
+      ],
+      "line_indices": {
+        "c0127": 0,
+        "c0199": 1,
+        "c0065": 2,
+        "c0181": 3,
+        "c0206": 4,
+        "c0193": 5,
+        "c0041": 6,
+        "c0057": 7,
+        "c0073": 8,
+        "c0208": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0127@@ James D. Denegre\n@@c0199@@ Moses Bledso Corwin\n@@c0065@@ Colorogenic\n@@c0181@@ Glenister v President\n@@c0206@@ Juan Antonio Chesa\n@@c0193@@ Rupsi Airport\n@@c0041@@ Aivo Orav\n@@c0057@@ Sarremezan\n@@c0073@@ R824 road\n@@c0208@@ Jungfernhof concentration camp"
+    },
+    {
+      "custom_id": "r03-p012",
+      "repeat_idx": 3,
+      "pack_idx": 12,
+      "candidate_ids": [
+        "c0102",
+        "c0234",
+        "c0229",
+        "c0244",
+        "c0232",
+        "c0150",
+        "c0044",
+        "c0184",
+        "c0196",
+        "c0072"
+      ],
+      "line_indices": {
+        "c0102": 0,
+        "c0234": 1,
+        "c0229": 2,
+        "c0244": 3,
+        "c0232": 4,
+        "c0150": 5,
+        "c0044": 6,
+        "c0184": 7,
+        "c0196": 8,
+        "c0072": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0102@@ Remember You're Mine\n@@c0234@@ SS Shinyō Maru\n@@c0229@@ Davis Plantation\n@@c0244@@ Red Jacket\n@@c0232@@ Zero Skateboards\n@@c0150@@ Desert spadefoot toad\n@@c0044@@ Praticolella berlandieriana\n@@c0184@@ Robot Wars\n@@c0196@@ Big Three\n@@c0072@@ Suolijärvi"
+    },
+    {
+      "custom_id": "r03-p013",
+      "repeat_idx": 3,
+      "pack_idx": 13,
+      "candidate_ids": [
+        "c0045",
+        "c0112",
+        "c0162",
+        "c0006",
+        "c0023",
+        "c0247",
+        "c0035",
+        "c0101",
+        "c0159",
+        "c0218"
+      ],
+      "line_indices": {
+        "c0045": 0,
+        "c0112": 1,
+        "c0162": 2,
+        "c0006": 3,
+        "c0023": 4,
+        "c0247": 5,
+        "c0035": 6,
+        "c0101": 7,
+        "c0159": 8,
+        "c0218": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0045@@ Custody battle for Anna Mae He\n@@c0112@@ Henry Boyce\n@@c0162@@ China national under-17 football team\n@@c0006@@ Marta Losada\n@@c0023@@ Denjoy–Young–Saks theorem\n@@c0247@@ Arístides Victoria Yeb\n@@c0035@@ Dámaso Alonso\n@@c0101@@ Southern Society of the Decembrists\n@@c0159@@ Anguilla women's national under-17 football team\n@@c0218@@ Oltean"
+    },
+    {
+      "custom_id": "r03-p014",
+      "repeat_idx": 3,
+      "pack_idx": 14,
+      "candidate_ids": [
+        "c0137",
+        "c0003",
+        "c0221",
+        "c0129",
+        "c0117",
+        "c0116",
+        "c0202",
+        "c0067",
+        "c0140",
+        "c0087"
+      ],
+      "line_indices": {
+        "c0137": 0,
+        "c0003": 1,
+        "c0221": 2,
+        "c0129": 3,
+        "c0117": 4,
+        "c0116": 5,
+        "c0202": 6,
+        "c0067": 7,
+        "c0140": 8,
+        "c0087": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0137@@ Louis Schwitzer Award\n@@c0003@@ Murder of Esther and Jessica McCann\n@@c0221@@ Santi Valentino e Teresa, Matelica\n@@c0129@@ Mušići\n@@c0117@@ Serre's conjecture\n@@c0116@@ Uncle Alf\n@@c0202@@ Geosmithia morbida\n@@c0067@@ Jamides alecto\n@@c0140@@ José Luis Barceló\n@@c0087@@ Grzegorz Gajewski"
+    },
+    {
+      "custom_id": "r03-p015",
+      "repeat_idx": 3,
+      "pack_idx": 15,
+      "candidate_ids": [
+        "c0055",
+        "c0089",
+        "c0110",
+        "c0138",
+        "c0029",
+        "c0015",
+        "c0166",
+        "c0228",
+        "c0082",
+        "c0157"
+      ],
+      "line_indices": {
+        "c0055": 0,
+        "c0089": 1,
+        "c0110": 2,
+        "c0138": 3,
+        "c0029": 4,
+        "c0015": 5,
+        "c0166": 6,
+        "c0228": 7,
+        "c0082": 8,
+        "c0157": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0055@@ Samantha Soule\n@@c0089@@ She Phoksundo Rural Municipality\n@@c0110@@ W. O. Woods\n@@c0138@@ Aamir Ali\n@@c0029@@ Mania\n@@c0015@@ Ivan Budislavić\n@@c0166@@ Digitolabrum\n@@c0228@@ Vikramgarh Alot railway station\n@@c0082@@ Zaventem\n@@c0157@@ M.O.D."
+    },
+    {
+      "custom_id": "r03-p016",
+      "repeat_idx": 3,
+      "pack_idx": 16,
+      "candidate_ids": [
+        "c0192",
+        "c0032",
+        "c0243",
+        "c0068",
+        "c0149",
+        "c0211",
+        "c0230",
+        "c0195",
+        "c0086",
+        "c0133"
+      ],
+      "line_indices": {
+        "c0192": 0,
+        "c0032": 1,
+        "c0243": 2,
+        "c0068": 3,
+        "c0149": 4,
+        "c0211": 5,
+        "c0230": 6,
+        "c0195": 7,
+        "c0086": 8,
+        "c0133": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0192@@ Acrolophus minima\n@@c0032@@ Allan Dellon\n@@c0243@@ CFTC\n@@c0068@@ A Little to the Left\n@@c0149@@ Cancer/testis antigens\n@@c0211@@ Back to the Known\n@@c0230@@ We Were the Mulvaneys\n@@c0195@@ Marvin Mims\n@@c0086@@ Henry Pierce Bone\n@@c0133@@ Louis Haneuse"
+    },
+    {
+      "custom_id": "r03-p017",
+      "repeat_idx": 3,
+      "pack_idx": 17,
+      "candidate_ids": [
+        "c0214",
+        "c0091",
+        "c0185",
+        "c0063",
+        "c0031",
+        "c0118",
+        "c0113",
+        "c0155",
+        "c0122",
+        "c0115"
+      ],
+      "line_indices": {
+        "c0214": 0,
+        "c0091": 1,
+        "c0185": 2,
+        "c0063": 3,
+        "c0031": 4,
+        "c0118": 5,
+        "c0113": 6,
+        "c0155": 7,
+        "c0122": 8,
+        "c0115": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0214@@ Frognal\n@@c0091@@ Patricia Brennan\n@@c0185@@ Ibrahim Bejte\n@@c0063@@ Bordalba\n@@c0031@@ Fábio Cardoso\n@@c0118@@ K2-18\n@@c0113@@ Uplink\n@@c0155@@ Token Angels\n@@c0122@@ Branislav Fodrek\n@@c0115@@ Steve Broderick"
+    },
+    {
+      "custom_id": "r03-p018",
+      "repeat_idx": 3,
+      "pack_idx": 18,
+      "candidate_ids": [
+        "c0053",
+        "c0074",
+        "c0167",
+        "c0239",
+        "c0005",
+        "c0077",
+        "c0198",
+        "c0168",
+        "c0201",
+        "c0174"
+      ],
+      "line_indices": {
+        "c0053": 0,
+        "c0074": 1,
+        "c0167": 2,
+        "c0239": 3,
+        "c0005": 4,
+        "c0077": 5,
+        "c0198": 6,
+        "c0168": 7,
+        "c0201": 8,
+        "c0174": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0053@@ Leksands IF\n@@c0074@@ Lorrain language\n@@c0167@@ Svetlana Chervonnaya\n@@c0239@@ Grant Fink\n@@c0005@@ Acer Iconia 6120\n@@c0077@@ Turka\n@@c0198@@ Gamiz\n@@c0168@@ Shekhan Khurd\n@@c0201@@ Linda Tucceri Cimini\n@@c0174@@ Alison Mills Newman"
+    },
+    {
+      "custom_id": "r03-p019",
+      "repeat_idx": 3,
+      "pack_idx": 19,
+      "candidate_ids": [
+        "c0141",
+        "c0104",
+        "c0212",
+        "c0245",
+        "c0142",
+        "c0236",
+        "c0019",
+        "c0052",
+        "c0241",
+        "c0200"
+      ],
+      "line_indices": {
+        "c0141": 0,
+        "c0104": 1,
+        "c0212": 2,
+        "c0245": 3,
+        "c0142": 4,
+        "c0236": 5,
+        "c0019": 6,
+        "c0052": 7,
+        "c0241": 8,
+        "c0200": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0141@@ Richard Winfred Anane\n@@c0104@@ Antoine-Charbel Tarabay\n@@c0212@@ We Buy Any Car\n@@c0245@@ United Freedom Front\n@@c0142@@ Christine Angot\n@@c0236@@ Jia Delong\n@@c0019@@ Sliman Bensmaia\n@@c0052@@ VTAR Institute\n@@c0241@@ Growing\n@@c0200@@ Still Life with Checked Tablecloth"
+    },
+    {
+      "custom_id": "r03-p020",
+      "repeat_idx": 3,
+      "pack_idx": 20,
+      "candidate_ids": [
+        "c0231",
+        "c0135",
+        "c0027",
+        "c0119",
+        "c0163",
+        "c0213",
+        "c0235",
+        "c0060",
+        "c0088",
+        "c0125"
+      ],
+      "line_indices": {
+        "c0231": 0,
+        "c0135": 1,
+        "c0027": 2,
+        "c0119": 3,
+        "c0163": 4,
+        "c0213": 5,
+        "c0235": 6,
+        "c0060": 7,
+        "c0088": 8,
+        "c0125": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0231@@ Anne M. Houtman\n@@c0135@@ Alberto Gavaldá\n@@c0027@@ Idaho's 29th legislative district\n@@c0119@@ Maz Abd Ali\n@@c0163@@ Kaboga family\n@@c0213@@ Pello\n@@c0235@@ Risto Kiiskinen\n@@c0060@@ Warm Breeze\n@@c0088@@ Flim & the BB's\n@@c0125@@ Melanoxerus"
+    },
+    {
+      "custom_id": "r03-p021",
+      "repeat_idx": 3,
+      "pack_idx": 21,
+      "candidate_ids": [
+        "c0128",
+        "c0156",
+        "c0012",
+        "c0103",
+        "c0070",
+        "c0246",
+        "c0242",
+        "c0076",
+        "c0080",
+        "c0007"
+      ],
+      "line_indices": {
+        "c0128": 0,
+        "c0156": 1,
+        "c0012": 2,
+        "c0103": 3,
+        "c0070": 4,
+        "c0246": 5,
+        "c0242": 6,
+        "c0076": 7,
+        "c0080": 8,
+        "c0007": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0128@@ Dera Ghazi Khan Tehsil\n@@c0156@@ Trial of Socrates\n@@c0012@@ Great Brak River\n@@c0103@@ Baao\n@@c0070@@ Ethan Allen Homestead\n@@c0246@@ Anthony Eyre\n@@c0242@@ My Avatar\n@@c0076@@ R. S. Sugirtharajah\n@@c0080@@ Barry Cowan\n@@c0007@@ Saphenista scalena"
+    },
+    {
+      "custom_id": "r03-p022",
+      "repeat_idx": 3,
+      "pack_idx": 22,
+      "candidate_ids": [
+        "c0124",
+        "c0100",
+        "c0096",
+        "c0081",
+        "c0209",
+        "c0111",
+        "c0054",
+        "c0130",
+        "c0189",
+        "c0132"
+      ],
+      "line_indices": {
+        "c0124": 0,
+        "c0100": 1,
+        "c0096": 2,
+        "c0081": 3,
+        "c0209": 4,
+        "c0111": 5,
+        "c0054": 6,
+        "c0130": 7,
+        "c0189": 8,
+        "c0132": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0124@@ Siompu\n@@c0100@@ Hypatopa joniella\n@@c0096@@ Greece–Palestine relations\n@@c0081@@ Clearwater Marine Aquarium\n@@c0209@@ Timnath-heres\n@@c0111@@ Thomas Perry\n@@c0054@@ Edna Longley\n@@c0130@@ Triadodaphne\n@@c0189@@ Batesville High School\n@@c0132@@ Paranomus reflexus"
+    },
+    {
+      "custom_id": "r03-p023",
+      "repeat_idx": 3,
+      "pack_idx": 23,
+      "candidate_ids": [
+        "c0020",
+        "c0188",
+        "c0090",
+        "c0224",
+        "c0066",
+        "c0009",
+        "c0217",
+        "c0226",
+        "c0097",
+        "c0215"
+      ],
+      "line_indices": {
+        "c0020": 0,
+        "c0188": 1,
+        "c0090": 2,
+        "c0224": 3,
+        "c0066": 4,
+        "c0009": 5,
+        "c0217": 6,
+        "c0226": 7,
+        "c0097": 8,
+        "c0215": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0020@@ Now 90s & 00s\n@@c0188@@ Peter Schalk\n@@c0090@@ Derek Harris\n@@c0224@@ Vibe\n@@c0066@@ Ricardo Romo\n@@c0009@@ Dominic James\n@@c0217@@ Hogenskild Bielke\n@@c0226@@ Hindustan Ambassador\n@@c0097@@ Iorga cabinet\n@@c0215@@ Ampelita consanguinea"
+    },
+    {
+      "custom_id": "r03-p024",
+      "repeat_idx": 3,
+      "pack_idx": 24,
+      "candidate_ids": [
+        "c0021",
+        "c0010",
+        "c0038",
+        "c0071",
+        "c0114",
+        "c0099",
+        "c0143",
+        "c0238",
+        "c0107",
+        "c0033"
+      ],
+      "line_indices": {
+        "c0021": 0,
+        "c0010": 1,
+        "c0038": 2,
+        "c0071": 3,
+        "c0114": 4,
+        "c0099": 5,
+        "c0143": 6,
+        "c0238": 7,
+        "c0107": 8,
+        "c0033": 9
+      },
+      "message": "Read the following independent text fragments. Do not answer.\n\n@@c0021@@ Peter McAra Jr.\n@@c0010@@ Heléne of the North\n@@c0038@@ Verpilleux\n@@c0071@@ Caroline de Fouw\n@@c0114@@ BahnCard\n@@c0099@@ The Great Swindle\n@@c0143@@ Cheongju National University of Education\n@@c0238@@ Eupithecia garrula\n@@c0107@@ Untitled\n@@c0033@@ Blood tax"
+    }
+  ]
+}
